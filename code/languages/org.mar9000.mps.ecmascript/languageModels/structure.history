@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="-1" />
+    </dependencies>
+    <rename id="rh3e.201656743169477543" type="CONCEPT" from="SourceElements" to="SourceElement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="0" />
+    </dependencies>
+    <rename id="rh3e.201656743169479471" type="CONCEPT" from="functionBody" to="FunctionBody" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="1" />
+    </dependencies>
+    <rename id="rh3e.201656743169483888" type="CONCEPT" from="StatementBlock" to="BlockStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="2" />
+    </dependencies>
+    <rename id="rh3e.201656743169477490" type="CONCEPT" from="Program" to="JSProgram" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="3" />
+    </dependencies>
+    <rename id="rh3e.201656743169477546" type="CHILD" from="sourceElements" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="4" />
+    </dependencies>
+    <rename id="rh3e.201656743169484430" type="CHILD" from="statements" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="5" />
+    </dependencies>
+    <rename id="rh3e.201656743169479430" type="CONCEPT" from="Statement" to="JSStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="6" />
+    </dependencies>
+    <rename id="rh3e.201656743169477543" type="CONCEPT" from="SourceElement" to="JSSourceElement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="7" />
+    </dependencies>
+    <rename id="rh3e.201656743171489017" type="CONCEPT" from="EmptyStatement" to="JSEmptyStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="8" />
+    </dependencies>
+    <rename id="rh3e.201656743169483888" type="CONCEPT" from="BlockStatement" to="JSBlockStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="9" />
+    </dependencies>
+    <rename id="rh3e.201656743169483980" type="CONCEPT" from="ExpressionStatement" to="JSExpressionStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="10" />
+    </dependencies>
+    <rename id="rh3e.201656743171561338" type="CHILD" from="expressions" to="expression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="11" />
+    </dependencies>
+    <rename id="rh3e.201656743173138036" type="CONCEPT" from="BreakStatement" to="JSBreakStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="12" />
+    </dependencies>
+    <rename id="rh3e.201656743173138037" type="REFERENCE" from="identifierRef" to="label" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="13" />
+    </dependencies>
+    <rename id="rh3e.201656743169479441" type="CONCEPT" from="Identifier" to="JSIdentifier" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="14" />
+    </dependencies>
+    <rename id="rh3e.201656743169484087" type="CONCEPT" from="ContinueStatement" to="JSContinueStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="15" />
+    </dependencies>
+    <rename id="rh3e.201656743172704468" type="REFERENCE" from="identifierRef" to="label" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="16" />
+    </dependencies>
+    <rename id="rh3e.201656743169484182" type="CONCEPT" from="WithStatement" to="JSWithStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="17" />
+    </dependencies>
+    <rename id="rh3e.201656743173427656" type="CHILD" from="expressions" to="object" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="18" />
+    </dependencies>
+    <rename id="rh3e.201656743173427712" type="CHILD" from="statement" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="19" />
+    </dependencies>
+    <rename id="rh3e.201656743169484150" type="CONCEPT" from="ReturnStatement" to="JSReturnStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="20" />
+    </dependencies>
+    <rename id="rh3e.201656743173163119" type="CHILD" from="expressions" to="expression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="21" />
+    </dependencies>
+    <rename id="rh3e.201656743173163119" type="CHILD" from="expression" to="argument" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="22" />
+    </dependencies>
+    <rename id="rh3e.201656743172281305" type="CONCEPT" from="WhileStatement" to="JSWhileStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="23" />
+    </dependencies>
+    <rename id="rh3e.201656743169484033" type="CONCEPT" from="IterationStatement" to="JSIterationStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="24" />
+    </dependencies>
+    <rename id="rh3e.201656743172280704" type="CHILD" from="statement" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="25" />
+    </dependencies>
+    <rename id="rh3e.201656743172281306" type="CHILD" from="expressions" to="test" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="26" />
+    </dependencies>
+    <rename id="rh3e.201656743172280658" type="CONCEPT" from="DoWhileStatement" to="JSDoWhileStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="27" />
+    </dependencies>
+    <rename id="rh3e.201656743172280753" type="CHILD" from="expressions" to="test" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="28" />
+    </dependencies>
+    <rename id="rh3e.201656743169484363" type="CONCEPT" from="DebuggerStatement" to="JSDebuggerStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="29" />
+    </dependencies>
+    <rename id="rh3e.201656743169479435" type="CONCEPT" from="FunctionDeclaration" to="JSFunctionDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="30" />
+    </dependencies>
+    <rename id="rh3e.201656743169479451" type="CHILD" from="identifier" to="id" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="31" />
+    </dependencies>
+    <rename id="rh3e.201656743169483714" type="CHILD" from="formalParameters" to="params" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="32" />
+    </dependencies>
+    <rename id="rh3e.201656743169483717" type="CHILD" from="bodySourceElements" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="33" />
+    </dependencies>
+    <rename id="rh3e.201656743169517900" type="CHILD" from="bodySourceElements" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="34" />
+    </dependencies>
+    <rename id="rh3e.201656743169483908" type="CONCEPT" from="JSVariableStatement" to="JSVariableDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="35" />
+    </dependencies>
+    <rename id="rh3e.201656743169484504" type="CHILD" from="variableDeclarations" to="declarations" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="36" />
+    </dependencies>
+    <rename id="rh3e.8569071899954153352" type="CONCEPT" from="ThisExpression" to="JSThisExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="37" />
+    </dependencies>
+    <rename id="rh3e.201656743171247897" type="CONCEPT" from="Expressions" to="JSSequenceExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="38" />
+    </dependencies>
+    <rename id="rh3e.201656743169484005" type="CONCEPT" from="IfStatement" to="JSIfStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="39" />
+    </dependencies>
+    <rename id="rh3e.201656743171634285" type="CHILD" from="condition" to="test" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="40" />
+    </dependencies>
+    <rename id="rh3e.201656743171634288" type="CHILD" from="ifStatement" to="consequent" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="41" />
+    </dependencies>
+    <rename id="rh3e.201656743171766142" type="CHILD" from="elseStatement" to="alternate" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="42" />
+    </dependencies>
+    <rename id="rh3e.201656743169484217" type="CONCEPT" from="LabelledStatement" to="JSLabeledStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="43" />
+    </dependencies>
+    <rename id="rh3e.201656743174806903" type="CHILD" from="identifier" to="label" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="44" />
+    </dependencies>
+    <rename id="rh3e.201656743174806906" type="CHILD" from="statement" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="45" />
+    </dependencies>
+    <rename id="rh3e.201656743169484251" type="CONCEPT" from="SwitchStatement" to="JSSwitchStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="46" />
+    </dependencies>
+    <rename id="rh3e.201656743169484288" type="CONCEPT" from="ThrowStatement" to="JSThrowStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="47" />
+    </dependencies>
+    <rename id="rh3e.201656743169484326" type="CONCEPT" from="TryStatement" to="JSTryStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="48" />
+    </dependencies>
+    <rename id="rh3e.201656743171250921" type="CONCEPT" from="Literal" to="JSLiteral" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="49" />
+    </dependencies>
+    <rename id="rh3e.8569071899955716053" type="CONCEPT" from="AssignmentExpression" to="JSAssignmentExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="50" />
+    </dependencies>
+    <rename id="rh3e.201656743171252964" type="CONCEPT" from="IdentifierReference" to="JSIdentifierReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="51" />
+    </dependencies>
+    <rename id="rh3e.8569071899952148378" type="CONCEPT" from="BooleanLiteral" to="JSBooleanLiteral" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="52" />
+    </dependencies>
+    <rename id="rh3e.8569071899952147878" type="CONCEPT" from="NullLiteral" to="JSNullLiteral" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="53" />
+    </dependencies>
+    <rename id="rh3e.8569071899948396436" type="CONCEPT" from="Comment" to="JSComment" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="54" />
+    </dependencies>
+    <rename id="rh3e.8569071899948764043" type="CONCEPT" from="CommentLine" to="JSCommentLine" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="55" />
+    </dependencies>
+    <rename id="rh3e.8569071899948444052" type="CONCEPT" from="MultiLineComment" to="JSMultiLineComment" />
+  </StructureModification>
+</history>
+

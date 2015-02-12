@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="MPSProject">
-    <projectModules />
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/code/languages/org.mar9000.mps.ecmascript/org.mar9000.mps.ecmascript.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.mar9000.mps.ecmascript/runtime/org.mar9000.mps.ecmascript.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.mar9000.mps.ecmascript/sandbox/org.mar9000.mps.ecmascript.sandbox.msd" folder="" />
+    </projectModules>
   </component>
 </project>
 
