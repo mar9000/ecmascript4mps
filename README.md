@@ -6,11 +6,20 @@ ECMAScript4MPS is the implementation of the [ECMAScript 5.1](http://www.ecma-int
 
 The constructed AST is identical (with very small exceptions) to the one described by the [Mozilla Parser API](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_API) and implemented, for example, by parsers like [Esprima](http://esprima.org/).
 It's still quite incomplete being my focus on javascript generation.
+Read more on this [announcement post](http://mar9000.org/bliki/ecma-script-4-mps.html).
 
 ## Resources
 
   * [ECMAScript4MPS-discuss](https://groups.google.com/forum/#!forum/ecmascript4mps-discuss) Google group.
   * [#ECMAScript4MPS](https://twitter.com/hashtag/ECMAScript4MPS) on Twitter.
+
+## Try it out
+
+  * clone the github project.
+  * install MPS version 3.1.5 .
+  * open the project with MPS.
+  * rebuild the project.
+  * the *sandbox* solution contains a complete javascript example I use to test the language and the generation to text.
 
 ## Future improvements
 
