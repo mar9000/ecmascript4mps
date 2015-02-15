@@ -4,7 +4,7 @@
   <language namespace="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff(org.mar9000.mps.ecmascript)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <import index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="56" implicit="yes" />
+  <import index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="58" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="rh3e.JSProgram" typeId="rh3e.201656743169477490" id="201656743169552006" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TextGen" />
@@ -14,6 +14,97 @@
       </node>
       <node role="lines" roleId="rh3e.8569071899948478865" type="rh3e.JSCommentLine" typeId="rh3e.8569071899948764043" id="4772229902333796520" nodeInfo="ng">
         <property name="value" nameId="rh3e.8569071899948764044" value="Line 2" />
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="223815598156942048" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="Infinity" />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSVariableDeclaration" typeId="rh3e.201656743169483908" id="223815598156943078" nodeInfo="ng">
+      <node role="declarations" roleId="rh3e.201656743169484504" type="rh3e.JSVariableDeclarator" typeId="rh3e.8569071899956248883" id="223815598156943080" nodeInfo="ng">
+        <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="223815598156943082" nodeInfo="ng">
+          <property name="name" nameId="rh3e.201656743169479442" value="a" />
+        </node>
+        <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="223815598156943602" nodeInfo="ng">
+          <property name="value" nameId="rh3e.8569071899956284476" value="Infinity" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="223815598156944652" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="NaN" />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSVariableDeclaration" typeId="rh3e.201656743169483908" id="223815598156945692" nodeInfo="ng">
+      <node role="declarations" roleId="rh3e.201656743169484504" type="rh3e.JSVariableDeclarator" typeId="rh3e.8569071899956248883" id="223815598156945694" nodeInfo="ng">
+        <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="223815598156945696" nodeInfo="ng">
+          <property name="name" nameId="rh3e.201656743169479442" value="doBle" />
+        </node>
+        <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="3155080124101955640" nodeInfo="ng">
+          <property name="value" nameId="rh3e.8569071899956284476" value="NaN" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="7727025628333748822" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="Single quoted string with ' inside." />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSVariableDeclaration" typeId="rh3e.201656743169483908" id="7727025628334601990" nodeInfo="ng">
+      <node role="declarations" roleId="rh3e.201656743169484504" type="rh3e.JSVariableDeclarator" typeId="rh3e.8569071899956248883" id="7727025628334601992" nodeInfo="ng">
+        <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628334601994" nodeInfo="ng">
+          <property name="name" nameId="rh3e.201656743169479442" value="s" />
+        </node>
+        <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628334602504" nodeInfo="ng">
+          <property name="singleQuotedValue" nameId="rh3e.7727025628334104963" value="aa\'a" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="7727025628333750857" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="Double quoted string with &quot; inside." />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSVariableDeclaration" typeId="rh3e.201656743169483908" id="7727025628333750858" nodeInfo="ng">
+      <node role="declarations" roleId="rh3e.201656743169484504" type="rh3e.JSVariableDeclarator" typeId="rh3e.8569071899956248883" id="7727025628333750859" nodeInfo="ng">
+        <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628333750860" nodeInfo="ng">
+          <property name="name" nameId="rh3e.201656743169479442" value="s" />
+        </node>
+        <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628334602509" nodeInfo="ng">
+          <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="a\&quot;aa" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="223815598155609838" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="Hex sequence" />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSVariableDeclaration" typeId="rh3e.201656743169483908" id="223815598155610858" nodeInfo="ng">
+      <node role="declarations" roleId="rh3e.201656743169484504" type="rh3e.JSVariableDeclarator" typeId="rh3e.8569071899956248883" id="223815598155610860" nodeInfo="ng">
+        <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="223815598155610862" nodeInfo="ng">
+          <property name="name" nameId="rh3e.201656743169479442" value="s" />
+        </node>
+        <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="223815598155611377" nodeInfo="ng">
+          <property name="singleQuotedValue" nameId="rh3e.7727025628334104963" value="123 \u0000\xaf" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="7727025628333222309" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="Hex literal" />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSVariableDeclaration" typeId="rh3e.201656743169483908" id="7727025628333223289" nodeInfo="ng">
+      <node role="declarations" roleId="rh3e.201656743169484504" type="rh3e.JSVariableDeclarator" typeId="rh3e.8569071899956248883" id="7727025628333223291" nodeInfo="ng">
+        <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628333223293" nodeInfo="ng">
+          <property name="name" nameId="rh3e.201656743169479442" value="a" />
+        </node>
+        <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628333223788" nodeInfo="ng">
+          <property name="value" nameId="rh3e.8569071899956284476" value="0xd" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="7727025628333224295" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="Decimal literal" />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSVariableDeclaration" typeId="rh3e.201656743169483908" id="7727025628333225285" nodeInfo="ng">
+      <node role="declarations" roleId="rh3e.201656743169484504" type="rh3e.JSVariableDeclarator" typeId="rh3e.8569071899956248883" id="7727025628333225287" nodeInfo="ng">
+        <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628333225289" nodeInfo="ng">
+          <property name="name" nameId="rh3e.201656743169479442" value="v" />
+        </node>
+        <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628333225789" nodeInfo="ng">
+          <property name="value" nameId="rh3e.8569071899956284476" value="10.3e-4" />
+        </node>
       </node>
     </node>
     <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="7727025628331397831" nodeInfo="ng">
@@ -171,9 +262,9 @@
       </node>
       <node role="body" roleId="rh3e.201656743169483717" type="rh3e.JSBlockStatement" typeId="rh3e.201656743169483888" id="7727025628331738786" nodeInfo="ng">
         <node role="body" roleId="rh3e.201656743169484430" type="rh3e.JSReturnStatement" typeId="rh3e.201656743169484150" id="7727025628330622082" nodeInfo="ng">
-          <node role="argument" roleId="rh3e.201656743173163119" type="rh3e.JSSequenceExpression" typeId="rh3e.201656743171247897" id="7727025628330622489" nodeInfo="ng">
-            <node role="expressions" roleId="rh3e.201656743171247898" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628330622493" nodeInfo="ng">
-              <property name="value" nameId="rh3e.8569071899956282000" value="dddd" />
+          <node role="argument" roleId="rh3e.201656743173163119" type="rh3e.JSSequenceExpression" typeId="rh3e.201656743171247897" id="7727025628334602512" nodeInfo="ng">
+            <node role="expressions" roleId="rh3e.201656743171247898" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628334602516" nodeInfo="ng">
+              <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ddd" />
             </node>
           </node>
         </node>
@@ -310,7 +401,7 @@
         <node role="left" roleId="rh3e.8569071899956275191" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628328059074" nodeInfo="ng">
           <property name="name" nameId="rh3e.201656743169479442" value="a" />
         </node>
-        <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628328059077" nodeInfo="ng">
+        <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628328059077" nodeInfo="ng">
           <property name="value" nameId="rh3e.8569071899956284476" value="10" />
         </node>
       </node>
@@ -329,7 +420,7 @@
         <node role="left" roleId="rh3e.8569071899956275191" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628328347840" nodeInfo="ng">
           <property name="name" nameId="rh3e.201656743169479442" value="a" />
         </node>
-        <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628328347841" nodeInfo="ng">
+        <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628328347841" nodeInfo="ng">
           <property name="value" nameId="rh3e.8569071899956284476" value="10" />
         </node>
       </node>
@@ -357,7 +448,7 @@
           <node role="left" roleId="rh3e.8569071899956275191" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628328957613" nodeInfo="ng">
             <property name="name" nameId="rh3e.201656743169479442" value="a" />
           </node>
-          <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628328957614" nodeInfo="ng">
+          <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628328957614" nodeInfo="ng">
             <property name="value" nameId="rh3e.8569071899956284476" value="10" />
           </node>
         </node>
@@ -376,7 +467,7 @@
           <node role="left" roleId="rh3e.8569071899956275191" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="7727025628328957620" nodeInfo="ng">
             <property name="name" nameId="rh3e.201656743169479442" value="a" />
           </node>
-          <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628328957621" nodeInfo="ng">
+          <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628328957621" nodeInfo="ng">
             <property name="value" nameId="rh3e.8569071899956284476" value="10" />
           </node>
         </node>
@@ -441,15 +532,15 @@
     <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSExpressionStatement" typeId="rh3e.201656743169483980" id="7727025628326743511" nodeInfo="ng">
       <node role="expression" roleId="rh3e.201656743171561338" type="rh3e.JSUnaryExpression" typeId="rh3e.8569071899956271892" id="7727025628326743512" nodeInfo="ng">
         <property name="operator" nameId="rh3e.8569071899956272407" value="+" />
-        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628326743798" nodeInfo="ng">
-          <property name="value" nameId="rh3e.8569071899956282000" value="4" />
+        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628334602521" nodeInfo="ng">
+          <property name="singleQuotedValue" nameId="rh3e.7727025628334104963" value="aaa" />
         </node>
       </node>
     </node>
     <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSExpressionStatement" typeId="rh3e.201656743169483980" id="7727025628326744097" nodeInfo="ng">
       <node role="expression" roleId="rh3e.201656743171561338" type="rh3e.JSUnaryExpression" typeId="rh3e.8569071899956271892" id="7727025628326744098" nodeInfo="ng">
         <property name="operator" nameId="rh3e.8569071899956272407" value="-" />
-        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628326744387" nodeInfo="ng">
+        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628326744387" nodeInfo="ng">
           <property name="value" nameId="rh3e.8569071899956284476" value="6" />
         </node>
       </node>
@@ -457,7 +548,7 @@
     <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSExpressionStatement" typeId="rh3e.201656743169483980" id="7727025628326744689" nodeInfo="ng">
       <node role="expression" roleId="rh3e.201656743171561338" type="rh3e.JSUnaryExpression" typeId="rh3e.8569071899956271892" id="7727025628326744690" nodeInfo="ng">
         <property name="operator" nameId="rh3e.8569071899956272407" value="~" />
-        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628326744691" nodeInfo="ng">
+        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628326744691" nodeInfo="ng">
           <property name="value" nameId="rh3e.8569071899956284476" value="6" />
         </node>
       </node>
@@ -473,7 +564,7 @@
     <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSExpressionStatement" typeId="rh3e.201656743169483980" id="7727025628326745279" nodeInfo="ng">
       <node role="expression" roleId="rh3e.201656743171561338" type="rh3e.JSUnaryExpression" typeId="rh3e.8569071899956271892" id="7727025628326745280" nodeInfo="ng">
         <property name="operator" nameId="rh3e.8569071899956272407" value="delete" />
-        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628326745281" nodeInfo="ng">
+        <node role="argument" roleId="rh3e.8569071899956272522" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628326745281" nodeInfo="ng">
           <property name="value" nameId="rh3e.8569071899956284476" value="6" />
         </node>
       </node>
@@ -493,15 +584,15 @@
             <node role="left" roleId="rh3e.8569071899956273023" type="rh3e.JSParenthesizedExpression" typeId="rh3e.4772229902327261793" id="7727025628325972456" nodeInfo="ng">
               <node role="expression" roleId="rh3e.4772229902327261845" type="rh3e.JSBinaryExpression" typeId="rh3e.8569071899956272644" id="7727025628325972462" nodeInfo="ng">
                 <property name="operator" nameId="rh3e.8569071899956272903" value="+" />
-                <node role="left" roleId="rh3e.8569071899956273023" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628325972471" nodeInfo="ng">
+                <node role="left" roleId="rh3e.8569071899956273023" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628325972471" nodeInfo="ng">
                   <property name="value" nameId="rh3e.8569071899956284476" value="10" />
                 </node>
-                <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628325972474" nodeInfo="ng">
+                <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628325972474" nodeInfo="ng">
                   <property name="value" nameId="rh3e.8569071899956284476" value="15" />
                 </node>
               </node>
             </node>
-            <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628325972477" nodeInfo="ng">
+            <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628325972477" nodeInfo="ng">
               <property name="value" nameId="rh3e.8569071899956284476" value="12" />
             </node>
           </node>
@@ -518,11 +609,11 @@
           <property name="name" nameId="rh3e.201656743169479442" value="ll" />
         </node>
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSSequenceExpression" typeId="rh3e.201656743171247897" id="7727025628325981968" nodeInfo="ng">
-          <node role="expressions" roleId="rh3e.201656743171247898" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628325981974" nodeInfo="ng">
+          <node role="expressions" roleId="rh3e.201656743171247898" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628325981974" nodeInfo="ng">
             <property name="value" nameId="rh3e.8569071899956284476" value="12" />
           </node>
           <node role="expressions" roleId="rh3e.201656743171247898" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628325981980" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ddd" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ddd" />
           </node>
           <node role="expressions" roleId="rh3e.201656743171247898" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="7727025628325981988" nodeInfo="ng">
             <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902335726576" resolveInfo="p1" />
@@ -584,7 +675,7 @@
                 <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="4772229902334808214" nodeInfo="ng">
                   <property name="name" nameId="rh3e.201656743169479442" value="b" />
                 </node>
-                <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="4772229902334836046" nodeInfo="ng">
+                <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="4772229902334836046" nodeInfo="ng">
                   <property name="value" nameId="rh3e.8569071899956284476" value="0" />
                 </node>
               </node>
@@ -592,7 +683,7 @@
                 <node role="id" roleId="rh3e.8569071899956249032" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="4772229902334836039" nodeInfo="ng">
                   <property name="name" nameId="rh3e.201656743169479442" value="c" />
                 </node>
-                <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="4772229902334836051" nodeInfo="ng">
+                <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="4772229902334836051" nodeInfo="ng">
                   <property name="value" nameId="rh3e.8569071899956284476" value="0" />
                 </node>
               </node>
@@ -627,7 +718,7 @@
                       <property name="name" nameId="rh3e.201656743169479442" value="p1" />
                     </node>
                     <node role="value" roleId="rh3e.8569071899956270586" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902335726577" nodeInfo="ng">
-                      <property name="value" nameId="rh3e.8569071899956282000" value="123" />
+                      <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="123" />
                     </node>
                   </node>
                   <node role="properties" roleId="rh3e.8569071899956270809" type="rh3e.JSProperty" typeId="rh3e.8569071899956268701" id="4772229902335726578" nodeInfo="ng">
@@ -635,7 +726,7 @@
                       <property name="name" nameId="rh3e.201656743169479442" value="p2" />
                     </node>
                     <node role="value" roleId="rh3e.8569071899956270586" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902335726580" nodeInfo="ng">
-                      <property name="value" nameId="rh3e.8569071899956282000" value="456" />
+                      <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="456" />
                     </node>
                   </node>
                 </node>
@@ -652,9 +743,9 @@
                     <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902334786917" resolveInfo="p1" />
                   </node>
                   <node role="elements" roleId="rh3e.8569071899956268586" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902337474112" nodeInfo="ng">
-                    <property name="value" nameId="rh3e.8569071899956282000" value="ddd" />
+                    <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ddd" />
                   </node>
-                  <node role="elements" roleId="rh3e.8569071899956268586" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="4772229902337474120" nodeInfo="ng">
+                  <node role="elements" roleId="rh3e.8569071899956268586" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="4772229902337474120" nodeInfo="ng">
                     <property name="value" nameId="rh3e.8569071899956284476" value="10" />
                   </node>
                 </node>
@@ -762,7 +853,7 @@
                     <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902335726573" resolveInfo="a" />
                   </node>
                   <node role="expressionProperty" roleId="rh3e.8569071899956279195" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628325949112" nodeInfo="ng">
-                    <property name="value" nameId="rh3e.8569071899956282000" value="ddd" />
+                    <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ddd" />
                   </node>
                 </node>
               </node>
@@ -831,9 +922,9 @@
             <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902334786917" resolveInfo="p1" />
           </node>
           <node role="elements" roleId="rh3e.8569071899956268586" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902337474231" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ddd" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ddd" />
           </node>
-          <node role="elements" roleId="rh3e.8569071899956268586" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="4772229902337474232" nodeInfo="ng">
+          <node role="elements" roleId="rh3e.8569071899956268586" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="4772229902337474232" nodeInfo="ng">
             <property name="value" nameId="rh3e.8569071899956284476" value="10" />
           </node>
         </node>
@@ -850,9 +941,8 @@
             <node role="key" roleId="rh3e.8569071899956270432" type="rh3e.JSIdentifier" typeId="rh3e.201656743169479441" id="4772229902334890020" nodeInfo="ng">
               <property name="name" nameId="rh3e.201656743169479442" value="p1" />
             </node>
-            <node role="value" roleId="rh3e.8569071899956270586" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902334890023" nodeInfo="ng">
-              <property name="value" nameId="rh3e.8569071899956282000" value="123" />
-              <property name="doubleQuoted" nameId="rh3e.8569071899956343699" value="true" />
+            <node role="value" roleId="rh3e.8569071899956270586" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="3155080124102966396" nodeInfo="ng">
+              <property name="singleQuotedValue" nameId="rh3e.7727025628334104963" value="123" />
             </node>
           </node>
           <node role="properties" roleId="rh3e.8569071899956270809" type="rh3e.JSProperty" typeId="rh3e.8569071899956268701" id="4772229902334890026" nodeInfo="ng">
@@ -860,7 +950,7 @@
               <property name="name" nameId="rh3e.201656743169479442" value="p2" />
             </node>
             <node role="value" roleId="rh3e.8569071899956270586" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902334890038" nodeInfo="ng">
-              <property name="value" nameId="rh3e.8569071899956282000" value="456" />
+              <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="456" />
             </node>
           </node>
         </node>
@@ -878,10 +968,10 @@
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSBinaryExpression" typeId="rh3e.8569071899956272644" id="4772229902337556393" nodeInfo="ng">
           <property name="operator" nameId="rh3e.8569071899956272903" value="==" />
           <node role="left" roleId="rh3e.8569071899956273023" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902337556402" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ttt" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ttt" />
           </node>
           <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902337556405" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="222" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="222" />
           </node>
         </node>
       </node>
@@ -895,10 +985,10 @@
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSBinaryExpression" typeId="rh3e.8569071899956272644" id="4772229902337556608" nodeInfo="ng">
           <property name="operator" nameId="rh3e.8569071899956272903" value="&lt;&lt;" />
           <node role="left" roleId="rh3e.8569071899956273023" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902337556609" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ttt" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ttt" />
           </node>
           <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902337556610" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="222" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="222" />
           </node>
         </node>
       </node>
@@ -912,10 +1002,10 @@
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSBinaryExpression" typeId="rh3e.8569071899956272644" id="4772229902338315527" nodeInfo="ng">
           <property name="operator" nameId="rh3e.8569071899956272903" value="!==" />
           <node role="left" roleId="rh3e.8569071899956273023" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902338315528" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ttt" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ttt" />
           </node>
           <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902338315529" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="222" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="222" />
           </node>
         </node>
       </node>
@@ -929,10 +1019,10 @@
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSBinaryExpression" typeId="rh3e.8569071899956272644" id="4772229902338315845" nodeInfo="ng">
           <property name="operator" nameId="rh3e.8569071899956272903" value="instanceof" />
           <node role="left" roleId="rh3e.8569071899956273023" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902338315846" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ttt" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ttt" />
           </node>
           <node role="right" roleId="rh3e.8569071899956273025" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4772229902338315847" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="222" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="222" />
           </node>
         </node>
       </node>
@@ -949,10 +1039,10 @@
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSLogicalExpression" typeId="rh3e.8569071899956276009" id="4257928374462322287" nodeInfo="ng">
           <property name="operator" nameId="rh3e.8569071899956276147" value="&amp;&amp;" />
           <node role="left" roleId="rh3e.8569071899956276287" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4257928374462322296" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="eee" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="eee" />
           </node>
           <node role="right" roleId="rh3e.8569071899956276289" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4257928374462322299" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="333" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="333" />
           </node>
         </node>
       </node>
@@ -966,10 +1056,10 @@
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSLogicalExpression" typeId="rh3e.8569071899956276009" id="4257928374462337863" nodeInfo="ng">
           <property name="operator" nameId="rh3e.8569071899956276147" value="||" />
           <node role="left" roleId="rh3e.8569071899956276287" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4257928374462337864" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="eee" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="eee" />
           </node>
           <node role="right" roleId="rh3e.8569071899956276289" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4257928374462337865" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="333" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="333" />
           </node>
         </node>
       </node>
@@ -988,7 +1078,7 @@
             <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902334786917" resolveInfo="p1" />
           </node>
           <node role="arguments" roleId="rh3e.8569071899956277616" type="rh3e.JSBooleanLiteral" typeId="rh3e.8569071899952148378" id="4257928374462405706" nodeInfo="ng" />
-          <node role="arguments" roleId="rh3e.8569071899956277616" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="4257928374462405714" nodeInfo="ng">
+          <node role="arguments" roleId="rh3e.8569071899956277616" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="4257928374462405714" nodeInfo="ng">
             <property name="value" nameId="rh3e.8569071899956284476" value="10" />
           </node>
           <node role="arguments" roleId="rh3e.8569071899956277616" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="4257928374462405724" nodeInfo="ng">
@@ -1011,13 +1101,13 @@
         </node>
         <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSConditionalExpression" typeId="rh3e.8569071899956276434" id="4257928374462432799" nodeInfo="ng">
           <node role="test" roleId="rh3e.8569071899956276576" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4257928374462432811" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ddd" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ddd" />
           </node>
           <node role="alternate" roleId="rh3e.8569071899956276578" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4257928374462432817" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="4" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="4" />
           </node>
           <node role="consequent" roleId="rh3e.8569071899956276724" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="4257928374462432814" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="d" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="d" />
           </node>
         </node>
       </node>
@@ -1123,7 +1213,7 @@
             <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902335726573" resolveInfo="a" />
           </node>
           <node role="expressionProperty" roleId="rh3e.8569071899956279195" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="7727025628325948482" nodeInfo="ng">
-            <property name="value" nameId="rh3e.8569071899956282000" value="ddd" />
+            <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="ddd" />
           </node>
         </node>
       </node>
@@ -1157,7 +1247,7 @@
           <node role="arguments" roleId="rh3e.8569071899956277313" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="7727025628325956320" nodeInfo="ng">
             <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902334786917" resolveInfo="p1" />
           </node>
-          <node role="arguments" roleId="rh3e.8569071899956277313" type="rh3e.JSNumberLiteral" typeId="rh3e.8569071899956284315" id="7727025628325956326" nodeInfo="ng">
+          <node role="arguments" roleId="rh3e.8569071899956277313" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="7727025628325956326" nodeInfo="ng">
             <property name="value" nameId="rh3e.8569071899956284476" value="10" />
           </node>
           <node role="callee" roleId="rh3e.8569071899956277165" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="7727025628325956315" nodeInfo="ng">

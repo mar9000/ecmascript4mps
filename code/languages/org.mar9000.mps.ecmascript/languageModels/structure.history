@@ -342,5 +342,17 @@
     </dependencies>
     <rename id="rh3e.8569071899948444052" type="CONCEPT" from="MultiLineComment" to="JSMultiLineComment" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="56" />
+    </dependencies>
+    <rename id="rh3e.8569071899956284315" type="CONCEPT" from="JSNumberLiteral" to="JSNumericLiteral" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="57" />
+    </dependencies>
+    <rename id="rh3e.8569071899956282000" type="PROPERTY" from="value" to="doubleQuotedValue" />
+  </StructureModification>
 </history>
 
