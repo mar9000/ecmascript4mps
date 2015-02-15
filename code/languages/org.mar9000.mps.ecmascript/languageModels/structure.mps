@@ -105,7 +105,6 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="201656743169483980" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="JSExpressionStatement" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="statement" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="exp" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="201656743169479430" resolveInfo="JSStatement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="201656743171561338" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -538,7 +537,6 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8569071899956265940" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="expression" />
     <property name="name" nameId="tpck.1169194664001" value="JSMemberExpression" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="." />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8569071899956224153" resolveInfo="JSExpression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8569071899956278887" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -1010,7 +1008,6 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8569071899956277465" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="expression" />
     <property name="name" nameId="tpck.1169194664001" value="JSCallExpression" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="call" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="call expression" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8569071899956224153" resolveInfo="JSExpression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8569071899956277614" nodeInfo="ig">
