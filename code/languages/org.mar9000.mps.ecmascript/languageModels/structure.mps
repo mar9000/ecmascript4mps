@@ -60,7 +60,7 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8569071899956244337" resolveInfo="JSNode" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="201656743169479442" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="name" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="3155080124105464141" resolveInfo="_JSIdentifierName" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8569071899956265838" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8569071899956265742" resolveInfo="JSLeftHandSideExpression" />
@@ -294,6 +294,9 @@
       <property name="role" nameId="tpce.1071599776563" value="identifier" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="201656743169479441" resolveInfo="JSIdentifier" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3155080124105141190" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8569071899956265742" resolveInfo="JSLeftHandSideExpression" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="201656743171489017" nodeInfo="ig">
@@ -1026,7 +1029,6 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8569071899956281838" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="expression.literal" />
     <property name="name" nameId="tpck.1169194664001" value="JSStringLiteral" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="'" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="string literal" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="201656743171250921" resolveInfo="JSLiteral" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8569071899956281840" nodeInfo="ig">
@@ -1235,6 +1237,11 @@
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="223815598156756041" nodeInfo="ngu" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="223815598156675962" nodeInfo="nn" />
+  </root>
+  <root type="tpce.ConstrainedDataTypeDeclaration" typeId="tpce.1082978499127" id="3155080124105464141" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="declaration" />
+    <property name="name" nameId="tpck.1169194664001" value="_JSIdentifierName" />
+    <property name="constraint" nameId="tpce.1083066089218" value="[a-zA-Z_$][a-zA-Z_$0-9\\.]*" />
   </root>
 </model>
 
