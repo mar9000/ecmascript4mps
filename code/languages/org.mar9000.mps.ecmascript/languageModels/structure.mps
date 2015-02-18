@@ -25,7 +25,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="201656743169479430" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="JSStatement" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="statement" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8569071899956244337" resolveInfo="JSNode" />

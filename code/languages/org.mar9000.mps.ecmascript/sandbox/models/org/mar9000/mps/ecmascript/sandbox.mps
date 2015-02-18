@@ -16,6 +16,24 @@
         <property name="value" nameId="rh3e.8569071899948764044" value="Line 2" />
       </node>
     </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="3155080124114349296" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="A JSStatement follows." />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSStatement" typeId="rh3e.201656743169479430" id="3155080124114349821" nodeInfo="ng" />
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="3155080124114351397" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="A JSStatement inside an if." />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSIfStatement" typeId="rh3e.201656743169484005" id="3155080124114352451" nodeInfo="ng">
+      <node role="test" roleId="rh3e.201656743171634285" type="rh3e.JSBooleanLiteral" typeId="rh3e.8569071899952148378" id="3155080124114352985" nodeInfo="ng">
+        <property name="value" nameId="rh3e.8569071899952155460" value="true" />
+      </node>
+      <node role="consequent" roleId="rh3e.201656743171634288" type="rh3e.JSBlockStatement" typeId="rh3e.201656743169483888" id="3155080124114354045" nodeInfo="ng">
+        <node role="body" roleId="rh3e.201656743169484430" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="3155080124114354050" nodeInfo="ng">
+          <property name="value" nameId="rh3e.8569071899948841192" value="JSStatement." />
+        </node>
+        <node role="body" roleId="rh3e.201656743169484430" type="rh3e.JSStatement" typeId="rh3e.201656743169479430" id="3155080124114546446" nodeInfo="ng" />
+      </node>
+    </node>
     <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="223815598156942048" nodeInfo="ng">
       <property name="value" nameId="rh3e.8569071899948841192" value="Infinity" />
     </node>
@@ -39,6 +57,31 @@
         </node>
         <node role="init" roleId="rh3e.8569071899956249109" type="rh3e.JSNumericLiteral" typeId="rh3e.8569071899956284315" id="3155080124101955640" nodeInfo="ng">
           <property name="value" nameId="rh3e.8569071899956284476" value="NaN" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.SingleLineComment" typeId="rh3e.8569071899948453782" id="3155080124122944539" nodeInfo="ng">
+      <property name="value" nameId="rh3e.8569071899948841192" value="Empty strings." />
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSExpressionStatement" typeId="rh3e.201656743169483980" id="3155080124122945607" nodeInfo="ng">
+      <node role="expression" roleId="rh3e.201656743171561338" type="rh3e.JSAssignmentExpression" typeId="rh3e.8569071899955716053" id="3155080124122946142" nodeInfo="ng">
+        <property name="operator" nameId="rh3e.8569071899956274599" value="=" />
+        <node role="left" roleId="rh3e.8569071899956275191" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="3155080124122945605" nodeInfo="ng">
+          <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="223815598156943082" resolveInfo="a" />
+        </node>
+        <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="3155080124122946146" nodeInfo="ng">
+          <property name="doubleQuotedValue" nameId="rh3e.8569071899956282000" value="" />
+        </node>
+      </node>
+    </node>
+    <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSExpressionStatement" typeId="rh3e.201656743169483980" id="3155080124122946687" nodeInfo="ng">
+      <node role="expression" roleId="rh3e.201656743171561338" type="rh3e.JSAssignmentExpression" typeId="rh3e.8569071899955716053" id="3155080124122947226" nodeInfo="ng">
+        <property name="operator" nameId="rh3e.8569071899956274599" value="=" />
+        <node role="left" roleId="rh3e.8569071899956275191" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="3155080124122946685" nodeInfo="ng">
+          <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="223815598156943082" resolveInfo="a" />
+        </node>
+        <node role="right" roleId="rh3e.8569071899956275324" type="rh3e.JSStringLiteral" typeId="rh3e.8569071899956281838" id="3155080124122947230" nodeInfo="ng">
+          <property name="singleQuotedValue" nameId="rh3e.7727025628334104963" value="" />
         </node>
       </node>
     </node>
@@ -114,7 +157,7 @@
       <node role="object" roleId="rh3e.201656743173427656" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="7727025628331399257" nodeInfo="ng">
         <link role="identifier" roleId="rh3e.201656743171252965" targetNodeId="4772229902335726573" resolveInfo="a" />
       </node>
-      <node role="body" roleId="rh3e.201656743173427712" type="rh3e.JSDebuggerStatement" typeId="rh3e.201656743169484363" id="7727025628331736665" nodeInfo="ng" />
+      <node role="body" roleId="rh3e.201656743173427712" type="rh3e.JSDebuggerStatement" typeId="rh3e.201656743169484363" id="3155080124115969117" nodeInfo="ng" />
     </node>
     <node role="body" roleId="rh3e.201656743169477546" type="rh3e.JSWithStatement" typeId="rh3e.201656743169484182" id="7727025628331399751" nodeInfo="ng">
       <node role="object" roleId="rh3e.201656743173427656" type="rh3e.JSIdentifierReference" typeId="rh3e.201656743171252964" id="7727025628331399752" nodeInfo="ng">
