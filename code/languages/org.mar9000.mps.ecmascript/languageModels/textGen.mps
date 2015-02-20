@@ -4,7 +4,7 @@
   <language namespace="b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)" />
   <language namespace="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="58" />
+  <import index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="59" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="o14i" modelUID="r:b7eedae5-708e-4232-ab99-74ec1a4ab089(org.mar9000.mps.ecmascript.behavior)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
@@ -97,7 +97,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8569071899953618414" nodeInfo="nn">
-                <link role="property" roleId="tp25.1138056395725" targetNodeId="rh3e.201656743169479442" resolveInfo="name" />
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="rh3e.201656743169479442" resolveInfo="idName" />
               </node>
             </node>
           </node>
@@ -176,7 +176,7 @@
             <node role="value" roleId="2omo.1237305790512" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8569071899953645757" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="2omo.NodeParameter" typeId="2omo.1233748055915" id="8569071899953645656" nodeInfo="nn" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8569071899953646777" nodeInfo="nn">
-                <link role="property" roleId="tp25.1138056395725" targetNodeId="rh3e.201656743169479442" resolveInfo="name" />
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="rh3e.201656743169479442" resolveInfo="idName" />
               </node>
             </node>
           </node>
