@@ -16,7 +16,7 @@ Read more on this [announcement post](http://mar9000.org/bliki/ecma-script-4-mps
 ## Try it out
 
   * clone the github project.
-  * install MPS version 3.1.5 .
+  * install MPS version 3.2.1 .
   * open the project with MPS.
   * rebuild the project.
   * the *sandbox* solution contains a complete javascript example I use to test the language and the generation to text.

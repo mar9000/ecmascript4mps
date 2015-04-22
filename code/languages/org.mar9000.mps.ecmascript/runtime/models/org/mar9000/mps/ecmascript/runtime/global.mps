@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:5956af82-53d4-4b0b-aada-46792869763b(org.mar9000.mps.ecmascript.runtime.global)">
-  <persistence version="8" />
-  <language namespace="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff(org.mar9000.mps.ecmascript)" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="rh3e" modelUID="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" version="59" implicit="yes" />
-  <root type="rh3e.JSProgram" typeId="rh3e.201656743169477490" id="8569071899948128913" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Window" />
-  </root>
+<model ref="r:5956af82-53d4-4b0b-aada-46792869763b(org.mar9000.mps.ecmascript.runtime.global)">
+  <persistence version="9" />
+  <languages>
+    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="-1" />
+  </languages>
+  <imports />
+  <registry>
+    <language id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript">
+      <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf" />
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1dSqrf" id="7rFtnRVc9Eh">
+    <property role="TrG5h" value="Window" />
+  </node>
 </model>
 
