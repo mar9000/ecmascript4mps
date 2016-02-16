@@ -16,10 +16,14 @@ Read more on this [announcement post](http://mar9000.org/bliki/ecma-script-4-mps
 ## Try it out
 
   * clone the github project.
-  * install MPS version 3.2.1 .
+  * install MPS version 3.3 .
   * open the project with MPS.
   * rebuild the project.
   * the *sandbox* solution contains a complete javascript example I use to test the language and the generation to text.
+
+## An EcmaScript4MPS plugin
+
+To get a pre-prepared and packaged ecmaScript4mps language you can install the [IDEA/MPS plugin](https://plugins.jetbrains.com/plugin/8199?pr=) in either IntelliJ IDEA or MPS and start using the language right-away.
 
 ## Future improvements
 
