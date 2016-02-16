@@ -69,6 +69,7 @@
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="1238980147629899306" name="pluginXml" index="I30fb" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -176,6 +177,11 @@
       <node concept="3_J27D" id="1KcYDCsMleO" role="m_cZH">
         <node concept="3Mxwew" id="1KcYDCsMleP" role="3MwsjC">
           <property role="3MwjfP" value="ecmascript4mps" />
+        </node>
+      </node>
+      <node concept="55IIr" id="7SgD4Y5QmjA" role="I30fb">
+        <node concept="2Ry0Ak" id="7SgD4Y5Qmkd" role="iGT6I">
+          <property role="2Ry0Am" value="plugin.xml" />
         </node>
       </node>
     </node>
