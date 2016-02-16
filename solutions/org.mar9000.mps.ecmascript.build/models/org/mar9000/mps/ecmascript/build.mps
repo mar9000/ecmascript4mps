@@ -26,6 +26,10 @@
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
+      <concept id="7181125477683417252" name="jetbrains.mps.build.structure.BuildExternalLayoutDependency" flags="ng" index="13uUGR">
+        <reference id="7181125477683417255" name="layout" index="13uUGO" />
+        <child id="7181125477683417254" name="artifacts" index="13uUGP" />
+      </concept>
       <concept id="7389400916848050071" name="jetbrains.mps.build.structure.BuildLayout_Zip" flags="ng" index="3981dG" />
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
@@ -113,21 +117,41 @@
     <node concept="10PD9b" id="1KcYDCsMlen" role="10PD9s" />
     <node concept="3b7kt6" id="1KcYDCsMleo" role="10PD9s" />
     <node concept="398rNT" id="1KcYDCsMlep" role="1l3spd">
-      <property role="TrG5h" value="mps_home" />
+      <property role="TrG5h" value="plugin_home" />
       <node concept="55IIr" id="1KcYDCsMlfK" role="398pKh">
         <node concept="2Ry0Ak" id="1KcYDCsMlfN" role="iGT6I">
           <property role="2Ry0Am" value=".." />
           <node concept="2Ry0Ak" id="1KcYDCsMlgo" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="1KcYDCsMlgr" role="2Ry0An">
+            <node concept="2Ry0Ak" id="1jnjFXSHTIm" role="2Ry0An">
+              <property role="2Ry0Am" value="Library" />
+              <node concept="2Ry0Ak" id="1jnjFXSHTIG" role="2Ry0An">
+                <property role="2Ry0Am" value="Application Support" />
+                <node concept="2Ry0Ak" id="1jnjFXSHTJj" role="2Ry0An">
+                  <property role="2Ry0Am" value="IntelliJIdea15" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="1jnjFXSHTFy" role="1l3spd">
+      <property role="TrG5h" value="idea_home" />
+      <node concept="55IIr" id="1jnjFXSHTFz" role="398pKh">
+        <node concept="2Ry0Ak" id="1jnjFXSHTF$" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="1jnjFXSHTF_" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="1jnjFXSHTFA" role="2Ry0An">
               <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="1KcYDCsMlgu" role="2Ry0An">
+              <node concept="2Ry0Ak" id="1jnjFXSHTFB" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="1KcYDCsMlgR" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1jnjFXSHTFC" role="2Ry0An">
                   <property role="2Ry0Am" value="Applications" />
-                  <node concept="2Ry0Ak" id="1KcYDCsMlhd" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 3.3.app" />
-                    <node concept="2Ry0Ak" id="1KcYDCsMlhz" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="1jnjFXSHTFD" role="2Ry0An">
+                    <property role="2Ry0Am" value="IntelliJ IDEA 15 CE.app" />
+                    <node concept="2Ry0Ak" id="1jnjFXSHTFE" role="2Ry0An">
                       <property role="2Ry0Am" value="Contents" />
                     </node>
                   </node>
@@ -138,10 +162,16 @@
         </node>
       </node>
     </node>
+    <node concept="13uUGR" id="1jnjFXSHTKc" role="1l3spa">
+      <ref role="13uUGO" to="ffeo:6eCuTcwOnJO" resolve="IDEA" />
+      <node concept="398BVA" id="1jnjFXSHTK_" role="13uUGP">
+        <ref role="398BVh" node="1jnjFXSHTFy" resolve="idea_home" />
+      </node>
+    </node>
     <node concept="2sgV4H" id="1KcYDCsMleq" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
+      <ref role="1l3spb" to="ffeo:4tNwrSpaf04" resolve="mpsPlugin" />
       <node concept="398BVA" id="1KcYDCsMler" role="2JcizS">
-        <ref role="398BVh" node="1KcYDCsMlep" resolve="mps_home" />
+        <ref role="398BVh" node="1KcYDCsMlep" resolve="plugin_home" />
       </node>
     </node>
     <node concept="1l3spV" id="1KcYDCsMleQ" role="1l3spN">
