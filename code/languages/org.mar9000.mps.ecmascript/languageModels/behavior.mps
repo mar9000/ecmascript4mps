@@ -142,6 +142,7 @@
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -813,11 +814,23 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="2J96awlF0Xa" role="3clFbw">
-            <node concept="37vLTw" id="2J96awlF0Nc" role="2Oq$k0">
-              <ref role="3cqZAo" node="2J96awlCdFx" resolve="child" />
+          <node concept="1Wc70l" id="_xEVKm6oNc" role="3clFbw">
+            <node concept="2OqwBi" id="_xEVKm6oRs" role="3uHU7w">
+              <node concept="37vLTw" id="_xEVKm6oPW" role="2Oq$k0">
+                <ref role="3cqZAo" node="2J96awlCdFx" resolve="child" />
+              </node>
+              <node concept="1mIQ4w" id="_xEVKm6oV3" role="2OqNvi">
+                <node concept="chp4Y" id="_xEVKm6oVP" role="cj9EA">
+                  <ref role="cht4Q" to="rh3e:bcrrPfbtc6" resolve="JSStatement" />
+                </node>
+              </node>
             </node>
-            <node concept="3x8VRR" id="2J96awlF51e" role="2OqNvi" />
+            <node concept="2OqwBi" id="2J96awlF0Xa" role="3uHU7B">
+              <node concept="37vLTw" id="2J96awlF0Nc" role="2Oq$k0">
+                <ref role="3cqZAo" node="2J96awlCdFx" resolve="child" />
+              </node>
+              <node concept="3x8VRR" id="2J96awlF51e" role="2OqNvi" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs6" id="2J96awlCdP8" role="3cqZAp">
