@@ -1,0 +1,16 @@
+<idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <id>org.mar9000.mps.ecmascript</id>
+  <name>ecmascript4mps</name>
+  <category>Custom Languages</category>
+  <description>MPS Ecma script support</description>
+  <version>1.0</version>
+  <vendor url="http://www.mar9000.org" logo="/MPS_16.png">Marco Lombardo</vendor>
+  <idea-version since-build="143.1" until-build="144.1"/>
+
+  <depends>jetbrains.mps.core</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/"/>
+    <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter"/>
+  </extensions>
+</idea-plugin>

@@ -2,15 +2,15 @@
 <model ref="r:3ed82f30-d219-4e59-9f0c-74c7eb18b054(org.mar9000.mps.ecmascript.textGen)">
   <persistence version="9" />
   <languages>
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="1" />
+    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="rh3e" ref="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="o14i" ref="r:b7eedae5-708e-4232-ab99-74ec1a4ab089(org.mar9000.mps.ecmascript.behavior)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -88,10 +88,9 @@
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
-        <child id="8465538089690917625" name="param" index="TUOzN" />
-      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
@@ -1569,19 +1568,19 @@
             <property role="1dT_AB" value="Generate a block statement depending on the statement to be an independent statement, try, function." />
           </node>
         </node>
-        <node concept="TUZQ0" id="6GVUdUiFd4F" role="TUOzN">
+        <node concept="TUZQ0" id="6GVUdUiFd4F" role="3nqlJM">
           <property role="TUZQ4" value="JSBlockStatement" />
           <node concept="zr_55" id="6GVUdUiFd4H" role="zr_5Q">
             <ref role="zr_51" node="6GVUdUiEZBs" resolve="st" />
           </node>
         </node>
-        <node concept="TUZQ0" id="6GVUdUiFd4I" role="TUOzN">
+        <node concept="TUZQ0" id="6GVUdUiFd4I" role="3nqlJM">
           <property role="TUZQ4" value="true to generate an independent block statement (no try or function)." />
           <node concept="zr_55" id="6GVUdUiFd4K" role="zr_5Q">
             <ref role="zr_51" node="6GVUdUiEVFL" resolve="withIndent" />
           </node>
         </node>
-        <node concept="TUZQ0" id="6GVUdUiFd4L" role="TUOzN">
+        <node concept="TUZQ0" id="6GVUdUiFd4L" role="3nqlJM">
           <property role="TUZQ4" value="true to generate \n afer last }, try use false to generate catch/finally, function use true." />
           <node concept="zr_55" id="6GVUdUiFd4N" role="zr_5Q">
             <ref role="zr_51" node="6GVUdUiEVX$" resolve="withFinalNewLine" />
@@ -1798,7 +1797,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="6GVUdUiNJQj" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
               </node>
             </node>
           </node>
