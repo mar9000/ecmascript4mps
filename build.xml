@@ -11,6 +11,7 @@
   <property name="mpsPlugin.plugin.version" value="${import.mpsPlugin.mpsPlugin.plugin.version}" />
   <property name="mpsPlugin.date" value="${import.mpsPlugin.mpsPlugin.date}" />
   <property name="mpsBootstrapCore.version" value="${import.mpsPlugin.mpsBootstrapCore.version}" />
+  <property name="environment" value="env" />
   <property name="env.JAVA_HOME" value="${java.home}/.." />
   <property name="jdk.home" value="${env.JAVA_HOME}" />
   
@@ -53,7 +54,7 @@
     <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript" />
       <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript" includes="icons/**, resources/**" />
-      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/source_gen" includes="**/trace.info, **/exports" />
+      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/org.mar9000.mps.ecmascript.jar" />
     </jar>
     <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript-generator.jar" duplicate="preserve">
@@ -69,10 +70,14 @@
       <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
       </fileset>
       <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
       </fileset>
       <zipfileset file="${basedir}/code/languages/org.mar9000.mps.ecmascript/org.mar9000.mps.ecmascript.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-generator-template" prefix="module/generator/template" />
@@ -91,7 +96,7 @@
     <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript.runtime.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.runtime" />
       <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime" includes="icons/**, resources/**" />
-      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen" includes="**/trace.info, **/exports" />
+      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/org.mar9000.mps.ecmascript.runtime.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-runtime-models">
@@ -101,6 +106,8 @@
       <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
       </fileset>
       <zipfileset file="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/org.mar9000.mps.ecmascript.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-runtime-models" prefix="module/models" />
@@ -146,6 +153,8 @@
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+      <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.jar" />
+      <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
@@ -163,6 +172,7 @@
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.dataFlow.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.descriptor.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.jar" />
+      <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.extension.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.findUsages.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.generator.generationContext.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
@@ -185,6 +195,7 @@
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
+      <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.refactoring.participant.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/make/jetbrains.mps.make.facet.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/make/jetbrains.mps.make.script.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/lib/mps-behavior-api.jar" />
@@ -219,7 +230,7 @@
   <target name="java.compile.org.mar9000.mps.ecmascript" depends="fetchDependencies">
     <mkdir dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript" />
-    <javac destdir="${build.tmp}/java/out/org.mar9000.mps.ecmascript" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.mar9000.mps.ecmascript" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/code/languages/org.mar9000.mps.ecmascript/source_gen" />
@@ -229,9 +240,13 @@
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-behavior-runtime.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-closures.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-annotations.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-core.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-logging.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-boot-util.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor.jar" />
@@ -240,11 +255,11 @@
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.8.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.5.2.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -264,7 +279,7 @@
   <target name="java.compile.org.mar9000.mps.ecmascript#201656743169476281" depends="java.compile.org.mar9000.mps.ecmascript, fetchDependencies">
     <mkdir dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript#201656743169476281" />
-    <javac destdir="${build.tmp}/java/out/org.mar9000.mps.ecmascript#201656743169476281" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.mar9000.mps.ecmascript#201656743169476281" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/code/languages/org.mar9000.mps.ecmascript/generator/source_gen" />
@@ -274,9 +289,13 @@
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-behavior-runtime.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-closures.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-annotations.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-core.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-logging.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-boot-util.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor.jar" />
@@ -286,11 +305,11 @@
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.8.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.5.2.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -306,7 +325,7 @@
   <target name="java.compile.org.mar9000.mps.ecmascript.runtime">
     <mkdir dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.runtime" />
-    <javac destdir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.runtime" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.runtime" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen" />
