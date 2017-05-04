@@ -2,7 +2,7 @@
 <model ref="r:128285a9-e0d8-4860-91c4-a65d4a5147e5(org.mar9000.mps.ecmascript.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -82,7 +82,7 @@
     <property role="3GE5qa" value="expression" />
     <ref role="1M2myG" to="rh3e:bcrrPfieb$" resolve="JSIdentifierReference" />
     <node concept="1N5Pfh" id="7rFtnRV__gT" role="1Mr941">
-      <ref role="1N5Vy1" to="rh3e:bcrrPfieb_" />
+      <ref role="1N5Vy1" to="rh3e:bcrrPfieb_" resolve="identifier" />
       <node concept="Bn3R3" id="7rFtnRV__gV" role="Bn3R6">
         <node concept="3clFbS" id="7rFtnRV__gW" role="2VODD2">
           <node concept="3clFbF" id="7rFtnRV__ri" role="3cqZAp">

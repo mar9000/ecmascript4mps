@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="2" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="3" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -127,8 +127,8 @@
               <property role="2Ry0Am" value="Library" />
               <node concept="2Ry0Ak" id="1jnjFXSHTIG" role="2Ry0An">
                 <property role="2Ry0Am" value="Application Support" />
-                <node concept="2Ry0Ak" id="1jnjFXSHTJj" role="2Ry0An">
-                  <property role="2Ry0Am" value="IntelliJIdea15" />
+                <node concept="2Ry0Ak" id="43UAn_aKm6w" role="2Ry0An">
+                  <property role="2Ry0Am" value="IntelliJIdea2017.1" />
                 </node>
               </node>
             </node>
@@ -150,7 +150,7 @@
                 <node concept="2Ry0Ak" id="1jnjFXSHTFC" role="2Ry0An">
                   <property role="2Ry0Am" value="Applications" />
                   <node concept="2Ry0Ak" id="1jnjFXSHTFD" role="2Ry0An">
-                    <property role="2Ry0Am" value="IntelliJ IDEA 15 CE.app" />
+                    <property role="2Ry0Am" value="IntelliJ IDEA CE.app" />
                     <node concept="2Ry0Ak" id="1jnjFXSHTFE" role="2Ry0An">
                       <property role="2Ry0Am" value="Contents" />
                     </node>
@@ -169,7 +169,7 @@
       </node>
     </node>
     <node concept="2sgV4H" id="1KcYDCsMleq" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:4tNwrSpaf04" resolve="mpsPlugin" />
+      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="1KcYDCsMler" role="2JcizS">
         <ref role="398BVh" node="1KcYDCsMlep" resolve="plugin_home" />
       </node>
