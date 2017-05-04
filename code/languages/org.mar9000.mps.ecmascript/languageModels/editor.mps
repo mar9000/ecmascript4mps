@@ -3546,6 +3546,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="6k$wfqsPr_d">
+    <property role="3GE5qa" value="statement" />
     <ref role="aqKnT" to="rh3e:bcrrPfbukR" resolve="JSContinueStatement" />
     <node concept="1Qtc8_" id="6k$wfqsPr_e" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPr_f" role="1Qtc8$">
@@ -3641,6 +3642,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="6k$wfqsPr_Z">
+    <property role="3GE5qa" value="statement" />
     <ref role="aqKnT" to="rh3e:bcrrPfpqpO" resolve="JSBreakStatement" />
     <node concept="1Qtc8_" id="6k$wfqsPrA0" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrA1" role="1Qtc8$">
@@ -3791,6 +3793,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrAR">
     <property role="TrG5h" value="JSExpression_sequenceExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrAU" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrAS" role="1Qtc8$">
@@ -3985,6 +3988,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="6k$wfqsPrCn">
+    <property role="3GE5qa" value="declaration" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF84N" resolve="JSVariableDeclarator" />
     <node concept="1Qtc8_" id="6k$wfqsPrCo" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrCp" role="1Qtc8$">
@@ -4067,6 +4071,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrD2">
     <property role="TrG5h" value="JSExpression_conditionalExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrD5" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrD3" role="1Qtc8$">
@@ -4163,6 +4168,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrDN">
     <property role="TrG5h" value="JSExpression_memberExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrDQ" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrDO" role="1Qtc8$">
@@ -4383,6 +4389,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="6k$wfqsPrFw">
+    <property role="3GE5qa" value="statement" />
     <ref role="aqKnT" to="rh3e:bcrrPfbulQ" resolve="JSReturnStatement" />
     <node concept="1Qtc8_" id="6k$wfqsPrFx" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrFy" role="1Qtc8$">
@@ -4478,6 +4485,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="6k$wfqsPrGi">
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrGj" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrGk" role="1Qtc8$">
@@ -4699,6 +4707,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrHY">
     <property role="TrG5h" value="JSExpression_binaryExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrI1" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrHZ" role="1Qtc8$">
@@ -4827,6 +4836,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrJ2">
     <property role="TrG5h" value="JSExpression_updateExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrJ5" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrJ3" role="1Qtc8$">
@@ -5108,6 +5118,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="6k$wfqsPrLj">
+    <property role="3GE5qa" value="declaration" />
     <ref role="aqKnT" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
     <node concept="1Qtc8_" id="6k$wfqsPrLk" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrLl" role="1Qtc8$">
@@ -5230,6 +5241,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrMg">
     <property role="TrG5h" value="JSExpression_callExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrMj" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrMh" role="1Qtc8$">
@@ -5326,6 +5338,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrN1">
     <property role="TrG5h" value="JSExpression_logicalExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrN4" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrN2" role="1Qtc8$">
@@ -5454,6 +5467,7 @@
   </node>
   <node concept="3ICXOK" id="6k$wfqsPrO5">
     <property role="TrG5h" value="JSExpression_unaryExpression" />
+    <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrO8" role="IW6Ez">
       <node concept="3cWJ9i" id="6k$wfqsPrO6" role="1Qtc8$">
@@ -5640,6 +5654,7 @@
     </node>
   </node>
   <node concept="3p36aQ" id="6k$wfqsPtff">
+    <property role="3GE5qa" value="literal" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
     <node concept="1s_PAr" id="6k$wfqsPtic" role="3ft7WO">
       <node concept="2kknPI" id="6k$wfqsPtid" role="1s_PAo">
