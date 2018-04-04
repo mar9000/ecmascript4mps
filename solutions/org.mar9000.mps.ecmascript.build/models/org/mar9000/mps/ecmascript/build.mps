@@ -141,7 +141,7 @@
                 <node concept="2Ry0Ak" id="18YsALCRHOw" role="2Ry0An">
                   <property role="2Ry0Am" value="Applications" />
                   <node concept="2Ry0Ak" id="18YsALCRHPo" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 2018.1 EAP.app" />
+                    <property role="2Ry0Am" value="MPS 2018.1.app" />
                     <node concept="2Ry0Ak" id="18YsALCRHQx" role="2Ry0An">
                       <property role="2Ry0Am" value="Contents" />
                     </node>

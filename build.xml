@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/ecmascript4mps" />
   <property name="build.layout" location="${build.dir}/artifacts/ecmascript4mps" />
-  <property name="plugin_home" location="${basedir}/../../../../Applications/MPS 2018.1 EAP.app/Contents" />
+  <property name="plugin_home" location="${basedir}/../../../../Applications/MPS 2018.1.app/Contents" />
   <property name="idea_home" location="${basedir}/../../../../Applications/IntelliJ IDEA CE.app/Contents" />
   <property name="artifacts.mps" location="${plugin_home}" />
   <property name="artifacts.IDEA" location="${idea_home}" />
