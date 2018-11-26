@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -84,10 +84,12 @@
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
+        <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
@@ -138,12 +140,15 @@
               <property role="2Ry0Am" value=".." />
               <node concept="2Ry0Ak" id="1jnjFXSHTIG" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="18YsALCRHOw" role="2Ry0An">
-                  <property role="2Ry0Am" value="Applications" />
-                  <node concept="2Ry0Ak" id="18YsALCRHPo" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 2018.1.app" />
-                    <node concept="2Ry0Ak" id="18YsALCRHQx" role="2Ry0An">
-                      <property role="2Ry0Am" value="Contents" />
+                <node concept="2Ry0Ak" id="3TyE99SBWYS" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="3TyE99SBWYP" role="2Ry0An">
+                    <property role="2Ry0Am" value="Applications" />
+                    <node concept="2Ry0Ak" id="3TyE99SBWYQ" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPS 2018.3.app" />
+                      <node concept="2Ry0Ak" id="3TyE99SBWYR" role="2Ry0An">
+                        <property role="2Ry0Am" value="Contents" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -164,12 +169,15 @@
               <property role="2Ry0Am" value=".." />
               <node concept="2Ry0Ak" id="1jnjFXSHTFB" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="1jnjFXSHTFC" role="2Ry0An">
-                  <property role="2Ry0Am" value="Applications" />
-                  <node concept="2Ry0Ak" id="1jnjFXSHTFD" role="2Ry0An">
-                    <property role="2Ry0Am" value="IntelliJ IDEA CE.app" />
-                    <node concept="2Ry0Ak" id="1jnjFXSHTFE" role="2Ry0An">
-                      <property role="2Ry0Am" value="Contents" />
+                <node concept="2Ry0Ak" id="3TyE99SBWZz" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="3TyE99SBWZw" role="2Ry0An">
+                    <property role="2Ry0Am" value="Applications" />
+                    <node concept="2Ry0Ak" id="3TyE99SBWZx" role="2Ry0An">
+                      <property role="2Ry0Am" value="IntelliJ IDEA CE.app" />
+                      <node concept="2Ry0Ak" id="3TyE99SBWZy" role="2Ry0An">
+                        <property role="2Ry0Am" value="Contents" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -200,6 +208,7 @@
         </node>
         <node concept="m$_wl" id="1KcYDCsMleU" role="39821P">
           <ref role="m_rDy" node="1KcYDCsMleH" resolve="ecmascript4mps" />
+          <node concept="pUk6x" id="67v9SKKtFca" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -212,7 +221,7 @@
       </node>
       <node concept="3_J27D" id="1KcYDCsMleK" role="m$_w8">
         <node concept="3Mxwew" id="1KcYDCsMleL" role="3MwsjC">
-          <property role="3MwjfP" value="2.3" />
+          <property role="3MwjfP" value="2.4" />
         </node>
       </node>
       <node concept="m$f5U" id="1KcYDCsMleM" role="m$_yh">
