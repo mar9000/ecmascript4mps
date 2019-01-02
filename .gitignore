@@ -14,3 +14,6 @@ test_gen
 test_gen.caches
 TEST-*.xml
 junit*.properties
+
+# ML, 2019-01-03 .
+build
