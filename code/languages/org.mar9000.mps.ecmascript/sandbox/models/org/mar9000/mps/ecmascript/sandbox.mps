@@ -690,7 +690,7 @@
     </node>
     <node concept="1d_fNJ" id="6GVUdUiNUCc" role="1dSqon">
       <node concept="2djMEC" id="6GVUdUiPm2U" role="1d_fKc">
-        <property role="2dhT3q" value="&gt;" />
+        <property role="2dhT3q" value="=" />
         <node concept="1dSrUG" id="6GVUdUiPm32" role="2dhTaa">
           <property role="1dSrUJ" value="a" />
         </node>
@@ -710,7 +710,7 @@
     </node>
     <node concept="1d_fNJ" id="6GVUdUiQsyY" role="1dSqon">
       <node concept="2djMEC" id="6GVUdUiQsyZ" role="1d_fKc">
-        <property role="2dhT3q" value="&gt;" />
+        <property role="2dhT3q" value="=" />
         <node concept="1dSrUG" id="6GVUdUiQsz0" role="2dhTaa">
           <property role="1dSrUJ" value="a" />
         </node>
@@ -736,7 +736,7 @@
     <node concept="1dSoBd" id="6GVUdUiSLkC" role="1dSqon">
       <node concept="1d_fNJ" id="6GVUdUiSLqF" role="1dSoGN">
         <node concept="2djMEC" id="6GVUdUiSLqG" role="1d_fKc">
-          <property role="2dhT3q" value="&gt;" />
+          <property role="2dhT3q" value="=" />
           <node concept="1dSrUG" id="6GVUdUiSLqH" role="2dhTaa">
             <property role="1dSrUJ" value="a" />
           </node>
@@ -756,7 +756,7 @@
       </node>
       <node concept="1d_fNJ" id="6GVUdUiSLqM" role="1dSoGN">
         <node concept="2djMEC" id="6GVUdUiSLqN" role="1d_fKc">
-          <property role="2dhT3q" value="&gt;" />
+          <property role="2dhT3q" value="=" />
           <node concept="1dSrUG" id="6GVUdUiSLqO" role="2dhTaa">
             <property role="1dSrUJ" value="a" />
           </node>
