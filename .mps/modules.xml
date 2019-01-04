@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/code/languages/org.mar9000.mps.ecmascript/runtime/org.mar9000.mps.ecmascript.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/code/languages/org.mar9000.mps.ecmascript/sandbox/org.mar9000.mps.ecmascript.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.mar9000.mps.ecmascript.build/org.mar9000.mps.ecmascript.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.mar9000.mps.ecmascript.tests/org.mar9000.mps.ecmascript.tests.msd" folder="" />
     </projectModules>
   </component>
 </project>

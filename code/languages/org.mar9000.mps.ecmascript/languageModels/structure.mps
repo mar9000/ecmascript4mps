@@ -163,6 +163,11 @@
     <node concept="1QGGSu" id="6k$wfqsPu06" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/javascript.png" />
     </node>
+    <node concept="1TJgyi" id="1Ry0cLTKLAI" role="1TKVEl">
+      <property role="IQ2nx" value="2153284450052676014" />
+      <property role="TrG5h" value="version" />
+      <ref role="AX2Wp" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
+    </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbtc6">
     <property role="TrG5h" value="JSStatement" />
@@ -1549,6 +1554,23 @@
     <property role="3GE5qa" value="declaration" />
     <property role="TrG5h" value="_JSIdentifierName" />
     <property role="FLfZY" value="[a-zA-Z_$][a-zA-Z_$0-9\\.]*" />
+  </node>
+  <node concept="AxPO7" id="1Ry0cLTKIQL">
+    <property role="TrG5h" value="ECMAVersion" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1Ry0cLTKIQM" role="M5hS2">
+      <property role="1uS6qv" value="ES5.1" />
+      <property role="1uS6qo" value="ES5.1" />
+    </node>
+    <node concept="M4N5e" id="1Ry0cLTKIQN" role="M5hS2">
+      <property role="1uS6qv" value="ES2015" />
+      <property role="1uS6qo" value="ES2015/ES6" />
+    </node>
+    <node concept="M4N5e" id="1Ry0cLTKIQQ" role="M5hS2">
+      <property role="1uS6qv" value="ES2016" />
+      <property role="1uS6qo" value="ES2016" />
+    </node>
   </node>
 </model>
 
