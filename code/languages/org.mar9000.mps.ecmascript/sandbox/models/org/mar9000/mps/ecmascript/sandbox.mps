@@ -169,6 +169,7 @@
       <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf">
         <property id="2153284450052676014" name="version" index="1$8h_y" />
         <child id="201656743169477546" name="body" index="1dSqon" />
+        <child id="2153284450054299076" name="directives" index="1$etO8" />
       </concept>
       <concept id="201656743169479441" name="org.mar9000.mps.ecmascript.structure.JSIdentifier" flags="ng" index="1dSrUG">
         <property id="201656743169479442" name="idName" index="1dSrUJ" />
@@ -179,6 +180,9 @@
         <child id="201656743169479451" name="id" index="1dSrUA" />
       </concept>
       <concept id="201656743169479430" name="org.mar9000.mps.ecmascript.structure.JSStatement" flags="ng" index="1dSrUV" />
+      <concept id="2153284450054299060" name="org.mar9000.mps.ecmascript.structure.JSDirective" flags="ng" index="1$etPS">
+        <property id="2153284450054299061" name="rawValue" index="1$etPT" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -187,7 +191,7 @@
     </language>
   </registry>
   <node concept="1dSqrf" id="bcrrPfbIU6">
-    <property role="TrG5h" value="script" />
+    <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES5.1" />
     <node concept="2dRxND" id="48UnsZj6A2j" role="1dSqon">
       <node concept="2dOjVQ" id="48UnsZj6A2A" role="2dRCjG">
@@ -984,7 +988,7 @@
             </node>
             <node concept="1dSo_L" id="48UnsZjat2M" role="1dSoGN">
               <node concept="1dx8Xp" id="48UnsZjat30" role="1dwvF7">
-                <ref role="1dx8Xo" node="48UnsZjat2m" resolve="b" />
+                <ref role="1dx8Xo" node="48UnsZjat2m" />
               </node>
             </node>
             <node concept="2dRxND" id="48UnsZjarsY" role="1dSoGN">
@@ -1034,7 +1038,7 @@
                 </node>
                 <node concept="2dhVws" id="48UnsZjkBSP" role="2dhTO1">
                   <node concept="1dx8Xp" id="48UnsZjkBSU" role="2dhVHn">
-                    <ref role="1dx8Xo" node="48UnsZjanP_" resolve="p1" />
+                    <ref role="1dx8Xo" node="48UnsZjanP_" />
                   </node>
                   <node concept="2dhBij" id="48UnsZjkBT0" role="2dhVHn">
                     <property role="2dhBvH" value="ddd" />
@@ -1090,7 +1094,7 @@
                 <property role="1dSrUJ" value="s" />
               </node>
               <node concept="1dx8Xp" id="3GncOKfc6Hn" role="2dhVvk">
-                <ref role="1dx8Xo" node="48UnsZjdXfH" resolve="a" />
+                <ref role="1dx8Xo" node="48UnsZjdXfH" />
               </node>
               <node concept="1dSoBd" id="3GncOKfc6Ho" role="1d_fKX">
                 <node concept="1dSoya" id="6GVUdUiFrH6" role="1dSoGN" />
@@ -1101,7 +1105,7 @@
                 <property role="1dSrUJ" value="s" />
               </node>
               <node concept="1dx8Xp" id="3GncOKfc6Hr" role="2dhVvk">
-                <ref role="1dx8Xo" node="48UnsZjdXfH" resolve="a" />
+                <ref role="1dx8Xo" node="48UnsZjdXfH" />
               </node>
               <node concept="1dEsJ9" id="3GncOKfc6Hs" role="1d_fKX" />
             </node>
@@ -1144,7 +1148,7 @@
                 </node>
                 <node concept="2dhVqD" id="6GVUdUiHiUQ" role="2dhTO1">
                   <node concept="1dx8Xp" id="6GVUdUiHiUR" role="2dhScq">
-                    <ref role="1dx8Xo" node="48UnsZjdXfH" resolve="a" />
+                    <ref role="1dx8Xo" node="48UnsZjdXfH" />
                   </node>
                   <node concept="2dhBij" id="6GVUdUiHiUS" role="2dhSbA">
                     <property role="2dhBvH" value="ddd" />
@@ -1160,7 +1164,7 @@
                 </node>
                 <node concept="2dhVqD" id="6GVUdUiHiUW" role="2dhTO1">
                   <node concept="1dx8Xp" id="6GVUdUiHiUX" role="2dhScq">
-                    <ref role="1dx8Xo" node="48UnsZjdXfH" resolve="a" />
+                    <ref role="1dx8Xo" node="48UnsZjdXfH" />
                   </node>
                   <node concept="1dSrUG" id="6GVUdUiHiUY" role="2dhS9X">
                     <property role="1dSrUJ" value="test" />
@@ -1373,7 +1377,7 @@
             <property role="2dhB_1" value="10" />
           </node>
           <node concept="1dx8Xp" id="3GncOKeSPLs" role="2dhSgd">
-            <ref role="1dx8Xo" node="48UnsZjk_IV" resolve="c" />
+            <ref role="1dx8Xo" node="48UnsZjk_IV" />
           </node>
           <node concept="1dx8Xp" id="jNkvc2RdP$" role="2dhSgj">
             <ref role="1dx8Xo" node="6GVUdUiSQ7I" />
@@ -1559,6 +1563,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1$etPS" id="1Ry0cLTY4Ee" role="1$etO8">
+      <property role="1$etPT" value="'use strict';" />
     </node>
   </node>
 </model>
