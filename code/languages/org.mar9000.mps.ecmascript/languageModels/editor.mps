@@ -7320,5 +7320,42 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4MpGkVjY6pJ">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="1XX52x" to="rh3e:4MpGkVjY6p$" resolve="JSExportLocals" />
+    <node concept="3EZMnI" id="4MpGkVjY6pL" role="2wV5jI">
+      <node concept="3F0ifn" id="4MpGkVjY6pQ" role="3EZMnx">
+        <property role="3F0ifm" value="export" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjY6pR" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <ref role="1k5W1q" node="48UnsZirHnk" resolve="ECMALeftBrace" />
+        <node concept="11LMrY" id="4MpGkVjY6pS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4MpGkVjY6pT" role="3EZMnx">
+        <property role="Q2I2d" value="punctuation" />
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="rh3e:4MpGkVjY6p_" resolve="namedExports" />
+        <node concept="2iRfu4" id="4MpGkVjY6pU" role="2czzBx" />
+        <node concept="3F0ifn" id="4MpGkVjY6pV" role="2czzBI" />
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjY6pW" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" node="48UnsZirHpj" resolve="ECMARightBrace" />
+        <node concept="11L4FC" id="4MpGkVjY6pX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjY6q0" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="4MpGkVjY6q1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

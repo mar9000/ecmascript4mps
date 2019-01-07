@@ -113,6 +113,9 @@
       <concept id="5519637770439392808" name="org.mar9000.mps.ecmascript.structure.JSExportAllFrom" flags="ng" index="2vhWXA">
         <child id="5519637770439392809" name="moduleSpecifier" index="2vhWXB" />
       </concept>
+      <concept id="5519637770441090660" name="org.mar9000.mps.ecmascript.structure.JSExportLocals" flags="ng" index="2votsE">
+        <child id="5519637770441090661" name="namedExports" index="2votsF" />
+      </concept>
       <concept id="5519637770439893227" name="org.mar9000.mps.ecmascript.structure.JSExportFrom" flags="ng" index="2vvT6_">
         <child id="5519637770439893241" name="namedExports" index="2vvT6R" />
         <child id="5519637770439893239" name="moduleSpecifier" index="2vvT6T" />
@@ -219,6 +222,41 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2015" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="4MpGkVjYYYq" role="1dSqon">
+      <property role="2dO0Ql" value="Export locals." />
+    </node>
+    <node concept="2votsE" id="4MpGkVjYZiq" role="1dSqon" />
+    <node concept="2votsE" id="4MpGkVjYZsB" role="1dSqon">
+      <node concept="2vvT6M" id="4MpGkVjYZAC" role="2votsF">
+        <node concept="1dSrUG" id="4MpGkVjYZAD" role="2vvT1e">
+          <property role="1dSrUJ" value="a" />
+        </node>
+      </node>
+      <node concept="2vvT6M" id="4MpGkVjYZAG" role="2votsF">
+        <node concept="1dSrUG" id="4MpGkVjYZAH" role="2vvT1e">
+          <property role="1dSrUJ" value="b" />
+        </node>
+      </node>
+    </node>
+    <node concept="2votsE" id="4MpGkVjYZKS" role="1dSqon">
+      <node concept="2vvT6M" id="4MpGkVjYZKT" role="2votsF">
+        <node concept="1dSrUG" id="4MpGkVjYZKU" role="2vvT1e">
+          <property role="1dSrUJ" value="a" />
+        </node>
+        <node concept="1dSrUG" id="4MpGkVjZ05g" role="2vvT1c">
+          <property role="1dSrUJ" value="aa" />
+        </node>
+      </node>
+      <node concept="2vvT6M" id="4MpGkVjYZKV" role="2votsF">
+        <node concept="1dSrUG" id="4MpGkVjYZKW" role="2vvT1e">
+          <property role="1dSrUJ" value="b" />
+        </node>
+        <node concept="1dSrUG" id="4MpGkVjZ05i" role="2vvT1c">
+          <property role="1dSrUJ" value="bb" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="4MpGkVjYYOr" role="1dSqon" />
     <node concept="2dRJFF" id="4MpGkVjU24t" role="1dSqon">
       <property role="2dO0Ql" value="Export from." />
     </node>
