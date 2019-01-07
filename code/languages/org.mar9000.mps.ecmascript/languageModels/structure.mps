@@ -1741,5 +1741,45 @@
       <ref role="20lvS9" node="7rFtnRVFg7I" resolve="JSStringLiteral" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4MpGkVjTy3F">
+    <property role="EcuMT" value="5519637770439893227" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSExportFrom" />
+    <property role="34LRSv" value="exportfrom" />
+    <ref role="1TJDcQ" node="5OEuegbkJHG" resolve="JSExportDeclaration" />
+    <node concept="1TJgyj" id="4MpGkVjTy3R" role="1TKVEi">
+      <property role="IQ2ns" value="5519637770439893239" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="moduleSpecifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7rFtnRVFg7I" resolve="JSStringLiteral" />
+    </node>
+    <node concept="1TJgyj" id="4MpGkVjTy3T" role="1TKVEi">
+      <property role="IQ2ns" value="5519637770439893241" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="namedExports" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4MpGkVjTy3W" resolve="JSExportFromSpecifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4MpGkVjTy3W">
+    <property role="EcuMT" value="5519637770439893244" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSExportFromSpecifier" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="1TJgyj" id="4MpGkVjTy40" role="1TKVEi">
+      <property role="IQ2ns" value="5519637770439893248" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="name" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4MpGkVjTy42" role="1TKVEi">
+      <property role="IQ2ns" value="5519637770439893250" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exportedName" />
+      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+    </node>
+  </node>
 </model>
 

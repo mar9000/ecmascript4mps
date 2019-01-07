@@ -113,6 +113,14 @@
       <concept id="5519637770439392808" name="org.mar9000.mps.ecmascript.structure.JSExportAllFrom" flags="ng" index="2vhWXA">
         <child id="5519637770439392809" name="moduleSpecifier" index="2vhWXB" />
       </concept>
+      <concept id="5519637770439893227" name="org.mar9000.mps.ecmascript.structure.JSExportFrom" flags="ng" index="2vvT6_">
+        <child id="5519637770439893241" name="namedExports" index="2vvT6R" />
+        <child id="5519637770439893239" name="moduleSpecifier" index="2vvT6T" />
+      </concept>
+      <concept id="5519637770439893244" name="org.mar9000.mps.ecmascript.structure.JSExportFromSpecifier" flags="ng" index="2vvT6M">
+        <child id="5519637770439893250" name="exportedName" index="2vvT1c" />
+        <child id="5519637770439893248" name="name" index="2vvT1e" />
+      </concept>
       <concept id="201656743171489017" name="org.mar9000.mps.ecmascript.structure.JSEmptyStatement" flags="ng" index="1dw154" />
       <concept id="201656743171252964" name="org.mar9000.mps.ecmascript.structure.JSIdentifierReference" flags="ng" index="1dx8Xp">
         <reference id="201656743171252965" name="identifier" index="1dx8Xo" />
@@ -211,8 +219,53 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2015" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="4MpGkVjU24t" role="1dSqon">
+      <property role="2dO0Ql" value="Export from." />
+    </node>
+    <node concept="2vvT6_" id="4MpGkVjXovg" role="1dSqon">
+      <node concept="2dhBij" id="4MpGkVjXovh" role="2vvT6T">
+        <property role="3S2$_t" value="a.js" />
+      </node>
+    </node>
+    <node concept="2vvT6_" id="4MpGkVjXnRl" role="1dSqon">
+      <node concept="2vvT6M" id="4MpGkVjXoNm" role="2vvT6R">
+        <node concept="1dSrUG" id="4MpGkVjXoNn" role="2vvT1e">
+          <property role="1dSrUJ" value="a" />
+        </node>
+      </node>
+      <node concept="2vvT6M" id="4MpGkVjXoNq" role="2vvT6R">
+        <node concept="1dSrUG" id="4MpGkVjXoNr" role="2vvT1e">
+          <property role="1dSrUJ" value="b" />
+        </node>
+      </node>
+      <node concept="2dhBij" id="4MpGkVjXnRn" role="2vvT6T">
+        <property role="3S2$_t" value="a.js" />
+      </node>
+    </node>
+    <node concept="2vvT6_" id="4MpGkVjXoDi" role="1dSqon">
+      <node concept="2vvT6M" id="4MpGkVjXp_v" role="2vvT6R">
+        <node concept="1dSrUG" id="4MpGkVjXp_w" role="2vvT1e">
+          <property role="1dSrUJ" value="a" />
+        </node>
+        <node concept="1dSrUG" id="4MpGkVjXp_z" role="2vvT1c">
+          <property role="1dSrUJ" value="aa" />
+        </node>
+      </node>
+      <node concept="2vvT6M" id="4MpGkVjXp__" role="2vvT6R">
+        <node concept="1dSrUG" id="4MpGkVjXp_A" role="2vvT1e">
+          <property role="1dSrUJ" value="b" />
+        </node>
+        <node concept="1dSrUG" id="4MpGkVjXp_G" role="2vvT1c">
+          <property role="1dSrUJ" value="bb" />
+        </node>
+      </node>
+      <node concept="2dhBij" id="4MpGkVjXoDj" role="2vvT6T">
+        <property role="3S2$_t" value="a.js" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="4MpGkVjXqdw" role="1dSqon" />
     <node concept="2dRJFF" id="4MpGkVjSVoT" role="1dSqon">
-      <property role="2dO0Ql" value="Export." />
+      <property role="2dO0Ql" value="Export * from." />
     </node>
     <node concept="2vhWXA" id="4MpGkVjSZGc" role="1dSqon">
       <node concept="2dhBij" id="4MpGkVjSZGe" role="2vhWXB">

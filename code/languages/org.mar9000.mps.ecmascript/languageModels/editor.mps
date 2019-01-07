@@ -7242,5 +7242,83 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4MpGkVjTy4d">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="1XX52x" to="rh3e:4MpGkVjTy3W" resolve="JSExportFromSpecifier" />
+    <node concept="3EZMnI" id="4MpGkVjTy4f" role="2wV5jI">
+      <node concept="3F1sOY" id="4MpGkVjTy4m" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:4MpGkVjTy40" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjTy4s" role="3EZMnx">
+        <property role="3F0ifm" value="as" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+        <node concept="pkWqt" id="4MpGkVjTy4D" role="pqm2j">
+          <node concept="3clFbS" id="4MpGkVjTy4E" role="2VODD2">
+            <node concept="3clFbF" id="4MpGkVjTyc3" role="3cqZAp">
+              <node concept="2OqwBi" id="4MpGkVjTzpy" role="3clFbG">
+                <node concept="2OqwBi" id="4MpGkVjTypi" role="2Oq$k0">
+                  <node concept="pncrf" id="4MpGkVjTyc2" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="4MpGkVjTyZV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rh3e:4MpGkVjTy42" resolve="exportedName" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="4MpGkVjT$$o" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4MpGkVjTy4i" role="2iSdaV" />
+      <node concept="3F1sOY" id="4MpGkVjTy4$" role="3EZMnx">
+        <property role="39s7Ar" value="true" />
+        <ref role="1NtTu8" to="rh3e:4MpGkVjTy42" resolve="exportedName" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4MpGkVjTCc_">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="1XX52x" to="rh3e:4MpGkVjTy3F" resolve="JSExportFrom" />
+    <node concept="3EZMnI" id="4MpGkVjTCcB" role="2wV5jI">
+      <node concept="3F0ifn" id="4MpGkVjTCcI" role="3EZMnx">
+        <property role="3F0ifm" value="export" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      </node>
+      <node concept="2iRfu4" id="4MpGkVjTCcE" role="2iSdaV" />
+      <node concept="3F0ifn" id="4MpGkVjTCcO" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <ref role="1k5W1q" node="48UnsZirHnk" resolve="ECMALeftBrace" />
+        <node concept="11LMrY" id="4MpGkVjTCdB" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4MpGkVjTCcW" role="3EZMnx">
+        <property role="Q2I2d" value="punctuation" />
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="rh3e:4MpGkVjTy3T" resolve="namedExports" />
+        <node concept="2iRfu4" id="4MpGkVjTCcY" role="2czzBx" />
+        <node concept="3F0ifn" id="4MpGkVjTCdH" role="2czzBI" />
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjTCd9" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" node="48UnsZirHpj" resolve="ECMARightBrace" />
+        <node concept="11L4FC" id="4MpGkVjTCdD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjTCdn" role="3EZMnx">
+        <property role="3F0ifm" value="from" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      </node>
+      <node concept="3F1sOY" id="4MpGkVjTOW3" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:4MpGkVjTy3R" resolve="moduleSpecifier" />
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjTPlD" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="4MpGkVjTPyt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
