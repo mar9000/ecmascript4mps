@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="1" />
+    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="2" />
   </languages>
   <imports>
     <import index="84nc" ref="r:1c16acc8-2846-4c32-baa9-fb45f4d01637(org.mar9000.mps.ecmascript.migration)" />
@@ -29,6 +29,7 @@
     </language>
     <language id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript">
       <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf">
+        <property id="6713311115379658967" name="type" index="1nMawN" />
         <property id="2153284450052676014" name="version" index="1$8h_y" />
       </concept>
     </language>
@@ -39,16 +40,10 @@
     </language>
   </registry>
   <node concept="2lJO3n" id="1Ry0cLTKLA8">
-    <property role="TrG5h" value="test_set_version" />
+    <property role="TrG5h" value="test_JSProgram_set_version" />
     <node concept="1qefOq" id="1Ry0cLTP_2C" role="2lJO3o">
       <node concept="1dSqrf" id="1Ry0cLTP_2F" role="1qenE9">
         <property role="TrG5h" value="test" />
-      </node>
-    </node>
-    <node concept="1qefOq" id="1Ry0cLTP_6q" role="2lJO3o">
-      <node concept="1dSqrf" id="1Ry0cLTP_6x" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1$8h_y" value="ES2016" />
       </node>
     </node>
     <node concept="1qefOq" id="1Ry0cLTKLAE" role="2lJPY$">
@@ -57,18 +52,30 @@
         <property role="1$8h_y" value="ES5.1" />
       </node>
     </node>
-    <node concept="1qefOq" id="1Ry0cLTP_6$" role="2lJPY$">
-      <node concept="1dSqrf" id="1Ry0cLTP_6F" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1$8h_y" value="ES2016" />
-      </node>
-    </node>
     <node concept="3ea_Bc" id="1Ry0cLTKLAd" role="3ea0P7">
       <ref role="3ea_Bf" to="84nc:1Ry0cLTKIQU" resolve="set_version_value" />
     </node>
   </node>
   <node concept="2XOHcx" id="1Ry0cLTLt3K">
     <property role="2XOHcw" value="/opt/working-dir/ecmascript4mps" />
+  </node>
+  <node concept="2lJO3n" id="5OEuegbbtwu">
+    <property role="TrG5h" value="test_JSProgram_set_type" />
+    <node concept="1qefOq" id="5OEuegbbtU6" role="2lJPY$">
+      <node concept="1dSqrf" id="5OEuegbbtU9" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <property role="1nMawN" value="script" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="5OEuegbbtU0" role="2lJO3o">
+      <node concept="1dSqrf" id="5OEuegbbtU3" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <property role="1nMawN" value="module" />
+      </node>
+    </node>
+    <node concept="3ea_Bc" id="5OEuegbbtTW" role="3ea0P7">
+      <ref role="3ea_Bf" to="84nc:5OEuegbbtwK" resolve="JSProgram_set_type" />
+    </node>
   </node>
 </model>
 

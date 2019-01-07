@@ -75,9 +75,13 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
         <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <reference id="1083241965437" name="defaultMember" index="Qgau1" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
@@ -122,6 +126,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -152,7 +157,7 @@
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="201656743169477546" />
-      <ref role="20lvS9" node="bcrrPfbtc6" resolve="JSStatement" />
+      <ref role="20lvS9" node="5OEuegbkJI0" resolve="JSModuleItem" />
     </node>
     <node concept="1TJgyj" id="1Ry0cLTQXR4" role="1TKVEi">
       <property role="IQ2ns" value="2153284450054299076" />
@@ -175,6 +180,11 @@
       <property role="TrG5h" value="version" />
       <ref role="AX2Wp" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
     </node>
+    <node concept="1TJgyi" id="5OEuegaSH3n" role="1TKVEl">
+      <property role="IQ2nx" value="6713311115379658967" />
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="5OEuegaSH3i" resolve="JSScriptOrModule" />
+    </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbtc6">
     <property role="TrG5h" value="JSStatement" />
@@ -185,6 +195,9 @@
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
     <node concept="PrWs8" id="2J96awlQ56G" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="5OEuegbkJIt" role="PzmwI">
+      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbtcb">
@@ -239,6 +252,9 @@
     </node>
     <node concept="PrWs8" id="2J96awlq8Wl" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="t5JxF" id="5OEuegbloiX" role="lGtFl">
+      <property role="t5JxN" value="From VariableReference." />
     </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbuhK">
@@ -1588,6 +1604,127 @@
       <property role="IQ2nx" value="2153284450054299061" />
       <property role="TrG5h" value="rawValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5OEuegaSH3h">
+    <property role="EcuMT" value="6713311115379658961" />
+    <property role="TrG5h" value="JSImportDeclaration" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="5OEuegbkJIk" role="PzmwI">
+      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
+    </node>
+    <node concept="1TJgyj" id="5OEuegbmkba" role="1TKVEi">
+      <property role="IQ2ns" value="6713311115387421386" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="moduleSpecifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7rFtnRVFg7I" resolve="JSStringLiteral" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="5OEuegaSH3i">
+    <property role="3GE5qa" value="header" />
+    <property role="TrG5h" value="JSScriptOrModule" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <ref role="Qgau1" node="5OEuegaSH3j" />
+    <node concept="M4N5e" id="5OEuegaSH3j" role="M5hS2">
+      <property role="1uS6qo" value="Module" />
+      <property role="1uS6qv" value="module" />
+    </node>
+    <node concept="M4N5e" id="5OEuegaSH3k" role="M5hS2">
+      <property role="1uS6qv" value="script" />
+      <property role="1uS6qo" value="Script" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5OEuegbkJHG">
+    <property role="EcuMT" value="6713311115387009900" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSExportDeclaration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="5OEuegbkJIh" role="PzmwI">
+      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5OEuegbkJI0">
+    <property role="EcuMT" value="6713311115387009920" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSModuleItem" />
+    <node concept="t5JxF" id="5OEuegbloiU" role="lGtFl">
+      <property role="t5JxN" value="From ImportDeclarationExportDeclarationStatement." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5OEuegblo42">
+    <property role="EcuMT" value="6713311115387175170" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSImport" />
+    <property role="34LRSv" value="import" />
+    <ref role="1TJDcQ" node="5OEuegaSH3h" resolve="JSImportDeclaration" />
+    <node concept="1TJgyj" id="67Mg4PZflqT" role="1TKVEi">
+      <property role="IQ2ns" value="7057774267634374329" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="defaultBinding" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="67Mg4PZfpiI" role="1TKVEi">
+      <property role="IQ2ns" value="7057774267634390190" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="namedImports" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5OEuegblojy" resolve="JSImportSpecifier" />
+    </node>
+    <node concept="1TJgyi" id="67Mg4PZft6Z" role="1TKVEl">
+      <property role="IQ2nx" value="7057774267634405823" />
+      <property role="TrG5h" value="hasEmptyBraces" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5OEuegbloj0">
+    <property role="EcuMT" value="6713311115387176128" />
+    <property role="TrG5h" value="BindingIdentifier" />
+    <ref role="1TJDcQ" node="bcrrPfbtch" resolve="JSIdentifier" />
+  </node>
+  <node concept="1TIwiD" id="5OEuegblojy">
+    <property role="EcuMT" value="6713311115387176162" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSImportSpecifier" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="1TJgyj" id="67Mg4PZfly0" role="1TKVEi">
+      <property role="IQ2ns" value="7057774267634374784" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="name" />
+      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="5OEuegblojQ" role="1TKVEi">
+      <property role="IQ2ns" value="6713311115387176182" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="binding" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="BindingIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5OEuegbnITU">
+    <property role="EcuMT" value="6713311115387793018" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSImportNamespace" />
+    <property role="34LRSv" value="import as" />
+    <ref role="1TJDcQ" node="5OEuegaSH3h" resolve="JSImportDeclaration" />
+    <node concept="1TJgyj" id="5OEuegbnJJ7" role="1TKVEi">
+      <property role="IQ2ns" value="6713311115387796423" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="defaultBinding" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="5OEuegbnJJa" role="1TKVEi">
+      <property role="IQ2ns" value="6713311115387796426" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="namespaceBinding" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
     </node>
   </node>
 </model>

@@ -2,7 +2,7 @@
 <model ref="r:1599a961-0907-4cf6-b865-4d19246f26ab(org.mar9000.mps.ecmascript.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="1" />
+    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="2" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
@@ -167,9 +167,9 @@
       </concept>
       <concept id="201656743169484363" name="org.mar9000.mps.ecmascript.structure.JSDebuggerStatement" flags="ng" index="1dSoJQ" />
       <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf">
+        <property id="6713311115379658967" name="type" index="1nMawN" />
         <property id="2153284450052676014" name="version" index="1$8h_y" />
         <child id="201656743169477546" name="body" index="1dSqon" />
-        <child id="2153284450054299076" name="directives" index="1$etO8" />
       </concept>
       <concept id="201656743169479441" name="org.mar9000.mps.ecmascript.structure.JSIdentifier" flags="ng" index="1dSrUG">
         <property id="201656743169479442" name="idName" index="1dSrUJ" />
@@ -180,8 +180,22 @@
         <child id="201656743169479451" name="id" index="1dSrUA" />
       </concept>
       <concept id="201656743169479430" name="org.mar9000.mps.ecmascript.structure.JSStatement" flags="ng" index="1dSrUV" />
-      <concept id="2153284450054299060" name="org.mar9000.mps.ecmascript.structure.JSDirective" flags="ng" index="1$etPS">
-        <property id="2153284450054299061" name="rawValue" index="1$etPT" />
+      <concept id="6713311115387793018" name="org.mar9000.mps.ecmascript.structure.JSImportNamespace" flags="ng" index="1mt9qu">
+        <child id="6713311115387796423" name="defaultBinding" index="1mt8cz" />
+        <child id="6713311115387796426" name="namespaceBinding" index="1mt8cI" />
+      </concept>
+      <concept id="6713311115387175170" name="org.mar9000.mps.ecmascript.structure.JSImport" flags="ng" index="1mvZBA">
+        <property id="7057774267634405823" name="hasEmptyBraces" index="uNT7M" />
+        <child id="7057774267634374329" name="defaultBinding" index="uNLrO" />
+        <child id="7057774267634390190" name="namedImports" index="uNXjz" />
+      </concept>
+      <concept id="6713311115387176162" name="org.mar9000.mps.ecmascript.structure.JSImportSpecifier" flags="ng" index="1mvZK6">
+        <child id="7057774267634374784" name="name" index="uNLzd" />
+        <child id="6713311115387176182" name="binding" index="1mvZKi" />
+      </concept>
+      <concept id="6713311115387176128" name="org.mar9000.mps.ecmascript.structure.BindingIdentifier" flags="ng" index="1mvZK$" />
+      <concept id="6713311115379658961" name="org.mar9000.mps.ecmascript.structure.JSImportDeclaration" flags="ng" index="1nMawP">
+        <child id="6713311115387421386" name="moduleSpecifier" index="1msNCI" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -192,7 +206,120 @@
   </registry>
   <node concept="1dSqrf" id="bcrrPfbIU6">
     <property role="TrG5h" value="all-examples" />
-    <property role="1$8h_y" value="ES5.1" />
+    <property role="1$8h_y" value="ES2015" />
+    <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="67Mg4PZg_Ps" role="1dSqon">
+      <property role="2dO0Ql" value="Import." />
+    </node>
+    <node concept="1mvZBA" id="67Mg4PZgDM0" role="1dSqon">
+      <node concept="2dhBij" id="67Mg4PZgDM2" role="1msNCI">
+        <property role="3S2$_t" value="a.js" />
+      </node>
+    </node>
+    <node concept="1mvZBA" id="67Mg4PZkfM7" role="1dSqon">
+      <node concept="2dhBij" id="67Mg4PZkfM9" role="1msNCI">
+        <property role="3S2$_t" value="b.js" />
+      </node>
+      <node concept="1dSrUG" id="67Mg4PZkfVo" role="uNLrO">
+        <property role="1dSrUJ" value="idb" />
+      </node>
+    </node>
+    <node concept="1mvZBA" id="67Mg4PZkWkr" role="1dSqon">
+      <property role="uNT7M" value="true" />
+      <node concept="2dhBij" id="67Mg4PZkWkt" role="1msNCI">
+        <property role="3S2$_t" value="c.js" />
+      </node>
+    </node>
+    <node concept="1mvZBA" id="67Mg4PZlUrF" role="1dSqon">
+      <property role="uNT7M" value="true" />
+      <node concept="1mvZK6" id="67Mg4PZlU$Z" role="uNXjz">
+        <node concept="1mvZK$" id="67Mg4PZlU_0" role="1mvZKi">
+          <property role="1dSrUJ" value="d1" />
+        </node>
+      </node>
+      <node concept="1mvZK6" id="67Mg4PZlU_3" role="uNXjz">
+        <node concept="1mvZK$" id="67Mg4PZlU_4" role="1mvZKi">
+          <property role="1dSrUJ" value="d2" />
+        </node>
+      </node>
+      <node concept="2dhBij" id="67Mg4PZlUrG" role="1msNCI">
+        <property role="3S2$_t" value="d.js" />
+      </node>
+    </node>
+    <node concept="1mvZBA" id="67Mg4PZlUHg" role="1dSqon">
+      <property role="uNT7M" value="true" />
+      <node concept="1mvZK6" id="67Mg4PZlUHh" role="uNXjz">
+        <node concept="1mvZK$" id="67Mg4PZlUHi" role="1mvZKi">
+          <property role="1dSrUJ" value="e1" />
+        </node>
+        <node concept="1dSrUG" id="67Mg4PZlUQM" role="uNLzd">
+          <property role="1dSrUJ" value="var1" />
+        </node>
+      </node>
+      <node concept="1mvZK6" id="67Mg4PZlUHj" role="uNXjz">
+        <node concept="1mvZK$" id="67Mg4PZlUHk" role="1mvZKi">
+          <property role="1dSrUJ" value="e2" />
+        </node>
+        <node concept="1dSrUG" id="67Mg4PZlUQO" role="uNLzd">
+          <property role="1dSrUJ" value="var2" />
+        </node>
+      </node>
+      <node concept="2dhBij" id="67Mg4PZlUHl" role="1msNCI">
+        <property role="3S2$_t" value="e.js" />
+      </node>
+    </node>
+    <node concept="1mvZBA" id="67Mg4PZlV0m" role="1dSqon">
+      <property role="uNT7M" value="true" />
+      <node concept="2dhBij" id="67Mg4PZlV0o" role="1msNCI">
+        <property role="3S2$_t" value="f.js" />
+      </node>
+      <node concept="1dSrUG" id="67Mg4PZlV9U" role="uNLrO">
+        <property role="1dSrUJ" value="fid1" />
+      </node>
+    </node>
+    <node concept="1mvZBA" id="67Mg4PZlV9W" role="1dSqon">
+      <property role="uNT7M" value="true" />
+      <node concept="1mvZK6" id="67Mg4PZlVjz" role="uNXjz">
+        <node concept="1mvZK$" id="67Mg4PZlVj$" role="1mvZKi">
+          <property role="1dSrUJ" value="g1" />
+        </node>
+      </node>
+      <node concept="1mvZK6" id="67Mg4PZlVjB" role="uNXjz">
+        <node concept="1mvZK$" id="67Mg4PZlVjC" role="1mvZKi">
+          <property role="1dSrUJ" value="g2" />
+        </node>
+      </node>
+      <node concept="2dhBij" id="67Mg4PZlV9X" role="1msNCI">
+        <property role="3S2$_t" value="g.js" />
+      </node>
+      <node concept="1dSrUG" id="67Mg4PZlV9Y" role="uNLrO">
+        <property role="1dSrUJ" value="gid1" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="67Mg4PZg_pY" role="1dSqon" />
+    <node concept="2dRJFF" id="5OEuegbpVgc" role="1dSqon">
+      <property role="2dO0Ql" value="Import namespace." />
+    </node>
+    <node concept="1mt9qu" id="5OEuegbo$LZ" role="1dSqon">
+      <node concept="1dSrUG" id="5OEuegbpgb8" role="1mt8cI">
+        <property role="1dSrUJ" value="myid" />
+      </node>
+      <node concept="2dhBij" id="5OEuegbo$M3" role="1msNCI">
+        <property role="3S2$_t" value="module.js" />
+      </node>
+    </node>
+    <node concept="1mt9qu" id="5OEuegbpgbc" role="1dSqon">
+      <node concept="1dSrUG" id="5OEuegbpgbd" role="1mt8cI">
+        <property role="1dSrUJ" value="myid" />
+      </node>
+      <node concept="2dhBij" id="5OEuegbpgbe" role="1msNCI">
+        <property role="2dhBvH" value="module.js" />
+      </node>
+      <node concept="1dSrUG" id="5OEuegbpgtu" role="1mt8cz">
+        <property role="1dSrUJ" value="defaultBindingId" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="5OEuegbpWp4" role="1dSqon" />
     <node concept="2dRxND" id="48UnsZj6A2j" role="1dSqon">
       <node concept="2dOjVQ" id="48UnsZj6A2A" role="2dRCjG">
         <property role="2dOjVL" value="Multiline comment 1" />
@@ -1563,9 +1690,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1$etPS" id="1Ry0cLTY4Ee" role="1$etO8">
-      <property role="1$etPT" value="'use strict';" />
     </node>
   </node>
 </model>
