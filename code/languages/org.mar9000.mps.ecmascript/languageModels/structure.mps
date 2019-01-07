@@ -1727,5 +1727,19 @@
       <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4MpGkVjRBSC">
+    <property role="EcuMT" value="5519637770439392808" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSExportAllFrom" />
+    <property role="34LRSv" value="export*" />
+    <ref role="1TJDcQ" node="5OEuegbkJHG" resolve="JSExportDeclaration" />
+    <node concept="1TJgyj" id="4MpGkVjRBSD" role="1TKVEi">
+      <property role="IQ2ns" value="5519637770439392809" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="moduleSpecifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7rFtnRVFg7I" resolve="JSStringLiteral" />
+    </node>
+  </node>
 </model>
 

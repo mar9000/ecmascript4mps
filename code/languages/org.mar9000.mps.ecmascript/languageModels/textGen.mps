@@ -2930,5 +2930,30 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="4MpGkVjSZPU">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="WuzLi" to="rh3e:4MpGkVjRBSC" resolve="JSExportAllFrom" />
+    <node concept="11bSqf" id="4MpGkVjSZPV" role="11c4hB">
+      <node concept="3clFbS" id="4MpGkVjSZPW" role="2VODD2">
+        <node concept="lc7rE" id="4MpGkVjSZQf" role="3cqZAp">
+          <node concept="la8eA" id="4MpGkVjSZQ_" role="lcghm">
+            <property role="lacIc" value="export * from " />
+          </node>
+          <node concept="l9hG8" id="4MpGkVjSZRK" role="lcghm">
+            <node concept="2OqwBi" id="4MpGkVjT053" role="lb14g">
+              <node concept="117lpO" id="4MpGkVjSZSD" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4MpGkVjT0hE" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:4MpGkVjRBSD" resolve="moduleSpecifier" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4MpGkVjT0um" role="lcghm">
+            <property role="lacIc" value=";" />
+          </node>
+          <node concept="l8MVK" id="4MpGkVjT0Fn" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

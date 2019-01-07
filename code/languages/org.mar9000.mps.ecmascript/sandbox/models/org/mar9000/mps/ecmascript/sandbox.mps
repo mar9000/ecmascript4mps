@@ -110,6 +110,9 @@
       <concept id="4772229902327261793" name="org.mar9000.mps.ecmascript.structure.JSParenthesizedExpression" flags="ng" index="2gzfuI">
         <child id="4772229902327261845" name="expression" index="2gzftq" />
       </concept>
+      <concept id="5519637770439392808" name="org.mar9000.mps.ecmascript.structure.JSExportAllFrom" flags="ng" index="2vhWXA">
+        <child id="5519637770439392809" name="moduleSpecifier" index="2vhWXB" />
+      </concept>
       <concept id="201656743171489017" name="org.mar9000.mps.ecmascript.structure.JSEmptyStatement" flags="ng" index="1dw154" />
       <concept id="201656743171252964" name="org.mar9000.mps.ecmascript.structure.JSIdentifierReference" flags="ng" index="1dx8Xp">
         <reference id="201656743171252965" name="identifier" index="1dx8Xo" />
@@ -208,6 +211,15 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2015" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="4MpGkVjSVoT" role="1dSqon">
+      <property role="2dO0Ql" value="Export." />
+    </node>
+    <node concept="2vhWXA" id="4MpGkVjSZGc" role="1dSqon">
+      <node concept="2dhBij" id="4MpGkVjSZGe" role="2vhWXB">
+        <property role="3S2$_t" value="a.js" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="4MpGkVjSVGb" role="1dSqon" />
     <node concept="2dRJFF" id="67Mg4PZg_Ps" role="1dSqon">
       <property role="2dO0Ql" value="Import." />
     </node>

@@ -7222,5 +7222,25 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4MpGkVjRQd8">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="1XX52x" to="rh3e:4MpGkVjRBSC" resolve="JSExportAllFrom" />
+    <node concept="3EZMnI" id="4MpGkVjRQda" role="2wV5jI">
+      <node concept="3F0ifn" id="4MpGkVjRQdh" role="3EZMnx">
+        <property role="3F0ifm" value="export * from" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      </node>
+      <node concept="2iRfu4" id="4MpGkVjRQdd" role="2iSdaV" />
+      <node concept="3F1sOY" id="4MpGkVjRQdn" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:4MpGkVjRBSD" resolve="moduleSpecifier" />
+      </node>
+      <node concept="3F0ifn" id="4MpGkVjRQdv" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="4MpGkVjRQCJ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
