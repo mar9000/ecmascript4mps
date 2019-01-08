@@ -1040,6 +1040,11 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="59cjVaeXE2y" role="3cqZAp">
+          <node concept="3SKdUq" id="59cjVaeXE2$" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: handle ImportDeclaration and ExportDeclaration." />
+          </node>
+        </node>
         <node concept="3clFbJ" id="2J96awl$7nY" role="3cqZAp">
           <node concept="3clFbS" id="2J96awl$7o1" role="3clFbx">
             <node concept="3clFbF" id="2J96awl$86Y" role="3cqZAp">
@@ -1068,11 +1073,23 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="2J96awl$7S_" role="3clFbw">
-            <node concept="37vLTw" id="2J96awl$7Rf" role="2Oq$k0">
-              <ref role="3cqZAo" node="5XRXoC0ipim" resolve="child" />
+          <node concept="1Wc70l" id="59cjVaeXDmC" role="3clFbw">
+            <node concept="2OqwBi" id="59cjVaeXD_f" role="3uHU7w">
+              <node concept="37vLTw" id="59cjVaeXDt5" role="2Oq$k0">
+                <ref role="3cqZAo" node="5XRXoC0ipim" resolve="child" />
+              </node>
+              <node concept="1mIQ4w" id="59cjVaeXDPd" role="2OqNvi">
+                <node concept="chp4Y" id="59cjVaeXDRj" role="cj9EA">
+                  <ref role="cht4Q" to="rh3e:bcrrPfbtc6" resolve="JSStatement" />
+                </node>
+              </node>
             </node>
-            <node concept="3x8VRR" id="2J96awl$86a" role="2OqNvi" />
+            <node concept="2OqwBi" id="2J96awl$7S_" role="3uHU7B">
+              <node concept="37vLTw" id="2J96awl$7Rf" role="2Oq$k0">
+                <ref role="3cqZAo" node="5XRXoC0ipim" resolve="child" />
+              </node>
+              <node concept="3x8VRR" id="2J96awl$86a" role="2OqNvi" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs6" id="2J96awl$gBr" role="3cqZAp">

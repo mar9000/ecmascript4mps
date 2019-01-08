@@ -296,6 +296,9 @@
     <node concept="PrWs8" id="2J96awltCyG" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="59cjVaeV4VL" role="PzmwI">
+      <ref role="PrY4T" node="59cjVaeT$6_" resolve="JSExportableDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbujc">
     <property role="TrG5h" value="JSExpressionStatement" />
@@ -1794,6 +1797,25 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4MpGkVjTy3W" resolve="JSExportFromSpecifier" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="59cjVaeT$6$">
+    <property role="EcuMT" value="5930202437660328356" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSExport" />
+    <property role="34LRSv" value="export" />
+    <ref role="1TJDcQ" node="5OEuegbkJHG" resolve="JSExportDeclaration" />
+    <node concept="1TJgyj" id="59cjVaeT$6C" role="1TKVEi">
+      <property role="IQ2ns" value="5930202437660328360" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="declaration" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="59cjVaeT$6_" resolve="JSExportableDeclaration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="59cjVaeT$6_">
+    <property role="EcuMT" value="5930202437660328357" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSExportableDeclaration" />
   </node>
 </model>
 

@@ -211,6 +211,9 @@
       <concept id="6713311115379658961" name="org.mar9000.mps.ecmascript.structure.JSImportDeclaration" flags="ng" index="1nMawP">
         <child id="6713311115387421386" name="moduleSpecifier" index="1msNCI" />
       </concept>
+      <concept id="5930202437660328356" name="org.mar9000.mps.ecmascript.structure.JSExport" flags="ng" index="3sEwSm">
+        <child id="5930202437660328360" name="declaration" index="3sEwSq" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -222,6 +225,22 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2015" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="59cjVaeTzWl" role="1dSqon">
+      <property role="2dO0Ql" value="Export var statement." />
+    </node>
+    <node concept="3sEwSm" id="59cjVaeXBOq" role="1dSqon">
+      <node concept="1dSo$T" id="59cjVaeXBYG" role="3sEwSq">
+        <node concept="2dhZhe" id="59cjVaeXBYI" role="1dSoH_">
+          <node concept="1dSrUG" id="59cjVaeXBYK" role="2dhZiP">
+            <property role="1dSrUJ" value="expVar1" />
+          </node>
+          <node concept="2dhBVA" id="59cjVaeXP3r" role="2dhZtC">
+            <property role="2dhB_1" value="10" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="59cjVaeV3ww" role="1dSqon" />
     <node concept="2dRJFF" id="4MpGkVjYYYq" role="1dSqon">
       <property role="2dO0Ql" value="Export locals." />
     </node>
