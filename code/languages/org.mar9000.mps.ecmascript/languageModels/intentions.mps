@@ -42,6 +42,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -1183,8 +1186,9 @@
                     <ref role="3TsBF5" to="rh3e:1Ry0cLTQXQP" resolve="rawValue" />
                   </node>
                 </node>
-                <node concept="Xl_RD" id="1Ry0cLTTA9Z" role="37vLTx">
-                  <property role="Xl_RC" value="'use strict';" />
+                <node concept="10M0yZ" id="59cjVaf1m15" role="37vLTx">
+                  <ref role="3cqZAo" to="rh3e:59cjVaf1iqn" resolve="USE_STRICT" />
+                  <ref role="1PxDUh" to="rh3e:59cjVaf1ioT" resolve="JSDirectiveUtils" />
                 </node>
               </node>
             </node>

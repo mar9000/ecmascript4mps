@@ -223,8 +223,54 @@
   </registry>
   <node concept="1dSqrf" id="bcrrPfbIU6">
     <property role="TrG5h" value="all-examples" />
-    <property role="1$8h_y" value="ES2015" />
+    <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="28sKrSv_XGZ" role="1dSqon">
+      <property role="2dO0Ql" value="Checking rule and Unicode support :-D" />
+    </node>
+    <node concept="1dSo_L" id="28sKrSv_Y1H" role="1dSqon">
+      <node concept="2djMEC" id="28sKrSv_Y1F" role="1dwvF7">
+        <property role="2dhT3q" value="=" />
+        <node concept="1dSrUG" id="28sKrSv_Y1G" role="2dhTaa">
+          <property role="1dSrUJ" value="funi" />
+        </node>
+        <node concept="2dhU8L" id="28sKrSv_Yc6" role="2dhTO1">
+          <node concept="1dSrUG" id="28sKrSv_Yca" role="2dhUP6">
+            <property role="1dSrUJ" value="μ" />
+          </node>
+          <node concept="1dSrUG" id="28sKrSv_Ycc" role="2dhUP6">
+            <property role="1dSrUJ" value="π" />
+          </node>
+          <node concept="1dSrUG" id="28sKrSv_ZgT" role="2dhUP6">
+            <property role="1dSrUJ" value="π_a" />
+          </node>
+          <node concept="1dSrUG" id="28sKrSvA3Wt" role="2dhUP6">
+            <property role="1dSrUJ" value="a_π" />
+          </node>
+          <node concept="1dSoBd" id="28sKrSv_Yc7" role="2dhUP1">
+            <node concept="1dSo$T" id="KgDwxzw4FP" role="1dSoGN">
+              <node concept="2dhZhe" id="KgDwxzw4FR" role="1dSoH_">
+                <node concept="1dSrUG" id="KgDwxzw4FT" role="2dhZiP">
+                  <property role="1dSrUJ" value="0aaaa" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="28sKrSv_XyE" role="1dSqon" />
+    <node concept="2dRJFF" id="KgDwxzw3Oo" role="1dSqon">
+      <property role="2dO0Ql" value="Better identifier message for reserved words." />
+    </node>
+    <node concept="1dSo$T" id="KgDwxzw49s" role="1dSqon">
+      <node concept="2dhZhe" id="KgDwxzw49u" role="1dSoH_">
+        <node concept="1dSrUG" id="KgDwxzw49w" role="2dhZiP">
+          <property role="1dSrUJ" value="package" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="KgDwxzw5m4" role="1dSqon" />
     <node concept="2dRJFF" id="59cjVaeTzWl" role="1dSqon">
       <property role="2dO0Ql" value="Export var statement." />
     </node>
