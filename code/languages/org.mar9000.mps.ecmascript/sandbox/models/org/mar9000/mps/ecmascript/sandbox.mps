@@ -9,6 +9,9 @@
   <imports />
   <registry>
     <language id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript">
+      <concept id="3256590409509469669" name="org.mar9000.mps.ecmascript.structure.JSExportDefault" flags="ng" index="4Wcps">
+        <child id="3256590409509528242" name="declaration" index="4WX$b" />
+      </concept>
       <concept id="8569071899956281838" name="org.mar9000.mps.ecmascript.structure.JSStringLiteral" flags="ng" index="2dhBij">
         <property id="8569071899956282000" name="doubleQuotedValue" index="2dhBvH" />
         <property id="7727025628334104963" name="singleQuotedValue" index="3S2$_t" />
@@ -225,6 +228,49 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="2OLIV$DZPCK" role="1dSqon">
+      <property role="2dO0Ql" value="Export of functions (with and without the [Default] rule parameter)." />
+    </node>
+    <node concept="3sEwSm" id="2OLIV$DZPYi" role="1dSqon">
+      <node concept="1dSrUQ" id="2OLIV$DZQ96" role="3sEwSq">
+        <node concept="1dSoBd" id="2OLIV$DZQ98" role="1dSoTS" />
+        <node concept="1dSrUG" id="2OLIV$DZQ9c" role="1dSrUA">
+          <property role="1dSrUJ" value="expfun1" />
+        </node>
+      </node>
+    </node>
+    <node concept="3sEwSm" id="2OLIV$DZQk3" role="1dSqon">
+      <node concept="1dSrUQ" id="2OLIV$DZQk4" role="3sEwSq">
+        <node concept="1dSoBd" id="2OLIV$DZQk5" role="1dSoTS" />
+      </node>
+    </node>
+    <node concept="4Wcps" id="2OLIV$DZQDS" role="1dSqon">
+      <node concept="1dSrUQ" id="2OLIV$DZQOO" role="4WX$b">
+        <node concept="1dSoBd" id="2OLIV$DZQOQ" role="1dSoTS" />
+      </node>
+    </node>
+    <node concept="4Wcps" id="2OLIV$DZQZQ" role="1dSqon">
+      <node concept="1dSrUQ" id="2OLIV$DZRaP" role="4WX$b">
+        <node concept="1dSoBd" id="2OLIV$DZRaR" role="1dSoTS" />
+        <node concept="1dSrUG" id="2OLIV$DZRaV" role="1dSrUA">
+          <property role="1dSrUJ" value="expfun2" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="2OLIV$DZVJW" role="1dSqon" />
+    <node concept="2dRJFF" id="5oJk6ArBVZb" role="1dSqon">
+      <property role="2dO0Ql" value="'Return not allowed' implemented with the [Return] rule parameter." />
+    </node>
+    <node concept="1dSozb" id="5oJk6Ar$YLN" role="1dSqon" />
+    <node concept="1dSrUQ" id="5oJk6Ar_nE1" role="1dSqon">
+      <node concept="1dSrUG" id="5oJk6Ar_nE3" role="1dSrUA">
+        <property role="1dSrUJ" value="myFun" />
+      </node>
+      <node concept="1dSoBd" id="5oJk6Ar_nE5" role="1dSoTS">
+        <node concept="1dSozb" id="5oJk6Ar_nOM" role="1dSoGN" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="5oJk6ArwgKc" role="1dSqon" />
     <node concept="2dRJFF" id="28sKrSv_XGZ" role="1dSqon">
       <property role="2dO0Ql" value="Checking rule and Unicode support :-D" />
     </node>
