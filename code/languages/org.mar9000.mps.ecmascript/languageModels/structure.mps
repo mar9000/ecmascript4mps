@@ -261,6 +261,15 @@
     <node concept="PrWs8" id="5zvrJ7Kj_23" role="PzmwI">
       <ref role="PrY4T" node="C11zTcJAMn" resolve="HasDefault" />
     </node>
+    <node concept="PrWs8" id="57pQC2$9bQd" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bwa" resolve="HasReturn" />
+    </node>
+    <node concept="PrWs8" id="57pQC2$9cvC" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bwb" resolve="HasYield" />
+    </node>
+    <node concept="PrWs8" id="57pQC2$9d9t" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bw9" resolve="HasIn" />
+    </node>
     <node concept="1QGGSu" id="6k$wfqsPu06" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/javascript.png" />
     </node>
@@ -2985,6 +2994,7 @@
   <node concept="PlHQZ" id="C11zTcJAMn">
     <property role="EcuMT" value="720864280001277079" />
     <property role="TrG5h" value="HasDefault" />
+    <property role="3GE5qa" value="ruleparameter" />
   </node>
   <node concept="1TIwiD" id="5zvrJ7Kn8jV">
     <property role="EcuMT" value="6403959180542903547" />
@@ -3015,6 +3025,21 @@
     <node concept="PrWs8" id="5zvrJ7Kn8jW" role="PzmwI">
       <ref role="PrY4T" node="2OLIV$DKnRp" resolve="JSHoistableDeclaration" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="57pQC2$9bw9">
+    <property role="EcuMT" value="5897985433062914057" />
+    <property role="3GE5qa" value="ruleparameter" />
+    <property role="TrG5h" value="HasIn" />
+  </node>
+  <node concept="PlHQZ" id="57pQC2$9bwa">
+    <property role="EcuMT" value="5897985433062914058" />
+    <property role="3GE5qa" value="ruleparameter" />
+    <property role="TrG5h" value="HasReturn" />
+  </node>
+  <node concept="PlHQZ" id="57pQC2$9bwb">
+    <property role="EcuMT" value="5897985433062914059" />
+    <property role="3GE5qa" value="ruleparameter" />
+    <property role="TrG5h" value="HasYield" />
   </node>
 </model>
 
