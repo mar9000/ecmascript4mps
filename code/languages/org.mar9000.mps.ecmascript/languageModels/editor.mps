@@ -19,7 +19,6 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
-    <import index="md0x" ref="r:128285a9-e0d8-4860-91c4-a65d4a5147e5(org.mar9000.mps.ecmascript.constraints)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
@@ -785,6 +784,7 @@
         <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
       </node>
       <node concept="3F1sOY" id="bcrrPfb_DS" role="3EZMnx">
+        <property role="39s7Ar" value="true" />
         <ref role="1NtTu8" to="rh3e:bcrrPfbtcr" resolve="id" />
       </node>
       <node concept="3F0ifn" id="bcrrPfb_E5" role="3EZMnx">
@@ -6044,7 +6044,7 @@
                     </node>
                   </node>
                   <node concept="2YIFZM" id="KgDwxztE8H" role="3uHU7w">
-                    <ref role="37wK5l" to="rh3e:KgDwxzr38n" resolve="isValidIdentifier" />
+                    <ref role="37wK5l" to="rh3e:KgDwxzr38n" resolve="isValidIdentifierName" />
                     <ref role="1Pybhc" to="rh3e:cr9LB7kvHT" resolve="JSIdentifierConstraintsUtil" />
                     <node concept="ub8z3" id="KgDwxztEn1" role="37wK5m" />
                     <node concept="2OqwBi" id="KgDwxztFcP" role="37wK5m">
@@ -7415,6 +7415,62 @@
         <ref role="1NtTu8" to="rh3e:59cjVaeT$6C" resolve="declaration" />
       </node>
       <node concept="2iRfu4" id="59cjVaeTMpS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2OLIV$DKnRJ">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="1XX52x" to="rh3e:2OLIV$DKnR_" resolve="JSExportDefault" />
+    <node concept="3EZMnI" id="2OLIV$DKnRL" role="2wV5jI">
+      <node concept="3F0ifn" id="2OLIV$DKnRS" role="3EZMnx">
+        <property role="3F0ifm" value="export default" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      </node>
+      <node concept="3F1sOY" id="2OLIV$DKAaO" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:2OLIV$DKAaM" resolve="declaration" />
+      </node>
+      <node concept="2iRfu4" id="2OLIV$DKnRO" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5zvrJ7Kn8k$">
+    <property role="3GE5qa" value="statement" />
+    <ref role="1XX52x" to="rh3e:5zvrJ7Kn8jV" resolve="JSGeneratorDeclaration" />
+    <node concept="3EZMnI" id="5zvrJ7Kn8kA" role="2wV5jI">
+      <node concept="PMmxH" id="5zvrJ7Kn8le" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      </node>
+      <node concept="3F1sOY" id="5zvrJ7Kn8kC" role="3EZMnx">
+        <property role="39s7Ar" value="true" />
+        <ref role="1NtTu8" to="rh3e:5zvrJ7Kn8jY" resolve="id" />
+      </node>
+      <node concept="3F0ifn" id="5zvrJ7Kn8kD" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" node="bcrrPfv9FX" resolve="ECMALeftParen" />
+        <node concept="11L4FC" id="5zvrJ7Kn8kE" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="5zvrJ7Kn8kF" role="3EZMnx">
+        <property role="Q2I2d" value="punctuation" />
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="rh3e:5zvrJ7Kn8k3" resolve="params" />
+        <node concept="l2Vlx" id="5zvrJ7Kn8kG" role="2czzBx" />
+        <node concept="3F0ifn" id="5zvrJ7Kn8kH" role="2czzBI" />
+      </node>
+      <node concept="l2Vlx" id="5zvrJ7Kn8kI" role="2iSdaV" />
+      <node concept="3F0ifn" id="5zvrJ7Kn8kJ" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" node="bcrrPfv9Le" resolve="ECMARightParen" />
+      </node>
+      <node concept="3F1sOY" id="5zvrJ7Kn8kK" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:5zvrJ7Kn8k4" resolve="body" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5zvrJ7KsQb6">
+    <ref role="1XX52x" to="rh3e:5OEuegbloj0" resolve="JSBindingIdentifier" />
+    <node concept="3F0A7n" id="5zvrJ7KsQb8" role="2wV5jI">
+      <ref role="1NtTu8" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
     </node>
   </node>
 </model>

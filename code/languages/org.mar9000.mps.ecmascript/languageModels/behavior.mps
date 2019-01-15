@@ -15,7 +15,7 @@
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -29,6 +29,7 @@
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
+        <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
@@ -1195,6 +1196,22 @@
     <node concept="13hLZK" id="2J96awlm_Za" role="13h7CW">
       <node concept="3clFbS" id="2J96awlm_Zb" role="2VODD2" />
     </node>
+    <node concept="13i0hz" id="5zvrJ7Kj_H5" role="13h7CS">
+      <property role="TrG5h" value="forNode" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="C11zTcJFeB" resolve="forNode" />
+      <node concept="3Tm1VV" id="5zvrJ7Kj_H8" role="1B3o_S" />
+      <node concept="3clFbS" id="5zvrJ7Kj_Hb" role="3clF47">
+        <node concept="3clFbF" id="5zvrJ7Kj_Hg" role="3cqZAp">
+          <node concept="3clFbT" id="5zvrJ7Kj_Hf" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5zvrJ7Kj_Hc" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5zvrJ7Kj_Hd" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="5zvrJ7Kj_He" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="2J96awlpD9q">
     <property role="3GE5qa" value="statement" />
@@ -2129,6 +2146,73 @@
     </node>
     <node concept="13hLZK" id="2J96awlQ_jm" role="13h7CW">
       <node concept="3clFbS" id="2J96awlQ_jn" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="C11zTcJFes">
+    <ref role="13h7C2" to="rh3e:C11zTcJAMn" resolve="HasDefault" />
+    <node concept="13i0hz" id="C11zTcJFeB" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="forNode" />
+      <property role="2Ki8OM" value="true" />
+      <node concept="37vLTG" id="C11zTcJFeM" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="C11zTcJFeS" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="C11zTcJFeC" role="1B3o_S" />
+      <node concept="10P_77" id="C11zTcJFeJ" role="3clF45" />
+      <node concept="3clFbS" id="C11zTcJFeE" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="C11zTcJFet" role="13h7CW">
+      <node concept="3clFbS" id="C11zTcJFeu" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="C11zTcJKDy">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="13h7C2" to="rh3e:59cjVaeT$6_" resolve="JSExportableDeclaration" />
+    <node concept="13hLZK" id="C11zTcJKDz" role="13h7CW">
+      <node concept="3clFbS" id="C11zTcJKD$" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5zvrJ7KfDVe" role="13h7CS">
+      <property role="TrG5h" value="forNode" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="C11zTcJFeB" resolve="forNode" />
+      <node concept="3Tm1VV" id="5zvrJ7KfDVh" role="1B3o_S" />
+      <node concept="3clFbS" id="5zvrJ7KfDVk" role="3clF47">
+        <node concept="3clFbF" id="5zvrJ7KfDVp" role="3cqZAp">
+          <node concept="3clFbT" id="5zvrJ7KfDVo" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5zvrJ7KfDVl" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5zvrJ7KfDVm" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="5zvrJ7KfDVn" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5zvrJ7KkBZ0">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="13h7C2" to="rh3e:2OLIV$DKnR_" resolve="JSExportDefault" />
+    <node concept="13hLZK" id="5zvrJ7KkBZ1" role="13h7CW">
+      <node concept="3clFbS" id="5zvrJ7KkBZ2" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5zvrJ7KkBZb" role="13h7CS">
+      <property role="TrG5h" value="forNode" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="C11zTcJFeB" resolve="forNode" />
+      <node concept="3Tm1VV" id="5zvrJ7KkBZe" role="1B3o_S" />
+      <node concept="3clFbS" id="5zvrJ7KkBZh" role="3clF47">
+        <node concept="3clFbF" id="5zvrJ7KkC6D" role="3cqZAp">
+          <node concept="3clFbT" id="5zvrJ7KkC6C" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5zvrJ7KkBZi" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5zvrJ7KkBZj" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="5zvrJ7KkBZk" role="3clF45" />
     </node>
   </node>
 </model>

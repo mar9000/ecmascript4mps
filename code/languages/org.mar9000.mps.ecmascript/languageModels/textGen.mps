@@ -3144,5 +3144,43 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="2OLIV$DZVUT">
+    <property role="3GE5qa" value="importexport" />
+    <ref role="WuzLi" to="rh3e:2OLIV$DKnR_" resolve="JSExportDefault" />
+    <node concept="11bSqf" id="2OLIV$DZVUU" role="11c4hB">
+      <node concept="3clFbS" id="2OLIV$DZVUV" role="2VODD2">
+        <node concept="lc7rE" id="2OLIV$DZW0z" role="3cqZAp">
+          <node concept="la8eA" id="2OLIV$DZW0$" role="lcghm">
+            <property role="lacIc" value="export default " />
+          </node>
+          <node concept="l9hG8" id="2OLIV$DZW0_" role="lcghm">
+            <node concept="2OqwBi" id="2OLIV$DZW0A" role="lb14g">
+              <node concept="117lpO" id="2OLIV$DZW0B" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2OLIV$DZW0C" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:2OLIV$DKAaM" resolve="declaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="57pQC2$07h$">
+    <ref role="WuzLi" to="rh3e:5OEuegbloj0" resolve="JSBindingIdentifier" />
+    <node concept="11bSqf" id="57pQC2$07h_" role="11c4hB">
+      <node concept="3clFbS" id="57pQC2$07hA" role="2VODD2">
+        <node concept="lc7rE" id="57pQC2$07hT" role="3cqZAp">
+          <node concept="l9hG8" id="57pQC2$07if" role="lcghm">
+            <node concept="2OqwBi" id="57pQC2$07tg" role="lb14g">
+              <node concept="117lpO" id="57pQC2$07j7" role="2Oq$k0" />
+              <node concept="3TrcHB" id="57pQC2$07AH" role="2OqNvi">
+                <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
