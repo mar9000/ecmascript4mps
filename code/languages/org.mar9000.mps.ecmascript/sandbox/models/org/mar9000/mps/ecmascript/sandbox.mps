@@ -127,6 +127,11 @@
         <child id="5519637770439893250" name="exportedName" index="2vvT1c" />
         <child id="5519637770439893248" name="name" index="2vvT1e" />
       </concept>
+      <concept id="6403959180542903547" name="org.mar9000.mps.ecmascript.structure.JSGeneratorDeclaration" flags="ng" index="2CwYCa">
+        <child id="6403959180542903550" name="id" index="2CwYCf" />
+        <child id="6403959180542903555" name="params" index="2CwYJM" />
+        <child id="6403959180542903556" name="body" index="2CwYJP" />
+      </concept>
       <concept id="201656743171489017" name="org.mar9000.mps.ecmascript.structure.JSEmptyStatement" flags="ng" index="1dw154" />
       <concept id="201656743171252964" name="org.mar9000.mps.ecmascript.structure.JSIdentifierReference" flags="ng" index="1dx8Xp">
         <reference id="201656743171252965" name="identifier" index="1dx8Xo" />
@@ -230,6 +235,19 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="57pQC2$bjC5" role="1dSqon">
+      <property role="2dO0Ql" value="Generators." />
+    </node>
+    <node concept="2CwYCa" id="57pQC2$bjY7" role="1dSqon">
+      <node concept="1dSrUG" id="57pQC2$bkED" role="2CwYJM">
+        <property role="1dSrUJ" value="par1" />
+      </node>
+      <node concept="1dSoBd" id="57pQC2$bjY9" role="2CwYJP" />
+      <node concept="1mvZK$" id="57pQC2$bk9c" role="2CwYCf">
+        <property role="2CGrvu" value="myFirstGenerator" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="57pQC2$bjt5" role="1dSqon" />
     <node concept="2dRJFF" id="2OLIV$DZPCK" role="1dSqon">
       <property role="2dO0Ql" value="Export of functions (with and without the [Default] rule parameter)." />
     </node>
