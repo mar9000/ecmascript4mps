@@ -224,6 +224,7 @@
       <concept id="5930202437660328356" name="org.mar9000.mps.ecmascript.structure.JSExport" flags="ng" index="3sEwSm">
         <child id="5930202437660328360" name="declaration" index="3sEwSq" />
       </concept>
+      <concept id="5897985433064562212" name="org.mar9000.mps.ecmascript.structure.JSFunctionStatementList" flags="ng" index="3PT0i$" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -238,14 +239,14 @@
     <node concept="2dRJFF" id="57pQC2$bjC5" role="1dSqon">
       <property role="2dO0Ql" value="Generators." />
     </node>
-    <node concept="2CwYCa" id="57pQC2$bjY7" role="1dSqon">
-      <node concept="1dSrUG" id="57pQC2$bkED" role="2CwYJM">
+    <node concept="2CwYCa" id="57pQC2$fHZX" role="1dSqon">
+      <node concept="1dSrUG" id="57pQC2$hA9_" role="2CwYJM">
         <property role="1dSrUJ" value="par1" />
       </node>
-      <node concept="1dSoBd" id="57pQC2$bjY9" role="2CwYJP" />
-      <node concept="1mvZK$" id="57pQC2$bk9c" role="2CwYCf">
+      <node concept="1mvZK$" id="57pQC2$h_xX" role="2CwYCf">
         <property role="2CGrvu" value="myFirstGenerator" />
       </node>
+      <node concept="3PT0i$" id="57pQC2$jgUC" role="2CwYJP" />
     </node>
     <node concept="1dSrUV" id="57pQC2$bjt5" role="1dSqon" />
     <node concept="2dRJFF" id="2OLIV$DZPCK" role="1dSqon">
