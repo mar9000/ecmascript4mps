@@ -54,7 +54,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="7rFtnRV__g5">
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="identifier" />
     <ref role="1M2myG" to="rh3e:bcrrPfieb$" resolve="JSIdentifierReference" />
     <node concept="1N5Pfh" id="7rFtnRV__gT" role="1Mr941">
       <ref role="1N5Vy1" to="rh3e:bcrrPfieb_" resolve="identifier" />

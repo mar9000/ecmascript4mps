@@ -1423,7 +1423,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2J96awlq9x7">
-    <property role="3GE5qa" value="declaration" />
+    <property role="3GE5qa" value="identifier" />
     <ref role="13h7C2" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
     <node concept="13i0hz" id="2J96awlq9xa" role="13h7CS">
       <property role="TrG5h" value="getFqName" />
@@ -2322,6 +2322,31 @@
     </node>
     <node concept="13hLZK" id="57pQC2$9bxj" role="13h7CW">
       <node concept="3clFbS" id="57pQC2$9bxk" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="57pQC2$jx1Z">
+    <property role="3GE5qa" value="function" />
+    <ref role="13h7C2" to="rh3e:57pQC2$ftRC" resolve="JSGeneratorBody" />
+    <node concept="13hLZK" id="57pQC2$jx20" role="13h7CW">
+      <node concept="3clFbS" id="57pQC2$jx21" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="57pQC2$jxE1" role="13h7CS">
+      <property role="TrG5h" value="hasYield" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="57pQC2$9bx4" resolve="hasYield" />
+      <node concept="3Tm1VV" id="57pQC2$jxE4" role="1B3o_S" />
+      <node concept="3clFbS" id="57pQC2$jxE7" role="3clF47">
+        <node concept="3cpWs6" id="57pQC2$jxEc" role="3cqZAp">
+          <node concept="3clFbT" id="57pQC2$jxEb" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="57pQC2$jxE8" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="57pQC2$jxE9" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="57pQC2$jxEa" role="3clF45" />
     </node>
   </node>
 </model>
