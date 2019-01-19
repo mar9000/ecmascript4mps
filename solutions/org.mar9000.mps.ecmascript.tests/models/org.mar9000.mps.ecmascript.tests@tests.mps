@@ -167,6 +167,7 @@
   </node>
   <node concept="1lH9Xt" id="5oJk6Ar_nOO">
     <property role="TrG5h" value="ReturnAllowedInFunctionOnly" />
+    <property role="3GE5qa" value="function" />
     <node concept="1qefOq" id="5oJk6Ar_nP7" role="1SKRRt">
       <node concept="1dSqrf" id="5oJk6Ar_nP9" role="1qenE9">
         <property role="TrG5h" value="test1" />
@@ -200,6 +201,7 @@
   </node>
   <node concept="1lH9Xt" id="2OLIV$DKAb2">
     <property role="TrG5h" value="CheckDefaultInExport" />
+    <property role="3GE5qa" value="importexport" />
     <node concept="1qefOq" id="2OLIV$DKAb3" role="1SKRRt">
       <node concept="1dSqrf" id="2OLIV$DKAb7" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -729,6 +731,41 @@
           </node>
         </node>
         <node concept="1dSrUV" id="57pQC2$sERo" role="1dSqon" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="46Ref1U3TRR" role="1SKRRt">
+      <node concept="1dSqrf" id="46Ref1U3TSR" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSo$T" id="46Ref1U3TST" role="1dSqon">
+          <node concept="2dhZhe" id="46Ref1U3TSU" role="1dSoH_">
+            <node concept="1dSrUG" id="46Ref1U3TSV" role="2dhZiP" />
+            <node concept="1mvZK$" id="46Ref1U3TSW" role="3PzO81">
+              <property role="2CGrvu" value="package" />
+              <node concept="7CXmI" id="46Ref1U3UrP" role="lGtFl">
+                <node concept="1TM$A" id="46Ref1U3UrR" role="7EUXB">
+                  <node concept="2PYRI3" id="46Ref1U3UrT" role="3lydEf">
+                    <ref role="39XzEq" to="xidz:57pQC2$jYZl" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1dSo$T" id="46Ref1U3VgY" role="1dSqon">
+          <node concept="2dhZhe" id="46Ref1U3Vh0" role="1dSoH_">
+            <node concept="1dSrUG" id="46Ref1U3Vh2" role="2dhZiP" />
+            <node concept="1mvZK$" id="46Ref1U3Vh4" role="3PzO81">
+              <property role="2CGrvu" value="0aaaa" />
+              <node concept="7CXmI" id="46Ref1U3Vhh" role="lGtFl">
+                <node concept="1TM$A" id="46Ref1U3Vhj" role="7EUXB">
+                  <node concept="2PYRI3" id="46Ref1U3Vhl" role="3lydEf">
+                    <ref role="39XzEq" to="xidz:57pQC2$jYZl" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

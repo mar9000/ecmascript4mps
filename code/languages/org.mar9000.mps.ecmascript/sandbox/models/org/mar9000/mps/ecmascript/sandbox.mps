@@ -287,11 +287,6 @@
         </node>
       </node>
     </node>
-    <node concept="3sEwSm" id="2OLIV$DZQk3" role="1dSqon">
-      <node concept="1dSrUQ" id="2OLIV$DZQk4" role="3sEwSq">
-        <node concept="1dSoBd" id="2OLIV$DZQk5" role="1dSoTS" />
-      </node>
-    </node>
     <node concept="4Wcps" id="2OLIV$DZQDS" role="1dSqon">
       <node concept="1dSrUQ" id="2OLIV$DZQOO" role="4WX$b">
         <node concept="1dSoBd" id="2OLIV$DZQOQ" role="1dSoTS" />
@@ -305,11 +300,17 @@
         </node>
       </node>
     </node>
+    <node concept="2dRJFF" id="46Ref1U3Wjd" role="1dSqon">
+      <property role="2dO0Ql" value="export function () {}   &lt;-- would report an &quot;identifier is required without defualt&quot; error, see tests." />
+    </node>
+    <node concept="1dSrUV" id="46Ref1U3XzF" role="1dSqon" />
     <node concept="1dSrUV" id="2OLIV$DZVJW" role="1dSqon" />
     <node concept="2dRJFF" id="5oJk6ArBVZb" role="1dSqon">
       <property role="2dO0Ql" value="'Return not allowed' implemented with the [Return] rule parameter." />
     </node>
-    <node concept="1dSozb" id="5oJk6Ar$YLN" role="1dSqon" />
+    <node concept="2dRJFF" id="46Ref1U3TwC" role="1dSqon">
+      <property role="2dO0Ql" value="return;   &lt;-- would report an error, see tests." />
+    </node>
     <node concept="1dSrUQ" id="5oJk6Ar_nE1" role="1dSqon">
       <node concept="1dSrUG" id="5oJk6Ar_nE3" role="1dSrUA">
         <property role="1dSrUJ" value="myFun" />
@@ -342,15 +343,8 @@
             <property role="1dSrUJ" value="a_π" />
           </node>
           <node concept="1dSoBd" id="28sKrSv_Yc7" role="2dhUP1">
-            <node concept="1dSo$T" id="KgDwxzw4FP" role="1dSoGN">
-              <node concept="2dhZhe" id="KgDwxzw4FR" role="1dSoH_">
-                <node concept="1dSrUG" id="KgDwxzw4FT" role="2dhZiP">
-                  <property role="1dSrUJ" value="0aaaa" />
-                </node>
-                <node concept="1mvZK$" id="57pQC2$toCq" role="3PzO81">
-                  <property role="2CGrvu" value="0aaaa" />
-                </node>
-              </node>
+            <node concept="2dRJFF" id="46Ref1U3W7z" role="1dSoGN">
+              <property role="2dO0Ql" value="var 0aaaa;   &lt;-- would report a syntax error, see tests." />
             </node>
           </node>
         </node>
@@ -360,15 +354,8 @@
     <node concept="2dRJFF" id="KgDwxzw3Oo" role="1dSqon">
       <property role="2dO0Ql" value="Better identifier message for reserved words." />
     </node>
-    <node concept="1dSo$T" id="KgDwxzw49s" role="1dSqon">
-      <node concept="2dhZhe" id="KgDwxzw49u" role="1dSoH_">
-        <node concept="1dSrUG" id="KgDwxzw49w" role="2dhZiP">
-          <property role="1dSrUJ" value="package" />
-        </node>
-        <node concept="1mvZK$" id="57pQC2$toCr" role="3PzO81">
-          <property role="2CGrvu" value="package" />
-        </node>
-      </node>
+    <node concept="2dRJFF" id="46Ref1U3U4D" role="1dSqon">
+      <property role="2dO0Ql" value="var package;   &lt;-- reserved word error, see tests." />
     </node>
     <node concept="1dSrUV" id="KgDwxzw5m4" role="1dSqon" />
     <node concept="2dRJFF" id="59cjVaeTzWl" role="1dSqon">
