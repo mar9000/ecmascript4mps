@@ -271,6 +271,21 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
           </node>
         </node>
+        <node concept="1SiIV0" id="46Ref1U6Xab" role="3bR37C">
+          <node concept="3bR9La" id="46Ref1U6Xax" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L6C" resolve="jetbrains.mps.lang.generator" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="46Ref1U6XaU" role="3bR37C">
+          <node concept="3bR9La" id="46Ref1U6Xbi" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="46Ref1U6XbH" role="3bR37C">
+          <node concept="3bR9La" id="46Ref1U6Xc7" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
         <node concept="1SiIV0" id="1KcYDCsMlfb" role="3bR37C">
           <node concept="1Busua" id="1KcYDCsMlfc" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
