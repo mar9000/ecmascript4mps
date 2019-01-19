@@ -2020,7 +2020,7 @@
                         <ref role="3cqZAo" node="5XRXoC0ilB9" resolve="child" />
                       </node>
                       <node concept="chp4Y" id="43UAn_aJ8Bx" role="3oSUPX">
-                        <ref role="cht4Q" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
+                        <ref role="cht4Q" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
                       </node>
                     </node>
                   </node>

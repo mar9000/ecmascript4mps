@@ -826,7 +826,7 @@
   <node concept="2ZfgGJ" id="2J96awjEmfb">
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="JSExpression_surroundWithArray" />
-    <ref role="2ZfgGC" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
+    <ref role="2ZfgGC" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
     <node concept="2S6ZIM" id="2J96awjEmfc" role="2ZfVej">
       <node concept="3clFbS" id="2J96awjEmfd" role="2VODD2">
         <node concept="3clFbF" id="2J96awjEnfD" role="3cqZAp">
@@ -951,7 +951,7 @@
               <node concept="3cpWsn" id="2J96awjFdGD" role="3cpWs9">
                 <property role="TrG5h" value="expr" />
                 <node concept="3Tqbb2" id="2J96awjFdG$" role="1tU5fm">
-                  <ref role="ehGHo" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
+                  <ref role="ehGHo" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
                 </node>
                 <node concept="2OqwBi" id="2J96awjEyOf" role="33vP2m">
                   <node concept="2GrUjf" id="2J96awjEwGT" role="2Oq$k0">
@@ -960,7 +960,7 @@
                   <node concept="2Xjw5R" id="2J96awjE_8u" role="2OqNvi">
                     <node concept="1xMEDy" id="2J96awjE_8w" role="1xVPHs">
                       <node concept="chp4Y" id="2J96awjEBaI" role="ri$Ld">
-                        <ref role="cht4Q" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
+                        <ref role="cht4Q" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="2J96awjEFbL" role="1xVPHs" />
@@ -1063,7 +1063,7 @@
   <node concept="2ZfgGJ" id="2J96awjFLiv">
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="JSExpression_surroundWithPerenthesis" />
-    <ref role="2ZfgGC" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
+    <ref role="2ZfgGC" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
     <node concept="2S6ZIM" id="2J96awjFLiw" role="2ZfVej">
       <node concept="3clFbS" id="2J96awjFLix" role="2VODD2">
         <node concept="3clFbF" id="2J96awjFLiy" role="3cqZAp">
