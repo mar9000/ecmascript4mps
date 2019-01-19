@@ -226,7 +226,12 @@
       <concept id="5930202437660328356" name="org.mar9000.mps.ecmascript.structure.JSExport" flags="ng" index="3sEwSm">
         <child id="5930202437660328360" name="declaration" index="3sEwSq" />
       </concept>
-      <concept id="5897985433064562212" name="org.mar9000.mps.ecmascript.structure.JSFunctionStatementList" flags="ng" index="3PT0i$" />
+      <concept id="5897985433064562212" name="org.mar9000.mps.ecmascript.structure.JSFunctionStatementList" flags="ng" index="3PT0i$">
+        <child id="5897985433064562218" name="list" index="3PT0iE" />
+      </concept>
+      <concept id="5897985433064562220" name="org.mar9000.mps.ecmascript.structure.JSStatementList" flags="ng" index="3PT0iG">
+        <child id="5897985433064628986" name="list" index="3PTNxU" />
+      </concept>
       <concept id="5897985433063598299" name="org.mar9000.mps.ecmascript.structure.JSLabelIdentifier" flags="ng" index="3PXJ9r">
         <property id="5897985433063598357" name="identifierName" index="3PXJel" />
       </concept>
@@ -244,14 +249,31 @@
     <node concept="2dRJFF" id="57pQC2$bjC5" role="1dSqon">
       <property role="2dO0Ql" value="Generators." />
     </node>
-    <node concept="2CwYCa" id="57pQC2$fHZX" role="1dSqon">
-      <node concept="1dSrUG" id="57pQC2$hA9_" role="2CwYJM">
+    <node concept="2CwYCa" id="46Ref1U1Nha" role="1dSqon">
+      <node concept="1dSrUG" id="46Ref1U1NsJ" role="2CwYJM">
         <property role="1dSrUJ" value="par1" />
       </node>
-      <node concept="1mvZK$" id="57pQC2$h_xX" role="2CwYCf">
+      <node concept="3PT0i$" id="46Ref1U1NsL" role="2CwYJP">
+        <node concept="3PT0iG" id="46Ref1U1ND4" role="3PT0iE">
+          <node concept="1dSo$T" id="46Ref1U1ND8" role="3PTNxU">
+            <node concept="2dhZhe" id="46Ref1U1NDa" role="1dSoH_">
+              <node concept="1dSrUG" id="46Ref1U1NDc" role="2dhZiP" />
+              <node concept="1mvZK$" id="46Ref1U1NDe" role="3PzO81">
+                <property role="2CGrvu" value="aa" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1mvZK$" id="46Ref1U1NsH" role="2CwYCf">
         <property role="2CGrvu" value="myFirstGenerator" />
       </node>
-      <node concept="3PT0i$" id="57pQC2$jgUC" role="2CwYJP" />
+    </node>
+    <node concept="2CwYCa" id="46Ref1U3bmn" role="1dSqon">
+      <node concept="3PT0i$" id="46Ref1U3by1" role="2CwYJP" />
+      <node concept="1mvZK$" id="46Ref1U3bxZ" role="2CwYCf">
+        <property role="2CGrvu" value="abc" />
+      </node>
     </node>
     <node concept="1dSrUV" id="57pQC2$bjt5" role="1dSqon" />
     <node concept="2dRJFF" id="2OLIV$DZPCK" role="1dSqon">
