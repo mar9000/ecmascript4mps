@@ -41,3 +41,32 @@ ECMAScript4MPS is rather primitive with respect to its editing capabilities that
 My objective is to generate javascript so a "text like" editor experience while editing ECMAScript4MPS models is out of scope. Nevertheless I think to further improve the editor while I'll be using it.
 
 Writing a developer's guide that could help other developers understanding MPS is also one of my goals.
+
+## Notes about version ES2015 and ES2016
+
+Reference specifications:
+
+  * [ES2015](https://www.ecma-international.org/ecma-262/6.0/)
+  * [ES2016](https://www.ecma-international.org/ecma-262/7.0/)
+
+### Rule parameters
+
+Production rules can have parameters in the for of [Parameter], e.g. [Default], and each production can call other productions with or without one or more parameters.
+
+### Identifiers [sec 12.1](https://www.ecma-international.org/ecma-262/7.0/#sec-identifiers)
+
+`Identifier` has been specialized and is used only in other `*Identifier` productions.  
+`IdentifierName` is implemented as a `string` with checking rules.
+
+Productions that use `Identifier` have been ideally simplified like:
+```
+BindingIdentifier[Yield]:
+  IdentifierName but not ReservedWord   <-- instead of Identifier.
+  [~Yield]yield
+```
+
+#### Implementation
+
+  * use `JSIdentifiersUtils.isValidIdentifier()` to check an `Identifier`.
+  * use `JSIdentifiersUtils.isValidIdentifierName()` to check an `IdentifierName`.
+  * the other concepts `JS*Identifier` have their own checking rules.
