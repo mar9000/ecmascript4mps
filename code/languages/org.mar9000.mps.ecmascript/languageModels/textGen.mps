@@ -853,7 +853,7 @@
   </node>
   <node concept="WtQ9Q" id="48UnsZjkC02">
     <property role="3GE5qa" value="expression" />
-    <ref role="WuzLi" to="rh3e:7rFtnRVFcPx" resolve="JSArrayExpression" />
+    <ref role="WuzLi" to="rh3e:7rFtnRVFcPx" resolve="JSArrayLiteral" />
     <node concept="11bSqf" id="48UnsZjkC03" role="11c4hB">
       <node concept="3clFbS" id="48UnsZjkC04" role="2VODD2">
         <node concept="lc7rE" id="48UnsZjkC0n" role="3cqZAp">

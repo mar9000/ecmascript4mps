@@ -1982,7 +1982,7 @@
   </node>
   <node concept="24kQdi" id="7rFtnRVFIwH">
     <property role="3GE5qa" value="expression" />
-    <ref role="1XX52x" to="rh3e:7rFtnRVFcPx" resolve="JSArrayExpression" />
+    <ref role="1XX52x" to="rh3e:7rFtnRVFcPx" resolve="JSArrayLiteral" />
     <node concept="3EZMnI" id="7rFtnRVFIwJ" role="2wV5jI">
       <node concept="3F0ifn" id="7rFtnRVFIwQ" role="3EZMnx">
         <property role="3F0ifm" value="[" />

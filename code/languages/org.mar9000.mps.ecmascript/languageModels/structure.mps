@@ -990,7 +990,7 @@
   </node>
   <node concept="1TIwiD" id="7rFtnRVFcPx">
     <property role="3GE5qa" value="expression" />
-    <property role="TrG5h" value="JSArrayExpression" />
+    <property role="TrG5h" value="JSArrayLiteral" />
     <property role="34LRSv" value="[" />
     <property role="R4oN_" value="array expression" />
     <property role="EcuMT" value="8569071899956268385" />
