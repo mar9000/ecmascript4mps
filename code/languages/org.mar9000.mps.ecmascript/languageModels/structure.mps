@@ -3102,6 +3102,9 @@
     <node concept="t5JxF" id="57pQC2$bMJC" role="lGtFl">
       <property role="t5JxN" value="From BindingIdentifier." />
     </node>
+    <node concept="PrWs8" id="46Ref1UlGd_" role="PzmwI">
+      <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5OEuegblojy">
     <property role="EcuMT" value="6713311115387176162" />

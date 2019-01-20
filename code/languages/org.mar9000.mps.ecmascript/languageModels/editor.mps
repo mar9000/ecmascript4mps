@@ -6095,16 +6095,21 @@
               </node>
             </node>
           </node>
+          <node concept="3SKdUt" id="46Ref1UlEJM" role="3cqZAp">
+            <node concept="3SKdUq" id="46Ref1UlEJO" role="3SKWNk">
+              <property role="3SKdUp" value="Should create JSBidingIdentifier, HJSIdentifier will be removed." />
+            </node>
+          </node>
           <node concept="3cpWs8" id="6k$wfqsPthj" role="3cqZAp">
             <node concept="3cpWsn" id="6k$wfqsPthk" role="3cpWs9">
               <property role="TrG5h" value="identifier" />
               <node concept="3Tqbb2" id="6k$wfqsPthl" role="1tU5fm">
-                <ref role="ehGHo" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
+                <ref role="ehGHo" to="rh3e:5OEuegbloj0" resolve="JSBindingIdentifier" />
               </node>
               <node concept="2ShNRf" id="6k$wfqsPthm" role="33vP2m">
                 <node concept="3zrR0B" id="6k$wfqsPthn" role="2ShVmc">
                   <node concept="3Tqbb2" id="6k$wfqsPtho" role="3zrR0E">
-                    <ref role="ehGHo" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
+                    <ref role="ehGHo" to="rh3e:5OEuegbloj0" resolve="JSBindingIdentifier" />
                   </node>
                 </node>
               </node>
@@ -6122,8 +6127,8 @@
                 <node concept="37vLTw" id="6k$wfqsPthv" role="2Oq$k0">
                   <ref role="3cqZAo" node="6k$wfqsPthk" resolve="identifier" />
                 </node>
-                <node concept="3TrcHB" id="6k$wfqsPthw" role="2OqNvi">
-                  <ref role="3TsBF5" to="rh3e:bcrrPfbtci" resolve="idName" />
+                <node concept="3TrcHB" id="46Ref1UlFKb" role="2OqNvi">
+                  <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
                 </node>
               </node>
             </node>

@@ -4,9 +4,13 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
     <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="6" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="84nc" ref="r:1c16acc8-2846-4c32-baa9-fb45f4d01637(org.mar9000.mps.ecmascript.migration)" />
+    <import index="3aej" ref="r:747ff8d1-828a-41db-8304-ef0626966e67(org.mar9000.mps.ecmascript.editor)" />
     <import index="xidz" ref="r:dd7e8e08-7b19-4875-93e9-cae7813b46cd(org.mar9000.mps.ecmascript.typesystem)" implicit="true" />
   </imports>
   <registry>
@@ -26,7 +30,26 @@
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
+      <concept id="1228934484974" name="jetbrains.mps.lang.test.structure.PressKeyStatement" flags="nn" index="yd1bK">
+        <child id="1228934507814" name="keyStrokes" index="yd6KS" />
+      </concept>
+      <concept id="1229187653856" name="jetbrains.mps.lang.test.structure.EditorTestCase" flags="lg" index="LiM7Y">
+        <property id="1883175908513350760" name="description" index="3YCmrE" />
+        <child id="1229187676388" name="nodeToEdit" index="LiRBU" />
+        <child id="1229187707859" name="result" index="LiZbd" />
+        <child id="1229187755283" name="code" index="LjaKd" />
+      </concept>
+      <concept id="1229194968594" name="jetbrains.mps.lang.test.structure.AnonymousCellAnnotation" flags="ng" index="LIFWc">
+        <property id="6268941039745498163" name="selectionStart" index="p6zMq" />
+        <property id="6268941039745498165" name="selectionEnd" index="p6zMs" />
+        <property id="1229194968595" name="cellId" index="LIFWd" />
+        <property id="1932269937152561478" name="useLabelSelection" index="OXtK3" />
+        <property id="1229432188737" name="isLastPosition" index="ZRATv" />
+      </concept>
       <concept id="4531408400484511853" name="jetbrains.mps.lang.test.structure.ReportErrorStatementReference" flags="ng" index="2PYRI3" />
+      <concept id="1227182079811" name="jetbrains.mps.lang.test.structure.TypeKeyStatement" flags="nn" index="2TK7Tu">
+        <property id="1227184461946" name="keys" index="2TTd_B" />
+      </concept>
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
@@ -40,6 +63,16 @@
         <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
       </concept>
     </language>
+    <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1207318242772" name="jetbrains.mps.lang.plugin.structure.KeyMapKeystroke" flags="ng" index="pLAjd">
+        <property id="1207318242774" name="keycode" index="pLAjf" />
+      </concept>
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+    </language>
     <language id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript">
       <concept id="3256590409509469669" name="org.mar9000.mps.ecmascript.structure.JSExportDefault" flags="ng" index="4Wcps">
         <child id="3256590409509528242" name="declaration" index="4WX$b" />
@@ -50,6 +83,10 @@
       <concept id="8569071899956248883" name="org.mar9000.mps.ecmascript.structure.JSVariableDeclarator" flags="ng" index="2dhZhe">
         <child id="8569071899956249032" name="id" index="2dhZiP" />
         <child id="5897985433066182785" name="identifier" index="3PzO81" />
+      </concept>
+      <concept id="8569071899955716053" name="org.mar9000.mps.ecmascript.structure.JSAssignmentExpression" flags="ng" index="2djMEC">
+        <property id="8569071899956274599" name="operator" index="2dhT3q" />
+        <child id="8569071899956275191" name="left" index="2dhTaa" />
       </concept>
       <concept id="8569071899948453782" name="org.mar9000.mps.ecmascript.structure.SingleLineComment" flags="ng" index="2dRJFF">
         <property id="8569071899948841192" name="value" index="2dO0Ql" />
@@ -66,6 +103,9 @@
       <concept id="201656743169484150" name="org.mar9000.mps.ecmascript.structure.JSReturnStatement" flags="ng" index="1dSozb" />
       <concept id="201656743169483908" name="org.mar9000.mps.ecmascript.structure.JSVariableDeclaration" flags="ng" index="1dSo$T">
         <child id="201656743169484504" name="declarations" index="1dSoH_" />
+      </concept>
+      <concept id="201656743169483980" name="org.mar9000.mps.ecmascript.structure.JSExpressionStatement" flags="ng" index="1dSo_L">
+        <child id="201656743171561338" name="expression" index="1dwvF7" />
       </concept>
       <concept id="201656743169483888" name="org.mar9000.mps.ecmascript.structure.JSBlockStatement" flags="ng" index="1dSoBd">
         <child id="201656743169484430" name="body" index="1dSoGN" />
@@ -796,6 +836,55 @@
           <node concept="1dSoJQ" id="57pQC2$qBeH" role="1dGR37" />
           <node concept="3PXJ9r" id="57pQC2$rfBX" role="3PJpZr">
             <property role="3PXJel" value="label1" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="46Ref1UlDL0">
+    <property role="3GE5qa" value="identifier" />
+    <property role="TrG5h" value="VariableInitializationShouldCreateJSBindingIdentifier" />
+    <property role="3YCmrE" value="JSIdentifier will be deprecated, create JSBindingIdentifier instead of JSIdentifier." />
+    <node concept="3clFbS" id="46Ref1UmvD9" role="LjaKd">
+      <node concept="yd1bK" id="46Ref1UnHbg" role="3cqZAp">
+        <node concept="pLAjd" id="46Ref1UnHbh" role="yd6KS">
+          <property role="pLAjf" value="VK_ENTER" />
+        </node>
+      </node>
+      <node concept="2TK7Tu" id="46Ref1UnsH2" role="3cqZAp">
+        <property role="2TTd_B" value="a" />
+      </node>
+      <node concept="yd1bK" id="46Ref1UnHaJ" role="3cqZAp">
+        <node concept="pLAjd" id="46Ref1UnHaL" role="yd6KS">
+          <property role="pLAjf" value="VK_ENTER" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSqrf" id="46Ref1UmH_s" role="LiRBU">
+      <property role="TrG5h" value="test" />
+      <node concept="2dRJFF" id="46Ref1UnoUS" role="1dSqon">
+        <property role="2dO0Ql" value="." />
+      </node>
+      <node concept="1dSrUV" id="46Ref1UnoUU" role="1dSqon">
+        <node concept="LIFWc" id="46Ref1UnoV0" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_6jc3qb_a" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSqrf" id="46Ref1UmHLx" role="LiZbd">
+      <property role="TrG5h" value="test" />
+      <node concept="2dRJFF" id="46Ref1UmIcQ" role="1dSqon">
+        <property role="2dO0Ql" value="." />
+      </node>
+      <node concept="1dSo_L" id="46Ref1UnHb5" role="1dSqon">
+        <node concept="2djMEC" id="46Ref1UnHb3" role="1dwvF7">
+          <property role="2dhT3q" value="=" />
+          <node concept="1mvZK$" id="46Ref1UnHb4" role="2dhTaa">
+            <property role="2CGrvu" value="a" />
           </node>
         </node>
       </node>
