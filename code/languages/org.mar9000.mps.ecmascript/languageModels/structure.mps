@@ -424,6 +424,9 @@
     <node concept="PrWs8" id="2J96awlQuVB" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="t5JxF" id="46Ref1Uh8_I" role="lGtFl">
+      <property role="t5JxN" value="From the ExpressionStatement[Yield] rule." />
+    </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbuj_">
     <property role="TrG5h" value="JSIfStatement" />
@@ -634,6 +637,9 @@
     <node concept="PrWs8" id="2J96awlQz2R" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="t5JxF" id="46Ref1Uh82d" role="lGtFl">
+      <property role="t5JxN" value="From the Expression alternative: Expression[?In, ?Yield] ',' AssignmentExpression[?In, ?Yield]" />
+    </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfidFD">
     <property role="3GE5qa" value="expression.literal" />
@@ -807,6 +813,9 @@
       <property role="IQ2ns" value="8569071899956275324" />
       <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
     </node>
+    <node concept="t5JxF" id="46Ref1UgS0o" role="lGtFl">
+      <property role="t5JxN" value="From the AssignmentExpression alternatives: LeftHandSideExpression[?Yield] (= | AssignmentOperator) AssignmentExpression[?In, ?Yield]" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVF22p">
     <property role="3GE5qa" value="expression" />
@@ -817,6 +826,12 @@
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
     <node concept="PrWs8" id="7rFtnRVFc6c" role="PzmwI">
       <ref role="PrY4T" node="7rFtnRVFc0y" resolve="JSForInitPart" />
+    </node>
+    <node concept="PrWs8" id="46Ref1Ujnc9" role="PzmwI">
+      <ref role="PrY4T" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
+    </node>
+    <node concept="t5JxF" id="46Ref1UgMUF" role="lGtFl">
+      <property role="t5JxN" value="From the PrimaryExpression[Yield] production." />
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVF6XL">
@@ -989,7 +1004,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFcPx">
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.literal" />
     <property role="TrG5h" value="JSArrayLiteral" />
     <property role="34LRSv" value="[" />
     <property role="R4oN_" value="array expression" />
@@ -1000,7 +1015,7 @@
       <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="8569071899956268586" />
-      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+      <ref role="20lvS9" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFcUt">
@@ -3457,6 +3472,233 @@
     <property role="TrG5h" value="JSDeclaration" />
     <node concept="PrWs8" id="57pQC2$j2eo" role="PrDN$">
       <ref role="PrY4T" node="57pQC2$ftSH" resolve="JSStatementListItem" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="46Ref1UdAkC">
+    <property role="EcuMT" value="4735316138697057576" />
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="JSArrayLiteralElement" />
+  </node>
+  <node concept="1TIwiD" id="46Ref1UeAIW">
+    <property role="EcuMT" value="4735316138697321404" />
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="JSElision" />
+    <property role="34LRSv" value="elision" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="46Ref1UeAIX" role="PzmwI">
+      <ref role="PrY4T" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UeALu">
+    <property role="EcuMT" value="4735316138697321566" />
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="JSSpreadElement" />
+    <property role="34LRSv" value="..." />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="1TJgyj" id="46Ref1UeALx" role="1TKVEi">
+      <property role="IQ2ns" value="4735316138697321569" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+      <node concept="t5JxF" id="46Ref1UjABc" role="lGtFl">
+        <property role="t5JxN" value="TODO: should be JSAbstractAssignmentExpression." />
+      </node>
+    </node>
+    <node concept="PrWs8" id="46Ref1UeALv" role="PzmwI">
+      <ref role="PrY4T" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeb">
+    <property role="EcuMT" value="4735316138697876363" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSAbstractNewExpression" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="46Ref1UgIeS" resolve="JSAbstractLeftHandSideExpression" />
+    <node concept="t5JxF" id="46Ref1UgIec" role="lGtFl">
+      <property role="t5JxN" value="From the NewExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIed">
+    <property role="EcuMT" value="4735316138697876365" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSAbstractAssignmentExpression" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="46Ref1Uh8_W" resolve="JSAbstractExpression" />
+    <node concept="t5JxF" id="46Ref1UgIee" role="lGtFl">
+      <property role="t5JxN" value="From the AssignmentExpression[In, Yield] production." />
+    </node>
+    <node concept="PrWs8" id="46Ref1UgX2Y" role="PzmwI">
+      <ref role="PrY4T" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeg">
+    <property role="EcuMT" value="4735316138697876368" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractConditionalExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeh" role="lGtFl">
+      <property role="t5JxN" value="From the ConditionalExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIej">
+    <property role="EcuMT" value="4735316138697876371" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractLogicalOrExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeg" resolve="JSAbstractConditionalExpression" />
+    <node concept="t5JxF" id="46Ref1UgIek" role="lGtFl">
+      <property role="t5JxN" value="From the LogicalORExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIem">
+    <property role="EcuMT" value="4735316138697876374" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractLogicalAndExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIej" resolve="JSAbstractLogicalOrExpression" />
+    <node concept="t5JxF" id="46Ref1UgIen" role="lGtFl">
+      <property role="t5JxN" value="From the LogicalAndExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeo">
+    <property role="EcuMT" value="4735316138697876376" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractBitwiseOrExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIem" resolve="JSAbstractLogicalAndExpression" />
+    <node concept="t5JxF" id="46Ref1UgIep" role="lGtFl">
+      <property role="t5JxN" value="From the BitwiseORExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIer">
+    <property role="EcuMT" value="4735316138697876379" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractBitwiseXorExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeo" resolve="JSAbstractBitwiseOrExpression" />
+    <node concept="t5JxF" id="46Ref1UgIes" role="lGtFl">
+      <property role="t5JxN" value="From the BitwiseXORExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeu">
+    <property role="EcuMT" value="4735316138697876382" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractBitwiseAndExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIer" resolve="JSAbstractBitwiseXorExpression" />
+    <node concept="t5JxF" id="46Ref1UgIev" role="lGtFl">
+      <property role="t5JxN" value="From BitwiseANDExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIex">
+    <property role="EcuMT" value="4735316138697876385" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractEqualityExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeu" resolve="JSAbstractBitwiseAndExpression" />
+    <node concept="t5JxF" id="46Ref1UgIey" role="lGtFl">
+      <property role="t5JxN" value="From the EqualityExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIe$">
+    <property role="EcuMT" value="4735316138697876388" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractRelationalExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIex" resolve="JSAbstractEqualityExpression" />
+    <node concept="t5JxF" id="46Ref1UgIe_" role="lGtFl">
+      <property role="t5JxN" value="From RelationalExpression[In, Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeB">
+    <property role="EcuMT" value="4735316138697876391" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractShiftExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIe$" resolve="JSAbstractRelationalExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeC" role="lGtFl">
+      <property role="t5JxN" value="From the ShiftExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeE">
+    <property role="EcuMT" value="4735316138697876394" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractAdditiveExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeB" resolve="JSAbstractShiftExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeF" role="lGtFl">
+      <property role="t5JxN" value="From the AdditiveExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeH">
+    <property role="EcuMT" value="4735316138697876397" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractMultiplicativeExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeE" resolve="JSAbstractAdditiveExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeI" role="lGtFl">
+      <property role="t5JxN" value="From the MultiplicativeExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeK">
+    <property role="EcuMT" value="4735316138697876400" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractExponentiationExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeH" resolve="JSAbstractMultiplicativeExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeL" role="lGtFl">
+      <property role="t5JxN" value="From the ExponentiationExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeN">
+    <property role="EcuMT" value="4735316138697876403" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSAbstractUnaryExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeK" resolve="JSAbstractExponentiationExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeO" role="lGtFl">
+      <property role="t5JxN" value="From the UnaryExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeQ">
+    <property role="EcuMT" value="4735316138697876406" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractUpdateExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeN" resolve="JSAbstractUnaryExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeR" role="lGtFl">
+      <property role="t5JxN" value="From the UpdateExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeS">
+    <property role="EcuMT" value="4735316138697876408" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractLeftHandSideExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeQ" resolve="JSAbstractUpdateExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeT" role="lGtFl">
+      <property role="t5JxN" value="From the LeftHandSideExpression[?Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1UgIeV">
+    <property role="EcuMT" value="4735316138697876411" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractMemberExpression" />
+    <ref role="1TJDcQ" node="46Ref1UgIeb" resolve="JSAbstractNewExpression" />
+    <node concept="t5JxF" id="46Ref1UgIeW" role="lGtFl">
+      <property role="t5JxN" value="From the MemberExpression[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46Ref1Uh8_W">
+    <property role="EcuMT" value="4735316138697984380" />
+    <property role="3GE5qa" value="expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractExpression" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="t5JxF" id="46Ref1Uh8_X" role="lGtFl">
+      <property role="t5JxN" value="From the Expression[In, Yield] rule." />
     </node>
   </node>
 </model>

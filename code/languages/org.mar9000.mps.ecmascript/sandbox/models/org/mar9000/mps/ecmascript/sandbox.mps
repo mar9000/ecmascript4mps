@@ -71,7 +71,7 @@
         <child id="8569071899956279195" name="expressionProperty" index="2dhSbA" />
         <child id="8569071899956278887" name="object" index="2dhScq" />
       </concept>
-      <concept id="8569071899956268385" name="org.mar9000.mps.ecmascript.structure.JSArrayExpression" flags="ng" index="2dhVws">
+      <concept id="8569071899956268385" name="org.mar9000.mps.ecmascript.structure.JSArrayLiteral" flags="ng" index="2dhVws">
         <child id="8569071899956268586" name="elements" index="2dhVHn" />
       </concept>
       <concept id="8569071899956268701" name="org.mar9000.mps.ecmascript.structure.JSProperty" flags="ng" index="2dhVJw">
@@ -132,6 +132,10 @@
         <child id="6403959180542903550" name="id" index="2CwYCf" />
         <child id="6403959180542903555" name="params" index="2CwYJM" />
         <child id="6403959180542903556" name="body" index="2CwYJP" />
+      </concept>
+      <concept id="4735316138697321404" name="org.mar9000.mps.ecmascript.structure.JSElision" flags="ng" index="Vzldc" />
+      <concept id="4735316138697321566" name="org.mar9000.mps.ecmascript.structure.JSSpreadElement" flags="ng" index="VzliI">
+        <child id="4735316138697321569" name="expression" index="Vzlih" />
       </concept>
       <concept id="201656743171489017" name="org.mar9000.mps.ecmascript.structure.JSEmptyStatement" flags="ng" index="1dw154" />
       <concept id="201656743171252964" name="org.mar9000.mps.ecmascript.structure.JSIdentifierReference" flags="ng" index="1dx8Xp">
@@ -246,6 +250,59 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="46Ref1UeAc4" role="1dSqon">
+      <property role="2dO0Ql" value="Spread element." />
+    </node>
+    <node concept="1dSo_L" id="46Ref1UeAza" role="1dSqon">
+      <node concept="2djMEC" id="46Ref1UeAzb" role="1dwvF7">
+        <property role="2dhT3q" value="=" />
+        <node concept="1dSrUG" id="46Ref1UeAzc" role="2dhTaa">
+          <property role="1dSrUJ" value="b" />
+        </node>
+        <node concept="2dhVws" id="46Ref1UeAzd" role="2dhTO1">
+          <node concept="2dhBVA" id="46Ref1UjbDo" role="2dhVHn">
+            <property role="2dhB_1" value="1" />
+          </node>
+          <node concept="2dhBVA" id="46Ref1UjbDE" role="2dhVHn">
+            <property role="2dhB_1" value="2" />
+          </node>
+          <node concept="VzliI" id="46Ref1UfIqa" role="2dhVHn">
+            <node concept="2dhVws" id="46Ref1UfIqh" role="Vzlih">
+              <node concept="2dhBVA" id="46Ref1UfIql" role="2dhVHn">
+                <property role="2dhB_1" value="3" />
+              </node>
+              <node concept="2dhBVA" id="46Ref1UfIqq" role="2dhVHn">
+                <property role="2dhB_1" value="4" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="46Ref1Ujc_z" role="1dSqon" />
+    <node concept="2dRJFF" id="46Ref1Ujcd3" role="1dSqon">
+      <property role="2dO0Ql" value="Elision." />
+    </node>
+    <node concept="1dSo_L" id="46Ref1Ujcd4" role="1dSqon">
+      <node concept="2djMEC" id="46Ref1Ujcd5" role="1dwvF7">
+        <property role="2dhT3q" value="=" />
+        <node concept="1dSrUG" id="46Ref1Ujcd6" role="2dhTaa">
+          <property role="1dSrUJ" value="b" />
+        </node>
+        <node concept="2dhVws" id="46Ref1Ujcd7" role="2dhTO1">
+          <node concept="2dhBVA" id="46Ref1Ujcd8" role="2dhVHn">
+            <property role="2dhB_1" value="1" />
+          </node>
+          <node concept="Vzldc" id="46Ref1Ujcpn" role="2dhVHn" />
+          <node concept="2dhBVA" id="46Ref1Ujcd9" role="2dhVHn">
+            <property role="2dhB_1" value="2" />
+          </node>
+          <node concept="Vzldc" id="46Ref1Ujcda" role="2dhVHn" />
+          <node concept="Vzldc" id="46Ref1Ujcdb" role="2dhVHn" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="46Ref1UjbDN" role="1dSqon" />
     <node concept="2dRJFF" id="57pQC2$bjC5" role="1dSqon">
       <property role="2dO0Ql" value="Generators." />
     </node>

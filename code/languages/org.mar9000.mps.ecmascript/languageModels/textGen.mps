@@ -852,7 +852,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="48UnsZjkC02">
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.literal" />
     <ref role="WuzLi" to="rh3e:7rFtnRVFcPx" resolve="JSArrayLiteral" />
     <node concept="11bSqf" id="48UnsZjkC03" role="11c4hB">
       <node concept="3clFbS" id="48UnsZjkC04" role="2VODD2">
@@ -3307,6 +3307,34 @@
               <node concept="117lpO" id="46Ref1TZco0" role="2Oq$k0" />
               <node concept="3Tsc0h" id="46Ref1TZcCL" role="2OqNvi">
                 <ref role="3TtcxE" to="rh3e:57pQC2$fIbU" resolve="list" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="46Ref1UeAKf">
+    <property role="3GE5qa" value="expression.literal" />
+    <ref role="WuzLi" to="rh3e:46Ref1UeAIW" resolve="JSElision" />
+    <node concept="11bSqf" id="46Ref1UeAKg" role="11c4hB">
+      <node concept="3clFbS" id="46Ref1UeAKh" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="46Ref1UeAMC">
+    <property role="3GE5qa" value="expression.literal" />
+    <ref role="WuzLi" to="rh3e:46Ref1UeALu" resolve="JSSpreadElement" />
+    <node concept="11bSqf" id="46Ref1UeAMD" role="11c4hB">
+      <node concept="3clFbS" id="46Ref1UeAME" role="2VODD2">
+        <node concept="lc7rE" id="46Ref1UeANe" role="3cqZAp">
+          <node concept="la8eA" id="46Ref1UeANA" role="lcghm">
+            <property role="lacIc" value="..." />
+          </node>
+          <node concept="l9hG8" id="46Ref1UeAPI" role="lcghm">
+            <node concept="2OqwBi" id="46Ref1UeB1_" role="lb14g">
+              <node concept="117lpO" id="46Ref1UeAQB" role="2Oq$k0" />
+              <node concept="3TrEf2" id="46Ref1UeBcB" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:46Ref1UeALx" resolve="expression" />
               </node>
             </node>
           </node>

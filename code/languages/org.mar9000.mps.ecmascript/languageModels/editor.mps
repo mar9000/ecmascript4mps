@@ -1981,7 +1981,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7rFtnRVFIwH">
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.literal" />
     <ref role="1XX52x" to="rh3e:7rFtnRVFcPx" resolve="JSArrayLiteral" />
     <node concept="3EZMnI" id="7rFtnRVFIwJ" role="2wV5jI">
       <node concept="3F0ifn" id="7rFtnRVFIwQ" role="3EZMnx">
@@ -7541,6 +7541,27 @@
     <ref role="1XX52x" to="rh3e:57pQC2$bMzr" resolve="JSLabelIdentifier" />
     <node concept="3F0A7n" id="57pQC2$qBeX" role="2wV5jI">
       <ref role="1NtTu8" to="rh3e:57pQC2$bM$l" resolve="identifierName" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="46Ref1UeAJo">
+    <property role="3GE5qa" value="expression.literal" />
+    <ref role="1XX52x" to="rh3e:46Ref1UeAIW" resolve="JSElision" />
+    <node concept="3F0ifn" id="46Ref1UeAJq" role="2wV5jI" />
+  </node>
+  <node concept="24kQdi" id="46Ref1UeALW">
+    <property role="3GE5qa" value="expression.literal" />
+    <ref role="1XX52x" to="rh3e:46Ref1UeALu" resolve="JSSpreadElement" />
+    <node concept="3EZMnI" id="46Ref1UeALY" role="2wV5jI">
+      <node concept="3F0ifn" id="46Ref1UeAM5" role="3EZMnx">
+        <property role="3F0ifm" value="..." />
+        <node concept="11LMrY" id="46Ref1UfIAw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="46Ref1UeAM1" role="2iSdaV" />
+      <node concept="3F1sOY" id="46Ref1UeAMb" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:46Ref1UeALx" resolve="expression" />
+      </node>
     </node>
   </node>
 </model>
