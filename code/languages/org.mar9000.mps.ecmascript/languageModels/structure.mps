@@ -823,7 +823,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="8569071899956224153" />
-    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <ref role="1TJDcQ" node="46Ref1UgIeV" resolve="JSAbstractMemberExpression" />
     <node concept="PrWs8" id="7rFtnRVFc6c" role="PzmwI">
       <ref role="PrY4T" node="7rFtnRVFc0y" resolve="JSForInitPart" />
     </node>
@@ -868,7 +868,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="init" />
       <property role="IQ2ns" value="8569071899956249109" />
-      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+      <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFbdn">
@@ -3659,6 +3659,7 @@
     <property role="EcuMT" value="4735316138697876403" />
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="JSAbstractUnaryExpression" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="46Ref1UgIeK" resolve="JSAbstractExponentiationExpression" />
     <node concept="t5JxF" id="46Ref1UgIeO" role="lGtFl">
       <property role="t5JxN" value="From the UnaryExpression[Yield] production." />
