@@ -11,6 +11,7 @@
   <imports>
     <import index="84nc" ref="r:1c16acc8-2846-4c32-baa9-fb45f4d01637(org.mar9000.mps.ecmascript.migration)" />
     <import index="3aej" ref="r:747ff8d1-828a-41db-8304-ef0626966e67(org.mar9000.mps.ecmascript.editor)" />
+    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="xidz" ref="r:dd7e8e08-7b19-4875-93e9-cae7813b46cd(org.mar9000.mps.ecmascript.typesystem)" implicit="true" />
   </imports>
   <registry>
@@ -32,6 +33,9 @@
       </concept>
       <concept id="1228934484974" name="jetbrains.mps.lang.test.structure.PressKeyStatement" flags="nn" index="yd1bK">
         <child id="1228934507814" name="keyStrokes" index="yd6KS" />
+      </concept>
+      <concept id="7011073693661765739" name="jetbrains.mps.lang.test.structure.InvokeActionStatement" flags="nn" index="2HxZob">
+        <child id="1101347953350127927" name="actionReference" index="3iKnsn" />
       </concept>
       <concept id="1229187653856" name="jetbrains.mps.lang.test.structure.EditorTestCase" flags="lg" index="LiM7Y">
         <property id="1883175908513350760" name="description" index="3YCmrE" />
@@ -55,6 +59,9 @@
       </concept>
       <concept id="6626913010124185481" name="jetbrains.mps.lang.test.structure.MigrationReference" flags="ng" index="3ea_Bc">
         <reference id="6626913010124185482" name="migration" index="3ea_Bf" />
+      </concept>
+      <concept id="4239542196496927193" name="jetbrains.mps.lang.test.structure.MPSActionReference" flags="ng" index="1iFQzN">
+        <reference id="4239542196496929559" name="action" index="1iFR8X" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
@@ -846,16 +853,16 @@
     <property role="TrG5h" value="VariableInitializationShouldCreateJSBindingIdentifier" />
     <property role="3YCmrE" value="JSIdentifier will be deprecated, create JSBindingIdentifier instead of JSIdentifier." />
     <node concept="3clFbS" id="46Ref1UmvD9" role="LjaKd">
-      <node concept="yd1bK" id="46Ref1UnHbg" role="3cqZAp">
-        <node concept="pLAjd" id="46Ref1UnHbh" role="yd6KS">
-          <property role="pLAjf" value="VK_ENTER" />
-        </node>
-      </node>
       <node concept="2TK7Tu" id="46Ref1UnsH2" role="3cqZAp">
         <property role="2TTd_B" value="a" />
       </node>
-      <node concept="yd1bK" id="46Ref1UnHaJ" role="3cqZAp">
-        <node concept="pLAjd" id="46Ref1UnHaL" role="yd6KS">
+      <node concept="2HxZob" id="6IcwVtWxeVV" role="3cqZAp">
+        <node concept="1iFQzN" id="6IcwVtWxid8" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:2XByp9s_j7f" resolve="Complete" />
+        </node>
+      </node>
+      <node concept="yd1bK" id="46Ref1UnHbg" role="3cqZAp">
+        <node concept="pLAjd" id="46Ref1UnHbh" role="yd6KS">
           <property role="pLAjf" value="VK_ENTER" />
         </node>
       </node>
@@ -880,10 +887,10 @@
       <node concept="2dRJFF" id="46Ref1UmIcQ" role="1dSqon">
         <property role="2dO0Ql" value="." />
       </node>
-      <node concept="1dSo_L" id="46Ref1UnHb5" role="1dSqon">
-        <node concept="2djMEC" id="46Ref1UnHb3" role="1dwvF7">
+      <node concept="1dSo_L" id="6IcwVtWxfuQ" role="1dSqon">
+        <node concept="2djMEC" id="6IcwVtWxfuO" role="1dwvF7">
           <property role="2dhT3q" value="=" />
-          <node concept="1mvZK$" id="46Ref1UnHb4" role="2dhTaa">
+          <node concept="1mvZK$" id="6IcwVtWxfuP" role="2dhTaa">
             <property role="2CGrvu" value="a" />
           </node>
         </node>
