@@ -22,6 +22,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="rh3e" ref="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1618,6 +1619,190 @@
       <ref role="3tTeZr" to="slm6:1JWcQ2VeXpD" resolve="check" />
     </node>
     <node concept="3uibUv" id="57pQC2$qlpS" role="1zkMxy">
+      <ref role="3uigEE" to="slm6:5TUCQr2ybBO" resolve="HasMigrationScriptReference" />
+    </node>
+  </node>
+  <node concept="3SyAh_" id="6Dc18J$cgy5">
+    <property role="qMTe8" value="6" />
+    <property role="TrG5h" value="In_BindingIdentifier_Copy_IdentifierName2Name" />
+    <node concept="3Tm1VV" id="6Dc18J$cgy6" role="1B3o_S" />
+    <node concept="3tTeZs" id="6Dc18J$cgy7" role="jymVt">
+      <property role="3tTeZt" value="&lt;no execute after&gt;" />
+      <ref role="3tTeZr" to="slm6:7ay_HjIMt1a" resolve="execute after" />
+    </node>
+    <node concept="3tTeZs" id="6Dc18J$cgy8" role="jymVt">
+      <property role="3tTeZt" value="&lt;no required data&gt;" />
+      <ref role="3tTeZr" to="slm6:5TUCQr2FPTh" resolve="requires annotation data" />
+    </node>
+    <node concept="3tTeZs" id="6Dc18J$cgy9" role="jymVt">
+      <property role="3tTeZt" value="&lt;no produced data&gt;" />
+      <ref role="3tTeZr" to="slm6:5TUCQr2C271" resolve="produces annotation data" />
+    </node>
+    <node concept="2tJIrI" id="6Dc18J$cgya" role="jymVt" />
+    <node concept="3tYpMH" id="6Dc18J$cgyb" role="jymVt">
+      <property role="TrG5h" value="isRerunnable" />
+      <ref role="25KYV2" to="slm6:1JWcQ2VeWIs" resolve="isRerunnable" />
+      <node concept="3Tm1VV" id="6Dc18J$cgyc" role="1B3o_S" />
+      <node concept="10P_77" id="6Dc18J$cgyd" role="1tU5fm" />
+    </node>
+    <node concept="3tYpXE" id="6Dc18J$cTzA" role="jymVt">
+      <property role="TrG5h" value="description" />
+      <property role="3tYpXF" value="JSBindingIdentifier implements INamedConcept so I want to remove identifierName and use name." />
+      <ref role="25KYV2" to="slm6:1_lSsE3RFpE" resolve="description" />
+      <node concept="3Tm1VV" id="6Dc18J$cTzC" role="1B3o_S" />
+      <node concept="17QB3L" id="6Dc18J$cTzD" role="1tU5fm" />
+    </node>
+    <node concept="q3mfD" id="6Dc18J$cgyf" role="jymVt">
+      <property role="TrG5h" value="execute" />
+      <ref role="2VtyIY" to="slm6:4ubqdNOF9cA" resolve="execute" />
+      <node concept="3Tm1VV" id="6Dc18J$cgyh" role="1B3o_S" />
+      <node concept="3clFbS" id="6Dc18J$cgyj" role="3clF47">
+        <node concept="3SKdUt" id="6Dc18J$chq1" role="3cqZAp">
+          <node concept="3SKdUq" id="6Dc18J$chq2" role="3SKWNk">
+            <property role="3SKdUp" value="Skip test solution." />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6Dc18J$chq3" role="3cqZAp">
+          <node concept="3clFbS" id="6Dc18J$chq4" role="3clFbx">
+            <node concept="3clFbF" id="6Dc18J$chq5" role="3cqZAp">
+              <node concept="2OqwBi" id="6Dc18J$chq6" role="3clFbG">
+                <node concept="10M0yZ" id="6Dc18J$chq7" role="2Oq$k0">
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                </node>
+                <node concept="liA8E" id="6Dc18J$chq8" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="6Dc18J$chq9" role="37wK5m">
+                    <node concept="37vLTw" id="6Dc18J$chqa" role="3uHU7w">
+                      <ref role="3cqZAo" node="6Dc18J$cgyl" resolve="m" />
+                    </node>
+                    <node concept="Xl_RD" id="6Dc18J$chqb" role="3uHU7B">
+                      <property role="Xl_RC" value="Test solution module correctly not migrated: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="6Dc18J$chqc" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="6Dc18J$chqd" role="3clFbw">
+            <node concept="2OqwBi" id="6Dc18J$chqe" role="2Oq$k0">
+              <node concept="37vLTw" id="6Dc18J$chqf" role="2Oq$k0">
+                <ref role="3cqZAo" node="6Dc18J$cgyl" resolve="m" />
+              </node>
+              <node concept="liA8E" id="6Dc18J$chqg" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6Dc18J$chqh" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="2OqwBi" id="6Dc18J$chqi" role="37wK5m">
+                <node concept="37shsh" id="6Dc18J$chqj" role="2Oq$k0">
+                  <node concept="20RdaH" id="6Dc18J$chqk" role="37shsm">
+                    <property role="20Rdg5" value="018fad10-9491-4ea4-b74a-a21417a3e295" />
+                    <property role="20Rdg7" value="org.mar9000.mps.ecmascript.tests" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6Dc18J$chql" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6Dc18J$chqo" role="3cqZAp">
+          <node concept="2OqwBi" id="6Dc18J$chqp" role="3clFbG">
+            <node concept="10M0yZ" id="6Dc18J$chqq" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="6Dc18J$chqr" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="6Dc18J$chqs" role="37wK5m">
+                <node concept="Xl_RD" id="6Dc18J$chqt" role="3uHU7B">
+                  <property role="Xl_RC" value="Migrate module: " />
+                </node>
+                <node concept="37vLTw" id="6Dc18J$chqu" role="3uHU7w">
+                  <ref role="3cqZAo" node="6Dc18J$cgyl" resolve="m" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="L3pyB" id="6Dc18J$chqx" role="3cqZAp">
+          <node concept="3clFbS" id="6Dc18J$chqy" role="L3pyw">
+            <node concept="3SKdUt" id="6Dc18J$chqz" role="3cqZAp">
+              <node concept="3SKdUq" id="6Dc18J$chq$" role="3SKWNk">
+                <property role="3SKdUp" value="In JSBindingIdentifier initialize the new 'name' property from INamedConcept." />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6Dc18J$chq_" role="3cqZAp">
+              <node concept="2OqwBi" id="6Dc18J$chqA" role="3clFbG">
+                <node concept="qVDSY" id="6Dc18J$chqB" role="2Oq$k0">
+                  <node concept="chp4Y" id="6Dc18J$cjCa" role="qVDSX">
+                    <ref role="cht4Q" to="rh3e:5OEuegbloj0" resolve="JSBindingIdentifier" />
+                  </node>
+                  <node concept="1dO9Bo" id="6Dc18J$chqD" role="1dOa5D">
+                    <node concept="3Z_Q4n" id="6Dc18J$chqE" role="1dp2q7" />
+                  </node>
+                </node>
+                <node concept="2es0OD" id="6Dc18J$chqF" role="2OqNvi">
+                  <node concept="1bVj0M" id="6Dc18J$chqG" role="23t8la">
+                    <node concept="3clFbS" id="6Dc18J$chqH" role="1bW5cS">
+                      <node concept="3clFbF" id="6Dc18J$cB17" role="3cqZAp">
+                        <node concept="2OqwBi" id="6Dc18J$cB18" role="3clFbG">
+                          <node concept="2OqwBi" id="6Dc18J$cB19" role="2Oq$k0">
+                            <node concept="37vLTw" id="6Dc18J$cB1a" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6Dc18J$chrh" resolve="it" />
+                            </node>
+                            <node concept="3TrcHB" id="6Dc18J$cFSz" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                          <node concept="tyxLq" id="6Dc18J$cL7A" role="2OqNvi">
+                            <node concept="2OqwBi" id="6Dc18J$cL__" role="tz02z">
+                              <node concept="37vLTw" id="6Dc18J$cLlg" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6Dc18J$chrh" resolve="it" />
+                              </node>
+                              <node concept="3TrcHB" id="6Dc18J$cQ8V" role="2OqNvi">
+                                <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="6Dc18J$chrh" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="6Dc18J$chri" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="6Dc18J$chrj" role="L3pyr">
+            <ref role="3cqZAo" node="6Dc18J$cgyl" resolve="m" />
+          </node>
+        </node>
+      </node>
+      <node concept="ffn8J" id="6Dc18J$cgyl" role="3clF46">
+        <property role="TrG5h" value="m" />
+        <ref role="ffrpq" to="slm6:7fCCGqboj9J" resolve="m" />
+        <node concept="3uibUv" id="6Dc18J$cgyk" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+        </node>
+      </node>
+      <node concept="q3mfm" id="6Dc18J$cgym" role="3clF45">
+        <ref role="q3mfh" to="slm6:4F5w8gPXEEe" />
+        <ref role="1QQUv3" node="6Dc18J$cgyf" resolve="execute" />
+      </node>
+    </node>
+    <node concept="3tTeZs" id="6Dc18J$cgyn" role="jymVt">
+      <property role="3tTeZt" value="&lt;no result checking&gt;" />
+      <ref role="3tTeZr" to="slm6:1JWcQ2VeXpD" resolve="check" />
+    </node>
+    <node concept="3uibUv" id="6Dc18J$cgyo" role="1zkMxy">
       <ref role="3uigEE" to="slm6:5TUCQr2ybBO" resolve="HasMigrationScriptReference" />
     </node>
   </node>

@@ -18,6 +18,7 @@
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -1996,8 +1997,8 @@
             <node concept="1YBJjd" id="57pQC2$dGu3" role="2Oq$k0">
               <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
             </node>
-            <node concept="3TrcHB" id="57pQC2$dH8p" role="2OqNvi">
-              <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+            <node concept="3TrcHB" id="6Dc18J$evXY" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>
@@ -2076,8 +2077,8 @@
               <node concept="1YBJjd" id="57pQC2$dLJv" role="2Oq$k0">
                 <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
               </node>
-              <node concept="3TrcHB" id="57pQC2$dMJ6" role="2OqNvi">
-                <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+              <node concept="3TrcHB" id="6Dc18J$ewoV" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
@@ -2116,8 +2117,8 @@
               <node concept="1YBJjd" id="57pQC2$dTaj" role="2Oq$k0">
                 <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
               </node>
-              <node concept="3TrcHB" id="57pQC2$dU5y" role="2OqNvi">
-                <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+              <node concept="3TrcHB" id="6Dc18J$ewI9" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
             <node concept="2OqwBi" id="57pQC2$dT6_" role="37wK5m">
@@ -2180,8 +2181,8 @@
                       <node concept="1YBJjd" id="57pQC2$oH9_" role="2Oq$k0">
                         <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
                       </node>
-                      <node concept="3TrcHB" id="57pQC2$oIbV" role="2OqNvi">
-                        <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+                      <node concept="3TrcHB" id="6Dc18J$exJn" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                       </node>
                     </node>
                   </node>
@@ -2202,8 +2203,8 @@
                         <node concept="1YBJjd" id="57pQC2$oDhn" role="2Oq$k0">
                           <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
                         </node>
-                        <node concept="3TrcHB" id="57pQC2$oEsZ" role="2OqNvi">
-                          <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+                        <node concept="3TrcHB" id="6Dc18J$eycj" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                         </node>
                       </node>
                     </node>
@@ -2219,8 +2220,8 @@
                         <node concept="1YBJjd" id="57pQC2$o$1M" role="2Oq$k0">
                           <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
                         </node>
-                        <node concept="3TrcHB" id="57pQC2$o_26" role="2OqNvi">
-                          <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+                        <node concept="3TrcHB" id="6Dc18J$exp9" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                         </node>
                       </node>
                     </node>

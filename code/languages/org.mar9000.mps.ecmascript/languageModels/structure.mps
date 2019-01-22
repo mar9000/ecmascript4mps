@@ -3098,12 +3098,22 @@
       <property role="IQ2nx" value="6403959180544104751" />
       <property role="TrG5h" value="identifierName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="6Dc18J$cgy0" role="lGtFl" />
+      <node concept="t5JxF" id="6Dc18J$cgy2" role="lGtFl">
+        <property role="t5JxN" value="Deprecated because INamedConcept.name is used to implement scopes." />
+      </node>
     </node>
     <node concept="t5JxF" id="57pQC2$bMJC" role="lGtFl">
       <property role="t5JxN" value="From BindingIdentifier." />
     </node>
     <node concept="PrWs8" id="46Ref1UlGd_" role="PzmwI">
       <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
+    </node>
+    <node concept="PrWs8" id="6Dc18J$9ZiP" role="PzmwI">
+      <ref role="PrY4T" node="6Dc18J$9ZiL" resolve="JSIArrowParameters" />
+    </node>
+    <node concept="PrWs8" id="6Dc18J$cgxV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5OEuegblojy">
@@ -3543,6 +3553,9 @@
     <node concept="PrWs8" id="46Ref1UgX2Y" role="PzmwI">
       <ref role="PrY4T" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
     </node>
+    <node concept="PrWs8" id="6Dc18J$9ZiZ" role="PzmwI">
+      <ref role="PrY4T" node="6Dc18J$9ZiV" resolve="JSIConciseBody" />
+    </node>
   </node>
   <node concept="1TIwiD" id="46Ref1UgIeg">
     <property role="EcuMT" value="4735316138697876368" />
@@ -3732,6 +3745,36 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6Dc18J$9WXK">
+    <property role="EcuMT" value="7659502065125150576" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSArrowFunction" />
+    <ref role="1TJDcQ" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
+    <node concept="1TJgyj" id="6Dc18J$9ZiT" role="1TKVEi">
+      <property role="IQ2ns" value="7659502065125160121" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6Dc18J$9ZiL" resolve="JSIArrowParameters" />
+    </node>
+    <node concept="1TJgyj" id="6Dc18J$9Zj3" role="1TKVEi">
+      <property role="IQ2ns" value="7659502065125160131" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6Dc18J$9ZiV" resolve="JSIConciseBody" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6Dc18J$9ZiL">
+    <property role="EcuMT" value="7659502065125160113" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSIArrowParameters" />
+  </node>
+  <node concept="PlHQZ" id="6Dc18J$9ZiV">
+    <property role="EcuMT" value="7659502065125160123" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSIConciseBody" />
   </node>
 </model>
 

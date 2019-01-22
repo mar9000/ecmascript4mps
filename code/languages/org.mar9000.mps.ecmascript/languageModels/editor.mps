@@ -6127,8 +6127,8 @@
                 <node concept="37vLTw" id="6k$wfqsPthv" role="2Oq$k0">
                   <ref role="3cqZAo" node="6k$wfqsPthk" resolve="identifier" />
                 </node>
-                <node concept="3TrcHB" id="46Ref1UlFKb" role="2OqNvi">
-                  <ref role="3TsBF5" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+                <node concept="3TrcHB" id="6Dc18J$eH0w" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>
@@ -7521,8 +7521,17 @@
   <node concept="24kQdi" id="5zvrJ7KsQb6">
     <property role="3GE5qa" value="identifier" />
     <ref role="1XX52x" to="rh3e:5OEuegbloj0" resolve="JSBindingIdentifier" />
-    <node concept="3F0A7n" id="5zvrJ7KsQb8" role="2wV5jI">
-      <ref role="1NtTu8" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+    <node concept="3EZMnI" id="6Dc18J$dxCW" role="6VMZX">
+      <node concept="3F0ifn" id="6Dc18J$dxD3" role="3EZMnx">
+        <property role="3F0ifm" value="old identifierName:" />
+      </node>
+      <node concept="3F0A7n" id="6Dc18J$dxD9" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:5zvrJ7KrH$J" resolve="identifierName" />
+      </node>
+      <node concept="2iRfu4" id="6Dc18J$dxCZ" role="2iSdaV" />
+    </node>
+    <node concept="3F0A7n" id="6Dc18J$dxDf" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="57pQC2$gnuA">
@@ -7603,6 +7612,23 @@
       <node concept="3F0A7n" id="7sFdxx60HYI" role="3EZMnx">
         <ref role="1NtTu8" to="rh3e:7sFdxx5ZF2k" resolve="star" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6Dc18J$9Zjv">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="rh3e:6Dc18J$9WXK" resolve="JSArrowFunction" />
+    <node concept="3EZMnI" id="6Dc18J$9Zjx" role="2wV5jI">
+      <node concept="3F1sOY" id="6Dc18J$adXP" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:6Dc18J$9ZiT" resolve="parameters" />
+      </node>
+      <node concept="3F0ifn" id="6Dc18J$adXV" role="3EZMnx">
+        <property role="3F0ifm" value="=&gt;" />
+        <ref role="1k5W1q" node="bcrrPfvgyw" resolve="ECMAOperator" />
+      </node>
+      <node concept="3F1sOY" id="6Dc18J$adY3" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:6Dc18J$9Zj3" resolve="body" />
+      </node>
+      <node concept="2iRfu4" id="6Dc18J$9Zj$" role="2iSdaV" />
     </node>
   </node>
 </model>

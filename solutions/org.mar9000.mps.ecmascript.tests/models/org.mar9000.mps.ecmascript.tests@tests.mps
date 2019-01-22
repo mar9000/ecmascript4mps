@@ -964,5 +964,39 @@
       </node>
     </node>
   </node>
+  <node concept="2lJO3n" id="6Dc18J$cRrv">
+    <property role="3GE5qa" value="migration" />
+    <property role="TrG5h" value="test_006_In_BindingIdentifier_Copy_IdentifierName2Name" />
+    <node concept="1qefOq" id="6Dc18J$dxBF" role="2lJPY$">
+      <node concept="1dSqrf" id="6Dc18J$dxBH" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSo$T" id="6Dc18J$es5U" role="1dSqon">
+          <node concept="2dhZhe" id="6Dc18J$es5V" role="1dSoH_">
+            <node concept="1dSrUG" id="6Dc18J$es5W" role="2dhZiP" />
+            <node concept="1mvZK$" id="6Dc18J$es5X" role="3PzO81">
+              <property role="TrG5h" value="a" />
+              <property role="2CGrvu" value="a" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6Dc18J$cTl9" role="2lJO3o">
+      <node concept="1dSqrf" id="6Dc18J$cTlb" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSo$T" id="6Dc18J$cTld" role="1dSqon">
+          <node concept="2dhZhe" id="6Dc18J$cTle" role="1dSoH_">
+            <node concept="1dSrUG" id="6Dc18J$cTlf" role="2dhZiP" />
+            <node concept="1mvZK$" id="6Dc18J$cTlg" role="3PzO81">
+              <property role="2CGrvu" value="a" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3ea_Bc" id="6Dc18J$cRrx" role="3ea0P7">
+      <ref role="3ea_Bf" to="84nc:6Dc18J$cgy5" resolve="In_BindingIdentifier_Copy_IdentifierName2Name" />
+    </node>
+  </node>
 </model>
 
