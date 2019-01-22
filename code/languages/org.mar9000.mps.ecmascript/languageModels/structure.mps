@@ -901,6 +901,10 @@
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="8569071899956280290" />
       <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+      <node concept="asaX9" id="6Dc18J$h30i" role="lGtFl" />
+      <node concept="t5JxF" id="6Dc18J$h859" role="lGtFl">
+        <property role="t5JxN" value="Substituted with the parameter property." />
+      </node>
     </node>
     <node concept="1TJgyj" id="7rFtnRVFfH4" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -909,8 +913,18 @@
       <property role="IQ2ns" value="8569071899956280132" />
       <ref role="20lvS9" node="bcrrPfbuhK" resolve="JSBlockStatement" />
     </node>
+    <node concept="1TJgyj" id="6Dc18J$h85c" role="1TKVEi">
+      <property role="IQ2ns" value="7659502065127031116" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameter" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6Dc18J$h304" resolve="JSICatchParameter" />
+    </node>
     <node concept="PrWs8" id="2J96awlA921" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="t5JxF" id="6Dc18J$h30g" role="lGtFl">
+      <property role="t5JxN" value="From the Catch[Yield, Return] rule." />
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFbS7">
@@ -3115,6 +3129,9 @@
     <node concept="PrWs8" id="6Dc18J$cgxV" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="6Dc18J$h30a" role="PzmwI">
+      <ref role="PrY4T" node="6Dc18J$h304" resolve="JSICatchParameter" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5OEuegblojy">
     <property role="EcuMT" value="6713311115387176162" />
@@ -3775,6 +3792,14 @@
     <property role="EcuMT" value="7659502065125160123" />
     <property role="3GE5qa" value="function" />
     <property role="TrG5h" value="JSIConciseBody" />
+  </node>
+  <node concept="PlHQZ" id="6Dc18J$h304">
+    <property role="EcuMT" value="7659502065127010308" />
+    <property role="3GE5qa" value="statement.trycatch" />
+    <property role="TrG5h" value="JSICatchParameter" />
+    <node concept="PrWs8" id="6Dc18J$kYcl" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 

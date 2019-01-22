@@ -90,6 +90,11 @@
       <concept id="8569071899956284315" name="org.mar9000.mps.ecmascript.structure.JSNumericLiteral" flags="ng" index="2dhBVA">
         <property id="8569071899956284476" name="value" index="2dhB_1" />
       </concept>
+      <concept id="8569071899956264115" name="org.mar9000.mps.ecmascript.structure.JSCatchClause" flags="ng" index="2dhWBe">
+        <child id="8569071899956280132" name="body" index="2dhSST" />
+        <child id="8569071899956280290" name="param" index="2dhSUv" />
+        <child id="7659502065127031116" name="parameter" index="2e28n7" />
+      </concept>
       <concept id="8569071899956248883" name="org.mar9000.mps.ecmascript.structure.JSVariableDeclarator" flags="ng" index="2dhZhe">
         <child id="8569071899956249032" name="id" index="2dhZiP" />
         <child id="8569071899956249109" name="init" index="2dhZtC" />
@@ -123,6 +128,11 @@
       </concept>
       <concept id="201656743169483888" name="org.mar9000.mps.ecmascript.structure.JSBlockStatement" flags="ng" index="1dSoBd">
         <child id="201656743169484430" name="body" index="1dSoGN" />
+      </concept>
+      <concept id="201656743169484326" name="org.mar9000.mps.ecmascript.structure.JSTryStatement" flags="ng" index="1dSoIr">
+        <child id="8569071899956264198" name="handler" index="2dhWxV" />
+        <child id="8569071899956264367" name="finalizer" index="2dhWzi" />
+        <child id="8569071899956264032" name="block" index="2dhW$t" />
       </concept>
       <concept id="201656743169484363" name="org.mar9000.mps.ecmascript.structure.JSDebuggerStatement" flags="ng" index="1dSoJQ" />
       <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf">
@@ -996,6 +1006,46 @@
     </node>
     <node concept="3ea_Bc" id="6Dc18J$cRrx" role="3ea0P7">
       <ref role="3ea_Bf" to="84nc:6Dc18J$cgy5" resolve="In_BindingIdentifier_Copy_IdentifierName2Name" />
+    </node>
+  </node>
+  <node concept="2lJO3n" id="6Dc18J$h95l">
+    <property role="3GE5qa" value="migration" />
+    <property role="TrG5h" value="test_007_In_Catch_Create_BindingIdentifier_From_Identifier" />
+    <node concept="3ea_Bc" id="6Dc18J$h99Q" role="3ea0P7">
+      <ref role="3ea_Bf" to="84nc:6Dc18J$h964" resolve="In_Catch_Create_BindingIdentifier_From_Identifier" />
+    </node>
+    <node concept="1qefOq" id="6Dc18J$h95n" role="2lJO3o">
+      <node concept="1dSqrf" id="6Dc18J$h95p" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSoIr" id="3GncOKfc73c" role="1dSqon">
+          <node concept="1dSoBd" id="3GncOKfc73d" role="2dhW$t" />
+          <node concept="2dhWBe" id="3GncOKfc73e" role="2dhWxV">
+            <node concept="1dSrUG" id="3GncOKfc73f" role="2dhSUv">
+              <property role="1dSrUJ" value="d" />
+            </node>
+            <node concept="1dSoBd" id="3GncOKfc73g" role="2dhSST" />
+          </node>
+          <node concept="1dSoBd" id="6Dc18J$kEFu" role="2dhWzi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6Dc18J$h95S" role="2lJPY$">
+      <node concept="1dSqrf" id="6Dc18J$h95I" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSoIr" id="6Dc18J$h95J" role="1dSqon">
+          <node concept="1dSoBd" id="6Dc18J$h95K" role="2dhW$t" />
+          <node concept="2dhWBe" id="6Dc18J$h95M" role="2dhWxV">
+            <node concept="1dSrUG" id="6Dc18J$h95N" role="2dhSUv">
+              <property role="1dSrUJ" value="d" />
+            </node>
+            <node concept="1dSoBd" id="6Dc18J$h95O" role="2dhSST" />
+            <node concept="1mvZK$" id="6Dc18J$jLJU" role="2e28n7">
+              <property role="TrG5h" value="d" />
+            </node>
+          </node>
+          <node concept="1dSoBd" id="6Dc18J$h95Q" role="2dhWzi" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
