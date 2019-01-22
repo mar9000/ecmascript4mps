@@ -70,3 +70,8 @@ BindingIdentifier[Yield]:
   * use `JSIdentifiersUtils.isValidIdentifier()` to check an `Identifier`.
   * use `JSIdentifiersUtils.isValidIdentifierName()` to check an `IdentifierName`.
   * the other concepts `JS*Identifier` have their own checking rules.
+
+### FunctionBody
+
+I'll move `{` and `}` in `FunctionDeclaration`, that is already a concrete concept,
+so I can implement `ConciseBody` using an interface. I've checked the use of `FunctionDeclaration` and it's used always with braces.
