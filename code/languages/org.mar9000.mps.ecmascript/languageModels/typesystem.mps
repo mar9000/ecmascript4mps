@@ -2548,5 +2548,73 @@
       <ref role="1YaFvo" to="rh3e:57pQC2$bMzr" resolve="JSLabelIdentifier" />
     </node>
   </node>
+  <node concept="18kY7G" id="7sFdxx60yW7">
+    <property role="TrG5h" value="check_JSYieldExpression_Rule_Parameters" />
+    <property role="3GE5qa" value="expression" />
+    <node concept="3clFbS" id="7sFdxx60yW8" role="18ibNy">
+      <node concept="3cpWs8" id="7sFdxx60yWz" role="3cqZAp">
+        <node concept="3cpWsn" id="7sFdxx60yW$" role="3cpWs9">
+          <property role="TrG5h" value="hasYieldResolver" />
+          <node concept="3bZ5Sz" id="7sFdxx60yW_" role="1tU5fm" />
+          <node concept="2YIFZM" id="7sFdxx60yWA" role="33vP2m">
+            <ref role="37wK5l" node="5zvrJ7KhmjV" resolve="getResolver" />
+            <ref role="1Pybhc" node="2OLIV$DULnr" resolve="RuleParametersUtils" />
+            <node concept="1YBJjd" id="7sFdxx60yWB" role="37wK5m">
+              <ref role="1YBMHb" node="7sFdxx60yWa" resolve="node" />
+            </node>
+            <node concept="35c_gC" id="7sFdxx60yWC" role="37wK5m">
+              <ref role="35c_gD" to="rh3e:57pQC2$9bwb" resolve="HasYield" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="7sFdxx60yWD" role="3cqZAp">
+        <node concept="3cpWsn" id="7sFdxx60yWE" role="3cpWs9">
+          <property role="TrG5h" value="hasYield" />
+          <node concept="10P_77" id="7sFdxx60yWF" role="1tU5fm" />
+          <node concept="2OqwBi" id="7sFdxx60yWG" role="33vP2m">
+            <node concept="2CBFar" id="7sFdxx60yWH" role="2Oq$k0">
+              <node concept="chp4Y" id="7sFdxx60zM2" role="3oSUPX">
+                <ref role="cht4Q" to="rh3e:57pQC2$9bwb" resolve="HasYield" />
+              </node>
+              <node concept="37vLTw" id="7sFdxx60yWJ" role="1m5AlR">
+                <ref role="3cqZAo" node="7sFdxx60yW$" resolve="hasYieldResolver" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="7sFdxx60yWK" role="2OqNvi">
+              <ref role="37wK5l" to="o14i:57pQC2$9bx4" resolve="hasYield" />
+              <node concept="1YBJjd" id="7sFdxx60yWL" role="37wK5m">
+                <ref role="1YBMHb" node="7sFdxx60yWa" resolve="node" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="7sFdxx60yWM" role="3cqZAp">
+        <node concept="3clFbS" id="7sFdxx60yWN" role="3clFbx">
+          <node concept="2MkqsV" id="7sFdxx60yWO" role="3cqZAp">
+            <node concept="AMVWg" id="7sFdxx60yWP" role="lGtFl">
+              <property role="TrG5h" value="check_JSYieldExpression_Rule_Parameters" />
+            </node>
+            <node concept="1YBJjd" id="7sFdxx60yWQ" role="2OEOjV">
+              <ref role="1YBMHb" node="7sFdxx60yWa" resolve="node" />
+            </node>
+            <node concept="Xl_RD" id="7sFdxx60yWR" role="2MkJ7o">
+              <property role="Xl_RC" value="'yield' can't be used in this context." />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="7sFdxx60yWT" role="3clFbw">
+          <node concept="37vLTw" id="7sFdxx60yWU" role="3fr31v">
+            <ref role="3cqZAo" node="7sFdxx60yWE" resolve="hasYield" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7sFdxx60yWa" role="1YuTPh">
+      <property role="TrG5h" value="node" />
+      <ref role="1YaFvo" to="rh3e:7sFdxx5ZF2j" resolve="JSYieldExpression" />
+    </node>
+  </node>
 </model>
 

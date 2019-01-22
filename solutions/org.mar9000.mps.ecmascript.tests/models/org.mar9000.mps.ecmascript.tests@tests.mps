@@ -87,8 +87,12 @@
       <concept id="8569071899956281838" name="org.mar9000.mps.ecmascript.structure.JSStringLiteral" flags="ng" index="2dhBij">
         <property id="7727025628334104963" name="singleQuotedValue" index="3S2$_t" />
       </concept>
+      <concept id="8569071899956284315" name="org.mar9000.mps.ecmascript.structure.JSNumericLiteral" flags="ng" index="2dhBVA">
+        <property id="8569071899956284476" name="value" index="2dhB_1" />
+      </concept>
       <concept id="8569071899956248883" name="org.mar9000.mps.ecmascript.structure.JSVariableDeclarator" flags="ng" index="2dhZhe">
         <child id="8569071899956249032" name="id" index="2dhZiP" />
+        <child id="8569071899956249109" name="init" index="2dhZtC" />
         <child id="5897985433066182785" name="identifier" index="3PzO81" />
       </concept>
       <concept id="8569071899955716053" name="org.mar9000.mps.ecmascript.structure.JSAssignmentExpression" flags="ng" index="2djMEC">
@@ -101,6 +105,9 @@
       <concept id="6403959180542903547" name="org.mar9000.mps.ecmascript.structure.JSGeneratorDeclaration" flags="ng" index="2CwYCa">
         <child id="6403959180542903550" name="id" index="2CwYCf" />
         <child id="6403959180542903556" name="body" index="2CwYJP" />
+      </concept>
+      <concept id="8587016592393416851" name="org.mar9000.mps.ecmascript.structure.JSYieldExpression" flags="ng" index="MPoqb">
+        <child id="8587016592393416854" name="expr" index="MPoqe" />
       </concept>
       <concept id="201656743169484217" name="org.mar9000.mps.ecmascript.structure.JSLabeledStatement" flags="ng" index="1dSow4">
         <child id="201656743174806906" name="body" index="1dGR37" />
@@ -894,6 +901,66 @@
             <property role="2CGrvu" value="a" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="7sFdxx60yEA">
+    <property role="TrG5h" value="test_JSYieldExpression_Rule_Parameters" />
+    <node concept="1qefOq" id="7sFdxx60yEB" role="1SKRRt">
+      <node concept="1dSqrf" id="7sFdxx60yED" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSo$T" id="7sFdxx60yEF" role="1dSqon">
+          <node concept="2dhZhe" id="7sFdxx60yEG" role="1dSoH_">
+            <node concept="1dSrUG" id="7sFdxx60yEH" role="2dhZiP" />
+            <node concept="1mvZK$" id="7sFdxx60yEI" role="3PzO81">
+              <property role="2CGrvu" value="a" />
+            </node>
+            <node concept="MPoqb" id="7sFdxx60yEP" role="2dhZtC">
+              <node concept="2dhBVA" id="7sFdxx60yEV" role="MPoqe">
+                <property role="2dhB_1" value="1" />
+              </node>
+              <node concept="7CXmI" id="7sFdxx63mcW" role="lGtFl">
+                <node concept="1TM$A" id="7sFdxx63mcY" role="7EUXB">
+                  <node concept="2PYRI3" id="7sFdxx63md0" role="3lydEf">
+                    <ref role="39XzEq" to="xidz:7sFdxx60yWO" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1dSrUV" id="7sFdxx60yGM" role="1dSqon" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="7sFdxx60yEX" role="1SKRRt">
+      <node concept="1dSqrf" id="7sFdxx60yG7" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="2CwYCa" id="7sFdxx60yG9" role="1dSqon">
+          <node concept="3PT0i$" id="7sFdxx60yGk" role="2CwYJP">
+            <node concept="3PT0iG" id="7sFdxx60yGn" role="3PT0iE">
+              <node concept="1dSo$T" id="7sFdxx60yGr" role="3PTNxU">
+                <node concept="2dhZhe" id="7sFdxx60yGt" role="1dSoH_">
+                  <node concept="1dSrUG" id="7sFdxx60yGv" role="2dhZiP" />
+                  <node concept="1mvZK$" id="7sFdxx60yGx" role="3PzO81">
+                    <property role="2CGrvu" value="a" />
+                  </node>
+                  <node concept="MPoqb" id="7sFdxx60yH5" role="2dhZtC">
+                    <node concept="2dhBVA" id="7sFdxx60yHb" role="MPoqe">
+                      <property role="2dhB_1" value="1" />
+                    </node>
+                    <node concept="7CXmI" id="7sFdxx63mcQ" role="lGtFl">
+                      <node concept="7OXhh" id="7sFdxx63mcS" role="7EUXB" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1mvZK$" id="7sFdxx60yGd" role="2CwYCf">
+            <property role="2CGrvu" value="myGen" />
+          </node>
+        </node>
+        <node concept="1dSrUV" id="7sFdxx60yGU" role="1dSqon" />
       </node>
     </node>
   </node>

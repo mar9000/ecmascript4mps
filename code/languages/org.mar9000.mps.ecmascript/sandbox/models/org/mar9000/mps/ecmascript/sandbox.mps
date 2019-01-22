@@ -133,6 +133,9 @@
         <child id="6403959180542903555" name="params" index="2CwYJM" />
         <child id="6403959180542903556" name="body" index="2CwYJP" />
       </concept>
+      <concept id="8587016592393416851" name="org.mar9000.mps.ecmascript.structure.JSYieldExpression" flags="ng" index="MPoqb">
+        <child id="8587016592393416854" name="expr" index="MPoqe" />
+      </concept>
       <concept id="4735316138697321404" name="org.mar9000.mps.ecmascript.structure.JSElision" flags="ng" index="Vzldc" />
       <concept id="4735316138697321566" name="org.mar9000.mps.ecmascript.structure.JSSpreadElement" flags="ng" index="VzliI">
         <child id="4735316138697321569" name="expression" index="Vzlih" />
@@ -250,6 +253,32 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="7sFdxx63jWo" role="1dSqon">
+      <property role="2dO0Ql" value="Yield expression (valid only inside geerators)." />
+    </node>
+    <node concept="2CwYCa" id="7sFdxx63l4x" role="1dSqon">
+      <node concept="3PT0i$" id="7sFdxx63m0q" role="2CwYJP">
+        <node concept="3PT0iG" id="7sFdxx63m0t" role="3PT0iE">
+          <node concept="1dSo$T" id="7sFdxx60ytR" role="3PTNxU">
+            <node concept="2dhZhe" id="7sFdxx60ytT" role="1dSoH_">
+              <node concept="1dSrUG" id="7sFdxx60ytV" role="2dhZiP" />
+              <node concept="1mvZK$" id="7sFdxx60ytX" role="3PzO81">
+                <property role="2CGrvu" value="a" />
+              </node>
+              <node concept="MPoqb" id="7sFdxx60yDY" role="2dhZtC">
+                <node concept="2dhBVA" id="7sFdxx60yE4" role="MPoqe">
+                  <property role="2dhB_1" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1mvZK$" id="7sFdxx63lg$" role="2CwYCf">
+        <property role="2CGrvu" value="myGenYield" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="7sFdxx60yhW" role="1dSqon" />
     <node concept="2dRJFF" id="46Ref1UeAc4" role="1dSqon">
       <property role="2dO0Ql" value="Spread element." />
     </node>

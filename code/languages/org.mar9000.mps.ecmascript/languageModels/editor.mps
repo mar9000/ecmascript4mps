@@ -7569,5 +7569,41 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="7sFdxx5ZF2L">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="rh3e:7sFdxx5ZF2j" resolve="JSYieldExpression" />
+    <node concept="3EZMnI" id="7sFdxx5ZF2N" role="2wV5jI">
+      <node concept="2iRfu4" id="7sFdxx5ZF2Q" role="2iSdaV" />
+      <node concept="1HlG4h" id="7sFdxx61yPf" role="3EZMnx">
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+        <node concept="1HfYo3" id="7sFdxx61yPh" role="1HlULh">
+          <node concept="3TQlhw" id="7sFdxx61yPj" role="1Hhtcw">
+            <node concept="3clFbS" id="7sFdxx61yPl" role="2VODD2">
+              <node concept="3cpWs6" id="7sFdxx61z7W" role="3cqZAp">
+                <node concept="2OqwBi" id="7sFdxx61zDs" role="3cqZAk">
+                  <node concept="pncrf" id="7sFdxx61zpc" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="7sFdxx61Bfu" role="2OqNvi">
+                    <ref role="37wK5l" to="o14i:7sFdxx61vi0" resolve="getKeyword" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F1sOY" id="7sFdxx5ZGUh" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:7sFdxx5ZF2m" resolve="expr" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="7sFdxx60HOM" role="6VMZX">
+      <node concept="2iRfu4" id="7sFdxx60HON" role="2iSdaV" />
+      <node concept="3F0ifn" id="7sFdxx60HY_" role="3EZMnx">
+        <property role="3F0ifm" value="with star:" />
+      </node>
+      <node concept="3F0A7n" id="7sFdxx60HYI" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:7sFdxx5ZF2k" resolve="star" />
+      </node>
+    </node>
+  </node>
 </model>
 

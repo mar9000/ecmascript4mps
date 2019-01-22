@@ -3318,6 +3318,15 @@
         <property role="Xl_RC" value="yield" />
       </node>
     </node>
+    <node concept="Wx3nA" id="7sFdxx61y0d" role="jymVt">
+      <property role="TrG5h" value="YIELD_STAR" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="7sFdxx61y0e" role="1B3o_S" />
+      <node concept="17QB3L" id="7sFdxx61y0f" role="1tU5fm" />
+      <node concept="Xl_RD" id="7sFdxx61y0g" role="33vP2m">
+        <property role="Xl_RC" value="yield*" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="5oJk6Ar$Vbv" role="1B3o_S" />
   </node>
   <node concept="PlHQZ" id="2OLIV$DKnRp">
@@ -3703,6 +3712,25 @@
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
     <node concept="t5JxF" id="46Ref1Uh8_X" role="lGtFl">
       <property role="t5JxN" value="From the Expression[In, Yield] rule." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7sFdxx5ZF2j">
+    <property role="EcuMT" value="8587016592393416851" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSYieldExpression" />
+    <property role="34LRSv" value="yield" />
+    <ref role="1TJDcQ" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
+    <node concept="1TJgyi" id="7sFdxx5ZF2k" role="1TKVEl">
+      <property role="IQ2nx" value="8587016592393416852" />
+      <property role="TrG5h" value="star" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="7sFdxx5ZF2m" role="1TKVEi">
+      <property role="IQ2ns" value="8587016592393416854" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
     </node>
   </node>
 </model>
