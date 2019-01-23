@@ -785,6 +785,7 @@
         <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
       </node>
       <node concept="3F1sOY" id="6Dc18J$mFm$" role="3EZMnx">
+        <property role="39s7Ar" value="true" />
         <ref role="1NtTu8" to="rh3e:6Dc18J$mFlN" resolve="identifier" />
       </node>
       <node concept="3F0ifn" id="bcrrPfb_E5" role="3EZMnx">

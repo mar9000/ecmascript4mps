@@ -187,6 +187,7 @@
       <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
         <child id="1678062499342629861" name="moduleId" index="37shsm" />
       </concept>
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
@@ -2182,6 +2183,27 @@
                             </node>
                           </node>
                           <node concept="3x8VRR" id="6Dc18J$mG07" role="2OqNvi" />
+                        </node>
+                      </node>
+                      <node concept="3SKdUt" id="6Dc18J$qn_b" role="3cqZAp">
+                        <node concept="3SKdUq" id="6Dc18J$qn_d" role="3SKWNk">
+                          <property role="3SKdUp" value="Export default function." />
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="6Dc18J$qpz5" role="3cqZAp">
+                        <node concept="3clFbS" id="6Dc18J$qpz7" role="3clFbx">
+                          <node concept="3cpWs6" id="6Dc18J$qHbt" role="3cqZAp" />
+                        </node>
+                        <node concept="2OqwBi" id="6Dc18J$qz_F" role="3clFbw">
+                          <node concept="2OqwBi" id="6Dc18J$qq7z" role="2Oq$k0">
+                            <node concept="37vLTw" id="6Dc18J$qpLX" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6Dc18J$mG0w" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="6Dc18J$qv9F" role="2OqNvi">
+                              <ref role="3Tt5mk" to="rh3e:bcrrPfbtcr" resolve="id" />
+                            </node>
+                          </node>
+                          <node concept="3w_OXm" id="6Dc18J$qGTS" role="2OqNvi" />
                         </node>
                       </node>
                       <node concept="3cpWs8" id="6Dc18J$mG08" role="3cqZAp">
