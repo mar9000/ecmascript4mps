@@ -145,6 +145,7 @@
         <property id="201656743169479442" name="idName" index="1dSrUJ" />
       </concept>
       <concept id="201656743169479435" name="org.mar9000.mps.ecmascript.structure.JSFunctionDeclaration" flags="ng" index="1dSrUQ">
+        <child id="7659502065128486259" name="identifier" index="2e5F7S" />
         <child id="201656743169483717" name="body" index="1dSoTS" />
         <child id="201656743169479451" name="id" index="1dSrUA" />
       </concept>
@@ -1044,6 +1045,38 @@
             </node>
           </node>
           <node concept="1dSoBd" id="6Dc18J$h95Q" role="2dhWzi" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2lJO3n" id="6Dc18J$mS4b">
+    <property role="3GE5qa" value="migration" />
+    <property role="TrG5h" value="test_008_In_FunctionDeclaration_From_Identifier2BindingIdentifier" />
+    <node concept="3ea_Bc" id="6Dc18J$mS4d" role="3ea0P7">
+      <ref role="3ea_Bf" to="84nc:6Dc18J$mFmJ" resolve="In_FunctionDeclaration_From_Identifier2BindingIdentifier" />
+    </node>
+    <node concept="1qefOq" id="6Dc18J$mS4g" role="2lJO3o">
+      <node concept="1dSqrf" id="6Dc18J$mS4i" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSrUQ" id="6Dc18J$mS4k" role="1dSqon">
+          <node concept="1dSoBd" id="6Dc18J$mS4l" role="1dSoTS" />
+          <node concept="1dSrUG" id="6Dc18J$mS4o" role="1dSrUA">
+            <property role="1dSrUJ" value="myFun" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6Dc18J$o_za" role="2lJPY$">
+      <node concept="1dSqrf" id="6Dc18J$oCQE" role="1qenE9">
+        <property role="TrG5h" value="test" />
+        <node concept="1dSrUQ" id="6Dc18J$oCQG" role="1dSqon">
+          <node concept="1dSoBd" id="6Dc18J$oCQH" role="1dSoTS" />
+          <node concept="1mvZK$" id="6Dc18J$oCQK" role="2e5F7S">
+            <property role="TrG5h" value="myFun" />
+          </node>
+          <node concept="1dSrUG" id="6Dc18J$oDX8" role="1dSrUA">
+            <property role="1dSrUJ" value="myFun" />
+          </node>
         </node>
       </node>
     </node>

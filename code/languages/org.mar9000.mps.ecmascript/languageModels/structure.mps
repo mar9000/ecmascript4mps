@@ -318,6 +318,16 @@
       <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="201656743169479451" />
       <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+      <node concept="asaX9" id="6Dc18J$mFlI" role="lGtFl" />
+      <node concept="t5JxF" id="6Dc18J$mFlK" role="lGtFl">
+        <property role="t5JxN" value="Use identifier, will be removed in the future." />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="6Dc18J$mFlN" role="1TKVEi">
+      <property role="IQ2ns" value="7659502065128486259" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="identifier" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
     </node>
     <node concept="1TJgyj" id="bcrrPfbuf2" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

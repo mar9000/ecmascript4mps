@@ -784,9 +784,8 @@
         <property role="3F0ifm" value="function" />
         <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
       </node>
-      <node concept="3F1sOY" id="bcrrPfb_DS" role="3EZMnx">
-        <property role="39s7Ar" value="true" />
-        <ref role="1NtTu8" to="rh3e:bcrrPfbtcr" resolve="id" />
+      <node concept="3F1sOY" id="6Dc18J$mFm$" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:6Dc18J$mFlN" resolve="identifier" />
       </node>
       <node concept="3F0ifn" id="bcrrPfb_E5" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -809,6 +808,15 @@
       </node>
       <node concept="3F1sOY" id="48UnsZirMOW" role="3EZMnx">
         <ref role="1NtTu8" to="rh3e:bcrrPfbuf5" resolve="body" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="6Dc18J$mFlU" role="6VMZX">
+      <node concept="2iRfu4" id="6Dc18J$mFlV" role="2iSdaV" />
+      <node concept="3F0ifn" id="6Dc18J$mFlY" role="3EZMnx">
+        <property role="3F0ifm" value="function.id:" />
+      </node>
+      <node concept="3F1sOY" id="6Dc18J$mFm3" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:bcrrPfbtcr" resolve="id" />
       </node>
     </node>
   </node>
