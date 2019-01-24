@@ -3880,6 +3880,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7rFtnRVF84N" resolve="JSVariableDeclarator" />
     </node>
+    <node concept="PrWs8" id="7lyrc3We_lF" role="PzmwI">
+      <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
+    </node>
   </node>
 </model>
 
