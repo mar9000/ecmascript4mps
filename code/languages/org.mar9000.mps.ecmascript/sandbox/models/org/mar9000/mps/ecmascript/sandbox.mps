@@ -12,6 +12,9 @@
       <concept id="3256590409509469669" name="org.mar9000.mps.ecmascript.structure.JSExportDefault" flags="ng" index="4Wcps">
         <child id="3256590409509528242" name="declaration" index="4WX$b" />
       </concept>
+      <concept id="8458442626275502666" name="org.mar9000.mps.ecmascript.structure.JSVariableDeclaratorReference" flags="ng" index="29jwqa">
+        <reference id="8458442626275502667" name="variableDeclarator" index="29jwqb" />
+      </concept>
       <concept id="8569071899956281838" name="org.mar9000.mps.ecmascript.structure.JSStringLiteral" flags="ng" index="2dhBij">
         <property id="8569071899956282000" name="doubleQuotedValue" index="2dhBvH" />
         <property id="7727025628334104963" name="singleQuotedValue" index="3S2$_t" />
@@ -259,6 +262,32 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="7lyrc3WcLUJ" role="1dSqon">
+      <property role="2dO0Ql" value="Better scope for variable reference." />
+    </node>
+    <node concept="1dSo$T" id="7lyrc3WcMjF" role="1dSqon">
+      <node concept="2dhZhe" id="7lyrc3WcMjH" role="1dSoH_">
+        <node concept="1dSrUG" id="7lyrc3WcMjJ" role="2dhZiP" />
+        <node concept="1mvZK$" id="7lyrc3WcMjL" role="3PzO81">
+          <property role="TrG5h" value="varDef1" />
+        </node>
+        <node concept="2dhBVA" id="7lyrc3WcMwl" role="2dhZtC">
+          <property role="2dhB_1" value="1" />
+        </node>
+      </node>
+      <node concept="2dhZhe" id="7lyrc3WcMwn" role="1dSoH_">
+        <node concept="1dSrUG" id="7lyrc3WcMwo" role="2dhZiP" />
+        <node concept="1mvZK$" id="7lyrc3WcMwp" role="3PzO81">
+          <property role="TrG5h" value="varDef2" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="7lyrc3WedUU" role="1dSqon">
+      <node concept="29jwqa" id="7lyrc3WedUS" role="1dwvF7">
+        <ref role="29jwqb" node="7lyrc3WcMwn" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="7lyrc3WedIi" role="1dSqon" />
     <node concept="2dRJFF" id="6Dc18J$bz9B" role="1dSqon">
       <property role="2dO0Ql" value="Arrow functions." />
     </node>

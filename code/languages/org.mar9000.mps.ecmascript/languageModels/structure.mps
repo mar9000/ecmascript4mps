@@ -14,6 +14,21 @@
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="2756621024541681841" name="jetbrains.mps.lang.resources.structure.Primitive" flags="ng" index="1irPi6">
+        <child id="1860120738943552529" name="fillColor" index="3PKjn_" />
+      </concept>
+      <concept id="2756621024541681849" name="jetbrains.mps.lang.resources.structure.Text" flags="ng" index="1irPie">
+        <property id="2756621024541681854" name="text" index="1irPi9" />
+        <child id="1860120738943552534" name="color" index="3PKjny" />
+      </concept>
+      <concept id="2756621024541674821" name="jetbrains.mps.lang.resources.structure.TextIcon" flags="ng" index="1irR5M">
+        <property id="1358878980655415353" name="iconId" index="2$rrk2" />
+        <child id="2756621024541675110" name="layers" index="1irR9h" />
+      </concept>
+      <concept id="2756621024541675104" name="jetbrains.mps.lang.resources.structure.Circle" flags="ng" index="1irR9n" />
+      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
+        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      </concept>
       <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
         <property id="2756621024541341363" name="file" index="1iqoE4" />
       </concept>
@@ -398,6 +413,7 @@
     <property role="3GE5qa" value="statement" />
     <property role="34LRSv" value="var" />
     <property role="EcuMT" value="201656743169483908" />
+    <property role="R4oN_" value="variable declaration" />
     <ref role="1TJDcQ" node="bcrrPfbtc6" resolve="JSStatement" />
     <node concept="1TJgyj" id="bcrrPfburo" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -417,6 +433,20 @@
     </node>
     <node concept="PrWs8" id="59cjVaeV4VL" role="PzmwI">
       <ref role="PrY4T" node="59cjVaeT$6_" resolve="JSExportableDeclaration" />
+    </node>
+    <node concept="1irR5M" id="7lyrc3Wb6Df" role="rwd14">
+      <property role="2$rrk2" value="1" />
+      <node concept="1irR9n" id="7lyrc3Wb6Dk" role="1irR9h">
+        <node concept="3PKj8D" id="7lyrc3Wb6Dp" role="3PKjn_">
+          <property role="3PKj8l" value="FFA07A" />
+        </node>
+      </node>
+      <node concept="1irPie" id="7lyrc3Wb6Dw" role="1irR9h">
+        <property role="1irPi9" value="v" />
+        <node concept="3PKj8D" id="7lyrc3Wb6DB" role="3PKjny">
+          <property role="3PKj8l" value="333333" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbujc">
@@ -879,6 +909,23 @@
       <property role="20kJfa" value="init" />
       <property role="IQ2ns" value="8569071899956249109" />
       <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
+    </node>
+    <node concept="PrWs8" id="7lyrc3Wb6DE" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
+    <node concept="1irR5M" id="7lyrc3Wb6DG" role="rwd14">
+      <property role="2$rrk2" value="2" />
+      <node concept="1irR9n" id="7lyrc3Wb6DK" role="1irR9h">
+        <node concept="3PKj8D" id="7lyrc3Wb6DP" role="3PKjn_">
+          <property role="3PKj8l" value="FFA07A" />
+        </node>
+      </node>
+      <node concept="1irPie" id="7lyrc3Wb6DW" role="1irR9h">
+        <property role="1irPi9" value="v" />
+        <node concept="3PKj8D" id="7lyrc3Wb6E3" role="3PKjny">
+          <property role="3PKj8l" value="333333" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFbdn">
@@ -3809,6 +3856,29 @@
     <property role="TrG5h" value="JSICatchParameter" />
     <node concept="PrWs8" id="6Dc18J$kYcl" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7lyrc3Wb6D7">
+    <property role="EcuMT" value="8458442626275502663" />
+    <property role="3GE5qa" value="identifier" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSAbstractIdentifierReference" />
+    <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    <node concept="t5JxF" id="7lyrc3Wb6D8" role="lGtFl">
+      <property role="t5JxN" value="From the IdentifierReference rule but we will have several implementations to better implement scopes." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7lyrc3Wb6Da">
+    <property role="EcuMT" value="8458442626275502666" />
+    <property role="3GE5qa" value="declaration" />
+    <property role="TrG5h" value="JSVariableDeclaratorReference" />
+    <ref role="1TJDcQ" node="7lyrc3Wb6D7" resolve="JSAbstractIdentifierReference" />
+    <node concept="1TJgyj" id="7lyrc3Wb6Db" role="1TKVEi">
+      <property role="IQ2ns" value="8458442626275502667" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="variableDeclarator" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7rFtnRVF84N" resolve="JSVariableDeclarator" />
     </node>
   </node>
 </model>

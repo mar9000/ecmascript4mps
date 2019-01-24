@@ -7649,5 +7649,23 @@
       <node concept="2iRfu4" id="6Dc18J$9Zj$" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="7lyrc3Wb6FG">
+    <property role="3GE5qa" value="declaration" />
+    <ref role="1XX52x" to="rh3e:7lyrc3Wb6Da" resolve="JSVariableDeclaratorReference" />
+    <node concept="1iCGBv" id="7lyrc3Wb6FW" role="2wV5jI">
+      <ref role="1NtTu8" to="rh3e:7lyrc3Wb6Db" resolve="variableDeclarator" />
+      <node concept="1sVBvm" id="7lyrc3Wb6FY" role="1sWHZn">
+        <node concept="1iCGBv" id="7lyrc3Wb6G5" role="2wV5jI">
+          <ref role="1NtTu8" to="rh3e:57pQC2$lDy1" resolve="identifier" />
+          <node concept="1sVBvm" id="7lyrc3Wb6G7" role="1sWHZn">
+            <node concept="3F0A7n" id="7lyrc3Wb6Ge" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
