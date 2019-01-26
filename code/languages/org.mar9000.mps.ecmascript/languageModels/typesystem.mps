@@ -251,7 +251,6 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
-      <concept id="334628810661441841" name="jetbrains.mps.lang.smodel.structure.AsSConcept" flags="nn" index="1rGIog" />
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -2269,43 +2268,6 @@
           </node>
         </node>
       </node>
-      <node concept="2xdQw9" id="57pQC2$p4Nk" role="3cqZAp">
-        <property role="2xdLsb" value="debug" />
-        <node concept="3cpWs3" id="57pQC2$p4Nl" role="9lYJi">
-          <node concept="37vLTw" id="57pQC2$p4Nm" role="3uHU7w">
-            <ref role="3cqZAo" node="57pQC2$p4Nc" resolve="hasYield" />
-          </node>
-          <node concept="3cpWs3" id="57pQC2$p4Nn" role="3uHU7B">
-            <node concept="3cpWs3" id="57pQC2$p4No" role="3uHU7B">
-              <node concept="3cpWs3" id="57pQC2$p4Np" role="3uHU7B">
-                <node concept="Xl_RD" id="57pQC2$p4Nq" role="3uHU7w">
-                  <property role="Xl_RC" value=" is " />
-                </node>
-                <node concept="3cpWs3" id="57pQC2$p4Nr" role="3uHU7B">
-                  <node concept="2OqwBi" id="57pQC2$p4Ns" role="3uHU7w">
-                    <node concept="1YBJjd" id="57pQC2$p4Nt" role="2Oq$k0">
-                      <ref role="1YBMHb" node="57pQC2$prDU" resolve="node" />
-                    </node>
-                    <node concept="2yIwOk" id="57pQC2$p4Nu" role="2OqNvi" />
-                  </node>
-                  <node concept="Xl_RD" id="57pQC2$p4Nv" role="3uHU7B">
-                    <property role="Xl_RC" value="resolver for " />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="57pQC2$p4Nw" role="3uHU7w">
-                <node concept="37vLTw" id="57pQC2$p4Nx" role="2Oq$k0">
-                  <ref role="3cqZAo" node="57pQC2$p4N6" resolve="hasYieldResolver" />
-                </node>
-                <node concept="1rGIog" id="57pQC2$p4Ny" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="57pQC2$p4Nz" role="3uHU7w">
-              <property role="Xl_RC" value=", value: " />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3cpWs8" id="57pQC2$p4N$" role="3cqZAp">
         <node concept="3cpWsn" id="57pQC2$p4N_" role="3cpWs9">
           <property role="TrG5h" value="jsProgram" />
@@ -2352,12 +2314,6 @@
         <node concept="3clFbS" id="57pQC2$p4NS" role="3clFbx">
           <node concept="3clFbJ" id="57pQC2$p4NT" role="3cqZAp">
             <node concept="3clFbS" id="57pQC2$p4NU" role="3clFbx">
-              <node concept="2xdQw9" id="57pQC2$p4NV" role="3cqZAp">
-                <property role="2xdLsb" value="info" />
-                <node concept="Xl_RD" id="57pQC2$p4NW" role="9lYJi">
-                  <property role="Xl_RC" value="BindingIdentifierRuleParamYieldError" />
-                </node>
-              </node>
               <node concept="2MkqsV" id="57pQC2$p4NX" role="3cqZAp">
                 <node concept="AMVWg" id="57pQC2$p4NY" role="lGtFl">
                   <property role="TrG5h" value="LabelIdentifierRuleParamYieldError" />
@@ -2377,12 +2333,6 @@
           </node>
           <node concept="3clFbJ" id="57pQC2$p4O3" role="3cqZAp">
             <node concept="3clFbS" id="57pQC2$p4O4" role="3clFbx">
-              <node concept="2xdQw9" id="57pQC2$p4O5" role="3cqZAp">
-                <property role="2xdLsb" value="info" />
-                <node concept="Xl_RD" id="57pQC2$p4O6" role="9lYJi">
-                  <property role="Xl_RC" value="BindingIdentifierRuleParamYieldErrorStrict" />
-                </node>
-              </node>
               <node concept="2MkqsV" id="57pQC2$p4O7" role="3cqZAp">
                 <node concept="AMVWg" id="57pQC2$p4O8" role="lGtFl">
                   <property role="TrG5h" value="LabelIdentifierRuleParamYieldErrorStrict" />
@@ -2431,12 +2381,6 @@
       </node>
       <node concept="3clFbJ" id="57pQC2$p4On" role="3cqZAp">
         <node concept="3clFbS" id="57pQC2$p4Oo" role="3clFbx">
-          <node concept="2xdQw9" id="57pQC2$p4Op" role="3cqZAp">
-            <property role="2xdLsb" value="info" />
-            <node concept="Xl_RD" id="57pQC2$p4Oq" role="9lYJi">
-              <property role="Xl_RC" value="BindingIdentifiersyntx" />
-            </node>
-          </node>
           <node concept="2MkqsV" id="57pQC2$p4Or" role="3cqZAp">
             <node concept="AMVWg" id="57pQC2$p4Os" role="lGtFl">
               <property role="TrG5h" value="LabelIdentifierSyntaxError" />

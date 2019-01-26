@@ -164,6 +164,7 @@
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
@@ -855,6 +856,9 @@
     </node>
     <node concept="t5JxF" id="46Ref1UgS0o" role="lGtFl">
       <property role="t5JxN" value="From the AssignmentExpression alternatives: LeftHandSideExpression[?Yield] (= | AssignmentOperator) AssignmentExpression[?In, ?Yield]" />
+    </node>
+    <node concept="PrWs8" id="1wOky0f3MNO" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVF22p">
@@ -3426,6 +3430,9 @@
     <node concept="PrWs8" id="57pQC2$ieU$" role="PrDN$">
       <ref role="PrY4T" node="57pQC2$ieUv" resolve="JSDeclaration" />
     </node>
+    <node concept="PrWs8" id="1GOcPs$5yid" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2OLIV$DKnR_">
     <property role="EcuMT" value="3256590409509469669" />
@@ -3482,6 +3489,26 @@
     </node>
     <node concept="PrWs8" id="5zvrJ7Kn8jW" role="PzmwI">
       <ref role="PrY4T" node="2OLIV$DKnRp" resolve="JSHoistableDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1wOky0fbnzO" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="1wOky0fdjH5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
+    <node concept="1irR5M" id="1wOky0fdjHa" role="rwd14">
+      <property role="2$rrk2" value="3" />
+      <node concept="1irR9n" id="1wOky0fdjHe" role="1irR9h">
+        <node concept="3PKj8D" id="1wOky0fdjHf" role="3PKjn_">
+          <property role="3PKj8l" value="FFA07A" />
+        </node>
+      </node>
+      <node concept="1irPie" id="1wOky0fdjHg" role="1irR9h">
+        <property role="1irPi9" value="g" />
+        <node concept="3PKj8D" id="1wOky0fdjHh" role="3PKjny">
+          <property role="3PKj8l" value="333333" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="57pQC2$9bw9">
@@ -3882,6 +3909,76 @@
     </node>
     <node concept="PrWs8" id="7lyrc3We_lF" role="PzmwI">
       <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1wOky0f2e4c">
+    <property role="EcuMT" value="1744109253343895820" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSAssignmentExpressionReference" />
+    <ref role="1TJDcQ" node="7lyrc3Wb6D7" resolve="JSAbstractIdentifierReference" />
+    <node concept="1TJgyj" id="1wOky0f2e4d" role="1TKVEi">
+      <property role="IQ2ns" value="1744109253343895821" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="assignmentExpression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7rFtnRVD5Zl" resolve="JSAssignmentExpression" />
+    </node>
+    <node concept="PrWs8" id="1wOky0f3GyA" role="PzmwI">
+      <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1wOky0fazcd">
+    <property role="EcuMT" value="1744109253346079501" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSGeneratorDeclarationReference" />
+    <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    <node concept="1TJgyj" id="1wOky0fazce" role="1TKVEi">
+      <property role="IQ2ns" value="1744109253346079502" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="generatorDeclaration" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5zvrJ7Kn8jV" resolve="JSGeneratorDeclaration" />
+    </node>
+  </node>
+  <node concept="312cEu" id="1GOcPs$C1T2">
+    <property role="TrG5h" value="JSCredits" />
+    <node concept="3Tm1VV" id="1GOcPs$C1T3" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1GOcPs$C1TX" role="lGtFl">
+      <node concept="TZ5HA" id="1GOcPs$C1TY" role="TZ5H$">
+        <node concept="1dT_AC" id="1GOcPs$C1TZ" role="1dT_Ay">
+          <property role="1dT_AB" value="Big/medium/small contributors in alphabetical order." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1GOcPs$C1Uv" role="TZ5H$">
+        <node concept="1dT_AC" id="1GOcPs$C1Uw" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1GOcPs$C1UJ" role="TZ5H$">
+        <node concept="1dT_AC" id="1GOcPs$C1UK" role="1dT_Ay">
+          <property role="1dT_AB" value="  * digital-ember: how to fix navigation for JSGeneratorDeclarationReference." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1GOcPs$C1VB" role="TZ5H$">
+        <node concept="1dT_AC" id="1GOcPs$C1VC" role="1dT_Ay">
+          <property role="1dT_AB" value="    In general when referenced node do not implements INamedConcept." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1GOcPs$C1Wr" role="TZ5H$">
+        <node concept="1dT_AC" id="1GOcPs$C1Ws" role="1dT_Ay">
+          <property role="1dT_AB" value="    How to use 'invoke action -&gt; Complete' in tests." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1GOcPs$C1VZ" role="TZ5H$">
+        <node concept="1dT_AC" id="1GOcPs$C1W0" role="1dT_Ay">
+          <property role="1dT_AB" value="  * Vaclav Pech: committer." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1GOcPs$C1Vj" role="TZ5H$">
+        <node concept="1dT_AC" id="1GOcPs$C1Vk" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

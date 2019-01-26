@@ -122,6 +122,9 @@
       <concept id="4772229902327261793" name="org.mar9000.mps.ecmascript.structure.JSParenthesizedExpression" flags="ng" index="2gzfuI">
         <child id="4772229902327261845" name="expression" index="2gzftq" />
       </concept>
+      <concept id="1744109253346079501" name="org.mar9000.mps.ecmascript.structure.JSGeneratorDeclarationReference" flags="ng" index="n7A4H">
+        <reference id="1744109253346079502" name="generatorDeclaration" index="n7A4I" />
+      </concept>
       <concept id="5519637770439392808" name="org.mar9000.mps.ecmascript.structure.JSExportAllFrom" flags="ng" index="2vhWXA">
         <child id="5519637770439392809" name="moduleSpecifier" index="2vhWXB" />
       </concept>
@@ -262,6 +265,22 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="1GOcPs$bdrK" role="1dSqon">
+      <property role="2dO0Ql" value="Generator declarations are hoisted." />
+    </node>
+    <node concept="1dSo_L" id="1GOcPs$HI05" role="1dSqon">
+      <node concept="n7A4H" id="1GOcPs$HI03" role="1dwvF7">
+        <ref role="n7A4I" node="46Ref1U3bmn" />
+      </node>
+    </node>
+    <node concept="1dSo_L" id="1GOcPs$HJZJ" role="1dSqon">
+      <node concept="2dhSm$" id="1GOcPs$HKpa" role="1dwvF7">
+        <node concept="n7A4H" id="1GOcPs$HJZH" role="2dhSgj">
+          <ref role="n7A4I" node="46Ref1U3bmn" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="1GOcPs$bhoW" role="1dSqon" />
     <node concept="2dRJFF" id="7lyrc3WcLUJ" role="1dSqon">
       <property role="2dO0Ql" value="Better scope for variable reference." />
     </node>
@@ -428,7 +447,7 @@
       <node concept="3PT0i$" id="46Ref1U3by1" role="2CwYJP" />
       <node concept="1mvZK$" id="46Ref1U3bxZ" role="2CwYCf">
         <property role="2CGrvu" value="abc" />
-        <property role="TrG5h" value="abc" />
+        <property role="TrG5h" value="genAbc" />
       </node>
     </node>
     <node concept="1dSrUV" id="57pQC2$bjt5" role="1dSqon" />

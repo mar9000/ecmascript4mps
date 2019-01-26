@@ -9,6 +9,8 @@
   <imports>
     <import index="rh3e" ref="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="o14i" ref="r:b7eedae5-708e-4232-ab99-74ec1a4ab089(org.mar9000.mps.ecmascript.behavior)" />
+    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -82,6 +84,26 @@
       <ref role="1N5Vy1" to="rh3e:7lyrc3Wb6Db" resolve="variableDeclarator" />
       <node concept="1dDu$B" id="7lyrc3Wb6GH" role="1N6uqs">
         <ref role="1dDu$A" to="rh3e:7rFtnRVF84N" resolve="JSVariableDeclarator" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1wOky0f2suD">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1M2myG" to="rh3e:1wOky0f2e4c" resolve="JSAssignmentExpressionReference" />
+    <node concept="1N5Pfh" id="1wOky0f2suE" role="1Mr941">
+      <ref role="1N5Vy1" to="rh3e:1wOky0f2e4d" resolve="assignmentExpression" />
+      <node concept="1dDu$B" id="1wOky0f2suG" role="1N6uqs">
+        <ref role="1dDu$A" to="rh3e:7rFtnRVD5Zl" resolve="JSAssignmentExpression" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1wOky0fazdg">
+    <property role="3GE5qa" value="function" />
+    <ref role="1M2myG" to="rh3e:1wOky0fazcd" resolve="JSGeneratorDeclarationReference" />
+    <node concept="1N5Pfh" id="1wOky0fazdh" role="1Mr941">
+      <ref role="1N5Vy1" to="rh3e:1wOky0fazce" resolve="generatorDeclaration" />
+      <node concept="1dDu$B" id="1wOky0fazdv" role="1N6uqs">
+        <ref role="1dDu$A" to="rh3e:5zvrJ7Kn8jV" resolve="JSGeneratorDeclaration" />
       </node>
     </node>
   </node>
