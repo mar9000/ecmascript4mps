@@ -3395,5 +3395,51 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="bkVA2YHhqm">
+    <property role="3GE5qa" value="declaration" />
+    <ref role="WuzLi" to="rh3e:7lyrc3Wb6Da" resolve="JSVariableDeclaratorReference" />
+    <node concept="11bSqf" id="bkVA2YHhqn" role="11c4hB">
+      <node concept="3clFbS" id="bkVA2YHhqo" role="2VODD2">
+        <node concept="lc7rE" id="bkVA2YHhrg" role="3cqZAp">
+          <node concept="l9hG8" id="bkVA2YHhrA" role="lcghm">
+            <node concept="2OqwBi" id="bkVA2YHjVw" role="lb14g">
+              <node concept="2OqwBi" id="bkVA2YHhUI" role="2Oq$k0">
+                <node concept="117lpO" id="bkVA2YHhsu" role="2Oq$k0" />
+                <node concept="3TrEf2" id="bkVA2YHjyk" role="2OqNvi">
+                  <ref role="3Tt5mk" to="rh3e:7lyrc3Wb6Db" resolve="variableDeclarator" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="bkVA2YHkdk" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:57pQC2$lDy1" resolve="identifier" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="bkVA2YHyqV">
+    <property role="3GE5qa" value="function" />
+    <ref role="WuzLi" to="rh3e:1wOky0fazcd" resolve="JSGeneratorDeclarationReference" />
+    <node concept="11bSqf" id="bkVA2YHyqW" role="11c4hB">
+      <node concept="3clFbS" id="bkVA2YHyqX" role="2VODD2">
+        <node concept="lc7rE" id="bkVA2YHyrg" role="3cqZAp">
+          <node concept="l9hG8" id="bkVA2YHyrA" role="lcghm">
+            <node concept="2OqwBi" id="bkVA2YH_wJ" role="lb14g">
+              <node concept="2OqwBi" id="bkVA2YHyTm" role="2Oq$k0">
+                <node concept="117lpO" id="bkVA2YHysu" role="2Oq$k0" />
+                <node concept="3TrEf2" id="bkVA2YH$qC" role="2OqNvi">
+                  <ref role="3Tt5mk" to="rh3e:1wOky0fazce" resolve="generatorDeclaration" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="bkVA2YHA1N" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:5zvrJ7Kn8jY" resolve="id" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
