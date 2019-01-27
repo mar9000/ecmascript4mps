@@ -3224,14 +3224,14 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="defaultBinding" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
     </node>
     <node concept="1TJgyj" id="5OEuegbnJJa" role="1TKVEi">
       <property role="IQ2ns" value="6713311115387796426" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="namespaceBinding" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MpGkVjRBSC">
@@ -3279,13 +3279,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="name" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
     </node>
     <node concept="1TJgyj" id="4MpGkVjTy42" role="1TKVEi">
       <property role="IQ2ns" value="5519637770439893250" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="exportedName" />
-      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MpGkVjY6p$">
