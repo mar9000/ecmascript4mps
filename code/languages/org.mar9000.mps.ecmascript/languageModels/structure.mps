@@ -1092,6 +1092,9 @@
       <property role="IQ2ns" value="8569071899956268586" />
       <ref role="20lvS9" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
     </node>
+    <node concept="PrWs8" id="5xW5ydajqPZ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFcUt">
     <property role="3GE5qa" value="declaration" />

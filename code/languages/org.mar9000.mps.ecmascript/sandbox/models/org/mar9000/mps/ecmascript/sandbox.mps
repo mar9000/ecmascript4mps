@@ -268,6 +268,85 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="5xW5ydao7UB" role="1dSqon">
+      <property role="2dO0Ql" value="Scope for ArrayLiteral." />
+    </node>
+    <node concept="1dSo_L" id="5xW5ydao8kH" role="1dSqon">
+      <node concept="2djMEC" id="5xW5ydao8kF" role="1dwvF7">
+        <property role="2dhT3q" value="=" />
+        <node concept="1mvZK$" id="5xW5ydao8kG" role="2dhTaa">
+          <property role="TrG5h" value="bindArr" />
+        </node>
+        <node concept="2dhBVA" id="5xW5ydao8xM" role="2dhTO1">
+          <property role="2dhB_1" value="1" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="5xW5ydao8IX" role="1dSqon">
+      <node concept="2dhVws" id="5xW5ydao8IV" role="1dwvF7">
+        <node concept="2djMEC" id="5xW5ydao8W5" role="2dhVHn">
+          <node concept="1mvZK$" id="5xW5ydao8Wb" role="2dhTaa">
+            <property role="TrG5h" value="a" />
+          </node>
+          <node concept="2dhUHT" id="5xW5ydao9Mt" role="2dhTO1">
+            <property role="2dhUDU" value="+" />
+            <node concept="2dhBVA" id="5xW5ydao8We" role="2dhUC2">
+              <property role="2dhB_1" value="1" />
+            </node>
+            <node concept="2WqeGl" id="5xW5ydao9Mx" role="2dhUFW">
+              <ref role="2WqeGo" node="5xW5ydao8kG" resolve="bindArr" />
+            </node>
+          </node>
+        </node>
+        <node concept="2djMEC" id="5xW5ydao9mQ" role="2dhVHn">
+          <property role="2dhT3q" value="=" />
+          <node concept="1mvZK$" id="5xW5ydao9mR" role="2dhTaa">
+            <property role="TrG5h" value="b" />
+          </node>
+          <node concept="2dhUHT" id="5xW5ydao9n1" role="2dhTO1">
+            <property role="2dhUDU" value="+" />
+            <node concept="2WqeGl" id="5xW5ydao9mX" role="2dhUC2">
+              <ref role="2WqeGo" node="5xW5ydao8Wb" resolve="a" />
+            </node>
+            <node concept="2dhBVA" id="5xW5ydao9n2" role="2dhUFW">
+              <property role="2dhB_1" value="1" />
+            </node>
+          </node>
+        </node>
+        <node concept="2djMEC" id="5xW5ydao9M3" role="2dhVHn">
+          <property role="2dhT3q" value="=" />
+          <node concept="1mvZK$" id="5xW5ydao9M4" role="2dhTaa">
+            <property role="TrG5h" value="c" />
+          </node>
+          <node concept="2dhUHT" id="5xW5ydao9Mk" role="2dhTO1">
+            <property role="2dhUDU" value="+" />
+            <node concept="2WqeGl" id="5xW5ydao9Mf" role="2dhUC2">
+              <ref role="2WqeGo" node="5xW5ydao8Wb" resolve="a" />
+            </node>
+            <node concept="2WqeGl" id="5xW5ydao9Ml" role="2dhUFW">
+              <ref role="2WqeGo" node="5xW5ydao9mR" resolve="b" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="5xW5ydao99t" role="1dSqon">
+      <node concept="2dhTLS" id="5xW5ydao9mH" role="1dwvF7">
+        <property role="2dhTNQ" value="++" />
+        <node concept="2WqeGl" id="5xW5ydao99r" role="2dhTZw">
+          <ref role="2WqeGo" node="5xW5ydao8Wb" resolve="a" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="5xW5ydao9$t" role="1dSqon">
+      <node concept="2dhTLS" id="5xW5ydao9LP" role="1dwvF7">
+        <property role="2dhTNQ" value="++" />
+        <node concept="2WqeGl" id="5xW5ydao9$r" role="2dhTZw">
+          <ref role="2WqeGo" node="5xW5ydao9mR" resolve="b" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="5xW5ydao7HA" role="1dSqon" />
     <node concept="2dRJFF" id="bkVA2YKmJc" role="1dSqon">
       <property role="2dO0Ql" value="Identifier references in assignment and sequence expressions (scopes)." />
     </node>
@@ -2317,16 +2396,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="1dSqrf" id="bkVA2YN6HA">
-    <property role="TrG5h" value="one-example" />
-    <property role="1$8h_y" value="ES2016" />
-    <node concept="2dRJFF" id="bkVA2YS8Sb" role="1dSqon">
-      <property role="2dO0Ql" value="Model to test few concepts." />
-    </node>
-    <node concept="1dSrUV" id="5xW5ydac3z0" role="1dSqon" />
-    <node concept="1dSrUV" id="5xW5ydac3yr" role="1dSqon" />
-    <node concept="1dSrUV" id="5xW5ydabhox" role="1dSqon" />
   </node>
 </model>
 
