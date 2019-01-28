@@ -151,6 +151,9 @@
       <concept id="4735316138697321566" name="org.mar9000.mps.ecmascript.structure.JSSpreadElement" flags="ng" index="VzliI">
         <child id="4735316138697321569" name="expression" index="Vzlih" />
       </concept>
+      <concept id="204049982422779253" name="org.mar9000.mps.ecmascript.structure.JSBindingIdentifierReference" flags="ng" index="2WqeGl">
+        <reference id="204049982422779256" name="bindingIdentifier" index="2WqeGo" />
+      </concept>
       <concept id="201656743171489017" name="org.mar9000.mps.ecmascript.structure.JSEmptyStatement" flags="ng" index="1dw154" />
       <concept id="201656743171252964" name="org.mar9000.mps.ecmascript.structure.JSIdentifierReference" flags="ng" index="1dx8Xp">
         <reference id="201656743171252965" name="identifier" index="1dx8Xo" />
@@ -265,6 +268,51 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="bkVA2YKmJc" role="1dSqon">
+      <property role="2dO0Ql" value="Identifier references in assignment and sequence expressions (scopes)." />
+    </node>
+    <node concept="1dSo_L" id="bkVA2YLczs" role="1dSqon">
+      <node concept="2djMEC" id="bkVA2YLczq" role="1dwvF7">
+        <property role="2dhT3q" value="=" />
+        <node concept="1mvZK$" id="bkVA2YLczr" role="2dhTaa">
+          <property role="TrG5h" value="bindingIdentifier" />
+        </node>
+        <node concept="2dhBVA" id="bkVA2YLcKh" role="2dhTO1">
+          <property role="2dhB_1" value="1" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="bkVA2YLdFn" role="1dSqon">
+      <node concept="2dhTLS" id="bkVA2YLdSh" role="1dwvF7">
+        <property role="2dhTNQ" value="++" />
+        <node concept="2WqeGl" id="bkVA2YLdFl" role="2dhTZw">
+          <ref role="2WqeGo" node="bkVA2YLczr" resolve="bindingIdentifier" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="bkVA2YLDbt" role="1dSqon">
+      <node concept="1dxaa$" id="bkVA2YLDos" role="1dwvF7">
+        <node concept="2djMEC" id="bkVA2YLDbr" role="1dxaaB">
+          <property role="2dhT3q" value="=" />
+          <node concept="1mvZK$" id="bkVA2YLDbs" role="2dhTaa">
+            <property role="TrG5h" value="bindInSeq1" />
+          </node>
+          <node concept="2WqeGl" id="5xW5ydabhnp" role="2dhTO1">
+            <ref role="2WqeGo" node="bkVA2YLczr" resolve="bindingIdentifier" />
+          </node>
+        </node>
+        <node concept="2djMEC" id="bkVA2YLDoB" role="1dxaaB">
+          <property role="2dhT3q" value="=" />
+          <node concept="1mvZK$" id="bkVA2YLDoC" role="2dhTaa">
+            <property role="TrG5h" value="bindInSeq2" />
+          </node>
+          <node concept="2WqeGl" id="5xW5ydac3DE" role="2dhTO1">
+            <ref role="2WqeGo" node="bkVA2YLDbs" resolve="bindInSeq1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="5xW5ydac3DH" role="1dSqon" />
     <node concept="2dRJFF" id="1GOcPs$bdrK" role="1dSqon">
       <property role="2dO0Ql" value="Generator declarations are hoisted." />
     </node>
@@ -2269,6 +2317,16 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="1dSqrf" id="bkVA2YN6HA">
+    <property role="TrG5h" value="one-example" />
+    <property role="1$8h_y" value="ES2016" />
+    <node concept="2dRJFF" id="bkVA2YS8Sb" role="1dSqon">
+      <property role="2dO0Ql" value="Model to test few concepts." />
+    </node>
+    <node concept="1dSrUV" id="5xW5ydac3z0" role="1dSqon" />
+    <node concept="1dSrUV" id="5xW5ydac3yr" role="1dSqon" />
+    <node concept="1dSrUV" id="5xW5ydabhox" role="1dSqon" />
   </node>
 </model>
 

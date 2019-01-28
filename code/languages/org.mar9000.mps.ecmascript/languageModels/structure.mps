@@ -3193,6 +3193,23 @@
     <node concept="PrWs8" id="6Dc18J$h30a" role="PzmwI">
       <ref role="PrY4T" node="6Dc18J$h304" resolve="JSICatchParameter" />
     </node>
+    <node concept="PrWs8" id="bkVA2YLkVi" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
+    <node concept="1irR5M" id="bkVA2YLe4d" role="rwd14">
+      <property role="2$rrk2" value="4" />
+      <node concept="1irR9n" id="bkVA2YLe4i" role="1irR9h">
+        <node concept="3PKj8D" id="bkVA2YLe4j" role="3PKjn_">
+          <property role="3PKj8l" value="FFA07A" />
+        </node>
+      </node>
+      <node concept="1irPie" id="bkVA2YLe4k" role="1irR9h">
+        <property role="1irPi9" value="v" />
+        <node concept="3PKj8D" id="bkVA2YLe4l" role="3PKjny">
+          <property role="3PKj8l" value="333333" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="5OEuegblojy">
     <property role="EcuMT" value="6713311115387176162" />
@@ -3911,22 +3928,6 @@
       <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1wOky0f2e4c">
-    <property role="EcuMT" value="1744109253343895820" />
-    <property role="3GE5qa" value="expression" />
-    <property role="TrG5h" value="JSAssignmentExpressionReference" />
-    <ref role="1TJDcQ" node="7lyrc3Wb6D7" resolve="JSAbstractIdentifierReference" />
-    <node concept="1TJgyj" id="1wOky0f2e4d" role="1TKVEi">
-      <property role="IQ2ns" value="1744109253343895821" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="assignmentExpression" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7rFtnRVD5Zl" resolve="JSAssignmentExpression" />
-    </node>
-    <node concept="PrWs8" id="1wOky0f3GyA" role="PzmwI">
-      <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1wOky0fazcd">
     <property role="EcuMT" value="1744109253346079501" />
     <property role="3GE5qa" value="function" />
@@ -3979,6 +3980,22 @@
           <property role="1dT_AB" value="" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="bkVA2YJ0lP">
+    <property role="EcuMT" value="204049982422779253" />
+    <property role="3GE5qa" value="identifier" />
+    <property role="TrG5h" value="JSBindingIdentifierReference" />
+    <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    <node concept="1TJgyj" id="bkVA2YJ0lS" role="1TKVEi">
+      <property role="IQ2ns" value="204049982422779256" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="bindingIdentifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
+    </node>
+    <node concept="PrWs8" id="bkVA2YJ0lQ" role="PzmwI">
+      <ref role="PrY4T" node="7rFtnRVFcce" resolve="JSLeftHandSideExpression" />
     </node>
   </node>
 </model>

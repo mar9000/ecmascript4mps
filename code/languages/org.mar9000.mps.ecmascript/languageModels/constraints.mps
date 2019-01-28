@@ -87,16 +87,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="1wOky0f2suD">
-    <property role="3GE5qa" value="expression" />
-    <ref role="1M2myG" to="rh3e:1wOky0f2e4c" resolve="JSAssignmentExpressionReference" />
-    <node concept="1N5Pfh" id="1wOky0f2suE" role="1Mr941">
-      <ref role="1N5Vy1" to="rh3e:1wOky0f2e4d" resolve="assignmentExpression" />
-      <node concept="1dDu$B" id="1wOky0f2suG" role="1N6uqs">
-        <ref role="1dDu$A" to="rh3e:7rFtnRVD5Zl" resolve="JSAssignmentExpression" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="1wOky0fazdg">
     <property role="3GE5qa" value="function" />
     <ref role="1M2myG" to="rh3e:1wOky0fazcd" resolve="JSGeneratorDeclarationReference" />
@@ -104,6 +94,16 @@
       <ref role="1N5Vy1" to="rh3e:1wOky0fazce" resolve="generatorDeclaration" />
       <node concept="1dDu$B" id="1wOky0fazdv" role="1N6uqs">
         <ref role="1dDu$A" to="rh3e:5zvrJ7Kn8jV" resolve="JSGeneratorDeclaration" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="bkVA2YJ5z9">
+    <property role="3GE5qa" value="identifier" />
+    <ref role="1M2myG" to="rh3e:bkVA2YJ0lP" resolve="JSBindingIdentifierReference" />
+    <node concept="1N5Pfh" id="bkVA2YJ5zd" role="1Mr941">
+      <ref role="1N5Vy1" to="rh3e:bkVA2YJ0lS" resolve="bindingIdentifier" />
+      <node concept="1dDu$B" id="bkVA2YJ5zf" role="1N6uqs">
+        <ref role="1dDu$A" to="rh3e:5OEuegbloj0" resolve="JSBindingIdentifier" />
       </node>
     </node>
   </node>

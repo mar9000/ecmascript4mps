@@ -7683,18 +7683,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1wOky0f2ebe">
-    <property role="3GE5qa" value="expression" />
-    <ref role="1XX52x" to="rh3e:1wOky0f2e4c" resolve="JSAssignmentExpressionReference" />
-    <node concept="1iCGBv" id="1wOky0f2ebg" role="2wV5jI">
-      <ref role="1NtTu8" to="rh3e:1wOky0f2e4d" resolve="assignmentExpression" />
-      <node concept="1sVBvm" id="1wOky0f2ebi" role="1sWHZn">
-        <node concept="3F1sOY" id="1wOky0f2ebp" role="2wV5jI">
-          <ref role="1NtTu8" to="rh3e:7rFtnRVFevR" resolve="left" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="1wOky0fazcD">
     <property role="3GE5qa" value="function" />
     <ref role="1XX52x" to="rh3e:1wOky0fazcd" resolve="JSGeneratorDeclarationReference" />
@@ -7721,6 +7709,19 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="bkVA2YJ0mj">
+    <property role="3GE5qa" value="identifier" />
+    <ref role="1XX52x" to="rh3e:bkVA2YJ0lP" resolve="JSBindingIdentifierReference" />
+    <node concept="1iCGBv" id="bkVA2YJ0ml" role="2wV5jI">
+      <ref role="1NtTu8" to="rh3e:bkVA2YJ0lS" resolve="bindingIdentifier" />
+      <node concept="1sVBvm" id="bkVA2YJ0mn" role="1sWHZn">
+        <node concept="3F0A7n" id="bkVA2YJ0mu" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>
