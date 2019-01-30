@@ -268,6 +268,84 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="3yS6AQhkCsS" role="1dSqon">
+      <property role="2dO0Ql" value="Scope for spread element." />
+    </node>
+    <node concept="1dSo_L" id="3yS6AQhkCsO" role="1dSqon">
+      <node concept="2djMEC" id="3yS6AQhkCsP" role="1dwvF7">
+        <property role="2dhT3q" value="=" />
+        <node concept="1mvZK$" id="3yS6AQhkCsQ" role="2dhTaa">
+          <property role="TrG5h" value="bindSpreE" />
+        </node>
+        <node concept="2dhBVA" id="3yS6AQhkCsR" role="2dhTO1">
+          <property role="2dhB_1" value="1" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="3yS6AQhkCsB" role="1dSqon">
+      <node concept="2dhVws" id="3yS6AQhkCsC" role="1dwvF7">
+        <node concept="2djMEC" id="3yS6AQhkCsD" role="2dhVHn">
+          <property role="2dhT3q" value="=" />
+          <node concept="1mvZK$" id="3yS6AQhkCsE" role="2dhTaa">
+            <property role="TrG5h" value="arr1" />
+          </node>
+          <node concept="2dhBVA" id="3yS6AQhkCsF" role="2dhTO1">
+            <property role="2dhB_1" value="1" />
+          </node>
+        </node>
+        <node concept="VzliI" id="3yS6AQhkCsG" role="2dhVHn">
+          <node concept="2dhVws" id="3yS6AQhkCsH" role="Vzlih">
+            <node concept="2djMEC" id="3yS6AQhkCsI" role="2dhVHn">
+              <property role="2dhT3q" value="=" />
+              <node concept="1mvZK$" id="3yS6AQhkCsJ" role="2dhTaa">
+                <property role="TrG5h" value="se2" />
+              </node>
+              <node concept="2WqeGl" id="3yS6AQhkCsK" role="2dhTO1">
+                <ref role="2WqeGo" node="3yS6AQhkCsE" resolve="arr1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2djMEC" id="3yS6AQhkCsL" role="2dhVHn">
+          <property role="2dhT3q" value="=" />
+          <node concept="1mvZK$" id="3yS6AQhkCsM" role="2dhTaa">
+            <property role="TrG5h" value="arr3" />
+          </node>
+          <node concept="2WqeGl" id="3yS6AQhkCsN" role="2dhTO1">
+            <ref role="2WqeGo" node="3yS6AQhkCsJ" resolve="se2" />
+          </node>
+        </node>
+        <node concept="VzliI" id="3yS6AQhmvo5" role="2dhVHn">
+          <node concept="2WqeGl" id="3yS6AQhmvom" role="Vzlih">
+            <ref role="2WqeGo" node="3yS6AQhkCsE" resolve="arr1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSo_L" id="3yS6AQhkCsv" role="1dSqon">
+      <node concept="2djMEC" id="3yS6AQhkCsw" role="1dwvF7">
+        <property role="2dhT3q" value="=" />
+        <node concept="1mvZK$" id="3yS6AQhkCsx" role="2dhTaa">
+          <property role="TrG5h" value="outSe" />
+        </node>
+        <node concept="2dhUHT" id="3yS6AQhkCsy" role="2dhTO1">
+          <property role="2dhUDU" value="+" />
+          <node concept="2WqeGl" id="3yS6AQhkCsz" role="2dhUC2">
+            <ref role="2WqeGo" node="3yS6AQhkCsE" resolve="arr1" />
+          </node>
+          <node concept="2dhUHT" id="3yS6AQhkCs$" role="2dhUFW">
+            <property role="2dhUDU" value="+" />
+            <node concept="2WqeGl" id="3yS6AQhkCs_" role="2dhUC2">
+              <ref role="2WqeGo" node="3yS6AQhkCsJ" resolve="se2" />
+            </node>
+            <node concept="2WqeGl" id="3yS6AQhkCsA" role="2dhUFW">
+              <ref role="2WqeGo" node="3yS6AQhkCsM" resolve="arr3" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="3yS6AQhkCst" role="1dSqon" />
     <node concept="2dRJFF" id="5xW5ydao7UB" role="1dSqon">
       <property role="2dO0Ql" value="Scope for ArrayLiteral." />
     </node>

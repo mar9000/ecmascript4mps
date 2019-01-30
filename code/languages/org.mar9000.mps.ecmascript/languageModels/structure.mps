@@ -312,9 +312,6 @@
     <property role="3GE5qa" value="statement" />
     <property role="EcuMT" value="201656743169479430" />
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
-    <node concept="PrWs8" id="2J96awlQ56G" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
     <node concept="PrWs8" id="5OEuegbkJIt" role="PzmwI">
       <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
     </node>
@@ -3650,6 +3647,9 @@
     </node>
     <node concept="PrWs8" id="46Ref1UeALv" role="PzmwI">
       <ref role="PrY4T" node="46Ref1UdAkC" resolve="JSArrayLiteralElement" />
+    </node>
+    <node concept="PrWs8" id="5D5OPEmDCB7" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="46Ref1UgIeb">
