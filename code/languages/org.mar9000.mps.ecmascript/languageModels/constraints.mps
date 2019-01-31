@@ -107,5 +107,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="USOUmN2CIs">
+    <property role="3GE5qa" value="class" />
+    <ref role="1M2myG" to="rh3e:300h50QBi3z" resolve="JSClassDeclarationReference" />
+    <node concept="1N5Pfh" id="USOUmN2CIt" role="1Mr941">
+      <ref role="1N5Vy1" to="rh3e:300h50QBi3$" resolve="classDeclaration" />
+      <node concept="1dDu$B" id="USOUmN2CIv" role="1N6uqs">
+        <ref role="1dDu$A" to="rh3e:3yS6AQhn9SK" resolve="JSClassDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

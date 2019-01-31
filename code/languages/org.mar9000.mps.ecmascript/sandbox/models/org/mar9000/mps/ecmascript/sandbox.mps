@@ -12,6 +12,9 @@
       <concept id="3256590409509469669" name="org.mar9000.mps.ecmascript.structure.JSExportDefault" flags="ng" index="4Wcps">
         <child id="3256590409509528242" name="declaration" index="4WX$b" />
       </concept>
+      <concept id="3458839625124880611" name="org.mar9000.mps.ecmascript.structure.JSClassDeclarationReference" flags="ng" index="6BmiN">
+        <reference id="3458839625124880612" name="classDeclaration" index="6BmiO" />
+      </concept>
       <concept id="8458442626275502666" name="org.mar9000.mps.ecmascript.structure.JSVariableDeclaratorReference" flags="ng" index="29jwqa">
         <reference id="8458442626275502667" name="variableDeclarator" index="29jwqb" />
       </concept>
@@ -144,6 +147,11 @@
         <child id="6403959180542903555" name="params" index="2CwYJM" />
         <child id="6403959180542903556" name="body" index="2CwYJP" />
       </concept>
+      <concept id="4087045719731248708" name="org.mar9000.mps.ecmascript.structure.JSIClassDefinition" flags="ng" index="2DT8gD">
+        <child id="4087045719731248709" name="identifier" index="2DT8gC" />
+        <child id="4087045719731248711" name="extends" index="2DT8gE" />
+      </concept>
+      <concept id="4087045719731248688" name="org.mar9000.mps.ecmascript.structure.JSClassDeclaration" flags="ng" index="2DT8ht" />
       <concept id="8587016592393416851" name="org.mar9000.mps.ecmascript.structure.JSYieldExpression" flags="ng" index="MPoqb">
         <child id="8587016592393416854" name="expr" index="MPoqe" />
       </concept>
@@ -268,6 +276,23 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="3yS6AQhpd_x" role="1dSqon">
+      <property role="2dO0Ql" value="Classes." />
+    </node>
+    <node concept="2DT8ht" id="3yS6AQhpm41" role="1dSqon">
+      <node concept="1mvZK$" id="300h50QGjzw" role="2DT8gC">
+        <property role="TrG5h" value="SuperClass" />
+      </node>
+    </node>
+    <node concept="2DT8ht" id="300h50QBhPg" role="1dSqon">
+      <node concept="1mvZK$" id="300h50QBhPh" role="2DT8gC">
+        <property role="TrG5h" value="SubClass" />
+      </node>
+      <node concept="6BmiN" id="300h50QHL$l" role="2DT8gE">
+        <ref role="6BmiO" node="3yS6AQhpm41" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="USOUmNbNlt" role="1dSqon" />
     <node concept="2dRJFF" id="3yS6AQhkCsS" role="1dSqon">
       <property role="2dO0Ql" value="Scope for spread element." />
     </node>
