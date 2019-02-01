@@ -154,6 +154,9 @@
         <property id="8569071899956284476" name="value" index="2dhB_1" />
       </concept>
       <concept id="8569071899956224153" name="org.mar9000.mps.ecmascript.structure.JSPrimaryExpression" flags="ng" index="2dhPn$" />
+      <concept id="8569071899956276874" name="org.mar9000.mps.ecmascript.structure.JSNewExpression" flags="ng" index="2dhTJR">
+        <child id="8569071899956277165" name="callee" index="2dhTFg" />
+      </concept>
       <concept id="8569071899956275461" name="org.mar9000.mps.ecmascript.structure.JSUpdateExpression" flags="ng" index="2dhTLS">
         <property id="8569071899956275595" name="operator" index="2dhTNQ" />
         <child id="8569071899956275869" name="argument" index="2dhTZw" />
@@ -200,6 +203,7 @@
         <child id="4735316138697321569" name="expression" index="Vzlih" />
       </concept>
       <concept id="4735316138697876408" name="org.mar9000.mps.ecmascript.structure.JSAbstractLeftHandSideExpression" flags="ng" index="VXtH8" />
+      <concept id="4735316138697876411" name="org.mar9000.mps.ecmascript.structure.JSAbstractMemberExpression" flags="ng" index="VXtHb" />
       <concept id="204049982422779253" name="org.mar9000.mps.ecmascript.structure.JSBindingIdentifierReference" flags="ng" index="2WqeGl">
         <reference id="204049982422779256" name="bindingIdentifier" index="2WqeGo" />
       </concept>
@@ -2390,6 +2394,102 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="3gNR5ykupzk">
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="test_JSClassDeclaration_contributionToExpression" />
+    <property role="3YCmrE" value="JSClassDeclarationReference should extends JSAbstractIdentifierReference." />
+    <node concept="1dSqrf" id="3gNR5ykupzl" role="LiRBU">
+      <property role="TrG5h" value="test" />
+      <property role="1$8h_y" value="ES2016" />
+      <node concept="2DT8ht" id="3gNR5ykupzm" role="1dSqon">
+        <node concept="1mvZK$" id="3gNR5ykupzn" role="2DT8gC">
+          <property role="TrG5h" value="SuperClass" />
+        </node>
+      </node>
+      <node concept="1dSo_L" id="3gNR5ykuuz4" role="1dSqon">
+        <node concept="2dhTJR" id="3gNR5ykuuz0" role="1dwvF7">
+          <node concept="VXtHb" id="3gNR5ykuuz2" role="2dhTFg">
+            <node concept="LIFWc" id="3gNR5ykuuGE" role="lGtFl">
+              <property role="ZRATv" value="true" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="0" />
+              <property role="p6zMs" value="0" />
+              <property role="LIFWd" value="Error" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="3gNR5ykupzq" role="LjaKd">
+      <node concept="2HxZob" id="3gNR5ykupzr" role="3cqZAp">
+        <node concept="1iFQzN" id="3gNR5ykupzs" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:2XByp9s_j7f" resolve="Complete" />
+        </node>
+      </node>
+      <node concept="3clFbF" id="3gNR5ykupzt" role="3cqZAp">
+        <node concept="2OqwBi" id="3gNR5ykupzu" role="3clFbG">
+          <node concept="2OqwBi" id="3gNR5ykupzv" role="2Oq$k0">
+            <node concept="2OqwBi" id="3gNR5ykupzw" role="2Oq$k0">
+              <node concept="2OqwBi" id="3gNR5ykupzx" role="2Oq$k0">
+                <node concept="369mXd" id="3gNR5ykupzy" role="2Oq$k0" />
+                <node concept="liA8E" id="3gNR5ykupzz" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext():jetbrains.mps.nodeEditor.EditorContext" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3gNR5ykupz$" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3gNR5ykupz_" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
+            </node>
+          </node>
+          <node concept="liA8E" id="3gNR5ykupzA" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable):void" resolve="runReadAction" />
+            <node concept="2ShNRf" id="3gNR5ykupzB" role="37wK5m">
+              <node concept="YeOm9" id="3gNR5ykupzC" role="2ShVmc">
+                <node concept="1Y3b0j" id="3gNR5ykupzD" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                  <node concept="3Tm1VV" id="3gNR5ykupzE" role="1B3o_S" />
+                  <node concept="3clFb_" id="3gNR5ykupzF" role="jymVt">
+                    <property role="TrG5h" value="run" />
+                    <node concept="3Tm1VV" id="3gNR5ykupzG" role="1B3o_S" />
+                    <node concept="3cqZAl" id="3gNR5ykupzH" role="3clF45" />
+                    <node concept="3clFbS" id="3gNR5ykupzI" role="3clF47">
+                      <node concept="3vwNmj" id="3gNR5ykupzJ" role="3cqZAp">
+                        <node concept="2OqwBi" id="3gNR5ykupzK" role="3vwVQn">
+                          <node concept="2OqwBi" id="3gNR5ykupzL" role="2Oq$k0">
+                            <node concept="2OqwBi" id="3gNR5ykupzM" role="2Oq$k0">
+                              <node concept="369mXd" id="3gNR5ykupzN" role="2Oq$k0" />
+                              <node concept="liA8E" id="3gNR5ykupzO" role="2OqNvi">
+                                <ref role="37wK5l" to="exr9:~EditorComponent.getNodeSubstituteChooser():jetbrains.mps.nodeEditor.cellMenu.NodeSubstituteChooser" resolve="getNodeSubstituteChooser" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="3gNR5ykupzP" role="2OqNvi">
+                              <ref role="37wK5l" to="6lvu:~NodeSubstituteChooser.getCurrentSubstituteAction():jetbrains.mps.openapi.editor.cells.SubstituteAction" resolve="getCurrentSubstituteAction" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3gNR5ykupzQ" role="2OqNvi">
+                            <ref role="37wK5l" to="f4zo:~SubstituteAction.canSubstituteStrictly(java.lang.String):boolean" resolve="canSubstituteStrictly" />
+                            <node concept="Xl_RD" id="3gNR5ykupzR" role="37wK5m">
+                              <property role="Xl_RC" value="SuperClass" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="3gNR5ykupzS" role="3cqZAp" />
     </node>
   </node>
 </model>

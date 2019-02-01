@@ -4088,13 +4088,16 @@
     <property role="EcuMT" value="3458839625124880611" />
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="JSClassDeclarationReference" />
-    <ref role="1TJDcQ" node="46Ref1UgIeS" resolve="JSAbstractLeftHandSideExpression" />
+    <ref role="1TJDcQ" node="7lyrc3Wb6D7" resolve="JSAbstractIdentifierReference" />
     <node concept="1TJgyj" id="300h50QBi3$" role="1TKVEi">
       <property role="IQ2ns" value="3458839625124880612" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="classDeclaration" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3yS6AQhn9SK" resolve="JSClassDeclaration" />
+    </node>
+    <node concept="t5JxF" id="USOUmNevtm" role="lGtFl">
+      <property role="t5JxN" value="All IdentifierReference should extends JSPrimaryExpression?" />
     </node>
   </node>
 </model>
