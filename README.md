@@ -65,6 +65,12 @@ BindingIdentifier[Yield]:
   [~Yield]yield
 ```
 
+I've introduced `IdentifierName` bacause it's used not only in `*Identifier` productions.
+For instance is used in `PropertyName`.
+
+TODO: modify `*Identifier` to use `JSIdentifierName` instead of `INamedConcept`,
+this way the check `isValidIdentifierName()` is done only in `JSIdentifierName`.
+
 #### Implementation
 
   * use `JSIdentifiersUtils.isValidIdentifier()` to check an `Identifier`.
