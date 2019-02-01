@@ -142,14 +142,24 @@
         <child id="5519637770439893250" name="exportedName" index="2vvT1c" />
         <child id="5519637770439893248" name="name" index="2vvT1e" />
       </concept>
+      <concept id="3761592386790809998" name="org.mar9000.mps.ecmascript.structure.JSIdentifierName" flags="ng" index="2wijRm" />
+      <concept id="3761592386790784041" name="org.mar9000.mps.ecmascript.structure.JSMethodDefinition" flags="ng" index="2wiq1L">
+        <child id="3761592386790858813" name="body" index="2wi7L_" />
+        <child id="3761592386790849068" name="methodName" index="2wiapO" />
+      </concept>
+      <concept id="3761592386790784036" name="org.mar9000.mps.ecmascript.structure.JSIMethodDefinition" flags="ng" index="2wiq1W">
+        <property id="3761592386790784039" name="isStatic" index="2wiq1Z" />
+      </concept>
       <concept id="6403959180542903547" name="org.mar9000.mps.ecmascript.structure.JSGeneratorDeclaration" flags="ng" index="2CwYCa">
         <child id="6403959180542903550" name="id" index="2CwYCf" />
         <child id="6403959180542903555" name="params" index="2CwYJM" />
         <child id="6403959180542903556" name="body" index="2CwYJP" />
       </concept>
+      <concept id="4087045719731248765" name="org.mar9000.mps.ecmascript.structure.JSSemicolon" flags="ng" index="2DT8gg" />
       <concept id="4087045719731248708" name="org.mar9000.mps.ecmascript.structure.JSIClassDefinition" flags="ng" index="2DT8gD">
         <child id="4087045719731248709" name="identifier" index="2DT8gC" />
         <child id="4087045719731248711" name="extends" index="2DT8gE" />
+        <child id="4087045719731255549" name="body" index="2DTaag" />
       </concept>
       <concept id="4087045719731248688" name="org.mar9000.mps.ecmascript.structure.JSClassDeclaration" flags="ng" index="2DT8ht" />
       <concept id="8587016592393416851" name="org.mar9000.mps.ecmascript.structure.JSYieldExpression" flags="ng" index="MPoqb">
@@ -283,6 +293,7 @@
       <node concept="1mvZK$" id="300h50QGjzw" role="2DT8gC">
         <property role="TrG5h" value="SuperClass" />
       </node>
+      <node concept="2DT8gg" id="3gNR5ykCr8R" role="2DTaag" />
     </node>
     <node concept="2DT8ht" id="300h50QBhPg" role="1dSqon">
       <node concept="1mvZK$" id="300h50QBhPh" role="2DT8gC">
@@ -290,6 +301,43 @@
       </node>
       <node concept="6BmiN" id="300h50QHL$l" role="2DT8gE">
         <ref role="6BmiO" node="3yS6AQhpm41" />
+      </node>
+      <node concept="2wiq1L" id="3gNR5ykw1wW" role="2DTaag">
+        <node concept="2wijRm" id="3gNR5ykw9aj" role="2wiapO">
+          <property role="TrG5h" value="constructor" />
+        </node>
+        <node concept="3PT0i$" id="3gNR5ykx4QH" role="2wi7L_">
+          <node concept="3PT0iG" id="3gNR5ykAKwI" role="3PT0iE">
+            <node concept="2dRJFF" id="3gNR5ykAKwM" role="3PTNxU">
+              <property role="2dO0Ql" value="a" />
+            </node>
+            <node concept="2dRJFF" id="3gNR5ykDJAo" role="3PTNxU">
+              <property role="2dO0Ql" value="a" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2wiq1L" id="3gNR5ykDYo5" role="2DTaag">
+        <node concept="2wijRm" id="3gNR5ykDYpo" role="2wiapO">
+          <property role="TrG5h" value="aMethod" />
+        </node>
+        <node concept="3PT0i$" id="3gNR5ykDYpV" role="2wi7L_" />
+      </node>
+      <node concept="2wiq1L" id="3gNR5ykx4P4" role="2DTaag">
+        <property role="2wiq1Z" value="true" />
+        <node concept="2wijRm" id="3gNR5ykx4P_" role="2wiapO">
+          <property role="TrG5h" value="staticMethod" />
+        </node>
+        <node concept="3PT0i$" id="3gNR5ykx4PW" role="2wi7L_">
+          <node concept="3PT0iG" id="3gNR5ykAKwP" role="3PT0iE">
+            <node concept="2dRJFF" id="3gNR5ykAKwT" role="3PTNxU">
+              <property role="2dO0Ql" value="a" />
+            </node>
+            <node concept="2dRJFF" id="3gNR5ykDJAv" role="3PTNxU">
+              <property role="2dO0Ql" value="a" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1dSrUV" id="USOUmNbNlt" role="1dSqon" />

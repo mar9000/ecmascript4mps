@@ -1586,6 +1586,9 @@
     <node concept="PrWs8" id="7rFtnRVFg7K" role="PzmwI">
       <ref role="PrY4T" node="7rFtnRVFd29" resolve="JSPropertyKey" />
     </node>
+    <node concept="PrWs8" id="3gNR5ykuQ0f" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykuI6b" resolve="JSILiteralPropertyName" />
+    </node>
     <node concept="1TJgyi" id="7rFtnRVFgag" role="1TKVEl">
       <property role="TrG5h" value="doubleQuotedValue" />
       <property role="IQ2nx" value="8569071899956282000" />
@@ -1609,6 +1612,9 @@
     </node>
     <node concept="PrWs8" id="7rFtnRVFgQ4" role="PzmwI">
       <ref role="PrY4T" node="7rFtnRVFd29" resolve="JSPropertyKey" />
+    </node>
+    <node concept="PrWs8" id="3gNR5ykuQ08" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykuI6b" resolve="JSILiteralPropertyName" />
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFgNx">
@@ -4098,6 +4104,90 @@
     </node>
     <node concept="t5JxF" id="USOUmNevtm" role="lGtFl">
       <property role="t5JxN" value="All IdentifierReference should extends JSPrimaryExpression?" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gNR5ykuBK$">
+    <property role="EcuMT" value="3761592386790784036" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="JSIMethodDefinition" />
+    <node concept="PrWs8" id="3gNR5ykuBK_" role="PrDN$">
+      <ref role="PrY4T" node="3yS6AQhn9TW" resolve="JSIClassElement" />
+    </node>
+    <node concept="1TJgyi" id="3gNR5ykuBKB" role="1TKVEl">
+      <property role="IQ2nx" value="3761592386790784039" />
+      <property role="TrG5h" value="isStatic" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="t5JxF" id="3gNR5ykDYqq" role="lGtFl">
+      <property role="t5JxN" value="From the MethodDefinition[Yield] production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gNR5ykuBKD">
+    <property role="EcuMT" value="3761592386790784041" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="JSMethodDefinition" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="3gNR5ykuBKE" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykuBK$" resolve="JSIMethodDefinition" />
+    </node>
+    <node concept="t5JxF" id="3gNR5ykuBKG" role="lGtFl">
+      <property role="t5JxN" value="From the alternative of MethodDefinition: PropertyName[?Yield] ( StrictFormalParameters ) { FunctionBody }" />
+    </node>
+    <node concept="1TJgyj" id="3gNR5ykuRCG" role="1TKVEi">
+      <property role="IQ2ns" value="3761592386790849068" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="methodName" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3gNR5ykuI68" resolve="JSIPropertyName" />
+    </node>
+    <node concept="1TJgyj" id="3gNR5ykuU0X" role="1TKVEi">
+      <property role="IQ2ns" value="3761592386790858813" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="57pQC2$ftRD" resolve="JSFunctionBody" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gNR5ykuEOJ">
+    <property role="EcuMT" value="3761592386790796591" />
+    <property role="3GE5qa" value="identifier" />
+    <property role="TrG5h" value="JSIIdentifierName" />
+    <node concept="PrWs8" id="3gNR5ykuEOK" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="t5JxF" id="3gNR5ykuEOM" role="lGtFl">
+      <property role="t5JxN" value="From the IdentifierName production." />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gNR5ykuI68">
+    <property role="EcuMT" value="3761592386790809992" />
+    <property role="3GE5qa" value="expression.object" />
+    <property role="TrG5h" value="JSIPropertyName" />
+    <node concept="t5JxF" id="3gNR5ykuI69" role="lGtFl">
+      <property role="t5JxN" value="From the PropertyName[Yield] production." />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gNR5ykuI6b">
+    <property role="EcuMT" value="3761592386790809995" />
+    <property role="3GE5qa" value="expression.object" />
+    <property role="TrG5h" value="JSILiteralPropertyName" />
+    <node concept="PrWs8" id="3gNR5ykuI6c" role="PrDN$">
+      <ref role="PrY4T" node="3gNR5ykuI68" resolve="JSIPropertyName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gNR5ykuI6e">
+    <property role="EcuMT" value="3761592386790809998" />
+    <property role="3GE5qa" value="identifier" />
+    <property role="TrG5h" value="JSIdentifierName" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="3gNR5ykuI6o" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykuEOJ" resolve="JSIIdentifierName" />
+    </node>
+    <node concept="PrWs8" id="3gNR5ykuQ01" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykuI6b" resolve="JSILiteralPropertyName" />
+    </node>
+    <node concept="t5JxF" id="3gNR5ykuOmo" role="lGtFl">
+      <property role="t5JxN" value="From the IdentifierName production to be used when we needs just an concrete node of JSIIdentifierName." />
     </node>
   </node>
 </model>
