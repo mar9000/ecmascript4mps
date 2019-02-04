@@ -3107,6 +3107,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7rFtnRVFg7I" resolve="JSStringLiteral" />
     </node>
+    <node concept="t5JxF" id="3gNR5ykGkdu" role="lGtFl">
+      <property role="t5JxN" value="From ImportDeclaration production." />
+    </node>
   </node>
   <node concept="AxPO7" id="5OEuegaSH3i">
     <property role="3GE5qa" value="header" />
@@ -3618,6 +3621,12 @@
     <property role="TrG5h" value="JSDeclaration" />
     <node concept="PrWs8" id="57pQC2$j2eo" role="PrDN$">
       <ref role="PrY4T" node="57pQC2$ftSH" resolve="JSStatementListItem" />
+    </node>
+    <node concept="PrWs8" id="3gNR5ykGxAB" role="PrDN$">
+      <ref role="PrY4T" node="59cjVaeT$6_" resolve="JSExportableDeclaration" />
+    </node>
+    <node concept="t5JxF" id="3gNR5ykHmsI" role="lGtFl">
+      <property role="t5JxN" value="From Declaration[Yield] production." />
     </node>
   </node>
   <node concept="PlHQZ" id="46Ref1UdAkC">
@@ -4140,6 +4149,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3gNR5ykuI68" resolve="JSIPropertyName" />
     </node>
+    <node concept="1TJgyj" id="3gNR5ykKrCy" role="1TKVEi">
+      <property role="IQ2ns" value="3761592386795452962" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3gNR5ykKrCe" resolve="JSIUniqueFormalParameters" />
+    </node>
     <node concept="1TJgyj" id="3gNR5ykuU0X" role="1TKVEi">
       <property role="IQ2ns" value="3761592386790858813" />
       <property role="20lmBu" value="aggregation" />
@@ -4188,6 +4204,68 @@
     </node>
     <node concept="t5JxF" id="3gNR5ykuOmo" role="lGtFl">
       <property role="t5JxN" value="From the IdentifierName production to be used when we needs just an concrete node of JSIIdentifierName." />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gNR5ykHud2">
+    <property role="EcuMT" value="3761592386794677058" />
+    <property role="TrG5h" value="JSIBindingElement" />
+    <property role="3GE5qa" value="destructuring" />
+    <node concept="t5JxF" id="3gNR5ykHud3" role="lGtFl">
+      <property role="t5JxN" value="From BindingElement production." />
+    </node>
+    <node concept="PrWs8" id="3gNR5ykKrCj" role="PrDN$">
+      <ref role="PrY4T" node="3gNR5ykHudc" resolve="JSIFormalParameter" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gNR5ykHud5">
+    <property role="EcuMT" value="3761592386794677061" />
+    <property role="3GE5qa" value="destructuring" />
+    <property role="TrG5h" value="JSSingleNameBinding" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="3gNR5ykHud6" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykHud2" resolve="JSIBindingElement" />
+    </node>
+    <node concept="t5JxF" id="3gNR5ykHud8" role="lGtFl">
+      <property role="t5JxN" value="From SingleNameBinding production." />
+    </node>
+    <node concept="1TJgyj" id="3gNR5ykHuda" role="1TKVEi">
+      <property role="IQ2ns" value="3761592386794677066" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="bindingIdentifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gNR5ykHudc">
+    <property role="EcuMT" value="3761592386794677068" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSIFormalParameter" />
+    <node concept="t5JxF" id="3gNR5ykHudf" role="lGtFl">
+      <property role="t5JxN" value="From FormalParameter production." />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gNR5ykKrCe">
+    <property role="EcuMT" value="3761592386795452942" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSIUniqueFormalParameters" />
+  </node>
+  <node concept="1TIwiD" id="3gNR5ykKrCf">
+    <property role="EcuMT" value="3761592386795452943" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSFormalParameters" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="3gNR5ykKrCg" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykKrCe" resolve="JSIUniqueFormalParameters" />
+    </node>
+    <node concept="t5JxF" id="3gNR5ykKrCm" role="lGtFl">
+      <property role="t5JxN" value="From FormalParameters production. FormalParameterList were not implemented because it's used only in FormalParameters." />
+    </node>
+    <node concept="1TJgyj" id="3gNR5ykKrCp" role="1TKVEi">
+      <property role="IQ2ns" value="3761592386795452953" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="formalParameterList" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3gNR5ykHudc" resolve="JSIFormalParameter" />
     </node>
   </node>
 </model>

@@ -225,6 +225,9 @@
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
+      <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC">
+        <reference id="1139880128956" name="concept" index="1A9B2P" />
+      </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -5311,6 +5314,53 @@
       </node>
       <node concept="3uibUv" id="USOUmN2CEF" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3gNR5ykSi85">
+    <property role="3GE5qa" value="class" />
+    <ref role="13h7C2" to="rh3e:3gNR5ykuBKD" resolve="JSMethodDefinition" />
+    <node concept="13hLZK" id="3gNR5ykSi86" role="13h7CW">
+      <node concept="3clFbS" id="3gNR5ykSi87" role="2VODD2">
+        <node concept="3clFbF" id="3gNR5ykT7ld" role="3cqZAp">
+          <node concept="2OqwBi" id="3gNR5ykT8a1" role="3clFbG">
+            <node concept="2OqwBi" id="3gNR5ykT7wB" role="2Oq$k0">
+              <node concept="13iPFW" id="3gNR5ykT7lb" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3gNR5ykT7IP" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:3gNR5ykuRCG" resolve="methodName" />
+              </node>
+            </node>
+            <node concept="zfrQC" id="3gNR5ykT8Hk" role="2OqNvi">
+              <ref role="1A9B2P" to="rh3e:3gNR5ykuI6e" resolve="JSIdentifierName" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3gNR5ykSjls" role="3cqZAp">
+          <node concept="2OqwBi" id="3gNR5ykSk7n" role="3clFbG">
+            <node concept="2OqwBi" id="3gNR5ykSjuy" role="2Oq$k0">
+              <node concept="13iPFW" id="3gNR5ykSjlr" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3gNR5ykSjEy" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:3gNR5ykKrCy" resolve="parameters" />
+              </node>
+            </node>
+            <node concept="zfrQC" id="3gNR5ykSkEE" role="2OqNvi">
+              <ref role="1A9B2P" to="rh3e:3gNR5ykKrCf" resolve="JSFormalParameters" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3gNR5ykSPj_" role="3cqZAp">
+          <node concept="2OqwBi" id="3gNR5ykSQ8y" role="3clFbG">
+            <node concept="2OqwBi" id="3gNR5ykSPtQ" role="2Oq$k0">
+              <node concept="13iPFW" id="3gNR5ykSPjz" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3gNR5ykSPG2" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:3gNR5ykuU0X" resolve="body" />
+              </node>
+            </node>
+            <node concept="zfrQC" id="3gNR5ykSQMl" role="2OqNvi">
+              <ref role="1A9B2P" to="rh3e:57pQC2$ftS$" resolve="JSFunctionStatementList" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

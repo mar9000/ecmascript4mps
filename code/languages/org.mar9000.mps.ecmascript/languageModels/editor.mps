@@ -47,6 +47,7 @@
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
+        <child id="1233141163694" name="separatorStyle" index="sWeuL" />
       </concept>
       <concept id="1078308402140" name="jetbrains.mps.lang.editor.structure.CellModel_Custom" flags="sg" stub="8104358048506730068" index="gc7cB">
         <child id="1176795024817" name="cellProvider" index="3YsKMw" />
@@ -73,6 +74,7 @@
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
+      <concept id="1233148810477" name="jetbrains.mps.lang.editor.structure.InlineStyleDeclaration" flags="ng" index="tppnM" />
       <concept id="1177327274449" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_pattern" flags="nn" index="ub8z3" />
       <concept id="1177327570013" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Substitute" flags="in" index="ucgPf" />
       <concept id="8478191136883534237" name="jetbrains.mps.lang.editor.structure.IExtensibleSubstituteMenuPart" flags="ng" index="upBLQ">
@@ -7457,7 +7459,7 @@
       <node concept="3F1sOY" id="59cjVaeTMq6" role="3EZMnx">
         <ref role="1NtTu8" to="rh3e:59cjVaeT$6C" resolve="declaration" />
       </node>
-      <node concept="2iRfu4" id="59cjVaeTMpS" role="2iSdaV" />
+      <node concept="l2Vlx" id="3gNR5ykRk0C" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="2OLIV$DKnRJ">
@@ -7859,6 +7861,9 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F1sOY" id="3gNR5ykKrWx" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:3gNR5ykKrCy" resolve="parameters" />
+      </node>
       <node concept="3F0ifn" id="3gNR5ykuSzl" role="3EZMnx">
         <property role="3F0ifm" value=")" />
         <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
@@ -7890,6 +7895,27 @@
       <node concept="3F0A7n" id="3gNR5ykuQ1s" role="3EZMnx">
         <ref role="1NtTu8" to="rh3e:3gNR5ykuBKB" resolve="isStatic" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3gNR5ykOQ5C">
+    <property role="3GE5qa" value="function" />
+    <ref role="1XX52x" to="rh3e:3gNR5ykKrCf" resolve="JSFormalParameters" />
+    <node concept="3F2HdR" id="3gNR5ykOQ5E" role="2wV5jI">
+      <property role="2czwfO" value="," />
+      <ref role="1NtTu8" to="rh3e:3gNR5ykKrCp" resolve="formalParameterList" />
+      <node concept="3F0ifn" id="3gNR5ykOQ5L" role="2czzBI" />
+      <node concept="tppnM" id="3gNR5ykQ$lJ" role="sWeuL">
+        <node concept="11L4FC" id="3gNR5ykQ$lM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3gNR5ykPH1R">
+    <property role="3GE5qa" value="destructuring" />
+    <ref role="1XX52x" to="rh3e:3gNR5ykHud5" resolve="JSSingleNameBinding" />
+    <node concept="3F1sOY" id="3gNR5ykPH1T" role="2wV5jI">
+      <ref role="1NtTu8" to="rh3e:3gNR5ykHuda" resolve="bindingIdentifier" />
     </node>
   </node>
 </model>

@@ -146,9 +146,16 @@
       <concept id="3761592386790784041" name="org.mar9000.mps.ecmascript.structure.JSMethodDefinition" flags="ng" index="2wiq1L">
         <child id="3761592386790858813" name="body" index="2wi7L_" />
         <child id="3761592386790849068" name="methodName" index="2wiapO" />
+        <child id="3761592386795452962" name="parameters" index="2wWApU" />
       </concept>
       <concept id="3761592386790784036" name="org.mar9000.mps.ecmascript.structure.JSIMethodDefinition" flags="ng" index="2wiq1W">
         <property id="3761592386790784039" name="isStatic" index="2wiq1Z" />
+      </concept>
+      <concept id="3761592386794677061" name="org.mar9000.mps.ecmascript.structure.JSSingleNameBinding" flags="ng" index="2wxzWt">
+        <child id="3761592386794677066" name="bindingIdentifier" index="2wxzWi" />
+      </concept>
+      <concept id="3761592386795452943" name="org.mar9000.mps.ecmascript.structure.JSFormalParameters" flags="ng" index="2wWApn">
+        <child id="3761592386795452953" name="formalParameterList" index="2wWAp1" />
       </concept>
       <concept id="6403959180542903547" name="org.mar9000.mps.ecmascript.structure.JSGeneratorDeclaration" flags="ng" index="2CwYCa">
         <child id="6403959180542903550" name="id" index="2CwYCf" />
@@ -286,6 +293,33 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="2rdneks1KlM" role="1dSqon">
+      <property role="2dO0Ql" value="Method parameters." />
+    </node>
+    <node concept="2DT8ht" id="2rdneks1KMm" role="1dSqon">
+      <node concept="2wiq1L" id="2rdneks1L0H" role="2DTaag">
+        <node concept="2wijRm" id="2rdneks1L0I" role="2wiapO">
+          <property role="TrG5h" value="method1" />
+        </node>
+        <node concept="2wWApn" id="2rdneks1L0J" role="2wWApU">
+          <node concept="2wxzWt" id="2rdneks1L0S" role="2wWAp1">
+            <node concept="1mvZK$" id="2rdneks1L0U" role="2wxzWi">
+              <property role="TrG5h" value="p1" />
+            </node>
+          </node>
+          <node concept="2wxzWt" id="2rdneks1L12" role="2wWAp1">
+            <node concept="1mvZK$" id="2rdneks1L14" role="2wxzWi">
+              <property role="TrG5h" value="p2" />
+            </node>
+          </node>
+        </node>
+        <node concept="3PT0i$" id="2rdneks1L0K" role="2wi7L_" />
+      </node>
+      <node concept="1mvZK$" id="2rdneks1L0D" role="2DT8gC">
+        <property role="TrG5h" value="ClassWithMethodParameters" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="2rdneks1K7x" role="1dSqon" />
     <node concept="2dRJFF" id="3yS6AQhpd_x" role="1dSqon">
       <property role="2dO0Ql" value="Classes." />
     </node>
@@ -316,12 +350,14 @@
             </node>
           </node>
         </node>
+        <node concept="2wWApn" id="3gNR5ykS6FF" role="2wWApU" />
       </node>
-      <node concept="2wiq1L" id="3gNR5ykDYo5" role="2DTaag">
-        <node concept="2wijRm" id="3gNR5ykDYpo" role="2wiapO">
+      <node concept="2wiq1L" id="2rdneks1L2a" role="2DTaag">
+        <node concept="2wijRm" id="2rdneks1L2b" role="2wiapO">
           <property role="TrG5h" value="aMethod" />
         </node>
-        <node concept="3PT0i$" id="3gNR5ykDYpV" role="2wi7L_" />
+        <node concept="2wWApn" id="2rdneks1L2c" role="2wWApU" />
+        <node concept="3PT0i$" id="2rdneks1L2d" role="2wi7L_" />
       </node>
       <node concept="2wiq1L" id="3gNR5ykx4P4" role="2DTaag">
         <property role="2wiq1Z" value="true" />
@@ -338,6 +374,7 @@
             </node>
           </node>
         </node>
+        <node concept="2wWApn" id="3gNR5ykOQ5b" role="2wWApU" />
       </node>
     </node>
     <node concept="1dSrUV" id="USOUmNbNlt" role="1dSqon" />
