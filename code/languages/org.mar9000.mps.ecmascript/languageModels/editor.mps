@@ -7562,16 +7562,8 @@
     <property role="3GE5qa" value="statement" />
     <ref role="1XX52x" to="rh3e:57pQC2$ftSG" resolve="JSStatementList" />
     <node concept="3F2HdR" id="57pQC2$go6j" role="2wV5jI">
-      <ref role="1NtTu8" to="rh3e:57pQC2$fIbU" resolve="list" />
+      <ref role="1NtTu8" to="rh3e:57pQC2$fIbU" resolve="items" />
       <node concept="2iRkQZ" id="57pQC2$go6l" role="2czzBx" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="57pQC2$gZMK">
-    <property role="3GE5qa" value="function" />
-    <ref role="1XX52x" to="rh3e:57pQC2$ftS$" resolve="JSFunctionStatementList" />
-    <node concept="3F1sOY" id="57pQC2$gZMM" role="2wV5jI">
-      <property role="39s7Ar" value="true" />
-      <ref role="1NtTu8" to="rh3e:57pQC2$ftSE" resolve="list" />
     </node>
   </node>
   <node concept="24kQdi" id="57pQC2$qBeV">

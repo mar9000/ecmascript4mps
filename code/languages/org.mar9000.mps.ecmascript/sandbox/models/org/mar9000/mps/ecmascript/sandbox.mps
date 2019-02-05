@@ -273,11 +273,8 @@
       <concept id="5930202437660328356" name="org.mar9000.mps.ecmascript.structure.JSExport" flags="ng" index="3sEwSm">
         <child id="5930202437660328360" name="declaration" index="3sEwSq" />
       </concept>
-      <concept id="5897985433064562212" name="org.mar9000.mps.ecmascript.structure.JSFunctionStatementList" flags="ng" index="3PT0i$">
-        <child id="5897985433064562218" name="list" index="3PT0iE" />
-      </concept>
       <concept id="5897985433064562220" name="org.mar9000.mps.ecmascript.structure.JSStatementList" flags="ng" index="3PT0iG">
-        <child id="5897985433064628986" name="list" index="3PTNxU" />
+        <child id="5897985433064628986" name="items" index="3PTNxU" />
       </concept>
       <concept id="5897985433063598299" name="org.mar9000.mps.ecmascript.structure.JSLabelIdentifier" flags="ng" index="3PXJ9r">
         <property id="5897985433063598357" name="identifierName" index="3PXJel" />
@@ -313,7 +310,7 @@
             </node>
           </node>
         </node>
-        <node concept="3PT0i$" id="2rdneks1L0K" role="2wi7L_" />
+        <node concept="3PT0iG" id="6UMo7IQ3rVb" role="2wi7L_" />
       </node>
       <node concept="1mvZK$" id="2rdneks1L0D" role="2DT8gC">
         <property role="TrG5h" value="ClassWithMethodParameters" />
@@ -340,41 +337,23 @@
         <node concept="2wijRm" id="3gNR5ykw9aj" role="2wiapO">
           <property role="TrG5h" value="constructor" />
         </node>
-        <node concept="3PT0i$" id="3gNR5ykx4QH" role="2wi7L_">
-          <node concept="3PT0iG" id="3gNR5ykAKwI" role="3PT0iE">
-            <node concept="2dRJFF" id="3gNR5ykAKwM" role="3PTNxU">
-              <property role="2dO0Ql" value="a" />
-            </node>
-            <node concept="2dRJFF" id="3gNR5ykDJAo" role="3PTNxU">
-              <property role="2dO0Ql" value="a" />
-            </node>
-          </node>
-        </node>
         <node concept="2wWApn" id="3gNR5ykS6FF" role="2wWApU" />
+        <node concept="3PT0iG" id="6UMo7IQ3rVg" role="2wi7L_" />
       </node>
       <node concept="2wiq1L" id="2rdneks1L2a" role="2DTaag">
         <node concept="2wijRm" id="2rdneks1L2b" role="2wiapO">
           <property role="TrG5h" value="aMethod" />
         </node>
         <node concept="2wWApn" id="2rdneks1L2c" role="2wWApU" />
-        <node concept="3PT0i$" id="2rdneks1L2d" role="2wi7L_" />
+        <node concept="3PT0iG" id="6UMo7IQ3rVl" role="2wi7L_" />
       </node>
       <node concept="2wiq1L" id="3gNR5ykx4P4" role="2DTaag">
         <property role="2wiq1Z" value="true" />
         <node concept="2wijRm" id="3gNR5ykx4P_" role="2wiapO">
           <property role="TrG5h" value="staticMethod" />
         </node>
-        <node concept="3PT0i$" id="3gNR5ykx4PW" role="2wi7L_">
-          <node concept="3PT0iG" id="3gNR5ykAKwP" role="3PT0iE">
-            <node concept="2dRJFF" id="3gNR5ykAKwT" role="3PTNxU">
-              <property role="2dO0Ql" value="a" />
-            </node>
-            <node concept="2dRJFF" id="3gNR5ykDJAv" role="3PTNxU">
-              <property role="2dO0Ql" value="a" />
-            </node>
-          </node>
-        </node>
         <node concept="2wWApn" id="3gNR5ykOQ5b" role="2wWApU" />
+        <node concept="3PT0iG" id="6UMo7IQ3rVq" role="2wi7L_" />
       </node>
     </node>
     <node concept="1dSrUV" id="USOUmNbNlt" role="1dSqon" />
@@ -654,27 +633,25 @@
       <property role="2dO0Ql" value="Yield expression (valid only inside geerators)." />
     </node>
     <node concept="2CwYCa" id="7sFdxx63l4x" role="1dSqon">
-      <node concept="3PT0i$" id="7sFdxx63m0q" role="2CwYJP">
-        <node concept="3PT0iG" id="7sFdxx63m0t" role="3PT0iE">
-          <node concept="1dSo$T" id="7sFdxx60ytR" role="3PTNxU">
-            <node concept="2dhZhe" id="7sFdxx60ytT" role="1dSoH_">
-              <node concept="1dSrUG" id="7sFdxx60ytV" role="2dhZiP" />
-              <node concept="1mvZK$" id="7sFdxx60ytX" role="3PzO81">
-                <property role="2CGrvu" value="a" />
-                <property role="TrG5h" value="a" />
-              </node>
-              <node concept="MPoqb" id="7sFdxx60yDY" role="2dhZtC">
-                <node concept="2dhBVA" id="7sFdxx60yE4" role="MPoqe">
-                  <property role="2dhB_1" value="1" />
-                </node>
+      <node concept="1mvZK$" id="7sFdxx63lg$" role="2CwYCf">
+        <property role="2CGrvu" value="myGenYield" />
+        <property role="TrG5h" value="myGenYield" />
+      </node>
+      <node concept="3PT0iG" id="6UMo7IQ3sob" role="2CwYJP">
+        <node concept="1dSo$T" id="7sFdxx60ytR" role="3PTNxU">
+          <node concept="2dhZhe" id="7sFdxx60ytT" role="1dSoH_">
+            <node concept="1dSrUG" id="7sFdxx60ytV" role="2dhZiP" />
+            <node concept="1mvZK$" id="7sFdxx60ytX" role="3PzO81">
+              <property role="2CGrvu" value="a" />
+              <property role="TrG5h" value="a" />
+            </node>
+            <node concept="MPoqb" id="7sFdxx60yDY" role="2dhZtC">
+              <node concept="2dhBVA" id="7sFdxx60yE4" role="MPoqe">
+                <property role="2dhB_1" value="1" />
               </node>
             </node>
           </node>
         </node>
-      </node>
-      <node concept="1mvZK$" id="7sFdxx63lg$" role="2CwYCf">
-        <property role="2CGrvu" value="myGenYield" />
-        <property role="TrG5h" value="myGenYield" />
       </node>
     </node>
     <node concept="1dSrUV" id="7sFdxx60yhW" role="1dSqon" />
@@ -740,30 +717,28 @@
       <node concept="1dSrUG" id="46Ref1U1NsJ" role="2CwYJM">
         <property role="1dSrUJ" value="par1" />
       </node>
-      <node concept="3PT0i$" id="46Ref1U1NsL" role="2CwYJP">
-        <node concept="3PT0iG" id="46Ref1U1ND4" role="3PT0iE">
-          <node concept="1dSo$T" id="46Ref1U1ND8" role="3PTNxU">
-            <node concept="2dhZhe" id="46Ref1U1NDa" role="1dSoH_">
-              <node concept="1dSrUG" id="46Ref1U1NDc" role="2dhZiP" />
-              <node concept="1mvZK$" id="46Ref1U1NDe" role="3PzO81">
-                <property role="2CGrvu" value="aa" />
-                <property role="TrG5h" value="aa" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="1mvZK$" id="46Ref1U1NsH" role="2CwYCf">
         <property role="2CGrvu" value="myFirstGenerator" />
         <property role="TrG5h" value="myFirstGenerator" />
       </node>
+      <node concept="3PT0iG" id="6UMo7IQ3som" role="2CwYJP">
+        <node concept="1dSo$T" id="46Ref1U1ND8" role="3PTNxU">
+          <node concept="2dhZhe" id="46Ref1U1NDa" role="1dSoH_">
+            <node concept="1dSrUG" id="46Ref1U1NDc" role="2dhZiP" />
+            <node concept="1mvZK$" id="46Ref1U1NDe" role="3PzO81">
+              <property role="2CGrvu" value="aa" />
+              <property role="TrG5h" value="aa" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2CwYCa" id="46Ref1U3bmn" role="1dSqon">
-      <node concept="3PT0i$" id="46Ref1U3by1" role="2CwYJP" />
       <node concept="1mvZK$" id="46Ref1U3bxZ" role="2CwYCf">
         <property role="2CGrvu" value="abc" />
         <property role="TrG5h" value="genAbc" />
       </node>
+      <node concept="3PT0iG" id="6UMo7IQ3sov" role="2CwYJP" />
     </node>
     <node concept="1dSrUV" id="57pQC2$bjt5" role="1dSqon" />
     <node concept="2dRJFF" id="2OLIV$DZPCK" role="1dSqon">

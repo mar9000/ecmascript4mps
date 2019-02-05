@@ -313,7 +313,7 @@
     <property role="EcuMT" value="201656743169479430" />
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
     <node concept="PrWs8" id="57pQC2$j2ej" role="PzmwI">
-      <ref role="PrY4T" node="57pQC2$ftSH" resolve="JSStatementListItem" />
+      <ref role="PrY4T" node="57pQC2$ftSH" resolve="JSIStatementListItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="bcrrPfbtcb">
@@ -3579,21 +3579,6 @@
       <ref role="PrY4T" node="57pQC2$ftRC" resolve="JSGeneratorBody" />
     </node>
   </node>
-  <node concept="1TIwiD" id="57pQC2$ftS$">
-    <property role="EcuMT" value="5897985433064562212" />
-    <property role="3GE5qa" value="function" />
-    <property role="TrG5h" value="JSFunctionStatementList" />
-    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
-    <node concept="PrWs8" id="57pQC2$ftSB" role="PzmwI">
-      <ref role="PrY4T" node="57pQC2$ftRD" resolve="JSFunctionBody" />
-    </node>
-    <node concept="1TJgyj" id="57pQC2$ftSE" role="1TKVEi">
-      <property role="IQ2ns" value="5897985433064562218" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="list" />
-      <ref role="20lvS9" node="57pQC2$ftSG" resolve="JSStatementList" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="57pQC2$ftSG">
     <property role="EcuMT" value="5897985433064562220" />
     <property role="3GE5qa" value="statement" />
@@ -3602,15 +3587,18 @@
     <node concept="1TJgyj" id="57pQC2$fIbU" role="1TKVEi">
       <property role="IQ2ns" value="5897985433064628986" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="list" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="57pQC2$ftSH" resolve="JSStatementListItem" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="57pQC2$ftSH" resolve="JSIStatementListItem" />
+    </node>
+    <node concept="PrWs8" id="6UMo7IQ0YZE" role="PzmwI">
+      <ref role="PrY4T" node="2rdneks2tKg" resolve="JSIFunctionStatementList" />
     </node>
   </node>
   <node concept="PlHQZ" id="57pQC2$ftSH">
     <property role="EcuMT" value="5897985433064562221" />
     <property role="3GE5qa" value="statement" />
-    <property role="TrG5h" value="JSStatementListItem" />
+    <property role="TrG5h" value="JSIStatementListItem" />
     <node concept="PrWs8" id="3yS6AQhpegh" role="PrDN$">
       <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
     </node>
@@ -3620,7 +3608,7 @@
     <property role="3GE5qa" value="declaration" />
     <property role="TrG5h" value="JSDeclaration" />
     <node concept="PrWs8" id="57pQC2$j2eo" role="PrDN$">
-      <ref role="PrY4T" node="57pQC2$ftSH" resolve="JSStatementListItem" />
+      <ref role="PrY4T" node="57pQC2$ftSH" resolve="JSIStatementListItem" />
     </node>
     <node concept="PrWs8" id="3gNR5ykGxAB" role="PrDN$">
       <ref role="PrY4T" node="59cjVaeT$6_" resolve="JSExportableDeclaration" />
@@ -4266,6 +4254,14 @@
       <property role="20kJfa" value="formalParameterList" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3gNR5ykHudc" resolve="JSIFormalParameter" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2rdneks2tKg">
+    <property role="EcuMT" value="2795993082754620432" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSIFunctionStatementList" />
+    <node concept="PrWs8" id="2rdneks2tKh" role="PrDN$">
+      <ref role="PrY4T" node="57pQC2$ftRD" resolve="JSFunctionBody" />
     </node>
   </node>
 </model>

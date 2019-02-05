@@ -3260,37 +3260,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="57pQC2$trp$">
-    <property role="3GE5qa" value="function" />
-    <ref role="WuzLi" to="rh3e:57pQC2$ftS$" resolve="JSFunctionStatementList" />
-    <node concept="11bSqf" id="57pQC2$trp_" role="11c4hB">
-      <node concept="3clFbS" id="57pQC2$trpA" role="2VODD2">
-        <node concept="3clFbJ" id="46Ref1U3q7T" role="3cqZAp">
-          <node concept="3clFbS" id="46Ref1U3q7V" role="3clFbx">
-            <node concept="lc7rE" id="46Ref1U1BLL" role="3cqZAp">
-              <node concept="l9hG8" id="46Ref1U1BM7" role="lcghm">
-                <node concept="2OqwBi" id="46Ref1U1BZJ" role="lb14g">
-                  <node concept="117lpO" id="46Ref1U1BMZ" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="46Ref1U1Cxj" role="2OqNvi">
-                    <ref role="3Tt5mk" to="rh3e:57pQC2$ftSE" resolve="list" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="46Ref1U3pgZ" role="3clFbw">
-            <node concept="2OqwBi" id="46Ref1U3oqx" role="2Oq$k0">
-              <node concept="117lpO" id="46Ref1U3oeo" role="2Oq$k0" />
-              <node concept="3TrEf2" id="46Ref1U3oY4" role="2OqNvi">
-                <ref role="3Tt5mk" to="rh3e:57pQC2$ftSE" resolve="list" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="46Ref1U3pSl" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="46Ref1TZcmX">
     <property role="3GE5qa" value="statement" />
     <ref role="WuzLi" to="rh3e:57pQC2$ftSG" resolve="JSStatementList" />
@@ -3301,7 +3270,7 @@
             <node concept="2OqwBi" id="46Ref1TZcvS" role="lbANJ">
               <node concept="117lpO" id="46Ref1TZco0" role="2Oq$k0" />
               <node concept="3Tsc0h" id="46Ref1TZcCL" role="2OqNvi">
-                <ref role="3TtcxE" to="rh3e:57pQC2$fIbU" resolve="list" />
+                <ref role="3TtcxE" to="rh3e:57pQC2$fIbU" resolve="items" />
               </node>
             </node>
           </node>
