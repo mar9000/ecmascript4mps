@@ -271,7 +271,7 @@
         <child id="5897985433064562218" name="list" index="3PT0iE" />
       </concept>
       <concept id="5897985433064562220" name="org.mar9000.mps.ecmascript.structure.JSStatementList" flags="ng" index="3PT0iG">
-        <child id="5897985433064628986" name="list" index="3PTNxU" />
+        <child id="5897985433064628986" name="items" index="3PTNxU" />
       </concept>
       <concept id="5897985433063598299" name="org.mar9000.mps.ecmascript.structure.JSLabelIdentifier" flags="ng" index="3PXJ9r">
         <property id="5897985433063598357" name="identifierName" index="3PXJel" />
@@ -728,7 +728,7 @@
         <property role="TrG5h" value="defaultMissing" />
         <node concept="4Wcps" id="57pQC2$dCSS" role="1dSqon">
           <node concept="2CwYCa" id="57pQC2$dCT3" role="4WX$b">
-            <node concept="3PT0i$" id="57pQC2$o50E" role="2CwYJP" />
+            <node concept="3PT0iG" id="6UMo7IQ4ox6" role="2CwYJP" />
           </node>
           <node concept="7CXmI" id="57pQC2$dCT9" role="lGtFl">
             <node concept="7OXhh" id="57pQC2$dCTb" role="7EUXB" />
