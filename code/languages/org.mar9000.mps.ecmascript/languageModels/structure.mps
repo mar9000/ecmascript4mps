@@ -3594,6 +3594,9 @@
     <node concept="PrWs8" id="6UMo7IQ0YZE" role="PzmwI">
       <ref role="PrY4T" node="2rdneks2tKg" resolve="JSIFunctionStatementList" />
     </node>
+    <node concept="PrWs8" id="6UMo7IQ4TGf" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="57pQC2$ftSH">
     <property role="EcuMT" value="5897985433064562221" />
@@ -4127,6 +4130,9 @@
     <node concept="PrWs8" id="3gNR5ykuBKE" role="PzmwI">
       <ref role="PrY4T" node="3gNR5ykuBK$" resolve="JSIMethodDefinition" />
     </node>
+    <node concept="PrWs8" id="6UMo7IQ6sqN" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="t5JxF" id="3gNR5ykuBKG" role="lGtFl">
       <property role="t5JxN" value="From the alternative of MethodDefinition: PropertyName[?Yield] ( StrictFormalParameters ) { FunctionBody }" />
     </node>
@@ -4231,11 +4237,17 @@
     <node concept="t5JxF" id="3gNR5ykHudf" role="lGtFl">
       <property role="t5JxN" value="From FormalParameter production." />
     </node>
+    <node concept="PrWs8" id="6UMo7IQ7NdV" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3gNR5ykKrCe">
     <property role="EcuMT" value="3761592386795452942" />
     <property role="3GE5qa" value="function" />
     <property role="TrG5h" value="JSIUniqueFormalParameters" />
+    <node concept="PrWs8" id="6UMo7IQ6U4n" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3gNR5ykKrCf">
     <property role="EcuMT" value="3761592386795452943" />
@@ -4244,6 +4256,9 @@
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
     <node concept="PrWs8" id="3gNR5ykKrCg" role="PzmwI">
       <ref role="PrY4T" node="3gNR5ykKrCe" resolve="JSIUniqueFormalParameters" />
+    </node>
+    <node concept="PrWs8" id="6UMo7IQ4ufz" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="t5JxF" id="3gNR5ykKrCm" role="lGtFl">
       <property role="t5JxN" value="From FormalParameters production. FormalParameterList were not implemented because it's used only in FormalParameters." />

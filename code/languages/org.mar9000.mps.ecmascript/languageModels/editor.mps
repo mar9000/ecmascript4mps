@@ -7862,6 +7862,7 @@
       </node>
       <node concept="3F0ifn" id="3gNR5ykuTad" role="3EZMnx">
         <property role="3F0ifm" value="{" />
+        <ref role="1k5W1q" to="tpen:hFD5onb" resolve="LeftBrace" />
       </node>
       <node concept="3F1sOY" id="3gNR5ykuUaF" role="3EZMnx">
         <ref role="1NtTu8" to="rh3e:3gNR5ykuU0X" resolve="body" />
@@ -7874,6 +7875,7 @@
       </node>
       <node concept="3F0ifn" id="3gNR5ykuTtR" role="3EZMnx">
         <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" to="tpen:hFD5_7H" resolve="RightBrace" />
         <node concept="pVoyu" id="3gNR5ykuTBH" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
