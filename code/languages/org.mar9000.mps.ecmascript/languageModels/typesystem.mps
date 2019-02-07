@@ -465,7 +465,7 @@
                           </node>
                           <node concept="1mIQ4w" id="67Mg4PZpY9d" role="2OqNvi">
                             <node concept="chp4Y" id="67Mg4PZpY9e" role="cj9EA">
-                              <ref role="cht4Q" to="rh3e:5OEuegaSH3h" resolve="JSImportDeclaration" />
+                              <ref role="cht4Q" to="rh3e:5OEuegaSH3h" resolve="JSAbstractImportDeclaration" />
                             </node>
                           </node>
                         </node>

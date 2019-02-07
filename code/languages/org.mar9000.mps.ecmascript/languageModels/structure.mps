@@ -264,7 +264,7 @@
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="201656743169477546" />
-      <ref role="20lvS9" node="5OEuegbkJI0" resolve="JSModuleItem" />
+      <ref role="20lvS9" node="5OEuegbkJI0" resolve="JSIModuleItem" />
     </node>
     <node concept="1TJgyj" id="1Ry0cLTQXR4" role="1TKVEi">
       <property role="IQ2ns" value="2153284450054299076" />
@@ -3093,12 +3093,12 @@
   </node>
   <node concept="1TIwiD" id="5OEuegaSH3h">
     <property role="EcuMT" value="6713311115379658961" />
-    <property role="TrG5h" value="JSImportDeclaration" />
+    <property role="TrG5h" value="JSAbstractImportDeclaration" />
     <property role="3GE5qa" value="importexport" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
     <node concept="PrWs8" id="5OEuegbkJIk" role="PzmwI">
-      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
+      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSIModuleItem" />
     </node>
     <node concept="1TJgyj" id="5OEuegbmkba" role="1TKVEi">
       <property role="IQ2ns" value="6713311115387421386" />
@@ -3106,9 +3106,12 @@
       <property role="20kJfa" value="moduleSpecifier" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7rFtnRVFg7I" resolve="JSStringLiteral" />
+      <node concept="t5JxF" id="6UMo7IQcWrs" role="lGtFl">
+        <property role="t5JxN" value="From the ModuleSpecifier production." />
+      </node>
     </node>
     <node concept="t5JxF" id="3gNR5ykGkdu" role="lGtFl">
-      <property role="t5JxN" value="From ImportDeclaration production." />
+      <property role="t5JxN" value="From the ImportDeclaration production, implements parts common to all alternatives." />
     </node>
   </node>
   <node concept="AxPO7" id="5OEuegaSH3i">
@@ -3133,13 +3136,13 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
     <node concept="PrWs8" id="5OEuegbkJIh" role="PzmwI">
-      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
+      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSIModuleItem" />
     </node>
   </node>
   <node concept="PlHQZ" id="5OEuegbkJI0">
     <property role="EcuMT" value="6713311115387009920" />
     <property role="3GE5qa" value="importexport" />
-    <property role="TrG5h" value="JSModuleItem" />
+    <property role="TrG5h" value="JSIModuleItem" />
     <node concept="t5JxF" id="5OEuegbloiU" role="lGtFl">
       <property role="t5JxN" value="From ImportDeclarationExportDeclarationStatement." />
     </node>
@@ -3149,14 +3152,7 @@
     <property role="3GE5qa" value="importexport" />
     <property role="TrG5h" value="JSImport" />
     <property role="34LRSv" value="import" />
-    <ref role="1TJDcQ" node="5OEuegaSH3h" resolve="JSImportDeclaration" />
-    <node concept="1TJgyj" id="67Mg4PZflqT" role="1TKVEi">
-      <property role="IQ2ns" value="7057774267634374329" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="defaultBinding" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
-    </node>
+    <ref role="1TJDcQ" node="5OEuegaSH3h" resolve="JSAbstractImportDeclaration" />
     <node concept="1TJgyj" id="67Mg4PZfpiI" role="1TKVEi">
       <property role="IQ2ns" value="7057774267634390190" />
       <property role="20lmBu" value="aggregation" />
@@ -3168,6 +3164,15 @@
       <property role="IQ2nx" value="7057774267634405823" />
       <property role="TrG5h" value="hasEmptyBraces" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="6UMo7IQc8BE" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="6UMo7IQcWrJ" role="PzmwI">
+      <ref role="PrY4T" node="6UMo7IQcWrD" resolve="JSIImportedDefaultBinding" />
+    </node>
+    <node concept="t5JxF" id="6UMo7IQcWru" role="lGtFl">
+      <property role="t5JxN" value="From alternatives of the ImportClause production that do not have '* as'." />
     </node>
   </node>
   <node concept="1TIwiD" id="5OEuegbloj0">
@@ -3202,6 +3207,9 @@
     <node concept="PrWs8" id="bkVA2YLkVi" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
     </node>
+    <node concept="PrWs8" id="6UMo7IQcWqy" role="PzmwI">
+      <ref role="PrY4T" node="6UMo7IQcWid" resolve="JSIImportedBinding" />
+    </node>
     <node concept="1irR5M" id="bkVA2YLe4d" role="rwd14">
       <property role="2$rrk2" value="4" />
       <node concept="1irR9n" id="bkVA2YLe4i" role="1irR9h">
@@ -3222,39 +3230,38 @@
     <property role="3GE5qa" value="importexport" />
     <property role="TrG5h" value="JSImportSpecifier" />
     <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
-    <node concept="1TJgyj" id="67Mg4PZfly0" role="1TKVEi">
-      <property role="IQ2ns" value="7057774267634374784" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="name" />
-      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
-    </node>
     <node concept="1TJgyj" id="5OEuegblojQ" role="1TKVEi">
       <property role="IQ2ns" value="6713311115387176182" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="binding" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
+      <ref role="20lvS9" node="6UMo7IQcWid" resolve="JSIImportedBinding" />
+    </node>
+    <node concept="t5JxF" id="6UMo7IQcWr$" role="lGtFl">
+      <property role="t5JxN" value="From the ImportSpecifier production." />
+    </node>
+    <node concept="PrWs8" id="6UMo7IQcWrA" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykuEOJ" resolve="JSIIdentifierName" />
     </node>
   </node>
   <node concept="1TIwiD" id="5OEuegbnITU">
     <property role="EcuMT" value="6713311115387793018" />
     <property role="3GE5qa" value="importexport" />
-    <property role="TrG5h" value="JSImportNamespace" />
+    <property role="TrG5h" value="JSNameSpaceImport" />
     <property role="34LRSv" value="import as" />
-    <ref role="1TJDcQ" node="5OEuegaSH3h" resolve="JSImportDeclaration" />
-    <node concept="1TJgyj" id="5OEuegbnJJ7" role="1TKVEi">
-      <property role="IQ2ns" value="6713311115387796423" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="defaultBinding" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
-    </node>
+    <ref role="1TJDcQ" node="5OEuegaSH3h" resolve="JSAbstractImportDeclaration" />
     <node concept="1TJgyj" id="5OEuegbnJJa" role="1TKVEi">
       <property role="IQ2ns" value="6713311115387796426" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="namespaceBinding" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
+      <ref role="20lvS9" node="6UMo7IQcWid" resolve="JSIImportedBinding" />
+    </node>
+    <node concept="t5JxF" id="6UMo7IQcWrw" role="lGtFl">
+      <property role="t5JxN" value="From alternatives of the ImportClause production that have '* as' (NameSpaceImport)." />
+    </node>
+    <node concept="PrWs8" id="6UMo7IQcWrP" role="PzmwI">
+      <ref role="PrY4T" node="6UMo7IQcWrD" resolve="JSIImportedDefaultBinding" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MpGkVjRBSC">
@@ -3603,7 +3610,7 @@
     <property role="3GE5qa" value="statement" />
     <property role="TrG5h" value="JSIStatementListItem" />
     <node concept="PrWs8" id="3yS6AQhpegh" role="PrDN$">
-      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSModuleItem" />
+      <ref role="PrY4T" node="5OEuegbkJI0" resolve="JSIModuleItem" />
     </node>
   </node>
   <node concept="PlHQZ" id="57pQC2$ieUv">
@@ -4277,6 +4284,28 @@
     <property role="TrG5h" value="JSIFunctionStatementList" />
     <node concept="PrWs8" id="2rdneks2tKh" role="PrDN$">
       <ref role="PrY4T" node="57pQC2$ftRD" resolve="JSFunctionBody" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6UMo7IQcWid">
+    <property role="EcuMT" value="7976543974480659597" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSIImportedBinding" />
+    <node concept="PrWs8" id="6UMo7IQcWie" role="PrDN$">
+      <ref role="PrY4T" node="57pQC2$9bwb" resolve="HasYield" />
+    </node>
+    <node concept="t5JxF" id="6UMo7IQcWqp" role="lGtFl">
+      <property role="t5JxN" value="From the ImportedBinding production." />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6UMo7IQcWrD">
+    <property role="EcuMT" value="7976543974480660201" />
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="JSIImportedDefaultBinding" />
+    <node concept="1TJgyj" id="6UMo7IQcWrE" role="1TKVEi">
+      <property role="IQ2ns" value="7976543974480660202" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="defaultBinding" />
+      <ref role="20lvS9" node="6UMo7IQcWid" resolve="JSIImportedBinding" />
     </node>
   </node>
 </model>

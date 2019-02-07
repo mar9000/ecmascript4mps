@@ -271,7 +271,7 @@
       <concept id="6713311115387176128" name="org.mar9000.mps.ecmascript.structure.JSBindingIdentifier" flags="ng" index="1mvZK$">
         <property id="6403959180544104751" name="identifierName" index="2CGrvu" />
       </concept>
-      <concept id="6713311115379658961" name="org.mar9000.mps.ecmascript.structure.JSImportDeclaration" flags="ng" index="1nMawP">
+      <concept id="6713311115379658961" name="org.mar9000.mps.ecmascript.structure.JSAbstractImportDeclaration" flags="ng" index="1nMawP">
         <child id="6713311115387421386" name="moduleSpecifier" index="1msNCI" />
       </concept>
       <concept id="5930202437660328356" name="org.mar9000.mps.ecmascript.structure.JSExport" flags="ng" index="3sEwSm">
@@ -2748,6 +2748,102 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="6UMo7IQc8B5">
+    <property role="3GE5qa" value="importexport" />
+    <property role="TrG5h" value="test_ImportDeclaration_Scope_Completion" />
+    <node concept="1dSqrf" id="6UMo7IQc8B6" role="LiRBU">
+      <property role="TrG5h" value="test" />
+      <property role="1$8h_y" value="ES2016" />
+      <node concept="1mvZBA" id="3gNR5ykGxxE" role="1dSqon">
+        <node concept="1mvZK6" id="6UMo7IQnvhm" role="uNXjz">
+          <node concept="1mvZK$" id="6UMo7IQnvhq" role="1mvZKi">
+            <property role="TrG5h" value="myImport1" />
+          </node>
+        </node>
+        <node concept="2dhBij" id="3gNR5ykGxxG" role="1msNCI">
+          <property role="3S2$_t" value="library" />
+        </node>
+      </node>
+      <node concept="1dSrUV" id="6UMo7IQpAdx" role="1dSqon">
+        <node concept="LIFWc" id="6UMo7IQpAdB" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_6jc3qb_a" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="6UMo7IQpAm_" role="LjaKd">
+      <node concept="2HxZob" id="6UMo7IQpAmz" role="3cqZAp">
+        <node concept="1iFQzN" id="6UMo7IQpAmD" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:2XByp9s_j7f" resolve="Complete" />
+        </node>
+      </node>
+      <node concept="3clFbF" id="6UMo7IQpAwm" role="3cqZAp">
+        <node concept="2OqwBi" id="6UMo7IQpAwn" role="3clFbG">
+          <node concept="2OqwBi" id="6UMo7IQpAwo" role="2Oq$k0">
+            <node concept="2OqwBi" id="6UMo7IQpAwp" role="2Oq$k0">
+              <node concept="2OqwBi" id="6UMo7IQpAwq" role="2Oq$k0">
+                <node concept="369mXd" id="6UMo7IQpAwr" role="2Oq$k0" />
+                <node concept="liA8E" id="6UMo7IQpAws" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext():jetbrains.mps.nodeEditor.EditorContext" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6UMo7IQpAwt" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6UMo7IQpAwu" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
+            </node>
+          </node>
+          <node concept="liA8E" id="6UMo7IQpAwv" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable):void" resolve="runReadAction" />
+            <node concept="2ShNRf" id="6UMo7IQpAww" role="37wK5m">
+              <node concept="YeOm9" id="6UMo7IQpAwx" role="2ShVmc">
+                <node concept="1Y3b0j" id="6UMo7IQpAwy" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                  <node concept="3Tm1VV" id="6UMo7IQpAwz" role="1B3o_S" />
+                  <node concept="3clFb_" id="6UMo7IQpAw$" role="jymVt">
+                    <property role="TrG5h" value="run" />
+                    <node concept="3Tm1VV" id="6UMo7IQpAw_" role="1B3o_S" />
+                    <node concept="3cqZAl" id="6UMo7IQpAwA" role="3clF45" />
+                    <node concept="3clFbS" id="6UMo7IQpAwB" role="3clF47">
+                      <node concept="3vwNmj" id="6UMo7IQpAwC" role="3cqZAp">
+                        <node concept="2OqwBi" id="6UMo7IQpAwD" role="3vwVQn">
+                          <node concept="2OqwBi" id="6UMo7IQpAwE" role="2Oq$k0">
+                            <node concept="2OqwBi" id="6UMo7IQpAwF" role="2Oq$k0">
+                              <node concept="369mXd" id="6UMo7IQpAwG" role="2Oq$k0" />
+                              <node concept="liA8E" id="6UMo7IQpAwH" role="2OqNvi">
+                                <ref role="37wK5l" to="exr9:~EditorComponent.getNodeSubstituteChooser():jetbrains.mps.nodeEditor.cellMenu.NodeSubstituteChooser" resolve="getNodeSubstituteChooser" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="6UMo7IQpAwI" role="2OqNvi">
+                              <ref role="37wK5l" to="6lvu:~NodeSubstituteChooser.getCurrentSubstituteAction():jetbrains.mps.openapi.editor.cells.SubstituteAction" resolve="getCurrentSubstituteAction" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="6UMo7IQpAwJ" role="2OqNvi">
+                            <ref role="37wK5l" to="f4zo:~SubstituteAction.canSubstituteStrictly(java.lang.String):boolean" resolve="canSubstituteStrictly" />
+                            <node concept="Xl_RD" id="6UMo7IQpAwK" role="37wK5m">
+                              <property role="Xl_RC" value="myImport1" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6UMo7IQpAwg" role="3cqZAp" />
     </node>
   </node>
 </model>

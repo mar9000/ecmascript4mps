@@ -394,6 +394,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -7015,7 +7016,7 @@
   </node>
   <node concept="24kQdi" id="5OEuegblok9">
     <property role="3GE5qa" value="importexport" />
-    <ref role="1XX52x" to="rh3e:5OEuegaSH3h" resolve="JSImportDeclaration" />
+    <ref role="1XX52x" to="rh3e:5OEuegaSH3h" resolve="JSAbstractImportDeclaration" />
     <node concept="3EZMnI" id="5OEuegblokr" role="2wV5jI">
       <node concept="3F0ifn" id="5OEuegblokD" role="3EZMnx">
         <property role="3F0ifm" value="import" />
@@ -7035,7 +7036,7 @@
   </node>
   <node concept="24kQdi" id="5OEuegbnIUj">
     <property role="3GE5qa" value="importexport" />
-    <ref role="1XX52x" to="rh3e:5OEuegbnITU" resolve="JSImportNamespace" />
+    <ref role="1XX52x" to="rh3e:5OEuegbnITU" resolve="JSNameSpaceImport" />
     <node concept="3EZMnI" id="5OEuegbnIU_" role="2wV5jI">
       <node concept="3F0ifn" id="5OEuegbnIUA" role="3EZMnx">
         <property role="3F0ifm" value="import" />
@@ -7043,7 +7044,7 @@
       </node>
       <node concept="3F1sOY" id="5OEuegbnJJP" role="3EZMnx">
         <property role="39s7Ar" value="true" />
-        <ref role="1NtTu8" to="rh3e:5OEuegbnJJ7" resolve="defaultBinding" />
+        <ref role="1NtTu8" to="rh3e:6UMo7IQcWrE" resolve="defaultBinding" />
       </node>
       <node concept="3F0ifn" id="5OEuegbnJKi" role="3EZMnx">
         <property role="3F0ifm" value="," />
@@ -7053,8 +7054,8 @@
               <node concept="2OqwBi" id="5OEuegbnLA2" role="3clFbG">
                 <node concept="2OqwBi" id="5OEuegbnK85" role="2Oq$k0">
                   <node concept="pncrf" id="5OEuegbnJRX" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5OEuegbnKXU" role="2OqNvi">
-                    <ref role="3Tt5mk" to="rh3e:5OEuegbnJJ7" resolve="defaultBinding" />
+                  <node concept="3TrEf2" id="6UMo7IQe4n8" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rh3e:6UMo7IQcWrE" resolve="defaultBinding" />
                   </node>
                 </node>
                 <node concept="3x8VRR" id="5OEuegbnO9G" role="2OqNvi" />
@@ -7093,9 +7094,10 @@
     <property role="3GE5qa" value="importexport" />
     <ref role="1XX52x" to="rh3e:5OEuegblojy" resolve="JSImportSpecifier" />
     <node concept="3EZMnI" id="67Mg4PZflyd" role="2wV5jI">
-      <node concept="3F1sOY" id="67Mg4PZflyk" role="3EZMnx">
+      <node concept="3F0A7n" id="6UMo7IQdYrF" role="3EZMnx">
         <property role="39s7Ar" value="true" />
-        <ref role="1NtTu8" to="rh3e:67Mg4PZfly0" resolve="name" />
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="67Mg4PZflyq" role="3EZMnx">
         <property role="3F0ifm" value="as" />
@@ -7106,11 +7108,11 @@
               <node concept="2OqwBi" id="67Mg4PZfnGX" role="3clFbG">
                 <node concept="2OqwBi" id="67Mg4PZflRg" role="2Oq$k0">
                   <node concept="pncrf" id="67Mg4PZflE0" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="67Mg4PZfmXF" role="2OqNvi">
-                    <ref role="3Tt5mk" to="rh3e:67Mg4PZfly0" resolve="name" />
+                  <node concept="3TrcHB" id="6UMo7IQdYUY" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                   </node>
                 </node>
-                <node concept="3x8VRR" id="67Mg4PZfoRx" role="2OqNvi" />
+                <node concept="17RvpY" id="6UMo7IQe0bR" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -7130,9 +7132,9 @@
         <property role="3F0ifm" value="import" />
         <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
       </node>
-      <node concept="3F1sOY" id="67Mg4PZfpjh" role="3EZMnx">
+      <node concept="3F1sOY" id="6UMo7IQe1h6" role="3EZMnx">
         <property role="39s7Ar" value="true" />
-        <ref role="1NtTu8" to="rh3e:67Mg4PZflqT" resolve="defaultBinding" />
+        <ref role="1NtTu8" to="rh3e:6UMo7IQcWrE" resolve="defaultBinding" />
       </node>
       <node concept="3F0ifn" id="67Mg4PZfpjp" role="3EZMnx">
         <property role="3F0ifm" value="," />
@@ -7143,8 +7145,8 @@
                 <node concept="2OqwBi" id="67Mg4PZfqIN" role="3uHU7B">
                   <node concept="2OqwBi" id="67Mg4PZfpDF" role="2Oq$k0">
                     <node concept="pncrf" id="67Mg4PZfpqR" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="67Mg4PZfqns" role="2OqNvi">
-                      <ref role="3Tt5mk" to="rh3e:67Mg4PZflqT" resolve="defaultBinding" />
+                    <node concept="3TrEf2" id="6UMo7IQe2ud" role="2OqNvi">
+                      <ref role="3Tt5mk" to="rh3e:6UMo7IQcWrE" resolve="defaultBinding" />
                     </node>
                   </node>
                   <node concept="3x8VRR" id="67Mg4PZfsGr" role="2OqNvi" />
@@ -7284,8 +7286,8 @@
                   <node concept="2OqwBi" id="67Mg4PZhmMe" role="3uHU7B">
                     <node concept="2OqwBi" id="67Mg4PZhl$w" role="2Oq$k0">
                       <node concept="pncrf" id="67Mg4PZhllE" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="67Mg4PZhmqR" role="2OqNvi">
-                        <ref role="3Tt5mk" to="rh3e:67Mg4PZflqT" resolve="defaultBinding" />
+                      <node concept="3TrEf2" id="6UMo7IQe3hZ" role="2OqNvi">
+                        <ref role="3Tt5mk" to="rh3e:6UMo7IQcWrE" resolve="defaultBinding" />
                       </node>
                     </node>
                     <node concept="3x8VRR" id="67Mg4PZhnXi" role="2OqNvi" />
