@@ -3445,6 +3445,23 @@
         <property role="Xl_RC" value="yield*" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4ViHB8sKvny" role="jymVt" />
+    <node concept="Wx3nA" id="4ViHB8sKviJ" role="jymVt">
+      <property role="TrG5h" value="DECORATOR_SYMBOL" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="4ViHB8sKviK" role="1B3o_S" />
+      <node concept="17QB3L" id="4ViHB8sKviL" role="1tU5fm" />
+      <node concept="Xl_RD" id="4ViHB8sKviM" role="33vP2m">
+        <property role="Xl_RC" value="@" />
+      </node>
+      <node concept="z59LJ" id="4ViHB8sKvlm" role="lGtFl">
+        <node concept="TZ5HA" id="4ViHB8sKvln" role="TZ5H$">
+          <node concept="1dT_AC" id="4ViHB8sKvlo" role="1dT_Ay">
+            <property role="1dT_AB" value="Decorator symbol." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="5oJk6Ar$Vbv" role="1B3o_S" />
   </node>
   <node concept="PlHQZ" id="2OLIV$DKnRp">
@@ -3927,6 +3944,9 @@
     <node concept="t5JxF" id="7lyrc3Wb6D8" role="lGtFl">
       <property role="t5JxN" value="From the IdentifierReference rule but we will have several implementations to better implement scopes." />
     </node>
+    <node concept="PrWs8" id="5AR_2GkZI4j" role="PzmwI">
+      <ref role="PrY4T" node="4ViHB8sKvoh" resolve="JSIDecoratorMemberExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7lyrc3Wb6Da">
     <property role="EcuMT" value="8458442626275502666" />
@@ -4002,7 +4022,7 @@
     <property role="EcuMT" value="204049982422779253" />
     <property role="3GE5qa" value="identifier" />
     <property role="TrG5h" value="JSBindingIdentifierReference" />
-    <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    <ref role="1TJDcQ" node="7lyrc3Wb6D7" resolve="JSAbstractIdentifierReference" />
     <node concept="1TJgyj" id="bkVA2YJ0lS" role="1TKVEi">
       <property role="IQ2ns" value="204049982422779256" />
       <property role="20lmBu" value="reference" />
@@ -4032,6 +4052,9 @@
     </node>
     <node concept="PrWs8" id="USOUmN2CDa" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="4ViHB8sKv$f" role="PzmwI">
+      <ref role="PrY4T" node="4ViHB8sKv$4" resolve="JSIDecoratorList" />
     </node>
     <node concept="t5JxF" id="3yS6AQhn9SP" role="lGtFl">
       <property role="t5JxN" value="From the ClassDeclaration production." />
@@ -4306,6 +4329,123 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="defaultBinding" />
       <ref role="20lvS9" node="6UMo7IQcWid" resolve="JSIImportedBinding" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4ViHB8sKvoh">
+    <property role="EcuMT" value="5679802681292617233" />
+    <property role="3GE5qa" value="decorator" />
+    <property role="TrG5h" value="JSIDecoratorMemberExpression" />
+    <node concept="PrWs8" id="5AR_2GkHBV6" role="PrDN$">
+      <ref role="PrY4T" node="5AR_2GkH_tY" resolve="JSIDecoratorContent" />
+    </node>
+    <node concept="t5JxF" id="4ViHB8sKvok" role="lGtFl">
+      <property role="t5JxN" value="From the DecoratorMemberExpression production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4ViHB8sKvom">
+    <property role="EcuMT" value="5679802681292617238" />
+    <property role="3GE5qa" value="decorator" />
+    <property role="TrG5h" value="JSParenExpressionDecorator" />
+    <property role="34LRSv" value="@(" />
+    <property role="R4oN_" value="paren expression decorator" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="4ViHB8sKvon" role="PzmwI">
+      <ref role="PrY4T" node="4ViHB8sKvoh" resolve="JSIDecoratorMemberExpression" />
+    </node>
+    <node concept="1TJgyj" id="4ViHB8sKvop" role="1TKVEi">
+      <property role="IQ2ns" value="5679802681292617241" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="46Ref1Uh8_W" resolve="JSAbstractExpression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4ViHB8sKv$4">
+    <property role="EcuMT" value="5679802681292617988" />
+    <property role="3GE5qa" value="decorator" />
+    <property role="TrG5h" value="JSIDecoratorList" />
+    <node concept="t5JxF" id="4ViHB8sKv$5" role="lGtFl">
+      <property role="t5JxN" value="From the DecoratorList production." />
+    </node>
+    <node concept="1TJgyj" id="4ViHB8sKv$7" role="1TKVEi">
+      <property role="IQ2ns" value="5679802681292617991" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="decorators" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5AR_2GkH_tT" resolve="JSDecorator" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5AR_2Gk$hwi">
+    <property role="EcuMT" value="6464798702863194130" />
+    <property role="3GE5qa" value="decorator" />
+    <property role="TrG5h" value="JSDecoratorCallExpression" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="1TJgyj" id="5AR_2Gk$hwl" role="1TKVEi">
+      <property role="IQ2ns" value="6464798702863194133" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="memberExpression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4ViHB8sKvoh" resolve="JSIDecoratorMemberExpression" />
+    </node>
+    <node concept="1TJgyj" id="5AR_2Gk$hwv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="6464798702863194143" />
+      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+      <node concept="t5JxF" id="5AR_2GkZI4l" role="lGtFl">
+        <property role="t5JxN" value="TODO: should be of type Arguments." />
+      </node>
+    </node>
+    <node concept="PrWs8" id="5AR_2GkZI4e" role="PzmwI">
+      <ref role="PrY4T" node="5AR_2GkH_tY" resolve="JSIDecoratorContent" />
+    </node>
+    <node concept="t5JxF" id="5AR_2GkZI4h" role="lGtFl">
+      <property role="t5JxN" value="From the DecoratorCallExpression production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5AR_2GkH_tT">
+    <property role="EcuMT" value="6464798702865635193" />
+    <property role="3GE5qa" value="decorator" />
+    <property role="TrG5h" value="JSDecorator" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="t5JxF" id="5AR_2GkH_tU" role="lGtFl">
+      <property role="t5JxN" value="From the Decorator production, see https://tc39.github.io/proposal-decorators/#sec-syntax ." />
+    </node>
+    <node concept="1TJgyj" id="5AR_2GkH_tW" role="1TKVEi">
+      <property role="IQ2ns" value="6464798702865635196" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5AR_2GkH_tY" resolve="JSIDecoratorContent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5AR_2GkH_tY">
+    <property role="EcuMT" value="6464798702865635198" />
+    <property role="3GE5qa" value="decorator" />
+    <property role="TrG5h" value="JSIDecoratorContent" />
+  </node>
+  <node concept="1TIwiD" id="5AR_2GkZIrk">
+    <property role="EcuMT" value="6464798702870390484" />
+    <property role="3GE5qa" value="decorator" />
+    <property role="TrG5h" value="JSDotMemberExpressioDecorator" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="1TJgyj" id="5AR_2GkZIrn" role="1TKVEi">
+      <property role="IQ2ns" value="6464798702870390487" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="memberExpression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4ViHB8sKvoh" resolve="JSIDecoratorMemberExpression" />
+    </node>
+    <node concept="1TJgyj" id="5AR_2GkZIrp" role="1TKVEi">
+      <property role="IQ2ns" value="6464798702870390489" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="identifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3gNR5ykuI6e" resolve="JSIdentifierName" />
+    </node>
+    <node concept="PrWs8" id="5AR_2Gl25ru" role="PzmwI">
+      <ref role="PrY4T" node="4ViHB8sKvoh" resolve="JSIDecoratorMemberExpression" />
     </node>
   </node>
 </model>

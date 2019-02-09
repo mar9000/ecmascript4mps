@@ -179,6 +179,13 @@
       <concept id="204049982422779253" name="org.mar9000.mps.ecmascript.structure.JSBindingIdentifierReference" flags="ng" index="2WqeGl">
         <reference id="204049982422779256" name="bindingIdentifier" index="2WqeGo" />
       </concept>
+      <concept id="6464798702865635193" name="org.mar9000.mps.ecmascript.structure.JSDecorator" flags="ng" index="1d0sdi">
+        <child id="6464798702865635196" name="content" index="1d0sdn" />
+      </concept>
+      <concept id="6464798702863194130" name="org.mar9000.mps.ecmascript.structure.JSDecoratorCallExpression" flags="ng" index="1d9CKT">
+        <child id="6464798702863194143" name="arguments" index="1d9CKO" />
+        <child id="6464798702863194133" name="memberExpression" index="1d9CKY" />
+      </concept>
       <concept id="201656743171489017" name="org.mar9000.mps.ecmascript.structure.JSEmptyStatement" flags="ng" index="1dw154" />
       <concept id="201656743171252964" name="org.mar9000.mps.ecmascript.structure.JSIdentifierReference" flags="ng" index="1dx8Xp">
         <reference id="201656743171252965" name="identifier" index="1dx8Xo" />
@@ -251,6 +258,9 @@
         <child id="201656743169479451" name="id" index="1dSrUA" />
       </concept>
       <concept id="201656743169479430" name="org.mar9000.mps.ecmascript.structure.JSStatement" flags="ng" index="1dSrUV" />
+      <concept id="5679802681292617988" name="org.mar9000.mps.ecmascript.structure.JSIDecoratorList" flags="ng" index="1i4OXQ">
+        <child id="5679802681292617991" name="decorators" index="1i4OXP" />
+      </concept>
       <concept id="6713311115387793018" name="org.mar9000.mps.ecmascript.structure.JSNameSpaceImport" flags="ng" index="1mt9qu">
         <child id="6713311115387796426" name="namespaceBinding" index="1mt8cI" />
       </concept>
@@ -290,6 +300,61 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="ES2016" />
     <property role="1nMawN" value="module" />
+    <node concept="2dRJFF" id="4ViHB8sN7Mc" role="1dSqon">
+      <property role="2dO0Ql" value="Import and decorator." />
+    </node>
+    <node concept="1mvZBA" id="4ViHB8sN7Md" role="1dSqon">
+      <node concept="1mvZK6" id="4ViHB8sN7Me" role="uNXjz">
+        <node concept="1mvZK$" id="4ViHB8sN7Mf" role="1mvZKi">
+          <property role="TrG5h" value="inject" />
+        </node>
+      </node>
+      <node concept="2dhBij" id="4ViHB8sN7Mg" role="1msNCI">
+        <property role="3S2$_t" value="library" />
+      </node>
+    </node>
+    <node concept="1mvZBA" id="5AR_2Gl23w2" role="1dSqon">
+      <node concept="1mvZK6" id="5AR_2Gl23w3" role="uNXjz">
+        <node concept="1mvZK$" id="5AR_2Gl23w4" role="1mvZKi">
+          <property role="TrG5h" value="State" />
+        </node>
+      </node>
+      <node concept="2dhBij" id="5AR_2Gl23w5" role="1msNCI">
+        <property role="3S2$_t" value="./state" />
+      </node>
+    </node>
+    <node concept="2dRJFF" id="4ViHB8sN6Dy" role="1dSqon">
+      <property role="2dO0Ql" value="Decorators, https://tc39.github.io/proposal-decorators/#sec-syntax ." />
+    </node>
+    <node concept="2DT8ht" id="4ViHB8sN76u" role="1dSqon">
+      <node concept="1mvZK$" id="4ViHB8sN7kX" role="2DT8gC">
+        <property role="TrG5h" value="DecoratedClass" />
+      </node>
+      <node concept="2wiq1L" id="5AR_2Gl9d6W" role="2DTaag">
+        <node concept="2wijRm" id="5AR_2Gl9d6X" role="2wiapO">
+          <property role="TrG5h" value="constructor" />
+        </node>
+        <node concept="2wWApn" id="5AR_2Gl9d6Y" role="2wWApU">
+          <node concept="2wxzWt" id="5AR_2Gl9d74" role="2wWAp1">
+            <node concept="1mvZK$" id="5AR_2Gl9d78" role="2wxzWi">
+              <property role="TrG5h" value="state" />
+            </node>
+          </node>
+        </node>
+        <node concept="3PT0iG" id="5AR_2Gl9d6Z" role="2wi7L_" />
+      </node>
+      <node concept="1d0sdi" id="5AR_2GlaaYy" role="1i4OXP">
+        <node concept="1d9CKT" id="5AR_2GlaaYF" role="1d0sdn">
+          <node concept="2WqeGl" id="5AR_2GlaaYL" role="1d9CKO">
+            <ref role="2WqeGo" node="5AR_2Gl23w4" resolve="State" />
+          </node>
+          <node concept="2WqeGl" id="5AR_2GlaaYA" role="1d9CKY">
+            <ref role="2WqeGo" node="4ViHB8sN7Mf" resolve="inject" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="5AR_2GkZHeg" role="1dSqon" />
     <node concept="2dRJFF" id="4ViHB8sJy0h" role="1dSqon">
       <property role="2dO0Ql" value="Scope for imports." />
     </node>

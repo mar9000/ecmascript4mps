@@ -3776,18 +3776,14 @@
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="1GOcPs$zf8d" role="1tU5fm" />
       <node concept="3Tm1VV" id="1GOcPs$zf8e" role="1B3o_S" />
-      <node concept="3clFbT" id="5xW5ydaesuQ" role="33vP2m">
-        <property role="3clFbU" value="true" />
-      </node>
+      <node concept="3clFbT" id="5xW5ydaesuQ" role="33vP2m" />
     </node>
     <node concept="Wx3nA" id="5D5OPEmE1_E" role="jymVt">
       <property role="TrG5h" value="PRINT_ON_SYSOUT" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm1VV" id="5D5OPEmE1zX" role="1B3o_S" />
       <node concept="10P_77" id="5D5OPEmE1_C" role="1tU5fm" />
-      <node concept="3clFbT" id="5D5OPEmE1BP" role="33vP2m">
-        <property role="3clFbU" value="true" />
-      </node>
+      <node concept="3clFbT" id="5D5OPEmE1BP" role="33vP2m" />
     </node>
     <node concept="2tJIrI" id="3yS6AQhfWEE" role="jymVt" />
     <node concept="2YIFZL" id="1wOky0fafrF" role="jymVt">
@@ -5199,12 +5195,17 @@
                 <node concept="iy90A" id="USOUmNa_$B" role="3cqZAk" />
               </node>
             </node>
-            <node concept="22lmx$" id="6UMo7IQ7ltu" role="3eO9$A">
-              <node concept="iy1fb" id="6UMo7IQ7lA_" role="3uHU7w">
-                <ref role="iy1sa" to="rh3e:3yS6AQhnbzX" resolve="body" />
+            <node concept="22lmx$" id="4ViHB8sPO18" role="3eO9$A">
+              <node concept="iy1fb" id="4ViHB8sPOaM" role="3uHU7w">
+                <ref role="iy1sa" to="rh3e:4ViHB8sKv$7" resolve="decorators" />
               </node>
-              <node concept="iy1fb" id="USOUmNa$Vb" role="3uHU7B">
-                <ref role="iy1sa" to="rh3e:3yS6AQhn9T7" resolve="extends" />
+              <node concept="22lmx$" id="6UMo7IQ7ltu" role="3uHU7B">
+                <node concept="iy1fb" id="USOUmNa$Vb" role="3uHU7B">
+                  <ref role="iy1sa" to="rh3e:3yS6AQhn9T7" resolve="extends" />
+                </node>
+                <node concept="iy1fb" id="6UMo7IQ7lA_" role="3uHU7w">
+                  <ref role="iy1sa" to="rh3e:3yS6AQhnbzX" resolve="body" />
+                </node>
               </node>
             </node>
           </node>

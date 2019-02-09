@@ -1275,5 +1275,54 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="4ViHB8sKFJ3">
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="AddDecoratorToClassDeclaration" />
+    <ref role="2ZfgGC" to="rh3e:3yS6AQhn9SK" resolve="JSClassDeclaration" />
+    <node concept="2S6ZIM" id="4ViHB8sKFJ4" role="2ZfVej">
+      <node concept="3clFbS" id="4ViHB8sKFJ5" role="2VODD2">
+        <node concept="3clFbF" id="4ViHB8sKFSy" role="3cqZAp">
+          <node concept="Xl_RD" id="4ViHB8sKFSx" role="3clFbG">
+            <property role="Xl_RC" value="Add Decorator" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4ViHB8sKFJ6" role="2ZfgGD">
+      <node concept="3clFbS" id="4ViHB8sKFJ7" role="2VODD2">
+        <node concept="3clFbF" id="4ViHB8sKQYk" role="3cqZAp">
+          <node concept="2OqwBi" id="4ViHB8sKTfK" role="3clFbG">
+            <node concept="2OqwBi" id="4ViHB8sKRc2" role="2Oq$k0">
+              <node concept="2Sf5sV" id="4ViHB8sKQYj" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="4ViHB8sKS04" role="2OqNvi">
+                <ref role="3TtcxE" to="rh3e:4ViHB8sKv$7" resolve="decorators" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="4ViHB8sKVLf" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="4ViHB8sKGrr" role="2ZfVeh">
+      <node concept="3clFbS" id="4ViHB8sKGrs" role="2VODD2">
+        <node concept="3cpWs6" id="4ViHB8sKOYS" role="3cqZAp">
+          <node concept="3clFbC" id="4ViHB8sKQwU" role="3cqZAk">
+            <node concept="2OqwBi" id="4ViHB8sKJ8J" role="3uHU7B">
+              <node concept="2OqwBi" id="4ViHB8sKGRb" role="2Oq$k0">
+                <node concept="2Sf5sV" id="4ViHB8sKGyT" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="4ViHB8sKHlp" role="2OqNvi">
+                  <ref role="3TtcxE" to="rh3e:4ViHB8sKv$7" resolve="decorators" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="4ViHB8sKLKg" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="4ViHB8sKOlS" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
