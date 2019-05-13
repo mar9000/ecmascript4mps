@@ -842,7 +842,7 @@
             <node concept="2OqwBi" id="2URGstPlazd" role="33vP2m">
               <node concept="1XNTG" id="2URGstPlazc" role="2Oq$k0" />
               <node concept="liA8E" id="2URGstPlazh" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNodes():java.util.List" resolve="getSelectedNodes" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNodes()" resolve="getSelectedNodes" />
               </node>
             </node>
           </node>
