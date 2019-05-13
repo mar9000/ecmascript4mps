@@ -7,6 +7,8 @@ At the moment branches are as follow:
   * *master*: where we started implementing ECMAScript, following version 5.1 as stated above.
   * *development*: a general ESNext implementation (ES2016, ES2017...) plus some features stage-x features not yet in the standard specification, e.g. decorators.
 
+Probably they won't be never merged and the master will be replaced by the code from the development branch once completed.
+
 ## Introduction
 
 The constructed AST is identical (with very small exceptions) to the one described by the [Mozilla Parser API](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_API) and implemented, for example, by parsers like [Esprima](http://esprima.org/).
