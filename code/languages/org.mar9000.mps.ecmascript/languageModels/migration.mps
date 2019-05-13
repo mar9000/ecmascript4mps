@@ -304,7 +304,7 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="57pQC2$0kWV" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="57pQC2$0kWW" role="37wK5m">
                     <node concept="37vLTw" id="57pQC2$0kWX" role="3uHU7w">
                       <ref role="3cqZAo" node="1Ry0cLTKIRa" resolve="m" />
@@ -324,11 +324,11 @@
                 <ref role="3cqZAo" node="1Ry0cLTKIRa" resolve="m" />
               </node>
               <node concept="liA8E" id="57pQC2$0kX2" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="57pQC2$0kX3" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="57pQC2$0kX4" role="37wK5m">
                 <node concept="37shsh" id="57pQC2$0kX5" role="2Oq$k0">
                   <node concept="20RdaH" id="57pQC2$0kX6" role="37shsm">
@@ -337,7 +337,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="57pQC2$0kX7" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -350,7 +350,7 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="57pQC2$0kXd" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="57pQC2$0kXe" role="37wK5m">
                 <node concept="Xl_RD" id="57pQC2$0kXf" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -406,7 +406,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="57pQC2$2gOX" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty):java.lang.String" resolve="getProperty" />
+                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty)" resolve="getProperty" />
                               <node concept="355D3s" id="57pQC2$2gVW" role="37wK5m">
                                 <ref role="355D3t" to="rh3e:bcrrPfbsHM" resolve="JSProgram" />
                                 <ref role="355D3u" to="rh3e:1Ry0cLTKLAI" resolve="version" />
@@ -504,7 +504,7 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="57pQC2$30qw" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="57pQC2$30qx" role="37wK5m">
                     <node concept="37vLTw" id="57pQC2$30qy" role="3uHU7w">
                       <ref role="3cqZAo" node="5OEuegbbtx0" resolve="m" />
@@ -524,11 +524,11 @@
                 <ref role="3cqZAo" node="5OEuegbbtx0" resolve="m" />
               </node>
               <node concept="liA8E" id="57pQC2$30qC" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="57pQC2$30qD" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="57pQC2$30qE" role="37wK5m">
                 <node concept="37shsh" id="57pQC2$30qF" role="2Oq$k0">
                   <node concept="20RdaH" id="57pQC2$30qG" role="37shsm">
@@ -537,7 +537,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="57pQC2$30qH" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -550,7 +550,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="57pQC2$30qN" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="57pQC2$30qO" role="37wK5m">
                 <node concept="Xl_RD" id="57pQC2$30qP" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -612,7 +612,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="57pQC2$2umu" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty):java.lang.String" resolve="getProperty" />
+                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty)" resolve="getProperty" />
                               <node concept="355D3s" id="57pQC2$2umv" role="37wK5m">
                                 <ref role="355D3t" to="rh3e:bcrrPfbsHM" resolve="JSProgram" />
                                 <ref role="355D3u" to="rh3e:5OEuegaSH3n" resolve="type" />
@@ -706,7 +706,7 @@
                   <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="57pQC2$310t" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="57pQC2$310u" role="37wK5m">
                     <node concept="37vLTw" id="57pQC2$310v" role="3uHU7w">
                       <ref role="3cqZAo" node="5zvrJ7KqqdJ" resolve="m" />
@@ -726,11 +726,11 @@
                 <ref role="3cqZAo" node="5zvrJ7KqqdJ" resolve="m" />
               </node>
               <node concept="liA8E" id="57pQC2$310_" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="57pQC2$310A" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="57pQC2$310B" role="37wK5m">
                 <node concept="37shsh" id="57pQC2$310C" role="2Oq$k0">
                   <node concept="20RdaH" id="57pQC2$310D" role="37shsm">
@@ -739,7 +739,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="57pQC2$310E" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -752,7 +752,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="57pQC2$310K" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="57pQC2$310L" role="37wK5m">
                 <node concept="Xl_RD" id="57pQC2$310M" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -821,7 +821,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="5zvrJ7KurXO" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty):java.lang.String" resolve="getProperty" />
+                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty)" resolve="getProperty" />
                               <node concept="355D3s" id="5zvrJ7KurXP" role="37wK5m">
                                 <ref role="355D3t" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
                                 <ref role="355D3u" to="rh3e:bcrrPfbtci" resolve="idName" />
@@ -972,7 +972,7 @@
                   <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="57pQC2$31AP" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="57pQC2$31AQ" role="37wK5m">
                     <node concept="37vLTw" id="57pQC2$31AR" role="3uHU7w">
                       <ref role="3cqZAo" node="57pQC2zYYq2" resolve="m" />
@@ -992,11 +992,11 @@
                 <ref role="3cqZAo" node="57pQC2zYYq2" resolve="m" />
               </node>
               <node concept="liA8E" id="57pQC2$31AX" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="57pQC2$31AY" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="57pQC2$31AZ" role="37wK5m">
                 <node concept="37shsh" id="57pQC2$31B0" role="2Oq$k0">
                   <node concept="20RdaH" id="57pQC2$31B1" role="37shsm">
@@ -1005,7 +1005,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="57pQC2$31B2" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -1018,7 +1018,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="57pQC2$31B8" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="57pQC2$31B9" role="37wK5m">
                 <node concept="Xl_RD" id="57pQC2$31Ba" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -1082,7 +1082,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="57pQC2zYZpP" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty):java.lang.String" resolve="getProperty" />
+                              <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty)" resolve="getProperty" />
                               <node concept="355D3s" id="57pQC2zYZpQ" role="37wK5m">
                                 <ref role="355D3t" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
                                 <ref role="355D3u" to="rh3e:bcrrPfbtci" resolve="idName" />
@@ -1235,7 +1235,7 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="57pQC2$mVej" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="57pQC2$mVek" role="37wK5m">
                     <node concept="37vLTw" id="57pQC2$mVel" role="3uHU7w">
                       <ref role="3cqZAo" node="57pQC2$mTsy" resolve="m" />
@@ -1255,11 +1255,11 @@
                 <ref role="3cqZAo" node="57pQC2$mTsy" resolve="m" />
               </node>
               <node concept="liA8E" id="57pQC2$mVer" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="57pQC2$mVes" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="57pQC2$mVet" role="37wK5m">
                 <node concept="37shsh" id="57pQC2$mVeu" role="2Oq$k0">
                   <node concept="20RdaH" id="57pQC2$mVev" role="37shsm">
@@ -1268,7 +1268,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="57pQC2$mVew" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -1281,7 +1281,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="57pQC2$mVeA" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="57pQC2$mVeB" role="37wK5m">
                 <node concept="Xl_RD" id="57pQC2$mVeC" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -1473,7 +1473,7 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="57pQC2$qnsq" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="57pQC2$qnsr" role="37wK5m">
                     <node concept="37vLTw" id="57pQC2$qnss" role="3uHU7w">
                       <ref role="3cqZAo" node="57pQC2$qlpP" resolve="m" />
@@ -1493,11 +1493,11 @@
                 <ref role="3cqZAo" node="57pQC2$qlpP" resolve="m" />
               </node>
               <node concept="liA8E" id="57pQC2$qnsy" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="57pQC2$qnsz" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="57pQC2$qns$" role="37wK5m">
                 <node concept="37shsh" id="57pQC2$qns_" role="2Oq$k0">
                   <node concept="20RdaH" id="57pQC2$qnsA" role="37shsm">
@@ -1506,7 +1506,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="57pQC2$qnsB" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -1519,7 +1519,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="57pQC2$qnsH" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="57pQC2$qnsI" role="37wK5m">
                 <node concept="Xl_RD" id="57pQC2$qnsJ" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -1714,7 +1714,7 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="6Dc18J$chq8" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="6Dc18J$chq9" role="37wK5m">
                     <node concept="37vLTw" id="6Dc18J$chqa" role="3uHU7w">
                       <ref role="3cqZAo" node="6Dc18J$cgyl" resolve="m" />
@@ -1734,11 +1734,11 @@
                 <ref role="3cqZAo" node="6Dc18J$cgyl" resolve="m" />
               </node>
               <node concept="liA8E" id="6Dc18J$chqg" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="6Dc18J$chqh" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="6Dc18J$chqi" role="37wK5m">
                 <node concept="37shsh" id="6Dc18J$chqj" role="2Oq$k0">
                   <node concept="20RdaH" id="6Dc18J$chqk" role="37shsm">
@@ -1747,7 +1747,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="6Dc18J$chql" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -1760,7 +1760,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="6Dc18J$chqr" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="6Dc18J$chqs" role="37wK5m">
                 <node concept="Xl_RD" id="6Dc18J$chqt" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -1896,7 +1896,7 @@
                   <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="6Dc18J$iAjE" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="6Dc18J$iAjF" role="37wK5m">
                     <node concept="37vLTw" id="6Dc18J$iAjG" role="3uHU7w">
                       <ref role="3cqZAo" node="6Dc18J$h96k" resolve="m" />
@@ -1916,11 +1916,11 @@
                 <ref role="3cqZAo" node="6Dc18J$h96k" resolve="m" />
               </node>
               <node concept="liA8E" id="6Dc18J$iAjM" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="6Dc18J$iAjN" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="6Dc18J$iAjO" role="37wK5m">
                 <node concept="37shsh" id="6Dc18J$iAjP" role="2Oq$k0">
                   <node concept="20RdaH" id="6Dc18J$iAjQ" role="37shsm">
@@ -1929,7 +1929,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="6Dc18J$iAjR" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -1942,7 +1942,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="6Dc18J$iAjX" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="6Dc18J$iAjY" role="37wK5m">
                 <node concept="Xl_RD" id="6Dc18J$iAjZ" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -2126,7 +2126,7 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="6Dc18J$mFZs" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="6Dc18J$mFZt" role="37wK5m">
                     <node concept="37vLTw" id="6Dc18J$mFZu" role="3uHU7w">
                       <ref role="3cqZAo" node="6Dc18J$mFmZ" resolve="m" />
@@ -2146,11 +2146,11 @@
                 <ref role="3cqZAo" node="6Dc18J$mFmZ" resolve="m" />
               </node>
               <node concept="liA8E" id="6Dc18J$mFZ$" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="6Dc18J$mFZ_" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="6Dc18J$mFZA" role="37wK5m">
                 <node concept="37shsh" id="6Dc18J$mFZB" role="2Oq$k0">
                   <node concept="20RdaH" id="6Dc18J$mFZC" role="37shsm">
@@ -2159,7 +2159,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="6Dc18J$mFZD" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -2172,7 +2172,7 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="6Dc18J$mFZJ" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="6Dc18J$mFZK" role="37wK5m">
                 <node concept="Xl_RD" id="6Dc18J$mFZL" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />
@@ -2380,7 +2380,7 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="7lyrc3Wgp_c" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="7lyrc3Wgp_d" role="37wK5m">
                     <node concept="37vLTw" id="7lyrc3Wgp_e" role="3uHU7w">
                       <ref role="3cqZAo" node="7lyrc3Wee7M" resolve="m" />
@@ -2400,11 +2400,11 @@
                 <ref role="3cqZAo" node="7lyrc3Wee7M" resolve="m" />
               </node>
               <node concept="liA8E" id="7lyrc3Wgp_k" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
               </node>
             </node>
             <node concept="liA8E" id="7lyrc3Wgp_l" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="7lyrc3Wgp_m" role="37wK5m">
                 <node concept="37shsh" id="7lyrc3Wgp_n" role="2Oq$k0">
                   <node concept="20RdaH" id="7lyrc3Wgp_o" role="37shsm">
@@ -2413,7 +2413,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="7lyrc3Wgp_p" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                  <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                 </node>
               </node>
             </node>
@@ -2426,7 +2426,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="7lyrc3Wgp_v" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="7lyrc3Wgp_w" role="37wK5m">
                 <node concept="Xl_RD" id="7lyrc3Wgp_x" role="3uHU7B">
                   <property role="Xl_RC" value="Migrate module: " />

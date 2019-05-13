@@ -1766,7 +1766,7 @@
       </node>
       <node concept="2YIFZM" id="KgDwxzqPuw" role="33vP2m">
         <ref role="1Pybhc" to="ni5j:~Pattern" resolve="Pattern" />
-        <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String,int):java.util.regex.Pattern" resolve="compile" />
+        <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String,int)" resolve="compile" />
         <node concept="1rXfSq" id="KgDwxzr2r2" role="37wK5m">
           <ref role="37wK5l" node="KgDwxzqQFY" resolve="regex5_1" />
         </node>
@@ -1848,7 +1848,7 @@
       </node>
       <node concept="2YIFZM" id="RYAUQfT3qY" role="33vP2m">
         <ref role="1Pybhc" to="ni5j:~Pattern" resolve="Pattern" />
-        <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String,int):java.util.regex.Pattern" resolve="compile" />
+        <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String,int)" resolve="compile" />
         <node concept="1rXfSq" id="KgDwxzuziP" role="37wK5m">
           <ref role="37wK5l" node="KgDwxzuwur" resolve="regex2015_2016" />
         </node>
@@ -1949,7 +1949,7 @@
                     <ref role="1PxDUh" node="5oJk6Ar$Vbu" resolve="JSConstants" />
                   </node>
                   <node concept="liA8E" id="57pQC2$cjLB" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="37vLTw" id="57pQC2$cjZN" role="37wK5m">
                       <ref role="3cqZAo" node="57pQC2$bW3j" resolve="identifier" />
                     </node>
@@ -1962,7 +1962,7 @@
                       <ref role="1PxDUh" node="5oJk6Ar$Vbu" resolve="JSConstants" />
                     </node>
                     <node concept="liA8E" id="57pQC2$c6AG" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="37vLTw" id="57pQC2$c6N4" role="37wK5m">
                         <ref role="3cqZAo" node="57pQC2$bW3j" resolve="identifier" />
                       </node>
@@ -1974,7 +1974,7 @@
                       <ref role="1PxDUh" node="5oJk6Ar$Vbu" resolve="JSConstants" />
                     </node>
                     <node concept="liA8E" id="57pQC2$c8Vg" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="37vLTw" id="57pQC2$c98U" role="37wK5m">
                         <ref role="3cqZAo" node="57pQC2$bW3j" resolve="identifier" />
                       </node>
@@ -1992,7 +1992,7 @@
                     <ref role="3cqZAo" node="57pQC2$bW3l" resolve="version" />
                   </node>
                   <node concept="liA8E" id="57pQC2$cgYn" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="3f7Wdw" id="57pQC2$cgYo" role="37wK5m">
                       <ref role="3f7u_j" node="1Ry0cLTKIQN" />
                       <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
@@ -2004,7 +2004,7 @@
                     <ref role="3cqZAo" node="57pQC2$bW3l" resolve="version" />
                   </node>
                   <node concept="liA8E" id="57pQC2$cgYr" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="3f7Wdw" id="57pQC2$cgYs" role="37wK5m">
                       <ref role="3f7u_j" node="1Ry0cLTKIQQ" />
                       <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
@@ -2117,7 +2117,7 @@
               <ref role="3cqZAo" node="KgDwxzr68s" resolve="version" />
             </node>
             <node concept="liA8E" id="KgDwxzreb7" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="3f7Wdw" id="KgDwxzregM" role="37wK5m">
                 <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
                 <ref role="3f7u_j" node="1Ry0cLTKIQM" />
@@ -2132,14 +2132,14 @@
                     <ref role="3cqZAo" node="KgDwxzqPut" resolve="IDENTIFIER_PATTERN_5_1" />
                   </node>
                   <node concept="liA8E" id="KgDwxztjtI" role="2OqNvi">
-                    <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence):java.util.regex.Matcher" resolve="matcher" />
+                    <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
                     <node concept="37vLTw" id="KgDwxztjDK" role="37wK5m">
                       <ref role="3cqZAo" node="KgDwxzth7t" resolve="identifier" />
                     </node>
                   </node>
                 </node>
                 <node concept="liA8E" id="KgDwxzts_X" role="2OqNvi">
-                  <ref role="37wK5l" to="ni5j:~Matcher.matches():boolean" resolve="matches" />
+                  <ref role="37wK5l" to="ni5j:~Matcher.matches()" resolve="matches" />
                 </node>
               </node>
             </node>
@@ -2152,14 +2152,14 @@
                 <ref role="3cqZAo" node="RYAUQfSZuT" resolve="IDENTIFIER_PATTERN_2015_2016" />
               </node>
               <node concept="liA8E" id="KgDwxztukk" role="2OqNvi">
-                <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence):java.util.regex.Matcher" resolve="matcher" />
+                <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
                 <node concept="37vLTw" id="KgDwxztuxF" role="37wK5m">
                   <ref role="3cqZAo" node="KgDwxzth7t" resolve="identifier" />
                 </node>
               </node>
             </node>
             <node concept="liA8E" id="KgDwxztACQ" role="2OqNvi">
-              <ref role="37wK5l" to="ni5j:~Matcher.matches():boolean" resolve="matches" />
+              <ref role="37wK5l" to="ni5j:~Matcher.matches()" resolve="matches" />
             </node>
           </node>
         </node>
@@ -2724,7 +2724,7 @@
               <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
             </node>
             <node concept="liA8E" id="59cjVaeZ6qx" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="3f7Wdw" id="59cjVaeZ6us" role="37wK5m">
                 <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
                 <ref role="3f7u_j" node="1Ry0cLTKIQM" />
@@ -2753,7 +2753,7 @@
                 <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
               </node>
               <node concept="liA8E" id="59cjVaeZ7Ca" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="3f7Wdw" id="59cjVaeZ7Cb" role="37wK5m">
                   <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
                   <ref role="3f7u_j" node="1Ry0cLTKIQN" />
@@ -2765,7 +2765,7 @@
                 <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
               </node>
               <node concept="liA8E" id="59cjVaeZ8Ci" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="3f7Wdw" id="59cjVaeZ8Cj" role="37wK5m">
                   <ref role="3f7u_j" node="1Ry0cLTKIQQ" />
                   <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
@@ -2893,7 +2893,7 @@
               <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
             </node>
             <node concept="liA8E" id="59cjVaeZyx1" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="3f7Wdw" id="59cjVaeZyx2" role="37wK5m">
                 <ref role="3f7u_j" node="1Ry0cLTKIQM" />
                 <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
@@ -2921,7 +2921,7 @@
                   <ref role="3cqZAo" node="59cjVaeYjCK" resolve="s" />
                 </node>
                 <node concept="liA8E" id="59cjVaeZZLA" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                   <node concept="Xl_RD" id="59cjVaeZZNY" role="37wK5m">
                     <property role="Xl_RC" value="enum" />
                   </node>
@@ -2942,7 +2942,7 @@
                     <ref role="3cqZAo" node="59cjVaeYjCK" resolve="s" />
                   </node>
                   <node concept="liA8E" id="59cjVaf04Pj" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="59cjVaf04Tl" role="37wK5m">
                       <property role="Xl_RC" value="await" />
                     </node>
@@ -2953,7 +2953,7 @@
                     <ref role="3cqZAo" node="59cjVaeYpf_" resolve="type" />
                   </node>
                   <node concept="liA8E" id="59cjVaf03d8" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="3f7Wdw" id="59cjVaf03f1" role="37wK5m">
                       <ref role="3f7vo2" node="5OEuegaSH3i" resolve="JSScriptOrModule" />
                       <ref role="3f7u_j" node="5OEuegaSH3j" />
@@ -2996,7 +2996,7 @@
                 <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
               </node>
               <node concept="liA8E" id="59cjVaeZWSZ" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="3f7Wdw" id="59cjVaeZWT0" role="37wK5m">
                   <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
                   <ref role="3f7u_j" node="1Ry0cLTKIQN" />
@@ -3008,7 +3008,7 @@
                 <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
               </node>
               <node concept="liA8E" id="59cjVaeZWT5" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="3f7Wdw" id="59cjVaeZWT6" role="37wK5m">
                   <ref role="3f7vo2" node="1Ry0cLTKIQL" resolve="ECMAVersion" />
                   <ref role="3f7u_j" node="1Ry0cLTKIQQ" />

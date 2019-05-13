@@ -860,7 +860,7 @@
             <node concept="2OqwBi" id="2URGstPlazd" role="33vP2m">
               <node concept="1XNTG" id="2URGstPlazc" role="2Oq$k0" />
               <node concept="liA8E" id="2URGstPlazh" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNodes():java.util.List" resolve="getSelectedNodes" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNodes()" resolve="getSelectedNodes" />
               </node>
             </node>
           </node>
@@ -1204,7 +1204,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="1Ry0cLTTI39" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.remove(int):java.lang.Object" resolve="remove" />
+                    <ref role="37wK5l" to="33ny:~List.remove(int)" resolve="remove" />
                     <node concept="3cmrfG" id="1Ry0cLTTI9I" role="37wK5m">
                       <property role="3cmrfH" value="0" />
                     </node>
