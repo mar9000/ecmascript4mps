@@ -2,6 +2,11 @@
 
 ECMAScript4MPS is the implementation of the [ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/) for JetBrains MetaProgrammingSystem, a.k.a. [MPS](https://www.jetbrains.com/mps/).
 
+At the moment branches are as follow:
+
+  * *master*: where we started implementing ECMAScript, following version 5.1 as stated above.
+  * *development*: a general ESNext implementation (ES2016, ES2017...) plus some features stage-x features not yet in the standard specification, e.g. decorators.
+
 ## Introduction
 
 The constructed AST is identical (with very small exceptions) to the one described by the [Mozilla Parser API](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_API) and implemented, for example, by parsers like [Esprima](http://esprima.org/).
