@@ -3775,5 +3775,18 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="2rpxWh$iohx">
+    <property role="3GE5qa" value="expression" />
+    <ref role="WuzLi" to="rh3e:2rpxWh$hfl2" resolve="JSSuperExpression" />
+    <node concept="11bSqf" id="2rpxWh$iohy" role="11c4hB">
+      <node concept="3clFbS" id="2rpxWh$iohz" role="2VODD2">
+        <node concept="lc7rE" id="2rpxWh$ioi8" role="3cqZAp">
+          <node concept="la8eA" id="2rpxWh$ioiy" role="lcghm">
+            <property role="lacIc" value="super" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

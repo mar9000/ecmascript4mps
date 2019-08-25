@@ -8188,5 +8188,19 @@
       <node concept="2iRfu4" id="5AR_2GkXHch" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2rpxWh$hflb">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="rh3e:2rpxWh$hfl2" resolve="JSSuperExpression" />
+    <node concept="3F0ifn" id="2rpxWh$hfld" role="2wV5jI">
+      <property role="3F0ifm" value="super" />
+      <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      <node concept="VPxyj" id="2rpxWh$hflh" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="VPRnO" id="2rpxWh$hflp" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
 </model>
 

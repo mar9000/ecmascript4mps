@@ -4454,5 +4454,12 @@
       <ref role="PrY4T" node="4ViHB8sKvoh" resolve="JSIDecoratorMemberExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2rpxWh$hfl2">
+    <property role="EcuMT" value="2799417920953054530" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSSuperExpression" />
+    <property role="34LRSv" value="super" />
+    <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+  </node>
 </model>
 
