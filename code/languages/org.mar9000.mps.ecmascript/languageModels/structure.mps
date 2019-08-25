@@ -3198,9 +3198,6 @@
     <node concept="PrWs8" id="6Dc18J$9ZiP" role="PzmwI">
       <ref role="PrY4T" node="6Dc18J$9ZiL" resolve="JSIArrowParameters" />
     </node>
-    <node concept="PrWs8" id="6Dc18J$cgxV" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="PrWs8" id="6Dc18J$h30a" role="PzmwI">
       <ref role="PrY4T" node="6Dc18J$h304" resolve="JSICatchParameter" />
     </node>
@@ -3262,6 +3259,9 @@
     </node>
     <node concept="PrWs8" id="6UMo7IQcWrP" role="PzmwI">
       <ref role="PrY4T" node="6UMo7IQcWrD" resolve="JSIImportedDefaultBinding" />
+    </node>
+    <node concept="PrWs8" id="2rpxWhzwtah" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MpGkVjRBSC">
@@ -4321,6 +4321,9 @@
     </node>
     <node concept="t5JxF" id="6UMo7IQcWqp" role="lGtFl">
       <property role="t5JxN" value="From the ImportedBinding production." />
+    </node>
+    <node concept="PrWs8" id="2rpxWhzwYJL" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="6UMo7IQcWrD">
