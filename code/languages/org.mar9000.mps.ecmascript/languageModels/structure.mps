@@ -1694,7 +1694,7 @@
           <ref role="3cqZAo" node="KgDwxzurEN" resolve="UNICODE_ESCAPE" />
         </node>
         <node concept="Xl_RD" id="KgDwxzqSY3" role="3uHU7B">
-          <property role="Xl_RC" value="\\p{L}|\\p{Nl}|$|_|" />
+          <property role="Xl_RC" value="\\p{L}|\\p{Nl}|\\$|_|" />
         </node>
       </node>
     </node>
@@ -1789,7 +1789,7 @@
           <ref role="3cqZAo" node="KgDwxzurEN" resolve="UNICODE_ESCAPE" />
         </node>
         <node concept="Xl_RD" id="KgDwxzuzMz" role="3uHU7B">
-          <property role="Xl_RC" value="\\p{javaUnicodeIdentifierStart}|$|_|" />
+          <property role="Xl_RC" value="\\p{javaUnicodeIdentifierStart}|\\$|_|" />
         </node>
       </node>
       <node concept="z59LJ" id="57pQC2$clN2" role="lGtFl">
@@ -1824,7 +1824,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="KgDwxzuwuE" role="3uHU7w">
-                  <property role="Xl_RC" value="(\\p{javaUnicodeIdentifierPart}|" />
+                  <property role="Xl_RC" value="(\\p{javaUnicodeIdentifierPart}|\\$|" />
                 </node>
               </node>
               <node concept="37vLTw" id="KgDwxzuETG" role="3uHU7w">
