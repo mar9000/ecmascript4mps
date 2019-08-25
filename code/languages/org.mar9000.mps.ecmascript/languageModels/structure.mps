@@ -2,9 +2,9 @@
 <model ref="r:33c6cc84-4a64-455a-8222-df658e689ef1(org.mar9000.mps.ecmascript.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -3706,6 +3706,9 @@
     </node>
     <node concept="PrWs8" id="6Dc18J$9ZiZ" role="PzmwI">
       <ref role="PrY4T" node="6Dc18J$9ZiV" resolve="JSIConciseBody" />
+    </node>
+    <node concept="PrWs8" id="2rpxWh$3jL$" role="PzmwI">
+      <ref role="PrY4T" node="2OLIV$DKnRA" resolve="JSExportableDefaultDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="46Ref1UgIeg">
