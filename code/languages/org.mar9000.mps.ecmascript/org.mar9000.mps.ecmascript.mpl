@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.mar9000.mps.ecmascript" uuid="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" languageVersion="10" moduleVersion="0">
+<language namespace="org.mar9000.mps.ecmascript" uuid="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" languageVersion="11" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />

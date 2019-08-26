@@ -894,8 +894,8 @@
     <ref role="1XX52x" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
     <node concept="3EZMnI" id="bcrrPfclIT" role="2wV5jI">
       <node concept="3F0A7n" id="bcrrPfclJ3" role="3EZMnx">
-        <ref role="1NtTu8" to="rh3e:bcrrPfbtci" resolve="idName" />
         <ref role="1k5W1q" node="bcrrPfuAR7" resolve="ECMAIdentifier" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="l2Vlx" id="bcrrPfclIW" role="2iSdaV" />
     </node>
@@ -967,8 +967,8 @@
         <node concept="1sVBvm" id="bcrrPfiec$" role="1sWHZn">
           <node concept="3F0A7n" id="bcrrPfiecM" role="2wV5jI">
             <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="rh3e:bcrrPfbtci" resolve="idName" />
             <ref role="1k5W1q" node="bcrrPfuAR7" resolve="ECMAIdentifier" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>
@@ -1314,7 +1314,7 @@
             <node concept="1sVBvm" id="2J96awlH6vs" role="1sWHZn">
               <node concept="3F0A7n" id="2J96awlH6vz" role="2wV5jI">
                 <property role="1Intyy" value="true" />
-                <ref role="1NtTu8" to="rh3e:bcrrPfbtci" resolve="idName" />
+                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
@@ -1357,7 +1357,7 @@
             <node concept="1sVBvm" id="2J96awlH9_M" role="1sWHZn">
               <node concept="3F0A7n" id="2J96awlH9_T" role="2wV5jI">
                 <property role="1Intyy" value="true" />
-                <ref role="1NtTu8" to="rh3e:bcrrPfbtci" resolve="idName" />
+                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
