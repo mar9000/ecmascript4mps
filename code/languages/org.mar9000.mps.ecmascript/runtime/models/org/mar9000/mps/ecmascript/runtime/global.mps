@@ -9,7 +9,6 @@
     <language id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript">
       <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf">
         <property id="6713311115379658967" name="type" index="1nMawN" />
-        <property id="2153284450052676014" name="version" index="1$8h_y" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -20,8 +19,7 @@
   </registry>
   <node concept="1dSqrf" id="7rFtnRVc9Eh">
     <property role="TrG5h" value="Window" />
-    <property role="1$8h_y" value="ES5.1" />
-    <property role="1nMawN" value="script" />
+    <property role="1nMawN" value="5OEuegaSH3k/script" />
   </node>
 </model>
 

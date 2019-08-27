@@ -2,9 +2,9 @@
 <model ref="r:128285a9-e0d8-4860-91c4-a65d4a5147e5(org.mar9000.mps.ecmascript.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="4" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="5" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +13,7 @@
     <import index="o14i" ref="r:b7eedae5-708e-4232-ab99-74ec1a4ab089(org.mar9000.mps.ecmascript.behavior)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="xidz" ref="r:dd7e8e08-7b19-4875-93e9-cae7813b46cd(org.mar9000.mps.ecmascript.typesystem)" />
+    <import index="s1om" ref="r:c55d71bc-67eb-423a-a0b5-428cdc73d68c(org.mar9000.mps.ecmascript.enumMigration)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -199,12 +200,16 @@
               <ref role="37wK5l" to="rh3e:KgDwxzr38n" resolve="isValidIdentifierName" />
               <ref role="1Pybhc" to="rh3e:cr9LB7kvHT" resolve="JSIdentifiersUtils" />
               <node concept="1Wqviy" id="3gNR5ykw9F6" role="37wK5m" />
-              <node concept="2OqwBi" id="3gNR5ykwakI" role="37wK5m">
-                <node concept="37vLTw" id="3gNR5ykw9VM" role="2Oq$k0">
-                  <ref role="3cqZAo" node="57pQC2$dFr2" resolve="jsProgram" />
-                </node>
-                <node concept="3TrcHB" id="3gNR5ykwct$" role="2OqNvi">
-                  <ref role="3TsBF5" to="rh3e:1Ry0cLTKLAI" resolve="version" />
+              <node concept="2YIFZM" id="43JkLIeil6R" role="37wK5m">
+                <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                <node concept="2OqwBi" id="3gNR5ykwakI" role="37wK5m">
+                  <node concept="37vLTw" id="3gNR5ykw9VM" role="2Oq$k0">
+                    <ref role="3cqZAo" node="57pQC2$dFr2" resolve="jsProgram" />
+                  </node>
+                  <node concept="3TrcHB" id="3gNR5ykwct$" role="2OqNvi">
+                    <ref role="3TsBF5" to="rh3e:43JkLIehKyv" resolve="version" />
+                  </node>
                 </node>
               </node>
             </node>
