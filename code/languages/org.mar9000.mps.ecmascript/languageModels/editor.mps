@@ -194,6 +194,7 @@
       <concept id="2896773699153795590" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform" flags="ng" index="3cWJ9i">
         <child id="3473224453637651919" name="placeInCell" index="CtIbM" />
       </concept>
+      <concept id="7342352913006985500" name="jetbrains.mps.lang.editor.structure.TransformationLocation_Completion" flags="ng" index="3eGOoe" />
       <concept id="7342352913006985483" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Action" flags="ng" index="3eGOop">
         <child id="8612453216082699922" name="substituteHandler" index="3aKz83" />
       </concept>
@@ -4073,6 +4074,7 @@
   <node concept="IW6AY" id="6k$wfqsPrAL">
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrAM" role="IW6Ez">
+      <node concept="3eGOoe" id="43JkLIeMP$5" role="1Qtc8$" />
       <node concept="3cWJ9i" id="6k$wfqsPrAN" role="1Qtc8$">
         <node concept="CtIbL" id="6k$wfqsPrAO" role="CtIbM">
           <property role="CtIbK" value="1A4kJjlVmVt/LEFT" />
@@ -5676,6 +5678,7 @@
     <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
     <node concept="1Qtc8_" id="6k$wfqsPrMj" role="IW6Ez">
+      <node concept="3eGOoe" id="43JkLIeMPS4" role="1Qtc8$" />
       <node concept="3cWJ9i" id="6k$wfqsPrMh" role="1Qtc8$">
         <node concept="CtIbL" id="6k$wfqsPrMi" role="CtIbM">
           <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
