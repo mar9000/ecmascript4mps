@@ -2846,6 +2846,22 @@
         <ref role="6BmiO" node="3yS6AQhpm41" />
       </node>
     </node>
+    <node concept="1dSrUV" id="ikQZJM0aNV" role="1dSqon" />
+    <node concept="2dRJFF" id="ikQZJM0bjU" role="1dSqon">
+      <property role="2dO0Ql" value="Allow Expression in ParenthesizedExpression" />
+    </node>
+    <node concept="1dSo_L" id="ikQZJM0c$e" role="1dSqon">
+      <node concept="2gzfuI" id="ikQZJM0c$a" role="1dwvF7">
+        <node concept="2eqWJV" id="ikQZJM0kzx" role="2gzftq">
+          <node concept="1mvZK$" id="ikQZJM0kzC" role="2eqZ0M">
+            <property role="TrG5h" value="x" />
+          </node>
+          <node concept="2WqeGl" id="ikQZJM0kzF" role="2eqZ18">
+            <ref role="2WqeGo" node="ikQZJM0kzC" resolve="x" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -1475,7 +1475,7 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="4772229902327261845" />
-      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+      <ref role="20lvS9" node="46Ref1Uh8_W" resolve="JSAbstractExpression" />
     </node>
   </node>
   <node concept="Az7Fb" id="6GVUdUj5exr">
