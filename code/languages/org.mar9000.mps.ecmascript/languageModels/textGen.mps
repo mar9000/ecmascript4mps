@@ -3884,12 +3884,25 @@
   </node>
   <node concept="WtQ9Q" id="2rpxWh$iohx">
     <property role="3GE5qa" value="expression" />
-    <ref role="WuzLi" to="rh3e:2rpxWh$hfl2" resolve="JSSuperExpression" />
+    <ref role="WuzLi" to="rh3e:2rpxWh$hfl2" resolve="JSSuperCall" />
     <node concept="11bSqf" id="2rpxWh$iohy" role="11c4hB">
       <node concept="3clFbS" id="2rpxWh$iohz" role="2VODD2">
         <node concept="lc7rE" id="2rpxWh$ioi8" role="3cqZAp">
           <node concept="la8eA" id="2rpxWh$ioiy" role="lcghm">
-            <property role="lacIc" value="super" />
+            <property role="lacIc" value="super(" />
+          </node>
+          <node concept="l9S2W" id="4n$IgrTgomf" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value=", " />
+            <node concept="2OqwBi" id="4n$IgrTgoG0" role="lbANJ">
+              <node concept="117lpO" id="4n$IgrTgomF" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="4n$IgrTgpmr" role="2OqNvi">
+                <ref role="3TtcxE" to="rh3e:4n$IgrTeHLE" resolve="arguments" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4n$IgrTgwX5" role="lcghm">
+            <property role="lacIc" value=")" />
           </node>
         </node>
       </node>
@@ -3937,6 +3950,65 @@
             </node>
             <node concept="3clFbT" id="2uMaiCrdkC4" role="1ryhcI" />
             <node concept="3clFbT" id="2uMaiCrdkD0" role="1ryhcI" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="4n$IgrTib7X">
+    <property role="3GE5qa" value="expression" />
+    <ref role="WuzLi" to="rh3e:4n$IgrTeD$Y" resolve="JSSuperProperty" />
+    <node concept="11bSqf" id="4n$IgrTib7Y" role="11c4hB">
+      <node concept="3clFbS" id="4n$IgrTib7Z" role="2VODD2">
+        <node concept="lc7rE" id="4n$IgrTibWV" role="3cqZAp">
+          <node concept="la8eA" id="4n$IgrTibYY" role="lcghm">
+            <property role="lacIc" value="super" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4n$IgrTibtF" role="3cqZAp">
+          <node concept="3clFbS" id="4n$IgrTibtG" role="3clFbx">
+            <node concept="lc7rE" id="4n$IgrTibtH" role="3cqZAp">
+              <node concept="la8eA" id="4n$IgrTibtI" role="lcghm">
+                <property role="lacIc" value="." />
+              </node>
+              <node concept="l9hG8" id="4n$IgrTibtJ" role="lcghm">
+                <node concept="2OqwBi" id="4n$IgrTibtK" role="lb14g">
+                  <node concept="117lpO" id="4n$IgrTibtL" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="4n$IgrTibtM" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rh3e:4n$IgrTgLGj" resolve="identifierProperty" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4n$IgrTibtN" role="3clFbw">
+            <node concept="2OqwBi" id="4n$IgrTibtO" role="2Oq$k0">
+              <node concept="117lpO" id="4n$IgrTibtP" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4n$IgrTibtQ" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:4n$IgrTgLGj" resolve="identifierProperty" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4n$IgrTibtR" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="4n$IgrTibtS" role="9aQIa">
+            <node concept="3clFbS" id="4n$IgrTibtT" role="9aQI4">
+              <node concept="lc7rE" id="4n$IgrTibtU" role="3cqZAp">
+                <node concept="la8eA" id="4n$IgrTibtV" role="lcghm">
+                  <property role="lacIc" value="[" />
+                </node>
+                <node concept="l9hG8" id="4n$IgrTibtW" role="lcghm">
+                  <node concept="2OqwBi" id="4n$IgrTibtX" role="lb14g">
+                    <node concept="117lpO" id="4n$IgrTibtY" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="4n$IgrTibtZ" role="2OqNvi">
+                      <ref role="3Tt5mk" to="rh3e:4n$IgrTgLGm" resolve="expressionProperty" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="la8eA" id="4n$IgrTibu0" role="lcghm">
+                  <property role="lacIc" value="]" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

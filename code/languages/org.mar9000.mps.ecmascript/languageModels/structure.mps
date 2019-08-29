@@ -4400,9 +4400,19 @@
   <node concept="1TIwiD" id="2rpxWh$hfl2">
     <property role="EcuMT" value="2799417920953054530" />
     <property role="3GE5qa" value="expression" />
-    <property role="TrG5h" value="JSSuperExpression" />
-    <property role="34LRSv" value="super" />
-    <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    <property role="TrG5h" value="JSSuperCall" />
+    <property role="34LRSv" value="super call" />
+    <ref role="1TJDcQ" node="46Ref1UgIeS" resolve="JSAbstractLeftHandSideExpression" />
+    <node concept="1TJgyj" id="4n$IgrTeHLE" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="IQ2ns" value="5036353722909383786" />
+      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    </node>
+    <node concept="t5JxF" id="4n$IgrTeH8S" role="lGtFl">
+      <property role="t5JxN" value="From the SuperCall production." />
+    </node>
   </node>
   <node concept="25R3W" id="43JkLIehKqu">
     <property role="TrG5h" value="JSUnaryOperator" />
@@ -5085,6 +5095,28 @@
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="bcrrPfbuhK" resolve="JSBlockStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4n$IgrTeD$Y">
+    <property role="EcuMT" value="5036353722909366590" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSSuperProperty" />
+    <property role="34LRSv" value="super property" />
+    <ref role="1TJDcQ" node="46Ref1UgIeV" resolve="JSAbstractMemberExpression" />
+    <node concept="t5JxF" id="4n$IgrTeD$Z" role="lGtFl">
+      <property role="t5JxN" value="From the SuperProperty[Yield] production." />
+    </node>
+    <node concept="1TJgyj" id="4n$IgrTgLGj" role="1TKVEi">
+      <property role="IQ2ns" value="5036353722909924115" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="identifierProperty" />
+      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4n$IgrTgLGm" role="1TKVEi">
+      <property role="IQ2ns" value="5036353722909924118" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expressionProperty" />
+      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
     </node>
   </node>
 </model>

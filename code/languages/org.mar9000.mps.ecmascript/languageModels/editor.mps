@@ -8540,15 +8540,36 @@
   </node>
   <node concept="24kQdi" id="2rpxWh$hflb">
     <property role="3GE5qa" value="expression" />
-    <ref role="1XX52x" to="rh3e:2rpxWh$hfl2" resolve="JSSuperExpression" />
-    <node concept="3F0ifn" id="2rpxWh$hfld" role="2wV5jI">
-      <property role="3F0ifm" value="super" />
-      <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
-      <node concept="VPxyj" id="2rpxWh$hflh" role="3F10Kt">
-        <property role="VOm3f" value="true" />
+    <ref role="1XX52x" to="rh3e:2rpxWh$hfl2" resolve="JSSuperCall" />
+    <node concept="3EZMnI" id="4n$IgrTeHNr" role="2wV5jI">
+      <node concept="3F0ifn" id="4n$IgrTeHNU" role="3EZMnx">
+        <property role="3F0ifm" value="super" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
       </node>
-      <node concept="VPRnO" id="2rpxWh$hflp" role="3F10Kt">
-        <property role="VOm3f" value="true" />
+      <node concept="3F0ifn" id="4n$IgrTeHNt" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" node="bcrrPfv9FX" resolve="ECMALeftParen" />
+        <node concept="11L4FC" id="4n$IgrTeHNu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="4n$IgrTeHNv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4n$IgrTeHNw" role="2iSdaV" />
+      <node concept="3F2HdR" id="4n$IgrTeHNx" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="rh3e:4n$IgrTeHLE" resolve="arguments" />
+        <ref role="1ERwB7" node="2J96awkKdjs" resolve="JSCallExpression_Arguments_Actions" />
+        <node concept="l2Vlx" id="4n$IgrTeHNy" role="2czzBx" />
+        <node concept="3F0ifn" id="4n$IgrTeHNz" role="2czzBI">
+          <property role="3F0ifm" value="" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4n$IgrTeHN$" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1ERwB7" node="2J96awkHlmR" resolve="JSCallExpression_Paren_Actions" />
+        <ref role="1k5W1q" node="bcrrPfv9Le" resolve="ECMARightParen" />
       </node>
     </node>
   </node>
@@ -8581,6 +8602,85 @@
     <ref role="1XX52x" to="rh3e:7Nww1niObh5" resolve="JSConciseFunctionBody" />
     <node concept="3F1sOY" id="2uMaiCrfgxm" role="2wV5jI">
       <ref role="1NtTu8" to="rh3e:7Nww1niObh9" resolve="body" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4n$IgrTgLXm">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="rh3e:4n$IgrTeD$Y" resolve="JSSuperProperty" />
+    <node concept="3EZMnI" id="4n$IgrTgLXo" role="2wV5jI">
+      <node concept="3F0ifn" id="4n$IgrTgMj6" role="3EZMnx">
+        <property role="3F0ifm" value="super" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="ECMAKeyWord" />
+      </node>
+      <node concept="3EZMnI" id="4n$IgrTgLXq" role="3EZMnx">
+        <node concept="VPM3Z" id="4n$IgrTgLXr" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="4n$IgrTgLXs" role="3EZMnx">
+          <property role="3F0ifm" value="." />
+          <ref role="1k5W1q" node="48UnsZirglp" resolve="ECMADot" />
+        </node>
+        <node concept="l2Vlx" id="4n$IgrTgLXt" role="2iSdaV" />
+        <node concept="pkWqt" id="4n$IgrTgLXu" role="pqm2j">
+          <node concept="3clFbS" id="4n$IgrTgLXv" role="2VODD2">
+            <node concept="3clFbF" id="4n$IgrTgLXw" role="3cqZAp">
+              <node concept="2OqwBi" id="4n$IgrTgLXx" role="3clFbG">
+                <node concept="2OqwBi" id="4n$IgrTgLXy" role="2Oq$k0">
+                  <node concept="pncrf" id="4n$IgrTgLXz" role="2Oq$k0" />
+                  <node concept="Bykcj" id="4n$IgrTgLX$" role="2OqNvi">
+                    <node concept="1aIX9F" id="4n$IgrTgLX_" role="1xVPHs">
+                      <node concept="26LbJo" id="4n$IgrTgLXA" role="1aIX9E">
+                        <ref role="26LbJp" to="rh3e:4n$IgrTgLGj" resolve="identifierProperty" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="4n$IgrTgLXB" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F1sOY" id="4n$IgrTgLXC" role="3EZMnx">
+          <ref role="1NtTu8" to="rh3e:4n$IgrTgLGj" resolve="identifierProperty" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="4n$IgrTgLXD" role="3EZMnx">
+        <node concept="VPM3Z" id="4n$IgrTgLXE" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="4n$IgrTgLXF" role="3EZMnx">
+          <property role="3F0ifm" value="[" />
+          <ref role="1k5W1q" node="hXb$RYA" resolve="ECMALeftBracket" />
+          <node concept="11L4FC" id="4n$IgrTgLXG" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="4n$IgrTgLXH" role="3EZMnx">
+          <ref role="1NtTu8" to="rh3e:4n$IgrTgLGm" resolve="expressionProperty" />
+        </node>
+        <node concept="3F0ifn" id="4n$IgrTgLXI" role="3EZMnx">
+          <property role="3F0ifm" value="]" />
+          <ref role="1ERwB7" node="2J96awkLETK" resolve="JSMemberExpression_Bracket_Actions" />
+          <ref role="1k5W1q" node="hXb$V4T" resolve="ECMARightBracket" />
+        </node>
+        <node concept="l2Vlx" id="4n$IgrTgLXJ" role="2iSdaV" />
+        <node concept="pkWqt" id="4n$IgrTgLXK" role="pqm2j">
+          <node concept="3clFbS" id="4n$IgrTgLXL" role="2VODD2">
+            <node concept="3clFbF" id="4n$IgrTgLXM" role="3cqZAp">
+              <node concept="2OqwBi" id="4n$IgrTgLXN" role="3clFbG">
+                <node concept="2OqwBi" id="4n$IgrTgLXO" role="2Oq$k0">
+                  <node concept="pncrf" id="4n$IgrTgLXP" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="4n$IgrTgLXQ" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rh3e:4n$IgrTgLGj" resolve="identifierProperty" />
+                  </node>
+                </node>
+                <node concept="3w_OXm" id="4n$IgrTgLXR" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4n$IgrTgLXS" role="2iSdaV" />
     </node>
   </node>
 </model>

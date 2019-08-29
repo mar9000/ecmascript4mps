@@ -184,7 +184,13 @@
       <concept id="204049982422779253" name="org.mar9000.mps.ecmascript.structure.JSBindingIdentifierReference" flags="ng" index="2WqeGl">
         <reference id="204049982422779256" name="bindingIdentifier" index="2WqeGo" />
       </concept>
-      <concept id="2799417920953054530" name="org.mar9000.mps.ecmascript.structure.JSSuperExpression" flags="ng" index="12Bna6" />
+      <concept id="5036353722909366590" name="org.mar9000.mps.ecmascript.structure.JSSuperProperty" flags="ng" index="2WRy0S">
+        <child id="5036353722909924118" name="expressionProperty" index="2WDU8g" />
+        <child id="5036353722909924115" name="identifierProperty" index="2WDU8l" />
+      </concept>
+      <concept id="2799417920953054530" name="org.mar9000.mps.ecmascript.structure.JSSuperCall" flags="ng" index="12Bna6">
+        <child id="5036353722909383786" name="arguments" index="2WRAlG" />
+      </concept>
       <concept id="6464798702865635193" name="org.mar9000.mps.ecmascript.structure.JSDecorator" flags="ng" index="1d0sdi">
         <child id="6464798702865635196" name="content" index="1d0sdn" />
       </concept>
@@ -2795,15 +2801,49 @@
         </node>
         <node concept="2wWApn" id="4n$IgrTeD$E" role="2wWApU" />
         <node concept="3PT0iG" id="4n$IgrTeD$F" role="2wi7L_">
-          <node concept="1dSo_L" id="4n$IgrTeD$P" role="3PTNxU">
-            <node concept="2dhSm$" id="4n$IgrTeD$U" role="1dwvF7">
-              <node concept="12Bna6" id="4n$IgrTeD$N" role="2dhSgj" />
+          <node concept="2dRJFF" id="4n$IgrTitdn" role="3PTNxU">
+            <property role="2dO0Ql" value="super call" />
+          </node>
+          <node concept="1dSo_L" id="4n$IgrTitdu" role="3PTNxU">
+            <node concept="12Bna6" id="4n$IgrTitds" role="1dwvF7">
+              <node concept="2dhBVA" id="4n$IgrTitdO" role="2WRAlG">
+                <property role="2dhB_1" value="1" />
+              </node>
+              <node concept="2dhBVA" id="4n$IgrTitdT" role="2WRAlG">
+                <property role="2dhB_1" value="2" />
+              </node>
+            </node>
+          </node>
+          <node concept="2dRJFF" id="4n$IgrTitdH" role="3PTNxU">
+            <property role="2dO0Ql" value="super property" />
+          </node>
+          <node concept="1dSo_L" id="4n$IgrTite6" role="3PTNxU">
+            <node concept="2WRy0S" id="4n$IgrTite4" role="1dwvF7">
+              <node concept="2dhUHT" id="4n$IgrTitek" role="2WDU8g">
+                <property role="2dhUDU" value="7rFtnRVFhfR/boPlus" />
+                <node concept="2dhBij" id="4n$IgrTiteg" role="2dhUC2">
+                  <property role="2dhBvH" value="expression" />
+                </node>
+                <node concept="2dhBij" id="4n$IgrTites" role="2dhUFW">
+                  <property role="2dhBvH" value="hello" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1dSo_L" id="4n$IgrTkP9p" role="3PTNxU">
+            <node concept="2WRy0S" id="4n$IgrTkP9n" role="1dwvF7">
+              <node concept="1dSrUG" id="4n$IgrTkP9C" role="2WDU8l">
+                <property role="TrG5h" value="field" />
+              </node>
             </node>
           </node>
         </node>
       </node>
       <node concept="1mvZK$" id="4n$IgrTeD$$" role="2DT8gC">
         <property role="TrG5h" value="ClassWithSuper" />
+      </node>
+      <node concept="6BmiN" id="4n$IgrTkPaC" role="2DT8gE">
+        <ref role="6BmiO" node="3yS6AQhpm41" />
       </node>
     </node>
   </node>
