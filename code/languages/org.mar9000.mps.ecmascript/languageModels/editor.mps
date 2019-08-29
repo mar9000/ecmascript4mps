@@ -2198,10 +2198,6 @@
           <property role="3F0ifm" value="." />
           <ref role="1k5W1q" node="48UnsZirglp" resolve="ECMADot" />
         </node>
-        <node concept="3F1sOY" id="48UnsZirg$J" role="3EZMnx">
-          <ref role="1NtTu8" to="rh3e:7rFtnRVFfs0" resolve="identifierProperty" />
-          <ref role="1ERwB7" node="2J96awkL_PI" resolve="JSMemberExpression_IdentifierProperty_Actions" />
-        </node>
         <node concept="l2Vlx" id="48UnsZiqH23" role="2iSdaV" />
         <node concept="pkWqt" id="48UnsZirg$O" role="pqm2j">
           <node concept="3clFbS" id="48UnsZirg$P" role="2VODD2">
@@ -2221,6 +2217,10 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3F1sOY" id="48UnsZirg$J" role="3EZMnx">
+          <ref role="1NtTu8" to="rh3e:7rFtnRVFfs0" resolve="identifierProperty" />
+          <ref role="1ERwB7" node="2J96awkL_PI" resolve="JSMemberExpression_IdentifierProperty_Actions" />
         </node>
       </node>
       <node concept="3EZMnI" id="48UnsZirycJ" role="3EZMnx">
@@ -8035,7 +8035,7 @@
       <node concept="3F1sOY" id="6Dc18J$adY3" role="3EZMnx">
         <ref role="1NtTu8" to="rh3e:6Dc18J$9Zj3" resolve="body" />
       </node>
-      <node concept="2iRfu4" id="6Dc18J$9Zj$" role="2iSdaV" />
+      <node concept="l2Vlx" id="7Nww1niPuhF" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="7lyrc3Wb6FG">
@@ -8550,6 +8550,37 @@
       <node concept="VPRnO" id="2rpxWh$hflp" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7Nww1niMDnW">
+    <property role="3GE5qa" value="function" />
+    <ref role="1XX52x" to="rh3e:7Nww1niMDff" resolve="JSArrowParameterList" />
+    <node concept="3EZMnI" id="7Nww1niMDnY" role="2wV5jI">
+      <node concept="3F0ifn" id="7Nww1niMDo8" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11LMrY" id="7Nww1niMDoJ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="7Nww1niMDoh" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="rh3e:7Nww1niMDnE" resolve="params" />
+        <node concept="l2Vlx" id="7Nww1niMDoj" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="7Nww1niMDo_" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="7Nww1niMDoM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7Nww1niMDo1" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7Nww1niObhk">
+    <property role="3GE5qa" value="function" />
+    <ref role="1XX52x" to="rh3e:7Nww1niObh5" resolve="JSConciseFunctionBody" />
+    <node concept="3F1sOY" id="2uMaiCrfgxm" role="2wV5jI">
+      <ref role="1NtTu8" to="rh3e:7Nww1niObh9" resolve="body" />
     </node>
   </node>
 </model>

@@ -3895,5 +3895,52 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="2uMaiCrc5wP">
+    <property role="3GE5qa" value="function" />
+    <ref role="WuzLi" to="rh3e:7Nww1niMDff" resolve="JSArrowParameterList" />
+    <node concept="11bSqf" id="2uMaiCrc5wQ" role="11c4hB">
+      <node concept="3clFbS" id="2uMaiCrc5wR" role="2VODD2">
+        <node concept="lc7rE" id="2uMaiCrc5xa" role="3cqZAp">
+          <node concept="la8eA" id="2uMaiCrc5xy" role="lcghm">
+            <property role="lacIc" value="(" />
+          </node>
+          <node concept="l9S2W" id="2uMaiCrc5yu" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value=", " />
+            <node concept="2OqwBi" id="2uMaiCrc5Gr" role="lbANJ">
+              <node concept="117lpO" id="2uMaiCrc5yU" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="2uMaiCrc5W4" role="2OqNvi">
+                <ref role="3TtcxE" to="rh3e:7Nww1niMDnE" resolve="params" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="2uMaiCrccCK" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2uMaiCrd31A">
+    <property role="3GE5qa" value="function" />
+    <ref role="WuzLi" to="rh3e:7Nww1niObh5" resolve="JSConciseFunctionBody" />
+    <node concept="11bSqf" id="2uMaiCrd31B" role="11c4hB">
+      <node concept="3clFbS" id="2uMaiCrd31C" role="2VODD2">
+        <node concept="lc7rE" id="2uMaiCrdke$" role="3cqZAp">
+          <node concept="1bDJIP" id="2uMaiCrdkf8" role="lcghm">
+            <ref role="1rvKf6" node="6GVUdUiESdl" resolve="blockStatement" />
+            <node concept="2OqwBi" id="2uMaiCrdkqo" role="1ryhcI">
+              <node concept="117lpO" id="2uMaiCrdkfO" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2uMaiCrdk$m" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:7Nww1niObh9" resolve="body" />
+              </node>
+            </node>
+            <node concept="3clFbT" id="2uMaiCrdkC4" role="1ryhcI" />
+            <node concept="3clFbT" id="2uMaiCrdkD0" role="1ryhcI" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

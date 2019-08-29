@@ -168,6 +168,12 @@
         <child id="4087045719731255549" name="body" index="2DTaag" />
       </concept>
       <concept id="4087045719731248688" name="org.mar9000.mps.ecmascript.structure.JSClassDeclaration" flags="ng" index="2DT8ht" />
+      <concept id="8998332886705411023" name="org.mar9000.mps.ecmascript.structure.JSArrowParameterList" flags="ng" index="2Iaxfq">
+        <child id="8998332886705411562" name="params" index="2IaxnZ" />
+      </concept>
+      <concept id="8998332886705812549" name="org.mar9000.mps.ecmascript.structure.JSConciseFunctionBody" flags="ng" index="2Ic3hg">
+        <child id="8998332886705812553" name="body" index="2Ic3hs" />
+      </concept>
       <concept id="8587016592393416851" name="org.mar9000.mps.ecmascript.structure.JSYieldExpression" flags="ng" index="MPoqb">
         <child id="8587016592393416854" name="expr" index="MPoqe" />
       </concept>
@@ -2656,6 +2662,58 @@
           </node>
           <node concept="29jwqa" id="7lyrc3WirfQ" role="2dhTFg">
             <ref role="29jwqb" node="jNkvc2RdYT" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="1hdDVdUcGG8" role="1dSqon" />
+    <node concept="1dSrUV" id="6yzXQtLxdmx" role="1dSqon" />
+    <node concept="2dRJFF" id="6yzXQtLxbGQ" role="1dSqon">
+      <property role="2dO0Ql" value="Arrow functions" />
+    </node>
+    <node concept="1dSo_L" id="18RLVmgeXem" role="1dSqon">
+      <node concept="2eqWJV" id="18RLVmgeXei" role="1dwvF7">
+        <node concept="1mvZK$" id="18RLVmgeXte" role="2eqZ0M">
+          <property role="TrG5h" value="arrowParameter" />
+        </node>
+        <node concept="2WqeGl" id="6yzXQtLxbf2" role="2eqZ18">
+          <ref role="2WqeGo" node="18RLVmgeXte" resolve="arrowParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="6yzXQtLxbVK" role="1dSqon" />
+    <node concept="2dRJFF" id="6yzXQtLxcp_" role="1dSqon">
+      <property role="2dO0Ql" value="With compound body and multiple params" />
+    </node>
+    <node concept="1dSo_L" id="6yzXQtLxcRx" role="1dSqon">
+      <node concept="2eqWJV" id="6yzXQtLxcRt" role="1dwvF7">
+        <node concept="2Iaxfq" id="6yzXQtLxd6x" role="2eqZ0M">
+          <node concept="2wxzWt" id="6yzXQtLxd6D" role="2IaxnZ">
+            <node concept="1mvZK$" id="6yzXQtLxd6F" role="2wxzWi">
+              <property role="TrG5h" value="param1" />
+            </node>
+          </node>
+          <node concept="2wxzWt" id="6yzXQtLxd6K" role="2IaxnZ">
+            <node concept="1mvZK$" id="6yzXQtLxd6M" role="2wxzWi">
+              <property role="TrG5h" value="param2" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Ic3hg" id="2uMaiCrgoHT" role="2eqZ18">
+          <node concept="1dSoBd" id="2uMaiCrgoHV" role="2Ic3hs">
+            <node concept="1dSozb" id="2uMaiCrgoHZ" role="1dSoGN">
+              <node concept="1dxaa$" id="2uMaiCrgoI2" role="1dEAni">
+                <node concept="2dhUHT" id="2uMaiCrgoIc" role="1dxaaB">
+                  <property role="2dhUDU" value="7rFtnRVFhfR/boPlus" />
+                  <node concept="2WqeGl" id="2uMaiCrgoI6" role="2dhUC2">
+                    <ref role="2WqeGo" node="6yzXQtLxd6F" resolve="param1" />
+                  </node>
+                  <node concept="2WqeGl" id="2uMaiCrgoIg" role="2dhUFW">
+                    <ref role="2WqeGo" node="6yzXQtLxd6M" resolve="param2" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

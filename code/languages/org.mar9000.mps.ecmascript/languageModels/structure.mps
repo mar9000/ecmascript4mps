@@ -262,6 +262,13 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
@@ -3840,11 +3847,17 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6Dc18J$9ZiV" resolve="JSIConciseBody" />
     </node>
+    <node concept="PrWs8" id="7gElTPRqcZw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6Dc18J$9ZiL">
     <property role="EcuMT" value="7659502065125160113" />
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="JSIArrowParameters" />
+    <node concept="PrWs8" id="3GS0fT9peI6" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6Dc18J$9ZiV">
     <property role="EcuMT" value="7659502065125160123" />
@@ -4178,6 +4191,19 @@
       <property role="20kJfa" value="bindingIdentifier" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
+    </node>
+    <node concept="1X3_iC" id="3GS0fT9peR8" role="lGtFl">
+      <property role="3V$3am" value="linkDeclaration" />
+      <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
+      <node concept="1TJgyj" id="3GS0fT9peR5" role="8Wnug">
+        <property role="IQ2ns" value="4267161739086589381" />
+        <property role="20lmBu" value="fLJjDmT/aggregation" />
+        <property role="20kJfa" value="initializer" />
+        <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
+        <node concept="t5JxF" id="2uMaiCrgZzh" role="lGtFl">
+          <property role="t5JxN" value="TODO" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="3gNR5ykHudc">
@@ -5027,6 +5053,38 @@
       <property role="1L1pqM" value="Script" />
       <property role="3tVfz5" value="6713311115379658964" />
       <ref role="2wpffI" node="5OEuegaSH3k" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Nww1niMDff">
+    <property role="EcuMT" value="8998332886705411023" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSArrowParameterList" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="7Nww1niMDnB" role="PzmwI">
+      <ref role="PrY4T" node="6Dc18J$9ZiL" resolve="JSIArrowParameters" />
+    </node>
+    <node concept="1TJgyj" id="7Nww1niMDnE" role="1TKVEi">
+      <property role="IQ2ns" value="8998332886705411562" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3gNR5ykHud2" resolve="JSIBindingElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Nww1niObh5">
+    <property role="EcuMT" value="8998332886705812549" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="JSConciseFunctionBody" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="7Nww1niObh6" role="PzmwI">
+      <ref role="PrY4T" node="6Dc18J$9ZiV" resolve="JSIConciseBody" />
+    </node>
+    <node concept="1TJgyj" id="7Nww1niObh9" role="1TKVEi">
+      <property role="IQ2ns" value="8998332886705812553" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="bcrrPfbuhK" resolve="JSBlockStatement" />
     </node>
   </node>
 </model>
