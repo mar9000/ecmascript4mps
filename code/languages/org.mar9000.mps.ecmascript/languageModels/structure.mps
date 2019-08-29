@@ -3165,8 +3165,8 @@
     <node concept="t5JxF" id="6UMo7IQcWr$" role="lGtFl">
       <property role="t5JxN" value="From the ImportSpecifier production." />
     </node>
-    <node concept="PrWs8" id="6UMo7IQcWrA" role="PzmwI">
-      <ref role="PrY4T" node="3gNR5ykuEOJ" resolve="JSIIdentifierName" />
+    <node concept="PrWs8" id="4n$IgrTev41" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5OEuegbnITU">

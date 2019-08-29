@@ -184,6 +184,7 @@
       <concept id="204049982422779253" name="org.mar9000.mps.ecmascript.structure.JSBindingIdentifierReference" flags="ng" index="2WqeGl">
         <reference id="204049982422779256" name="bindingIdentifier" index="2WqeGo" />
       </concept>
+      <concept id="2799417920953054530" name="org.mar9000.mps.ecmascript.structure.JSSuperExpression" flags="ng" index="12Bna6" />
       <concept id="6464798702865635193" name="org.mar9000.mps.ecmascript.structure.JSDecorator" flags="ng" index="1d0sdi">
         <child id="6464798702865635196" name="content" index="1d0sdn" />
       </concept>
@@ -2461,8 +2462,8 @@
           <node concept="29jwqa" id="7lyrc3WirfN" role="2dhSgd">
             <ref role="29jwqb" node="48UnsZjk_IU" />
           </node>
-          <node concept="1dx8Xp" id="jNkvc2RdP$" role="2dhSgj">
-            <ref role="1dx8Xo" node="6GVUdUiSQ7I" resolve="fun1" />
+          <node concept="2WqeGl" id="4n$IgrTb7iQ" role="2dhSgj">
+            <ref role="2WqeGo" node="6Dc18J$srSh" resolve="fun1" />
           </node>
         </node>
       </node>
@@ -2716,6 +2717,93 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="4n$IgrTevLB" role="1dSqon" />
+    <node concept="2dRJFF" id="4n$IgrTe$ad" role="1dSqon">
+      <property role="2dO0Ql" value="default-export everything (AssignmentExpression)" />
+    </node>
+    <node concept="2DT8ht" id="4n$IgrTewg2" role="1dSqon">
+      <node concept="1mvZK$" id="4n$IgrTewvh" role="2DT8gC">
+        <property role="TrG5h" value="ClassToExport" />
+      </node>
+    </node>
+    <node concept="1dSrUQ" id="4n$IgrTe_7i" role="1dSqon">
+      <node concept="1dSoBd" id="4n$IgrTe_7k" role="1dSoTS" />
+      <node concept="1mvZK$" id="4n$IgrTe_mC" role="2e5F7S">
+        <property role="TrG5h" value="functionToExport" />
+      </node>
+    </node>
+    <node concept="4Wcps" id="4n$IgrTeyIF" role="1dSqon">
+      <node concept="6BmiN" id="4n$IgrTeyXZ" role="4WX$b">
+        <ref role="6BmiO" node="4n$IgrTewg2" />
+      </node>
+    </node>
+    <node concept="4Wcps" id="4n$IgrTe$CH" role="1dSqon">
+      <node concept="2WqeGl" id="4n$IgrTe_mE" role="4WX$b">
+        <ref role="2WqeGo" node="4n$IgrTe_mC" resolve="functionToExport" />
+      </node>
+    </node>
+    <node concept="4Wcps" id="4n$IgrTe_A2" role="1dSqon">
+      <node concept="2djMEC" id="4n$IgrTe_PE" role="4WX$b">
+        <node concept="1dx8Xp" id="4n$IgrTe_P$" role="2dhTaa">
+          <ref role="1dx8Xo" node="6GVUdUiHkFi" resolve="x" />
+        </node>
+        <node concept="2dhBVA" id="4n$IgrTe_PI" role="2dhTO1">
+          <property role="2dhB_1" value="2" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="4n$IgrTeAa4" role="1dSqon" />
+    <node concept="2dRJFF" id="4n$IgrTeACR" role="1dSqon">
+      <property role="2dO0Ql" value="allow $ in identifier names" />
+    </node>
+    <node concept="1dSo$T" id="4n$IgrTeB7H" role="1dSqon">
+      <node concept="2dhZhe" id="4n$IgrTeB7J" role="1dSoH_">
+        <node concept="1dSrUG" id="4n$IgrTeB7L" role="2dhZiP" />
+        <node concept="1mvZK$" id="4n$IgrTeB7N" role="3PzO81">
+          <property role="TrG5h" value="$" />
+        </node>
+      </node>
+      <node concept="2dhZhe" id="4n$IgrTeBni" role="1dSoH_">
+        <node concept="1dSrUG" id="4n$IgrTeBnj" role="2dhZiP" />
+        <node concept="1mvZK$" id="4n$IgrTeBnk" role="3PzO81">
+          <property role="TrG5h" value="$name" />
+        </node>
+      </node>
+      <node concept="2dhZhe" id="4n$IgrTeBnr" role="1dSoH_">
+        <node concept="1dSrUG" id="4n$IgrTeBns" role="2dhZiP" />
+        <node concept="1mvZK$" id="4n$IgrTeBnt" role="3PzO81">
+          <property role="TrG5h" value="$$" />
+        </node>
+      </node>
+      <node concept="2dhZhe" id="4n$IgrTeBnB" role="1dSoH_">
+        <node concept="1dSrUG" id="4n$IgrTeBnC" role="2dhZiP" />
+        <node concept="1mvZK$" id="4n$IgrTeBnD" role="3PzO81">
+          <property role="TrG5h" value="name$name" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="4n$IgrTeCmk" role="1dSqon" />
+    <node concept="2dRJFF" id="4n$IgrTeCP_" role="1dSqon">
+      <property role="2dO0Ql" value="super" />
+    </node>
+    <node concept="2DT8ht" id="4n$IgrTeDkT" role="1dSqon">
+      <node concept="2wiq1L" id="4n$IgrTeD$C" role="2DTaag">
+        <node concept="2wijRm" id="4n$IgrTeD$D" role="2wiapO">
+          <property role="TrG5h" value="constructor" />
+        </node>
+        <node concept="2wWApn" id="4n$IgrTeD$E" role="2wWApU" />
+        <node concept="3PT0iG" id="4n$IgrTeD$F" role="2wi7L_">
+          <node concept="1dSo_L" id="4n$IgrTeD$P" role="3PTNxU">
+            <node concept="2dhSm$" id="4n$IgrTeD$U" role="1dwvF7">
+              <node concept="12Bna6" id="4n$IgrTeD$N" role="2dhSgj" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1mvZK$" id="4n$IgrTeD$$" role="2DT8gC">
+        <property role="TrG5h" value="ClassWithSuper" />
       </node>
     </node>
   </node>
