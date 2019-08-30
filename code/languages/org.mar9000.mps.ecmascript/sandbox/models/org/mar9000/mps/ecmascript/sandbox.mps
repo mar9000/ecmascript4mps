@@ -152,6 +152,7 @@
       </concept>
       <concept id="3761592386794677061" name="org.mar9000.mps.ecmascript.structure.JSSingleNameBinding" flags="ng" index="2wxzWt">
         <child id="3761592386794677066" name="bindingIdentifier" index="2wxzWi" />
+        <child id="4267161739086589381" name="initializer" index="1MneOV" />
       </concept>
       <concept id="3761592386795452943" name="org.mar9000.mps.ecmascript.structure.JSFormalParameters" flags="ng" index="2wWApn">
         <child id="3761592386795452953" name="formalParameterList" index="2wWAp1" />
@@ -3053,7 +3054,29 @@
         <ref role="29jwqb" node="3FlXPlsVl1R" />
       </node>
     </node>
-    <node concept="1dSrUV" id="5JpJWLo6xaQ" role="1dSqon" />
+    <node concept="1dSrUV" id="3zPiY4qpxFk" role="1dSqon" />
+    <node concept="2dRJFF" id="3zPiY4qpyKT" role="1dSqon">
+      <property role="2dO0Ql" value="Single-name binding with initializer" />
+    </node>
+    <node concept="1dSo$T" id="3zPiY4qpzjJ" role="1dSqon">
+      <node concept="3QX$uv" id="3zPiY4qpz_d" role="1dSoH_">
+        <node concept="3QGKEK" id="3zPiY4qpz_l" role="3QZRL8">
+          <node concept="2wxzWt" id="3zPiY4qpz_o" role="3QGKEC">
+            <node concept="1mvZK$" id="3zPiY4qpz_p" role="2wxzWi">
+              <property role="TrG5h" value="single_name_binding" />
+            </node>
+            <node concept="2dhBVA" id="3zPiY4qpz_s" role="1MneOV">
+              <property role="2dhB_1" value="5" />
+            </node>
+          </node>
+        </node>
+        <node concept="2dhUch" id="3zPiY4qpz_u" role="3QZRLd" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="3zPiY4qpxWG" role="1dSqon" />
+    <node concept="2dRJFF" id="3zPiY4qpye5" role="1dSqon">
+      <property role="2dO0Ql" value="TODO:" />
+    </node>
     <node concept="2dRJFF" id="5JpJWLo6xHf" role="1dSqon">
       <property role="2dO0Ql" value="Object descructuring in traditional function params" />
     </node>

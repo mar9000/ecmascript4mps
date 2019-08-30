@@ -8346,8 +8346,49 @@
   <node concept="24kQdi" id="3gNR5ykPH1R">
     <property role="3GE5qa" value="destructuring" />
     <ref role="1XX52x" to="rh3e:3gNR5ykHud5" resolve="JSSingleNameBinding" />
-    <node concept="3F1sOY" id="3gNR5ykPH1T" role="2wV5jI">
-      <ref role="1NtTu8" to="rh3e:3gNR5ykHuda" resolve="bindingIdentifier" />
+    <node concept="3EZMnI" id="3zPiY4qnCsr" role="2wV5jI">
+      <node concept="l2Vlx" id="3zPiY4qnCss" role="2iSdaV" />
+      <node concept="3F1sOY" id="3gNR5ykPH1T" role="3EZMnx">
+        <ref role="1NtTu8" to="rh3e:3gNR5ykHuda" resolve="bindingIdentifier" />
+      </node>
+      <node concept="3EZMnI" id="3zPiY4qnCsE" role="3EZMnx">
+        <node concept="VPM3Z" id="3zPiY4qnCsG" role="3F10Kt" />
+        <node concept="3F0ifn" id="3zPiY4qnCsV" role="3EZMnx">
+          <property role="3F0ifm" value="=" />
+        </node>
+        <node concept="3F1sOY" id="3zPiY4qnCt4" role="3EZMnx">
+          <ref role="1NtTu8" to="rh3e:3GS0fT9peR5" resolve="initializer" />
+        </node>
+        <node concept="l2Vlx" id="3zPiY4qnCsJ" role="2iSdaV" />
+        <node concept="pkWqt" id="3zPiY4qnJzg" role="pqm2j">
+          <node concept="3clFbS" id="3zPiY4qnJzh" role="2VODD2">
+            <node concept="3SKdUt" id="3zPiY4qnJzu" role="3cqZAp">
+              <node concept="1PaTwC" id="3zPiY4qnJDf" role="3ndbpf">
+                <node concept="3oM_SD" id="3zPiY4qnJzx" role="1PaTwD">
+                  <property role="3oM_SC" value="TODO:" />
+                </node>
+                <node concept="3oM_SD" id="3zPiY4qnJBK" role="1PaTwD">
+                  <property role="3oM_SC" value="hide" />
+                </node>
+                <node concept="3oM_SD" id="3zPiY4qnJCc" role="1PaTwD">
+                  <property role="3oM_SC" value="initializer" />
+                </node>
+                <node concept="3oM_SD" id="3zPiY4qnJCw" role="1PaTwD">
+                  <property role="3oM_SC" value="when" />
+                </node>
+                <node concept="3oM_SD" id="3zPiY4qnJHo" role="1PaTwD">
+                  <property role="3oM_SC" value="null" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3zPiY4qnJIJ" role="3cqZAp">
+              <node concept="3clFbT" id="3zPiY4qnJII" role="3clFbG">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="4ViHB8sMaVi">

@@ -262,13 +262,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
@@ -4204,18 +4197,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
     </node>
-    <node concept="1X3_iC" id="3GS0fT9peR8" role="lGtFl">
-      <property role="3V$3am" value="linkDeclaration" />
-      <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
-      <node concept="1TJgyj" id="3GS0fT9peR5" role="8Wnug">
-        <property role="IQ2ns" value="4267161739086589381" />
-        <property role="20lmBu" value="fLJjDmT/aggregation" />
-        <property role="20kJfa" value="initializer" />
-        <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
-        <node concept="t5JxF" id="2uMaiCrgZzh" role="lGtFl">
-          <property role="t5JxN" value="TODO" />
-        </node>
-      </node>
+    <node concept="1TJgyj" id="3GS0fT9peR5" role="1TKVEi">
+      <property role="IQ2ns" value="4267161739086589381" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="initializer" />
+      <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
     </node>
   </node>
   <node concept="PlHQZ" id="3gNR5ykHudc">
