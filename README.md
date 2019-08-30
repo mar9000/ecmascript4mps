@@ -1,6 +1,9 @@
 # ECMAScript4MPS
 
-ECMAScript4MPS is the implementation of the [ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/) for JetBrains MetaProgrammingSystem, a.k.a. [MPS](https://www.jetbrains.com/mps/).
+ECMAScript4MPS started as an implementation of the [ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/) for JetBrains MetaProgrammingSystem, a.k.a. [MPS](https://www.jetbrains.com/mps/). This version is still present and migrated regularly to the last version of MPS.
+
+The *development* branch is in activy development and partially support ES6+ version.
+See `implementation.md` for informations about how the specifications have been implemented.
 
 ## Introduction
 
@@ -26,7 +29,6 @@ Read more on this [announcement post](http://mar9000.org/bliki/ecma-script-4-mps
 If for instance you have installed MPS in `/opt/MPS/MPS-2018.3/`, execute:
 ```bash
 $ ant -Dartifacts.mps=/opt/MPS/MPS-2018.3/  assemble
-
 ```
 The last message of the build process will tell you where the zip file with the plugin is.
 
