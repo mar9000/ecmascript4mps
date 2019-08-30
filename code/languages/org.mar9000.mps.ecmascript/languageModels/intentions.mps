@@ -462,7 +462,7 @@
     <property role="3GE5qa" value="declaration" />
     <property role="TrG5h" value="JSVariableDeclarator_toggleInitializer" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="rh3e:7rFtnRVF84N" resolve="JSVariableDeclarator" />
+    <ref role="2ZfgGC" to="rh3e:7rFtnRVF84N" resolve="JSSimpleVariableDeclaration" />
     <node concept="2S6ZIM" id="48UnsZi$qh9" role="2ZfVej">
       <node concept="3clFbS" id="48UnsZi$qha" role="2VODD2">
         <node concept="3clFbF" id="48UnsZi$rzE" role="3cqZAp">

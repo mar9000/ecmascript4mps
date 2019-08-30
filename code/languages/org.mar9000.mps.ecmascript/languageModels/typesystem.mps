@@ -1664,7 +1664,7 @@
             </node>
             <node concept="1mIQ4w" id="2OLIV$DTUme" role="2OqNvi">
               <node concept="chp4Y" id="2OLIV$DTUo3" role="cj9EA">
-                <ref role="cht4Q" to="rh3e:bcrrPfbui4" resolve="JSVariableDeclaration" />
+                <ref role="cht4Q" to="rh3e:bcrrPfbui4" resolve="JSVariableStatement" />
               </node>
             </node>
           </node>

@@ -1494,7 +1494,7 @@
               <node concept="2OqwBi" id="57pQC2$mVeL" role="3clFbG">
                 <node concept="qVDSY" id="57pQC2$mVeM" role="2Oq$k0">
                   <node concept="chp4Y" id="57pQC2$mXb3" role="qVDSX">
-                    <ref role="cht4Q" to="rh3e:7rFtnRVF84N" resolve="JSVariableDeclarator" />
+                    <ref role="cht4Q" to="rh3e:7rFtnRVF84N" resolve="JSSimpleVariableDeclaration" />
                   </node>
                   <node concept="1dO9Bo" id="57pQC2$mVeO" role="1dOa5D">
                     <node concept="3Z_Q4n" id="57pQC2$mVeP" role="1dp2q7" />
@@ -2809,7 +2809,7 @@
                             </node>
                             <node concept="1mIQ4w" id="7lyrc3Wh7aU" role="2OqNvi">
                               <node concept="chp4Y" id="7lyrc3Wh7aV" role="cj9EA">
-                                <ref role="cht4Q" to="rh3e:7rFtnRVF84N" resolve="JSVariableDeclarator" />
+                                <ref role="cht4Q" to="rh3e:7rFtnRVF84N" resolve="JSSimpleVariableDeclaration" />
                               </node>
                             </node>
                           </node>
@@ -2843,7 +2843,7 @@
                           <node concept="2oxUTD" id="7lyrc3WhuhF" role="2OqNvi">
                             <node concept="1PxgMI" id="7lyrc3WhU5F" role="2oxUTC">
                               <node concept="chp4Y" id="7lyrc3WhUo_" role="3oSUPX">
-                                <ref role="cht4Q" to="rh3e:7rFtnRVF84N" resolve="JSVariableDeclarator" />
+                                <ref role="cht4Q" to="rh3e:7rFtnRVF84N" resolve="JSSimpleVariableDeclaration" />
                               </node>
                               <node concept="2OqwBi" id="7lyrc3WhHuY" role="1m5AlR">
                                 <node concept="2OqwBi" id="7lyrc3Whvbj" role="2Oq$k0">

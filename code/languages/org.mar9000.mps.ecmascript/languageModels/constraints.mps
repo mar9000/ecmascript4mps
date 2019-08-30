@@ -144,7 +144,7 @@
     <node concept="1N5Pfh" id="7lyrc3Wb6GF" role="1Mr941">
       <ref role="1N5Vy1" to="rh3e:7lyrc3Wb6Db" resolve="variableDeclarator" />
       <node concept="1dDu$B" id="7lyrc3Wb6GH" role="1N6uqs">
-        <ref role="1dDu$A" to="rh3e:7rFtnRVF84N" resolve="JSVariableDeclarator" />
+        <ref role="1dDu$A" to="rh3e:7rFtnRVF84N" resolve="JSSimpleVariableDeclaration" />
       </node>
     </node>
   </node>
