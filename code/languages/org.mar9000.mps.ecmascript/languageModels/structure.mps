@@ -4182,6 +4182,9 @@
     <node concept="PrWs8" id="3gNR5ykHud6" role="PzmwI">
       <ref role="PrY4T" node="3gNR5ykHud2" resolve="JSIBindingElement" />
     </node>
+    <node concept="PrWs8" id="ikQZJM9X5N" role="PzmwI">
+      <ref role="PrY4T" node="ikQZJM9X5E" resolve="JSIBindingProperty" />
+    </node>
     <node concept="t5JxF" id="3gNR5ykHud8" role="lGtFl">
       <property role="t5JxN" value="From SingleNameBinding production." />
     </node>
@@ -5117,6 +5120,104 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expressionProperty" />
       <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ikQZJM9X57">
+    <property role="EcuMT" value="330130547850858823" />
+    <property role="3GE5qa" value="destructuring" />
+    <property role="TrG5h" value="JSAbstractBindingPattern" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="t5JxF" id="ikQZJM9X58" role="lGtFl">
+      <property role="t5JxN" value="From the BindingPattern production." />
+    </node>
+    <node concept="PrWs8" id="ikQZJMkZJ2" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ikQZJM9X5b">
+    <property role="EcuMT" value="330130547850858827" />
+    <property role="3GE5qa" value="destructuring" />
+    <property role="TrG5h" value="JSObjectBindingPattern" />
+    <ref role="1TJDcQ" node="ikQZJM9X57" resolve="JSAbstractBindingPattern" />
+    <node concept="t5JxF" id="ikQZJM9X5g" role="lGtFl">
+      <property role="t5JxN" value="From the ObjectBindingPattern production." />
+    </node>
+    <node concept="1TJgyj" id="ikQZJM9X5j" role="1TKVEi">
+      <property role="IQ2ns" value="330130547850858835" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="properties" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="ikQZJM9X5E" resolve="JSIBindingProperty" />
+    </node>
+    <node concept="1TJgyj" id="ikQZJM9X5s" role="1TKVEi">
+      <property role="IQ2ns" value="330130547850858844" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rest" />
+      <ref role="20lvS9" node="5OEuegbloj0" resolve="JSBindingIdentifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="ikQZJM9X5E">
+    <property role="EcuMT" value="330130547850858858" />
+    <property role="3GE5qa" value="destructuring" />
+    <property role="TrG5h" value="JSIBindingProperty" />
+    <node concept="t5JxF" id="ikQZJM9X5F" role="lGtFl">
+      <property role="t5JxN" value="From the BindingProperty production." />
+    </node>
+    <node concept="PrWs8" id="ikQZJMl5l0" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ikQZJM9X5T">
+    <property role="EcuMT" value="330130547850858873" />
+    <property role="3GE5qa" value="destructuring" />
+    <property role="TrG5h" value="JSBindingProperty" />
+    <property role="R4oN_" value="&lt;property name&gt;: &lt;binding element&gt;" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="ikQZJM9X5U" role="PzmwI">
+      <ref role="PrY4T" node="ikQZJM9X5E" resolve="JSIBindingProperty" />
+    </node>
+    <node concept="1TJgyj" id="ikQZJM9X5X" role="1TKVEi">
+      <property role="IQ2ns" value="330130547850858877" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="propertyName" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3gNR5ykuI68" resolve="JSIPropertyName" />
+    </node>
+    <node concept="1TJgyj" id="ikQZJM9X60" role="1TKVEi">
+      <property role="IQ2ns" value="330130547850858880" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="binding" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3gNR5ykHud2" resolve="JSIBindingElement" />
+    </node>
+    <node concept="t5JxF" id="ikQZJMdloN" role="lGtFl">
+      <property role="t5JxN" value="From the BindingProperty production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ikQZJM9X69">
+    <property role="EcuMT" value="330130547850858889" />
+    <property role="3GE5qa" value="destructuring" />
+    <property role="TrG5h" value="JSBindingPatternBinding" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="PrWs8" id="ikQZJM9X6a" role="PzmwI">
+      <ref role="PrY4T" node="3gNR5ykHud2" resolve="JSIBindingElement" />
+    </node>
+    <node concept="t5JxF" id="ikQZJM9X6d" role="lGtFl">
+      <property role="t5JxN" value="From the BindingElement production." />
+    </node>
+    <node concept="1TJgyj" id="ikQZJM9X6g" role="1TKVEi">
+      <property role="IQ2ns" value="330130547850858896" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="pattern" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="ikQZJM9X57" resolve="JSAbstractBindingPattern" />
+    </node>
+    <node concept="1TJgyj" id="ikQZJM9X6j" role="1TKVEi">
+      <property role="IQ2ns" value="330130547850858899" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="initializer" />
+      <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
     </node>
   </node>
 </model>
