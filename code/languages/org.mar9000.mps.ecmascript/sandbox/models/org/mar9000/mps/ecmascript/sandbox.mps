@@ -415,7 +415,18 @@
             </node>
           </node>
         </node>
-        <node concept="3PT0iG" id="6UMo7IQ3rVb" role="2wi7L_" />
+        <node concept="3PT0iG" id="6UMo7IQ3rVb" role="2wi7L_">
+          <node concept="1dSo_L" id="4z8dy7b2i92" role="3PTNxU">
+            <node concept="2WqeGl" id="4z8dy7b2i91" role="1dwvF7">
+              <ref role="2WqeGo" node="2rdneks1L0U" resolve="p1" />
+            </node>
+          </node>
+          <node concept="1dSo_L" id="4z8dy7b2i9c" role="3PTNxU">
+            <node concept="2WqeGl" id="4z8dy7b2i9a" role="1dwvF7">
+              <ref role="2WqeGo" node="2rdneks1L14" resolve="p2" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1mvZK$" id="2rdneks1L0D" role="2DT8gC">
         <property role="TrG5h" value="ClassWithMethodParameters" />
@@ -3040,6 +3051,21 @@
     <node concept="1dSo_L" id="3FlXPlsVljr" role="1dSqon">
       <node concept="29jwqa" id="3FlXPlsVljp" role="1dwvF7">
         <ref role="29jwqb" node="3FlXPlsVl1R" />
+      </node>
+    </node>
+    <node concept="1dSrUV" id="5JpJWLo6xaQ" role="1dSqon" />
+    <node concept="2dRJFF" id="5JpJWLo6xHf" role="1dSqon">
+      <property role="2dO0Ql" value="Object descructuring in traditional function params" />
+    </node>
+    <node concept="1dSrUQ" id="5JpJWLo6yfF" role="1dSqon">
+      <node concept="1dSoBd" id="5JpJWLo6yfH" role="1dSoTS" />
+      <node concept="1mvZK$" id="5JpJWLo6ywX" role="2e5F7S">
+        <property role="TrG5h" value="__temp_function" />
+      </node>
+    </node>
+    <node concept="1dSo_L" id="5JpJWLo6yMk" role="1dSqon">
+      <node concept="2dhU8L" id="5JpJWLo6yMg" role="1dwvF7">
+        <node concept="1dSoBd" id="5JpJWLo6yMi" role="2dhUP1" />
       </node>
     </node>
   </node>
