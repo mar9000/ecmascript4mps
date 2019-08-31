@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
-    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="12" />
+    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="13" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
@@ -256,9 +256,7 @@
       <concept id="5897985433064562220" name="org.mar9000.mps.ecmascript.structure.JSStatementList" flags="ng" index="3PT0iG">
         <child id="5897985433064628986" name="items" index="3PTNxU" />
       </concept>
-      <concept id="5897985433063598299" name="org.mar9000.mps.ecmascript.structure.JSLabelIdentifier" flags="ng" index="3PXJ9r">
-        <property id="5897985433063598357" name="identifierName" index="3PXJel" />
-      </concept>
+      <concept id="5897985433063598299" name="org.mar9000.mps.ecmascript.structure.JSLabelIdentifier" flags="ng" index="3PXJ9r" />
     </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
       <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
@@ -700,7 +698,7 @@
           </node>
           <node concept="1dSrUV" id="57pQC2$p4jv" role="1dGR37" />
           <node concept="3PXJ9r" id="57pQC2$rkFo" role="3PJpZr">
-            <property role="3PXJel" value="arguments" />
+            <property role="TrG5h" value="arguments" />
           </node>
         </node>
         <node concept="1dSo$T" id="57pQC2$p4jZ" role="1dSqon">
@@ -725,7 +723,7 @@
           </node>
           <node concept="1dSrUV" id="57pQC2$p4kt" role="1dGR37" />
           <node concept="3PXJ9r" id="57pQC2$rkFq" role="3PJpZr">
-            <property role="3PXJel" value="eval" />
+            <property role="TrG5h" value="eval" />
           </node>
         </node>
         <node concept="1dSo$T" id="57pQC2$p4kR" role="1dSqon">

@@ -372,5 +372,25 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6vfGVOLW81O">
+    <property role="3GE5qa" value="identifier" />
+    <ref role="1M2myG" to="rh3e:6vfGVOLJfg3" resolve="JSLabelIdentifierReference" />
+    <node concept="1N5Pfh" id="6vfGVOLW81P" role="1Mr941">
+      <ref role="1N5Vy1" to="rh3e:6vfGVOLJfg4" resolve="labelIdentifier" />
+      <node concept="1dDu$B" id="6vfGVOLW81S" role="1N6uqs">
+        <ref role="1dDu$A" to="rh3e:57pQC2$bMzr" resolve="JSLabelIdentifier" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6vfGVOM1knc">
+    <property role="3GE5qa" value="function" />
+    <ref role="1M2myG" to="rh3e:6vfGVOLZRSV" resolve="JSFunctionDeclarationReference" />
+    <node concept="1N5Pfh" id="6vfGVOM1knd" role="1Mr941">
+      <ref role="1N5Vy1" to="rh3e:6vfGVOLZRSW" resolve="functionDeclaration" />
+      <node concept="1dDu$B" id="6vfGVOM1kng" role="1N6uqs">
+        <ref role="1dDu$A" to="rh3e:bcrrPfbtcb" resolve="JSFunctionDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 
