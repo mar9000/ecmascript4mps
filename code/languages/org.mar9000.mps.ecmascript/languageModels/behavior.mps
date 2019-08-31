@@ -2141,25 +2141,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="2J96awlqgO2" role="3cqZAp">
-              <node concept="3cpWsn" id="2J96awlqgO3" role="3cpWs9">
-                <property role="TrG5h" value="paramsScope" />
-                <node concept="3uibUv" id="2J96awlqgO4" role="1tU5fm">
-                  <ref role="3uigEE" to="6xgk:3dppoMAuxA2" resolve="NamedElementsScope" />
-                </node>
-                <node concept="2ShNRf" id="2J96awlqgO5" role="33vP2m">
-                  <node concept="1pGfFk" id="2J96awlqgO6" role="2ShVmc">
-                    <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
-                    <node concept="2OqwBi" id="2J96awlqgO7" role="37wK5m">
-                      <node concept="13iPFW" id="2J96awlqgO8" role="2Oq$k0" />
-                      <node concept="3Tsc0h" id="2J96awlqgO9" role="2OqNvi">
-                        <ref role="3TtcxE" to="rh3e:bcrrPfbuf2" resolve="params" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="2J96awl_lds" role="3cqZAp">
               <node concept="2OqwBi" id="2J96awl_le$" role="3clFbG">
                 <node concept="37vLTw" id="2J96awl_ldq" role="2Oq$k0">
@@ -2167,8 +2148,19 @@
                 </node>
                 <node concept="liA8E" id="2J96awl_lm3" role="2OqNvi">
                   <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                  <node concept="37vLTw" id="2J96awl_loT" role="37wK5m">
-                    <ref role="3cqZAo" node="2J96awlqgO3" resolve="paramsScope" />
+                  <node concept="2OqwBi" id="3zPiY4riHNS" role="37wK5m">
+                    <node concept="2OqwBi" id="3zPiY4riHa5" role="2Oq$k0">
+                      <node concept="13iPFW" id="3zPiY4riGRq" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3zPiY4riHzI" role="2OqNvi">
+                        <ref role="3Tt5mk" to="rh3e:3zPiY4r91h5" resolve="formalParams" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="3zPiY4riI3o" role="2OqNvi">
+                      <ref role="37wK5l" node="2l8t3D7B8EG" resolve="getBindings" />
+                      <node concept="37vLTw" id="3zPiY4riIau" role="37wK5m">
+                        <ref role="3cqZAo" node="5XRXoC0isC5" resolve="kind" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -2441,25 +2433,6 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="2J96awl_yr3" role="3cqZAp">
-          <node concept="3cpWsn" id="2J96awl_yr4" role="3cpWs9">
-            <property role="TrG5h" value="paramsScope" />
-            <node concept="3uibUv" id="2J96awl_yr5" role="1tU5fm">
-              <ref role="3uigEE" to="6xgk:3dppoMAuxA2" resolve="NamedElementsScope" />
-            </node>
-            <node concept="2ShNRf" id="2J96awl_yr6" role="33vP2m">
-              <node concept="1pGfFk" id="2J96awl_yr7" role="2ShVmc">
-                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
-                <node concept="2OqwBi" id="2J96awl_yr8" role="37wK5m">
-                  <node concept="13iPFW" id="2J96awl_yr9" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="2J96awl___V" role="2OqNvi">
-                    <ref role="3TtcxE" to="rh3e:7rFtnRVFdwV" resolve="params" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="2J96awl_yrb" role="3cqZAp">
           <node concept="2OqwBi" id="2J96awl_yrc" role="3clFbG">
             <node concept="37vLTw" id="2J96awl_yrd" role="2Oq$k0">
@@ -2467,8 +2440,19 @@
             </node>
             <node concept="liA8E" id="2J96awl_yre" role="2OqNvi">
               <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-              <node concept="37vLTw" id="2J96awl_yrf" role="37wK5m">
-                <ref role="3cqZAo" node="2J96awl_yr4" resolve="paramsScope" />
+              <node concept="2OqwBi" id="3zPiY4riM2k" role="37wK5m">
+                <node concept="2OqwBi" id="3zPiY4riKe3" role="2Oq$k0">
+                  <node concept="13iPFW" id="3zPiY4riJJ4" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3zPiY4riLIY" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rh3e:3zPiY4rfbM8" resolve="formalParams" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3zPiY4riMja" role="2OqNvi">
+                  <ref role="37wK5l" node="2l8t3D7B8EG" resolve="getBindings" />
+                  <node concept="37vLTw" id="3zPiY4riMqi" role="37wK5m">
+                    <ref role="3cqZAo" node="5XRXoC0irTs" resolve="kind" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
