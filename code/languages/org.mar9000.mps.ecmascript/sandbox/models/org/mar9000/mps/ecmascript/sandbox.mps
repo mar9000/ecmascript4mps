@@ -1606,7 +1606,9 @@
         <property role="TrG5h" value="label1" />
       </node>
       <node concept="1dSoJQ" id="6GVUdUj3oEg" role="1dGR37" />
-      <node concept="3PXJ9r" id="57pQC2$toD8" role="3PJpZr" />
+      <node concept="3PXJ9r" id="57pQC2$toD8" role="3PJpZr">
+        <property role="TrG5h" value="label1" />
+      </node>
     </node>
     <node concept="1dSow4" id="6GVUdUiZ1Bi" role="1dSqon">
       <node concept="1dSrUG" id="6GVUdUiZ1Bk" role="1dGR3a">
@@ -1620,7 +1622,9 @@
             <property role="TrG5h" value="label4" />
           </node>
           <node concept="1dSoJQ" id="6GVUdUj3oEl" role="1dGR37" />
-          <node concept="3PXJ9r" id="57pQC2$toDa" role="3PJpZr" />
+          <node concept="3PXJ9r" id="57pQC2$toDa" role="3PJpZr">
+            <property role="TrG5h" value="label3" />
+          </node>
         </node>
         <node concept="1dSoJQ" id="6GVUdUj3oFf" role="1dSoGN" />
         <node concept="1dSow4" id="6GVUdUiZ1Od" role="1dSoGN">
@@ -1631,10 +1635,14 @@
           <node concept="1dSoBd" id="6GVUdUiZ1Of" role="1dGR37">
             <node concept="1dSoJQ" id="6GVUdUj3oF_" role="1dSoGN" />
           </node>
-          <node concept="3PXJ9r" id="57pQC2$toDb" role="3PJpZr" />
+          <node concept="3PXJ9r" id="57pQC2$toDb" role="3PJpZr">
+            <property role="TrG5h" value="label4" />
+          </node>
         </node>
       </node>
-      <node concept="3PXJ9r" id="57pQC2$toD9" role="3PJpZr" />
+      <node concept="3PXJ9r" id="57pQC2$toD9" role="3PJpZr">
+        <property role="TrG5h" value="label2" />
+      </node>
     </node>
     <node concept="2dRJFF" id="6GVUdUiT1Bf" role="1dSqon">
       <property role="2dO0Ql" value="If statement." />
