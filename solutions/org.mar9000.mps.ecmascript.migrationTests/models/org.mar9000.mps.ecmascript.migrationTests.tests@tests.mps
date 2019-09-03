@@ -116,7 +116,6 @@
       <concept id="201656743169479430" name="org.mar9000.mps.ecmascript.structure.JSStatement" flags="ng" index="1dSrUV" />
       <concept id="6713311115387175170" name="org.mar9000.mps.ecmascript.structure.JSImport" flags="ng" index="1mvZBA">
         <property id="7057774267634405823" name="hasEmptyBraces" index="uNT7M" />
-        <child id="7057774267634374329" name="defaultBinding" index="uNLrO" />
         <child id="7057774267634390190" name="namedImports" index="uNXjz" />
       </concept>
       <concept id="6713311115387176162" name="org.mar9000.mps.ecmascript.structure.JSImportSpecifier" flags="ng" index="1mvZK6">
@@ -170,67 +169,6 @@
     </node>
     <node concept="3ea_Bc" id="5OEuegbbtTW" role="3ea0P7">
       <ref role="3ea_Bf" to="84nc:5OEuegbbtwK" resolve="JSProgram_set_type" />
-    </node>
-  </node>
-  <node concept="2lJO3n" id="5zvrJ7Kqq30">
-    <property role="TrG5h" value="test_002_TransformBindingIdentifier" />
-    <node concept="1qefOq" id="5zvrJ7Kqqdn" role="2lJPY$">
-      <node concept="1dSqrf" id="5zvrJ7Kqqdp" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1$8h_y" value="1Ry0cLTKIQQ/ES2016" />
-        <node concept="1mvZBA" id="5zvrJ7Ky2lU" role="1dSqon">
-          <node concept="2dhBij" id="5zvrJ7Ky2lW" role="1msNCI">
-            <property role="3S2$_t" value="nobinding" />
-          </node>
-        </node>
-        <node concept="1mvZBA" id="5zvrJ7Kqqdr" role="1dSqon">
-          <node concept="2dhBij" id="5zvrJ7Kqqds" role="1msNCI">
-            <property role="3S2$_t" value="binding is a jsidentifier" />
-          </node>
-          <node concept="1mvZK$" id="5zvrJ7Kt$ni" role="uNLrO">
-            <property role="2CGrvu" value="identifier1" />
-          </node>
-        </node>
-        <node concept="1mvZBA" id="5zvrJ7Kt$np" role="1dSqon">
-          <node concept="2dhBij" id="5zvrJ7Kt$nr" role="1msNCI">
-            <property role="3S2$_t" value="binding is JSBinding" />
-          </node>
-          <node concept="1mvZK$" id="5zvrJ7Kt$ny" role="uNLrO">
-            <property role="2CGrvu" value="bindingId1" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="5zvrJ7KqqcN" role="2lJO3o">
-      <node concept="1dSqrf" id="5zvrJ7KqqcP" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1$8h_y" value="1Ry0cLTKIQQ/ES2016" />
-        <node concept="1mvZBA" id="5zvrJ7KxM$_" role="1dSqon">
-          <node concept="2dhBij" id="5zvrJ7KxM$B" role="1msNCI">
-            <property role="3S2$_t" value="nobinding" />
-          </node>
-        </node>
-        <node concept="1mvZBA" id="5zvrJ7Kqqd1" role="1dSqon">
-          <node concept="2dhBij" id="5zvrJ7Kqqd2" role="1msNCI">
-            <property role="3S2$_t" value="binding is a jsidentifier" />
-          </node>
-          <node concept="1dSrUG" id="57pQC2$4UwA" role="uNLrO">
-            <property role="1dSrUJ" value="identifier1" />
-            <property role="TrG5h" value="identifier1" />
-          </node>
-        </node>
-        <node concept="1mvZBA" id="5zvrJ7Kqqdc" role="1dSqon">
-          <node concept="2dhBij" id="5zvrJ7Kqqde" role="1msNCI">
-            <property role="3S2$_t" value="binding is JSBinding" />
-          </node>
-          <node concept="1mvZK$" id="57pQC2$5067" role="uNLrO">
-            <property role="1dSrUJ" value="bindingId1" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3ea_Bc" id="5zvrJ7KrH$G" role="3ea0P7">
-      <ref role="3ea_Bf" to="84nc:5zvrJ7Kqqdv" resolve="TransformBindingIdentifier" />
     </node>
   </node>
   <node concept="2lJO3n" id="5zvrJ7Ky3Ff">
