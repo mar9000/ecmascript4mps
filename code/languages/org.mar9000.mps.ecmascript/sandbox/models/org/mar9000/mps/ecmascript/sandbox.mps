@@ -341,7 +341,7 @@
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="1Ry0cLTKIQQ/ES2016" />
     <node concept="2dRJFF" id="1oMhBtk7rqs" role="1dSqon">
-      <property role="2dO0Ql" value="Private fields." />
+      <property role="2dO0Ql" value="Private fields, member expression and call expression with private fields, issue #7." />
     </node>
     <node concept="2DT8ht" id="1oMhBtk7s0M" role="1dSqon">
       <node concept="1mvZK$" id="1oMhBtk7sjY" role="2DT8gC">
