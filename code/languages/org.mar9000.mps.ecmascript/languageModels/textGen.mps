@@ -4319,5 +4319,92 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="2fqhh$zmeIV">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="rh3e:1oMhBtk44M1" resolve="JSFieldDefinition" />
+    <node concept="11bSqf" id="2fqhh$zmeIW" role="11c4hB">
+      <node concept="3clFbS" id="2fqhh$zmeIX" role="2VODD2">
+        <node concept="lc7rE" id="2fqhh$zmeJy" role="3cqZAp">
+          <node concept="l9hG8" id="2fqhh$zmeJS" role="lcghm">
+            <property role="ld1Su" value="true" />
+            <node concept="2OqwBi" id="2fqhh$zmf0o" role="lb14g">
+              <node concept="117lpO" id="2fqhh$zmeKK" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2fqhh$zmfgu" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:1oMhBtk4lxm" resolve="classElementName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2fqhh$znt12" role="3cqZAp">
+          <node concept="3clFbS" id="2fqhh$znt14" role="3clFbx">
+            <node concept="lc7rE" id="2fqhh$znuvh" role="3cqZAp">
+              <node concept="la8eA" id="2fqhh$znN70" role="lcghm">
+                <property role="lacIc" value=" = " />
+              </node>
+              <node concept="l9hG8" id="2fqhh$zmfoa" role="lcghm">
+                <node concept="2OqwBi" id="2fqhh$zmfGd" role="lb14g">
+                  <node concept="117lpO" id="2fqhh$zmfuW" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2fqhh$zmfWA" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rh3e:1oMhBtk8DY4" resolve="initializer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2fqhh$zntHp" role="3clFbw">
+            <node concept="2OqwBi" id="2fqhh$zntg3" role="2Oq$k0">
+              <node concept="117lpO" id="2fqhh$znt2o" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2fqhh$zntvT" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:1oMhBtk8DY4" resolve="initializer" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2fqhh$znumJ" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="2fqhh$znuHy" role="3cqZAp">
+          <node concept="l8MVK" id="2fqhh$znuXl" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2fqhh$zmy4Q">
+    <property role="3GE5qa" value="identifier" />
+    <ref role="WuzLi" to="rh3e:1oMhBtk46r8" resolve="JSPrivateIdentifier" />
+    <node concept="11bSqf" id="2fqhh$zmy4R" role="11c4hB">
+      <node concept="3clFbS" id="2fqhh$zmy4S" role="2VODD2">
+        <node concept="lc7rE" id="2fqhh$zmy5b" role="3cqZAp">
+          <node concept="la8eA" id="2fqhh$zmy5x" role="lcghm">
+            <property role="lacIc" value="#" />
+          </node>
+          <node concept="l9hG8" id="2fqhh$zmy6q" role="lcghm">
+            <node concept="2OqwBi" id="2fqhh$zmyFd" role="lb14g">
+              <node concept="117lpO" id="2fqhh$zmy7j" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2fqhh$zmyGW" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2fqhh$zo5pq">
+    <property role="3GE5qa" value="identifier" />
+    <ref role="WuzLi" to="rh3e:1oMhBtkg57c" resolve="JSPrivateIdentifierReference" />
+    <node concept="11bSqf" id="2fqhh$zo5pr" role="11c4hB">
+      <node concept="3clFbS" id="2fqhh$zo5ps" role="2VODD2">
+        <node concept="lc7rE" id="2fqhh$zo5pJ" role="3cqZAp">
+          <node concept="l9hG8" id="2fqhh$zo5q5" role="lcghm">
+            <node concept="2OqwBi" id="2fqhh$zo5B4" role="lb14g">
+              <node concept="117lpO" id="2fqhh$zo5qX" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2fqhh$zo5Lu" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:1oMhBtkg57d" resolve="identifier" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
