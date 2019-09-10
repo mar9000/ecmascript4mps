@@ -1189,7 +1189,7 @@
     <property role="3GE5qa" value="declaration" />
     <property role="TrG5h" value="JSProperty" />
     <property role="EcuMT" value="8569071899956268701" />
-    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <ref role="1TJDcQ" node="6U217JhzO$w" resolve="JSPropertyDefinition" />
     <node concept="1TJgyj" id="7rFtnRVFdlw" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="key" />
@@ -1204,6 +1204,9 @@
       <property role="IQ2ns" value="8569071899956270586" />
       <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
     </node>
+    <node concept="t5JxF" id="6U217JhzO$t" role="lGtFl">
+      <property role="t5JxN" value="From the PropertyDefinition &gt; PropertyName : AssignmentExpression production." />
+    </node>
   </node>
   <node concept="PlHQZ" id="7rFtnRVFd29">
     <property role="3GE5qa" value="declaration" />
@@ -1212,7 +1215,7 @@
   </node>
   <node concept="1TIwiD" id="7rFtnRVFdpG">
     <property role="3GE5qa" value="expression" />
-    <property role="TrG5h" value="JSObjectExpression" />
+    <property role="TrG5h" value="JSObjectLiteral" />
     <property role="34LRSv" value="{" />
     <property role="R4oN_" value="object expression" />
     <property role="EcuMT" value="8569071899956270700" />
@@ -1222,7 +1225,7 @@
       <property role="20kJfa" value="properties" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="8569071899956270809" />
-      <ref role="20lvS9" node="7rFtnRVFcUt" resolve="JSProperty" />
+      <ref role="20lvS9" node="6U217JhzO$w" resolve="JSPropertyDefinition" />
     </node>
   </node>
   <node concept="1TIwiD" id="7rFtnRVFdtc">
@@ -5333,6 +5336,33 @@
       <property role="20kJfa" value="functionDeclaration" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="bcrrPfbtcb" resolve="JSFunctionDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6U217JhzO$v">
+    <property role="EcuMT" value="7962932020987775263" />
+    <property role="3GE5qa" value="declaration" />
+    <property role="TrG5h" value="JSPropertySpreadDefinition" />
+    <property role="34LRSv" value="..." />
+    <ref role="1TJDcQ" node="6U217JhzO$w" resolve="JSPropertyDefinition" />
+    <node concept="1TJgyj" id="6U217JhzO$J" role="1TKVEi">
+      <property role="IQ2ns" value="7962932020987775279" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
+    </node>
+    <node concept="t5JxF" id="6U217JhzO$_" role="lGtFl">
+      <property role="t5JxN" value="From the PropertyDefinition &gt; ... AssignmentExpression production." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6U217JhzO$w">
+    <property role="EcuMT" value="7962932020987775264" />
+    <property role="3GE5qa" value="expression.object" />
+    <property role="TrG5h" value="JSPropertyDefinition" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="t5JxF" id="6U217JhzO$z" role="lGtFl">
+      <property role="t5JxN" value="From the PropertyDefinition production." />
     </node>
   </node>
 </model>

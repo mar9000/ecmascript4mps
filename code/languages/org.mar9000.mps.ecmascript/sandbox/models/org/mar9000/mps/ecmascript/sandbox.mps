@@ -56,7 +56,7 @@
         <child id="8569071899956271162" name="id" index="2dhUP7" />
         <child id="4104270065614765192" name="formalParams" index="zMvtD" />
       </concept>
-      <concept id="8569071899956270700" name="org.mar9000.mps.ecmascript.structure.JSObjectExpression" flags="ng" index="2dhUch">
+      <concept id="8569071899956270700" name="org.mar9000.mps.ecmascript.structure.JSObjectLiteral" flags="ng" index="2dhUch">
         <child id="8569071899956270809" name="properties" index="2dhUe$" />
       </concept>
       <concept id="8569071899956272644" name="org.mar9000.mps.ecmascript.structure.JSBinaryExpression" flags="ng" index="2dhUHT">
@@ -188,6 +188,9 @@
       <concept id="5036353722909366590" name="org.mar9000.mps.ecmascript.structure.JSSuperProperty" flags="ng" index="2WRy0S">
         <child id="5036353722909924118" name="expressionProperty" index="2WDU8g" />
         <child id="5036353722909924115" name="identifierProperty" index="2WDU8l" />
+      </concept>
+      <concept id="7962932020987775263" name="org.mar9000.mps.ecmascript.structure.JSPropertySpreadDefinition" flags="ng" index="2Z3kP$">
+        <child id="7962932020987775279" name="expr" index="2Z3kPk" />
       </concept>
       <concept id="2799417920953054530" name="org.mar9000.mps.ecmascript.structure.JSSuperCall" flags="ng" index="12Bna6">
         <child id="5036353722909383786" name="arguments" index="2WRAlG" />
@@ -3296,6 +3299,42 @@
                 <ref role="1msOuT" node="6vfGVOM5Pv8" resolve="newLabel1" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="6U217JhAARl" role="1dSqon" />
+    <node concept="2dRJFF" id="6U217JhABtC" role="1dSqon">
+      <property role="2dO0Ql" value="spread in object literal" />
+    </node>
+    <node concept="1dSo_L" id="6U217JhAC40" role="1dSqon">
+      <node concept="2dhUch" id="6U217JhAC3Y" role="1dwvF7">
+        <node concept="2dhVJw" id="6U217JhJdks" role="2dhUe$">
+          <node concept="1dSrUG" id="6U217JhJdkH" role="2dhU0t">
+            <property role="TrG5h" value="hello" />
+          </node>
+          <node concept="2dhBij" id="6U217JhJdkK" role="2dhU27">
+            <property role="3S2$_t" value="world" />
+          </node>
+        </node>
+        <node concept="2Z3kP$" id="6U217JhACnf" role="2dhUe$">
+          <node concept="2dhUch" id="6U217JhBKmP" role="2Z3kPk">
+            <node concept="2dhVJw" id="6U217JhBKmU" role="2dhUe$">
+              <node concept="1dSrUG" id="6U217JhBKn2" role="2dhU0t">
+                <property role="TrG5h" value="hello" />
+              </node>
+              <node concept="2dhBij" id="6U217JhBKn5" role="2dhU27">
+                <property role="3S2$_t" value="world!" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2dhVJw" id="6U217JhBKne" role="2dhUe$">
+          <node concept="1dSrUG" id="6U217JhBKnr" role="2dhU0t">
+            <property role="TrG5h" value="world" />
+          </node>
+          <node concept="2dhBij" id="6U217JhBKnu" role="2dhU27">
+            <property role="3S2$_t" value="hello" />
           </node>
         </node>
       </node>
