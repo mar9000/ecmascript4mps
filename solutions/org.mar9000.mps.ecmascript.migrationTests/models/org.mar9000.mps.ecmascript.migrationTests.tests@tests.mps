@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="13" />
+    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="14" />
   </languages>
   <imports>
     <import index="84nc" ref="r:1c16acc8-2846-4c32-baa9-fb45f4d01637(org.mar9000.mps.ecmascript.migration)" />
@@ -42,6 +42,10 @@
         <child id="8569071899956271163" name="params" index="2dhUP6" />
         <child id="4104270065614765192" name="formalParams" index="zMvtD" />
       </concept>
+      <concept id="8569071899956265940" name="org.mar9000.mps.ecmascript.structure.JSMemberExpression" flags="ng" index="2dhVqD">
+        <child id="8569071899956279040" name="identifierProperty" index="2dhS9X" />
+        <child id="8569071899956278887" name="object" index="2dhScq" />
+      </concept>
       <concept id="8569071899956264115" name="org.mar9000.mps.ecmascript.structure.JSCatchClause" flags="ng" index="2dhWBe">
         <child id="8569071899956280132" name="body" index="2dhSST" />
         <child id="8569071899956280290" name="param" index="2dhSUv" />
@@ -59,6 +63,7 @@
       <concept id="8569071899952148378" name="org.mar9000.mps.ecmascript.structure.JSBooleanLiteral" flags="ng" index="2dxDFB">
         <property id="8569071899952155460" name="value" index="2dxnST" />
       </concept>
+      <concept id="3761592386790809998" name="org.mar9000.mps.ecmascript.structure.JSIdentifierName" flags="ng" index="2wijRm" />
       <concept id="3761592386794677061" name="org.mar9000.mps.ecmascript.structure.JSSingleNameBinding" flags="ng" index="2wxzWt">
         <child id="3761592386794677066" name="bindingIdentifier" index="2wxzWi" />
       </concept>
@@ -692,6 +697,58 @@
           <node concept="1dSoJQ" id="6vfGVOM5O_a" role="1dGR37" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="2lJO3n" id="bUh$orBJ4Y">
+    <property role="TrG5h" value="test_013_MemberExpressionIdentifierToIdentifierName" />
+    <node concept="1qefOq" id="bUh$orBJ50" role="2lJO3o">
+      <node concept="1dSqrf" id="bUh$orBJ51" role="1qenE9">
+        <property role="TrG5h" value="program" />
+        <node concept="1dSo$T" id="bUh$orBJ5u" role="1dSqon">
+          <node concept="2dhZhe" id="bUh$orBJ5E" role="1dSoH_">
+            <node concept="1dSrUG" id="bUh$orBJ5F" role="2dhZiP" />
+            <node concept="1mvZK$" id="bUh$orBJ5G" role="3PzO81">
+              <property role="TrG5h" value="a" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dSo_L" id="bUh$orBJ5S" role="1dSqon">
+          <node concept="2dhVqD" id="bUh$orBJ61" role="1dwvF7">
+            <node concept="29jwqa" id="bUh$orBJ5Q" role="2dhScq">
+              <ref role="29jwqb" node="bUh$orBJ5E" />
+            </node>
+            <node concept="1dSrUG" id="bUh$orBJ62" role="2dhS9X">
+              <property role="TrG5h" value="jsIdentifier" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="bUh$orBJ5d" role="2lJPY$">
+      <node concept="1dSqrf" id="bUh$orBJ5e" role="1qenE9">
+        <property role="TrG5h" value="program" />
+        <node concept="1dSo$T" id="bUh$orBJ68" role="1dSqon">
+          <node concept="2dhZhe" id="bUh$orBJ69" role="1dSoH_">
+            <node concept="1dSrUG" id="bUh$orBJ6a" role="2dhZiP" />
+            <node concept="1mvZK$" id="bUh$orBJ6b" role="3PzO81">
+              <property role="TrG5h" value="a" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dSo_L" id="bUh$orBJ6c" role="1dSqon">
+          <node concept="2dhVqD" id="bUh$orH_qn" role="1dwvF7">
+            <node concept="29jwqa" id="bUh$orBJ6e" role="2dhScq">
+              <ref role="29jwqb" node="bUh$orBJ69" />
+            </node>
+            <node concept="2wijRm" id="bUh$orH_qu" role="2dhS9X">
+              <property role="TrG5h" value="jsIdentifier" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3ea_Bc" id="bUh$orBLmf" role="3ea0P7">
+      <ref role="3ea_Bf" to="84nc:bUh$orBJ6o" resolve="MemberExpressionIdentifierToIdentifierName" />
     </node>
   </node>
 </model>
