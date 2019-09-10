@@ -1143,13 +1143,16 @@
       <property role="20kJfa" value="object" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="8569071899956278887" />
-      <ref role="20lvS9" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+      <ref role="20lvS9" node="46Ref1UgIeV" resolve="JSAbstractMemberExpression" />
+      <node concept="t5JxF" id="bUh$orBIW_" role="lGtFl">
+        <property role="t5JxN" value="Was JSPrimaryExpression but the grammar has a MemberExpression." />
+      </node>
     </node>
     <node concept="1TJgyj" id="7rFtnRVFfs0" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="identifierProperty" />
       <property role="IQ2ns" value="8569071899956279040" />
-      <ref role="20lvS9" node="bcrrPfbtch" resolve="JSIdentifier" />
+      <ref role="20lvS9" node="1oMhBtkg57f" resolve="JSIMemberAndCallExpressionIdentifier" />
     </node>
     <node concept="1TJgyj" id="7rFtnRVFfur" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3980,7 +3983,22 @@
       </node>
       <node concept="TZ5HA" id="1GOcPs$C1Uv" role="TZ5H$">
         <node concept="1dT_AC" id="1GOcPs$C1Uw" role="1dT_Ay">
-          <property role="1dT_AB" value="" />
+          <property role="1dT_AB" value="  * Alexey Shmalko @rasendubi: many improvements." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="15J5kQlTcva" role="TZ5H$">
+        <node concept="1dT_AC" id="15J5kQlTcvb" role="1dT_Ay">
+          <property role="1dT_AB" value="    - scopes/bindings." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="15J5kQlTcvw" role="TZ5H$">
+        <node concept="1dT_AC" id="15J5kQlTcvx" role="1dT_Ay">
+          <property role="1dT_AB" value="    - arrow functions." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="15J5kQlTcvS" role="TZ5H$">
+        <node concept="1dT_AC" id="15J5kQlTcvT" role="1dT_Ay">
+          <property role="1dT_AB" value="    - spread operator." />
         </node>
       </node>
       <node concept="TZ5HA" id="1GOcPs$C1UJ" role="TZ5H$">
@@ -4047,6 +4065,9 @@
     <node concept="PrWs8" id="6oN7rINQMl2" role="PzmwI">
       <ref role="PrY4T" node="2l8t3D7B8Ew" resolve="JSBindingsProvider" />
     </node>
+    <node concept="PrWs8" id="1HM54CYaVPW" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="t5JxF" id="3yS6AQhn9SP" role="lGtFl">
       <property role="t5JxN" value="From the ClassDeclaration production." />
     </node>
@@ -4099,6 +4120,9 @@
     <property role="EcuMT" value="4087045719731248764" />
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="JSIClassElement" />
+    <node concept="PrWs8" id="1HM54CYiDO5" role="PrDN$">
+      <ref role="PrY4T" node="2l8t3D7B8Ew" resolve="JSBindingsProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3yS6AQhn9TX">
     <property role="EcuMT" value="4087045719731248765" />
@@ -4196,6 +4220,9 @@
     <node concept="t5JxF" id="3gNR5ykuI69" role="lGtFl">
       <property role="t5JxN" value="From the PropertyName[Yield] production." />
     </node>
+    <node concept="PrWs8" id="1oMhBtk4lxk" role="PrDN$">
+      <ref role="PrY4T" node="1oMhBtk4lxe" resolve="JSIClassElementName" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3gNR5ykuI6b">
     <property role="EcuMT" value="3761592386790809995" />
@@ -4215,6 +4242,9 @@
     </node>
     <node concept="PrWs8" id="3gNR5ykuQ01" role="PzmwI">
       <ref role="PrY4T" node="3gNR5ykuI6b" resolve="JSILiteralPropertyName" />
+    </node>
+    <node concept="PrWs8" id="7FhAqO_liaV" role="PzmwI">
+      <ref role="PrY4T" node="1oMhBtkg57f" resolve="JSIMemberAndCallExpressionIdentifier" />
     </node>
     <node concept="t5JxF" id="3gNR5ykuOmo" role="lGtFl">
       <property role="t5JxN" value="From the IdentifierName production to be used when we needs just an concrete node of JSIIdentifierName." />
@@ -5334,6 +5364,99 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="bcrrPfbtcb" resolve="JSFunctionDeclaration" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1oMhBtk44M1">
+    <property role="EcuMT" value="1599418295995354241" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="JSFieldDefinition" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="t5JxF" id="1oMhBtk44Ur" role="lGtFl">
+      <property role="t5JxN" value="From https://tc39.es/proposal-class-fields/" />
+    </node>
+    <node concept="1TJgyj" id="1oMhBtk4lxm" role="1TKVEi">
+      <property role="IQ2ns" value="1599418295995422806" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="classElementName" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1oMhBtk4lxe" resolve="JSIClassElementName" />
+    </node>
+    <node concept="1TJgyj" id="1oMhBtk8DY4" role="1TKVEi">
+      <property role="IQ2ns" value="1599418295996555140" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="initializer" />
+      <ref role="20lvS9" node="46Ref1UgIed" resolve="JSAbstractAssignmentExpression" />
+      <node concept="t5JxF" id="1oMhBtk8E0x" role="lGtFl">
+        <property role="t5JxN" value="TODO Initializer[In, ~Yield, ~Await]" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="1oMhBtk4lxo" role="PzmwI">
+      <ref role="PrY4T" node="3yS6AQhn9TW" resolve="JSIClassElement" />
+    </node>
+    <node concept="PrWs8" id="1oMhBtk8DYa" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bw9" resolve="HasIn" />
+    </node>
+    <node concept="PrWs8" id="1oMhBtk8DYi" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bwb" resolve="HasYield" />
+    </node>
+    <node concept="PrWs8" id="1oMhBtk8E0r" role="PzmwI">
+      <ref role="PrY4T" node="1oMhBtk8DYO" resolve="HasAwait" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1oMhBtk46r8">
+    <property role="EcuMT" value="1599418295995360968" />
+    <property role="3GE5qa" value="identifier" />
+    <property role="TrG5h" value="JSPrivateIdentifier" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="t5JxF" id="1oMhBtk46r9" role="lGtFl">
+      <property role="t5JxN" value="From https://tc39.es/proposal-class-fields/" />
+    </node>
+    <node concept="PrWs8" id="1oMhBtk4lxi" role="PzmwI">
+      <ref role="PrY4T" node="1oMhBtk4lxf" resolve="JSIPrivateIdentifier" />
+    </node>
+    <node concept="PrWs8" id="7FhAqO_gI17" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1oMhBtk4lxe">
+    <property role="EcuMT" value="1599418295995422798" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="JSIClassElementName" />
+  </node>
+  <node concept="PlHQZ" id="1oMhBtk4lxf">
+    <property role="EcuMT" value="1599418295995422799" />
+    <property role="3GE5qa" value="identifier" />
+    <property role="TrG5h" value="JSIPrivateIdentifier" />
+    <node concept="PrWs8" id="7FhAqO_h_UT" role="PrDN$">
+      <ref role="PrY4T" node="3gNR5ykuEOJ" resolve="JSIIdentifierName" />
+    </node>
+    <node concept="PrWs8" id="1oMhBtk4lxg" role="PrDN$">
+      <ref role="PrY4T" node="1oMhBtk4lxe" resolve="JSIClassElementName" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1oMhBtk8DYO">
+    <property role="EcuMT" value="1599418295996555188" />
+    <property role="3GE5qa" value="ruleparameter" />
+    <property role="TrG5h" value="HasAwait" />
+  </node>
+  <node concept="1TIwiD" id="1oMhBtkg57c">
+    <property role="EcuMT" value="1599418295998501324" />
+    <property role="3GE5qa" value="identifier" />
+    <property role="TrG5h" value="JSPrivateIdentifierReference" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="1TJgyj" id="1oMhBtkg57d" role="1TKVEi">
+      <property role="IQ2ns" value="1599418295998501325" />
+      <property role="20kJfa" value="identifier" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1oMhBtk46r8" resolve="JSPrivateIdentifier" />
+    </node>
+    <node concept="PrWs8" id="1oMhBtkg57g" role="PzmwI">
+      <ref role="PrY4T" node="1oMhBtkg57f" resolve="JSIMemberAndCallExpressionIdentifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1oMhBtkg57f">
+    <property role="EcuMT" value="1599418295998501327" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="JSIMemberAndCallExpressionIdentifier" />
   </node>
 </model>
 
