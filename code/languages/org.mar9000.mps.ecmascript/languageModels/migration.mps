@@ -188,6 +188,10 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1143235216708" name="jetbrains.mps.lang.smodel.structure.Model_CreateNewNodeOperation" flags="nn" index="I8ghe">
+        <reference id="1143235391024" name="concept" index="I8UWU" />
+      </concept>
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -4297,15 +4301,19 @@
                       </node>
                       <node concept="3cpWs8" id="bUh$orCbMD" role="3cqZAp">
                         <node concept="3cpWsn" id="bUh$orCbMG" role="3cpWs9">
-                          <property role="TrG5h" value="newIdentifier" />
+                          <property role="TrG5h" value="newIdentifierName" />
                           <node concept="3Tqbb2" id="bUh$orCbMB" role="1tU5fm">
                             <ref role="ehGHo" to="rh3e:3gNR5ykuI6e" resolve="JSIdentifierName" />
                           </node>
-                          <node concept="2ShNRf" id="bUh$orCfqq" role="33vP2m">
-                            <node concept="3zrR0B" id="bUh$orCfq7" role="2ShVmc">
-                              <node concept="3Tqbb2" id="bUh$orCfq8" role="3zrR0E">
-                                <ref role="ehGHo" to="rh3e:3gNR5ykuI6e" resolve="JSIdentifierName" />
+                          <node concept="2OqwBi" id="1yI8e_KKvks" role="33vP2m">
+                            <node concept="2OqwBi" id="1yI8e_KKtJl" role="2Oq$k0">
+                              <node concept="37vLTw" id="1yI8e_KKtb0" role="2Oq$k0">
+                                <ref role="3cqZAo" node="bUh$orBLpF" resolve="it" />
                               </node>
+                              <node concept="I4A8Y" id="1yI8e_KKv50" role="2OqNvi" />
+                            </node>
+                            <node concept="I8ghe" id="1yI8e_KKv_j" role="2OqNvi">
+                              <ref role="I8UWU" to="rh3e:3gNR5ykuI6e" resolve="JSIdentifierName" />
                             </node>
                           </node>
                         </node>
@@ -4342,7 +4350,7 @@
                           </node>
                           <node concept="2OqwBi" id="bUh$orCGxd" role="37vLTJ">
                             <node concept="37vLTw" id="bUh$orCGcQ" role="2Oq$k0">
-                              <ref role="3cqZAo" node="bUh$orCbMG" resolve="newIdentifier" />
+                              <ref role="3cqZAo" node="bUh$orCbMG" resolve="newIdentifierName" />
                             </node>
                             <node concept="3TrcHB" id="bUh$orCHab" role="2OqNvi">
                               <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -4360,9 +4368,9 @@
                               <ref role="3Tt5mk" to="rh3e:7rFtnRVFfs0" resolve="identifierProperty" />
                             </node>
                           </node>
-                          <node concept="2oxUTD" id="bUh$orCk2j" role="2OqNvi">
-                            <node concept="37vLTw" id="bUh$orCkh2" role="2oxUTC">
-                              <ref role="3cqZAo" node="bUh$orCbMG" resolve="newIdentifier" />
+                          <node concept="1P9Npp" id="1yI8e_KKwif" role="2OqNvi">
+                            <node concept="37vLTw" id="1yI8e_KKwrQ" role="1P9ThW">
+                              <ref role="3cqZAo" node="bUh$orCbMG" resolve="newIdentifierName" />
                             </node>
                           </node>
                         </node>
