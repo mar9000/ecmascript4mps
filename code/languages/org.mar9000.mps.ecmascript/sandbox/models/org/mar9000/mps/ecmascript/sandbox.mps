@@ -343,6 +343,40 @@
   <node concept="1dSqrf" id="bcrrPfbIU6">
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="1Ry0cLTKIQQ/ES2016" />
+    <node concept="2dRJFF" id="31HuxUvn$Ao" role="1dSqon">
+      <property role="2dO0Ql" value="Private methods." />
+    </node>
+    <node concept="2DT8ht" id="31HuxUvn_eS" role="1dSqon">
+      <node concept="1mvZK$" id="31HuxUvn_z9" role="2DT8gC">
+        <property role="TrG5h" value="ClassPrivateMethod" />
+      </node>
+      <node concept="2wiq1L" id="31HuxUvn_zb" role="2DTaag">
+        <node concept="128y2Z" id="31HuxUvn_zj" role="2wiapO">
+          <property role="TrG5h" value="privateOrdinaryMethod" />
+        </node>
+        <node concept="2wWApn" id="31HuxUvn_zd" role="2wWApU" />
+        <node concept="3PT0iG" id="31HuxUvn_ze" role="2wi7L_" />
+      </node>
+      <node concept="2wiq1L" id="31HuxUvn_zs" role="2DTaag">
+        <node concept="2wijRm" id="31HuxUvn_zt" role="2wiapO">
+          <property role="TrG5h" value="anotherMethod" />
+        </node>
+        <node concept="2wWApn" id="31HuxUvn_zu" role="2wWApU" />
+        <node concept="3PT0iG" id="31HuxUvn_zv" role="2wi7L_">
+          <node concept="1dSo_L" id="31HuxUvn_zE" role="3PTNxU">
+            <node concept="2dhSm$" id="31HuxUvqS8S" role="1dwvF7">
+              <node concept="2dhVqD" id="31HuxUvqS8H" role="2dhSgj">
+                <node concept="2dpZbP" id="31HuxUvn_zD" role="2dhScq" />
+                <node concept="12sxuV" id="31HuxUvqS8O" role="2dhS9X">
+                  <ref role="12sxuU" node="31HuxUvn_zj" resolve="privateOrdinaryMethod" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="31HuxUvn$i9" role="1dSqon" />
     <node concept="2dRJFF" id="1oMhBtk7rqs" role="1dSqon">
       <property role="2dO0Ql" value="Private fields, member expression and call expression with private fields, issue #7." />
     </node>
