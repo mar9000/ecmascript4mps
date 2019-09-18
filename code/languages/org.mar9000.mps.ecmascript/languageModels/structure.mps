@@ -80,6 +80,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1770,6 +1771,42 @@
         <node concept="17QB3L" id="57pQC2$c1ib" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="57pQC2$bW3n" role="3clF47">
+        <node concept="3clFbJ" id="28XiXknD1PE" role="3cqZAp">
+          <node concept="3clFbS" id="28XiXknD1PF" role="3clFbx">
+            <node concept="2xdQw9" id="28XiXknD1PG" role="3cqZAp">
+              <property role="2xdLsb" value="gZ5fksE/warn" />
+              <node concept="Xl_RD" id="28XiXknD1PH" role="9lYJi">
+                <property role="Xl_RC" value="Received vesion is null. I'll use 5.1 to check identifiers." />
+              </node>
+            </node>
+            <node concept="3clFbF" id="28XiXknD1PI" role="3cqZAp">
+              <node concept="37vLTI" id="28XiXknD1PJ" role="3clFbG">
+                <node concept="2YIFZM" id="28XiXknD1PK" role="37vLTx">
+                  <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                  <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                  <node concept="2OqwBi" id="28XiXknD1PL" role="37wK5m">
+                    <node concept="1XH99k" id="28XiXknD1PM" role="2Oq$k0">
+                      <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                    </node>
+                    <node concept="2ViDtV" id="28XiXknD1PN" role="2OqNvi">
+                      <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="28XiXknD1PO" role="37vLTJ">
+                  <ref role="3cqZAo" node="57pQC2$bW3l" resolve="version" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="28XiXknD1PP" role="3clFbw">
+            <node concept="10Nm6u" id="28XiXknD1PQ" role="3uHU7w" />
+            <node concept="37vLTw" id="28XiXknD1PR" role="3uHU7B">
+              <ref role="3cqZAo" node="57pQC2$bW3l" resolve="version" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="28XiXknD9Cr" role="3cqZAp" />
         <node concept="3SKdUt" id="57pQC2$ccMD" role="3cqZAp">
           <node concept="1PaTwC" id="43JkLIeimxS" role="3ndbpf">
             <node concept="3oM_SD" id="43JkLIeimxT" role="1PaTwD">
@@ -2670,22 +2707,19 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="59cjVaeZ4Ym" role="3clFbw">
-            <node concept="37vLTw" id="59cjVaeZ3Wv" role="2Oq$k0">
+          <node concept="17R0WA" id="28XiXknxMt4" role="3clFbw">
+            <node concept="37vLTw" id="59cjVaeZ3Wv" role="3uHU7B">
               <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
             </node>
-            <node concept="liA8E" id="59cjVaeZ6qx" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="2YIFZM" id="43JkLIeilbK" role="37wK5m">
-                <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
-                <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
-                <node concept="2OqwBi" id="43JkLIeilbH" role="37wK5m">
-                  <node concept="1XH99k" id="43JkLIeilbI" role="2Oq$k0">
-                    <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
-                  </node>
-                  <node concept="2ViDtV" id="43JkLIeilbJ" role="2OqNvi">
-                    <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
-                  </node>
+            <node concept="2YIFZM" id="43JkLIeilbK" role="3uHU7w">
+              <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+              <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+              <node concept="2OqwBi" id="43JkLIeilbH" role="37wK5m">
+                <node concept="1XH99k" id="43JkLIeilbI" role="2Oq$k0">
+                  <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                </node>
+                <node concept="2ViDtV" id="43JkLIeilbJ" role="2OqNvi">
+                  <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
                 </node>
               </node>
             </node>
@@ -2706,14 +2740,19 @@
               </node>
             </node>
           </node>
-          <node concept="22lmx$" id="59cjVaeZUtY" role="3clFbw">
-            <node concept="2OqwBi" id="59cjVaeZ7C6" role="3uHU7B">
-              <node concept="37vLTw" id="59cjVaeZ7C8" role="2Oq$k0">
+          <node concept="22lmx$" id="28XiXknAuAA" role="3clFbw">
+            <node concept="17R0WA" id="28XiXknAv13" role="3uHU7w">
+              <node concept="10Nm6u" id="28XiXknAv1I" role="3uHU7w" />
+              <node concept="37vLTw" id="28XiXknAuCl" role="3uHU7B">
                 <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
               </node>
-              <node concept="liA8E" id="59cjVaeZ7Ca" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2YIFZM" id="43JkLIeilbO" role="37wK5m">
+            </node>
+            <node concept="22lmx$" id="59cjVaeZUtY" role="3uHU7B">
+              <node concept="17R0WA" id="28XiXknxM_H" role="3uHU7B">
+                <node concept="37vLTw" id="59cjVaeZ7C8" role="3uHU7B">
+                  <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
+                </node>
+                <node concept="2YIFZM" id="43JkLIeilbO" role="3uHU7w">
                   <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
                   <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
                   <node concept="2OqwBi" id="43JkLIeilbL" role="37wK5m">
@@ -2726,14 +2765,11 @@
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="2OqwBi" id="59cjVaeZ8Ce" role="3uHU7w">
-              <node concept="37vLTw" id="59cjVaeZ8Cg" role="2Oq$k0">
-                <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
-              </node>
-              <node concept="liA8E" id="59cjVaeZ8Ci" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2YIFZM" id="43JkLIeilbS" role="37wK5m">
+              <node concept="17R0WA" id="28XiXknxMAh" role="3uHU7w">
+                <node concept="37vLTw" id="59cjVaeZ8Cg" role="3uHU7B">
+                  <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
+                </node>
+                <node concept="2YIFZM" id="43JkLIeilbS" role="3uHU7w">
                   <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
                   <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
                   <node concept="2OqwBi" id="43JkLIeilbP" role="37wK5m">
@@ -2868,22 +2904,19 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="59cjVaeZywX" role="3clFbw">
-            <node concept="37vLTw" id="59cjVaeZywZ" role="2Oq$k0">
+          <node concept="17R0WA" id="28XiXknD1jk" role="3clFbw">
+            <node concept="37vLTw" id="59cjVaeZywZ" role="3uHU7B">
               <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
             </node>
-            <node concept="liA8E" id="59cjVaeZyx1" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="2YIFZM" id="43JkLIeilbW" role="37wK5m">
-                <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
-                <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
-                <node concept="2OqwBi" id="43JkLIeilbT" role="37wK5m">
-                  <node concept="1XH99k" id="43JkLIeilbU" role="2Oq$k0">
-                    <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
-                  </node>
-                  <node concept="2ViDtV" id="43JkLIeilbV" role="2OqNvi">
-                    <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
-                  </node>
+            <node concept="2YIFZM" id="43JkLIeilbW" role="3uHU7w">
+              <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+              <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+              <node concept="2OqwBi" id="43JkLIeilbT" role="37wK5m">
+                <node concept="1XH99k" id="43JkLIeilbU" role="2Oq$k0">
+                  <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                </node>
+                <node concept="2ViDtV" id="43JkLIeilbV" role="2OqNvi">
+                  <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
                 </node>
               </node>
             </node>
@@ -2909,15 +2942,12 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="59cjVaeZZ8y" role="3clFbw">
-                <node concept="37vLTw" id="59cjVaeZYN1" role="2Oq$k0">
+              <node concept="17R0WA" id="28XiXknD1EF" role="3clFbw">
+                <node concept="37vLTw" id="59cjVaeZYN1" role="3uHU7B">
                   <ref role="3cqZAo" node="59cjVaeYjCK" resolve="s" />
                 </node>
-                <node concept="liA8E" id="59cjVaeZZLA" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                  <node concept="Xl_RD" id="59cjVaeZZNY" role="37wK5m">
-                    <property role="Xl_RC" value="enum" />
-                  </node>
+                <node concept="Xl_RD" id="59cjVaeZZNY" role="3uHU7w">
+                  <property role="Xl_RC" value="enum" />
                 </node>
               </node>
             </node>
@@ -2930,32 +2960,26 @@
                 </node>
               </node>
               <node concept="1Wc70l" id="59cjVaf03Gd" role="3clFbw">
-                <node concept="2OqwBi" id="59cjVaf04aD" role="3uHU7w">
-                  <node concept="37vLTw" id="59cjVaf03N_" role="2Oq$k0">
+                <node concept="17R0WA" id="28XiXknD1C$" role="3uHU7w">
+                  <node concept="37vLTw" id="59cjVaf03N_" role="3uHU7B">
                     <ref role="3cqZAo" node="59cjVaeYjCK" resolve="s" />
                   </node>
-                  <node concept="liA8E" id="59cjVaf04Pj" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                    <node concept="Xl_RD" id="59cjVaf04Tl" role="37wK5m">
-                      <property role="Xl_RC" value="await" />
-                    </node>
+                  <node concept="Xl_RD" id="59cjVaf04Tl" role="3uHU7w">
+                    <property role="Xl_RC" value="await" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="59cjVaf025O" role="3uHU7B">
-                  <node concept="37vLTw" id="59cjVaf014U" role="2Oq$k0">
+                <node concept="17R0WA" id="28XiXknD1_8" role="3uHU7B">
+                  <node concept="37vLTw" id="59cjVaf014U" role="3uHU7B">
                     <ref role="3cqZAo" node="59cjVaeYpf_" resolve="type" />
                   </node>
-                  <node concept="liA8E" id="59cjVaf03d8" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                    <node concept="2OqwBi" id="43JkLIeilc0" role="37wK5m">
-                      <node concept="24Tkf9" id="43JkLIeilc2" role="2OqNvi" />
-                      <node concept="2OqwBi" id="43JkLIeilbX" role="2Oq$k0">
-                        <node concept="1XH99k" id="43JkLIeilbY" role="2Oq$k0">
-                          <ref role="1XH99l" node="43JkLIehKtb" resolve="JSScriptOrModule" />
-                        </node>
-                        <node concept="2ViDtV" id="43JkLIeilbZ" role="2OqNvi">
-                          <ref role="2ViDtZ" node="43JkLIehKtd" resolve="module" />
-                        </node>
+                  <node concept="2OqwBi" id="43JkLIeilc0" role="3uHU7w">
+                    <node concept="24Tkf9" id="43JkLIeilc2" role="2OqNvi" />
+                    <node concept="2OqwBi" id="43JkLIeilbX" role="2Oq$k0">
+                      <node concept="1XH99k" id="43JkLIeilbY" role="2Oq$k0">
+                        <ref role="1XH99l" node="43JkLIehKtb" resolve="JSScriptOrModule" />
+                      </node>
+                      <node concept="2ViDtV" id="43JkLIeilbZ" role="2OqNvi">
+                        <ref role="2ViDtZ" node="43JkLIehKtd" resolve="module" />
                       </node>
                     </node>
                   </node>
@@ -2991,42 +3015,36 @@
             </node>
           </node>
           <node concept="22lmx$" id="59cjVaeZWSU" role="3clFbw">
-            <node concept="2OqwBi" id="59cjVaeZWSV" role="3uHU7B">
-              <node concept="37vLTw" id="59cjVaeZWSX" role="2Oq$k0">
+            <node concept="17R0WA" id="28XiXknD1uL" role="3uHU7B">
+              <node concept="37vLTw" id="59cjVaeZWSX" role="3uHU7B">
                 <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
               </node>
-              <node concept="liA8E" id="59cjVaeZWSZ" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2YIFZM" id="43JkLIeilc6" role="37wK5m">
-                  <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
-                  <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
-                  <node concept="2OqwBi" id="43JkLIeilc3" role="37wK5m">
-                    <node concept="1XH99k" id="43JkLIeilc4" role="2Oq$k0">
-                      <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
-                    </node>
-                    <node concept="2ViDtV" id="43JkLIeilc5" role="2OqNvi">
-                      <ref role="2ViDtZ" node="43JkLIehKrn" resolve="ES2015" />
-                    </node>
+              <node concept="2YIFZM" id="43JkLIeilc6" role="3uHU7w">
+                <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                <node concept="2OqwBi" id="43JkLIeilc3" role="37wK5m">
+                  <node concept="1XH99k" id="43JkLIeilc4" role="2Oq$k0">
+                    <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                  </node>
+                  <node concept="2ViDtV" id="43JkLIeilc5" role="2OqNvi">
+                    <ref role="2ViDtZ" node="43JkLIehKrn" resolve="ES2015" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="59cjVaeZWT1" role="3uHU7w">
-              <node concept="37vLTw" id="59cjVaeZWT3" role="2Oq$k0">
+            <node concept="17R0WA" id="28XiXknD1yp" role="3uHU7w">
+              <node concept="37vLTw" id="59cjVaeZWT3" role="3uHU7B">
                 <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
               </node>
-              <node concept="liA8E" id="59cjVaeZWT5" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2YIFZM" id="43JkLIeilca" role="37wK5m">
-                  <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
-                  <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
-                  <node concept="2OqwBi" id="43JkLIeilc7" role="37wK5m">
-                    <node concept="1XH99k" id="43JkLIeilc8" role="2Oq$k0">
-                      <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
-                    </node>
-                    <node concept="2ViDtV" id="43JkLIeilc9" role="2OqNvi">
-                      <ref role="2ViDtZ" node="43JkLIehKro" resolve="ES2016" />
-                    </node>
+              <node concept="2YIFZM" id="43JkLIeilca" role="3uHU7w">
+                <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                <node concept="2OqwBi" id="43JkLIeilc7" role="37wK5m">
+                  <node concept="1XH99k" id="43JkLIeilc8" role="2Oq$k0">
+                    <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                  </node>
+                  <node concept="2ViDtV" id="43JkLIeilc9" role="2OqNvi">
+                    <ref role="2ViDtZ" node="43JkLIehKro" resolve="ES2016" />
                   </node>
                 </node>
               </node>
