@@ -258,6 +258,7 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -2990,6 +2991,86 @@
     <node concept="1YaCAy" id="7sFdxx60yWa" role="1YuTPh">
       <property role="TrG5h" value="node" />
       <ref role="1YaFvo" to="rh3e:7sFdxx5ZF2j" resolve="JSYieldExpression" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="31HuxUvK1G_">
+    <property role="TrG5h" value="check_JSMethodDefinition" />
+    <property role="3GE5qa" value="class" />
+    <node concept="3clFbS" id="31HuxUvK1GA" role="18ibNy">
+      <node concept="3clFbJ" id="31HuxUvK5dr" role="3cqZAp">
+        <node concept="3clFbS" id="31HuxUvK5dt" role="3clFbx">
+          <node concept="3cpWs6" id="31HuxUvK7h3" role="3cqZAp" />
+        </node>
+        <node concept="3fqX7Q" id="31HuxUvK7aT" role="3clFbw">
+          <node concept="2OqwBi" id="31HuxUvK7aV" role="3fr31v">
+            <node concept="2OqwBi" id="31HuxUvK7aW" role="2Oq$k0">
+              <node concept="1PxgMI" id="31HuxUvK7aX" role="2Oq$k0">
+                <node concept="chp4Y" id="31HuxUvK7aY" role="3oSUPX">
+                  <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                </node>
+                <node concept="2OqwBi" id="31HuxUvK7aZ" role="1m5AlR">
+                  <node concept="1YBJjd" id="31HuxUvK7b0" role="2Oq$k0">
+                    <ref role="1YBMHb" node="31HuxUvK1GC" resolve="methodDefinition" />
+                  </node>
+                  <node concept="3TrEf2" id="31HuxUvK7b1" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rh3e:3gNR5ykuRCG" resolve="methodName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="31HuxUvK7b2" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="31HuxUvK7b3" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="Xl_RD" id="31HuxUvK7b4" role="37wK5m">
+                <property role="Xl_RC" value="constructor" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="31HuxUvK7h6" role="3cqZAp" />
+      <node concept="3clFbJ" id="31HuxUvK1Y5" role="3cqZAp">
+        <node concept="3clFbS" id="31HuxUvK1Y6" role="3clFbx">
+          <node concept="2MkqsV" id="31HuxUvK1Y7" role="3cqZAp">
+            <node concept="AMVWg" id="31HuxUvK1Y8" role="lGtFl">
+              <property role="TrG5h" value="JSMethodDefinitionConstructorCannotHaveDecorators" />
+            </node>
+            <node concept="Xl_RD" id="31HuxUvK1Ya" role="2MkJ7o">
+              <property role="Xl_RC" value="Constructors can't have decorators." />
+            </node>
+            <node concept="2OqwBi" id="4kjk8p_ErjC" role="2OEOjV">
+              <node concept="1YBJjd" id="31HuxUvKejw" role="2Oq$k0">
+                <ref role="1YBMHb" node="31HuxUvK1GC" resolve="methodDefinition" />
+              </node>
+              <node concept="3TrEf2" id="4kjk8p_ErLu" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:3gNR5ykuRCG" resolve="methodName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="31HuxUvKe6f" role="3clFbw">
+          <node concept="3cmrfG" id="31HuxUvKebb" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="31HuxUvK9EZ" role="3uHU7B">
+            <node concept="2OqwBi" id="31HuxUvK1Yf" role="2Oq$k0">
+              <node concept="3Tsc0h" id="31HuxUvK86w" role="2OqNvi">
+                <ref role="3TtcxE" to="rh3e:4ViHB8sKv$7" resolve="decorators" />
+              </node>
+              <node concept="1YBJjd" id="31HuxUvK7LZ" role="2Oq$k0">
+                <ref role="1YBMHb" node="31HuxUvK1GC" resolve="methodDefinition" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="31HuxUvKb76" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="31HuxUvK1GC" role="1YuTPh">
+      <property role="TrG5h" value="methodDefinition" />
+      <ref role="1YaFvo" to="rh3e:3gNR5ykuBKD" resolve="JSMethodDefinition" />
     </node>
   </node>
 </model>

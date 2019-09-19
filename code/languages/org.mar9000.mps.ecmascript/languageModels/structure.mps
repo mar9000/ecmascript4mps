@@ -2960,14 +2960,6 @@
                 </node>
               </node>
               <node concept="1Wc70l" id="59cjVaf03Gd" role="3clFbw">
-                <node concept="17R0WA" id="28XiXknD1C$" role="3uHU7w">
-                  <node concept="37vLTw" id="59cjVaf03N_" role="3uHU7B">
-                    <ref role="3cqZAo" node="59cjVaeYjCK" resolve="s" />
-                  </node>
-                  <node concept="Xl_RD" id="59cjVaf04Tl" role="3uHU7w">
-                    <property role="Xl_RC" value="await" />
-                  </node>
-                </node>
                 <node concept="17R0WA" id="28XiXknD1_8" role="3uHU7B">
                   <node concept="37vLTw" id="59cjVaf014U" role="3uHU7B">
                     <ref role="3cqZAo" node="59cjVaeYpf_" resolve="type" />
@@ -2982,6 +2974,14 @@
                         <ref role="2ViDtZ" node="43JkLIehKtd" resolve="module" />
                       </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="17R0WA" id="28XiXknD1C$" role="3uHU7w">
+                  <node concept="37vLTw" id="59cjVaf03N_" role="3uHU7B">
+                    <ref role="3cqZAo" node="59cjVaeYjCK" resolve="s" />
+                  </node>
+                  <node concept="Xl_RD" id="59cjVaf04Tl" role="3uHU7w">
+                    <property role="Xl_RC" value="await" />
                   </node>
                 </node>
               </node>
@@ -4112,6 +4112,9 @@
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="JSClassExpression" />
     <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    <node concept="PrWs8" id="31HuxUvr_18" role="PzmwI">
+      <ref role="PrY4T" node="4ViHB8sKv$4" resolve="JSIDecoratorList" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3yS6AQhn9T4">
     <property role="EcuMT" value="4087045719731248708" />
@@ -4143,6 +4146,9 @@
     <property role="TrG5h" value="JSIClassElement" />
     <node concept="PrWs8" id="1HM54CYiDO5" role="PrDN$">
       <ref role="PrY4T" node="2l8t3D7B8Ew" resolve="JSBindingsProvider" />
+    </node>
+    <node concept="PrWs8" id="31HuxUvr_0e" role="PrDN$">
+      <ref role="PrY4T" node="4ViHB8sKv$4" resolve="JSIDecoratorList" />
     </node>
   </node>
   <node concept="1TIwiD" id="3yS6AQhn9TX">
@@ -4206,7 +4212,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="methodName" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3gNR5ykuI68" resolve="JSIPropertyName" />
+      <ref role="20lvS9" node="1oMhBtk4lxe" resolve="JSIClassElementName" />
     </node>
     <node concept="1TJgyj" id="3gNR5ykKrCy" role="1TKVEi">
       <property role="IQ2ns" value="3761592386795452962" />
@@ -4409,6 +4415,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="46Ref1Uh8_W" resolve="JSAbstractExpression" />
     </node>
+    <node concept="PrWs8" id="31HuxUvr$zI" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bw9" resolve="HasIn" />
+    </node>
   </node>
   <node concept="PlHQZ" id="4ViHB8sKv$4">
     <property role="EcuMT" value="5679802681292617988" />
@@ -4423,6 +4432,9 @@
       <property role="20kJfa" value="decorators" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5AR_2GkH_tT" resolve="JSDecorator" />
+      <node concept="t5JxF" id="31HuxUvrkSW" role="lGtFl">
+        <property role="t5JxN" value="from  DecoratorList: DecoratorList opt Decorator, we use 0 items as &quot;no decorators&quot;." />
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="5AR_2Gk$hwi">

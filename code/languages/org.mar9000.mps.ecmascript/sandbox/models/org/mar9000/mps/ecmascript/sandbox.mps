@@ -210,6 +210,10 @@
         <child id="6464798702863194143" name="arguments" index="1d9CKO" />
         <child id="6464798702863194133" name="memberExpression" index="1d9CKY" />
       </concept>
+      <concept id="6464798702870390484" name="org.mar9000.mps.ecmascript.structure.JSDotMemberExpressioDecorator" flags="ng" index="1dinbZ">
+        <child id="6464798702870390489" name="identifier" index="1dinbM" />
+        <child id="6464798702870390487" name="memberExpression" index="1dinbW" />
+      </concept>
       <concept id="201656743171489017" name="org.mar9000.mps.ecmascript.structure.JSEmptyStatement" flags="ng" index="1dw154" />
       <concept id="201656743171252964" name="org.mar9000.mps.ecmascript.structure.JSIdentifierReference" flags="ng" index="1dx8Xp">
         <reference id="201656743171252965" name="identifier" index="1dx8Xo" />
@@ -285,6 +289,9 @@
         <child id="201656743169479451" name="id" index="1dSrUA" />
       </concept>
       <concept id="201656743169479430" name="org.mar9000.mps.ecmascript.structure.JSStatement" flags="ng" index="1dSrUV" />
+      <concept id="5679802681292617238" name="org.mar9000.mps.ecmascript.structure.JSParenExpressionDecorator" flags="ng" index="1i4O1$">
+        <child id="5679802681292617241" name="expression" index="1i4O1F" />
+      </concept>
       <concept id="5679802681292617988" name="org.mar9000.mps.ecmascript.structure.JSIDecoratorList" flags="ng" index="1i4OXQ">
         <child id="5679802681292617991" name="decorators" index="1i4OXP" />
       </concept>
@@ -343,6 +350,197 @@
   <node concept="1dSqrf" id="bcrrPfbIU6">
     <property role="TrG5h" value="all-examples" />
     <property role="1$8h_y" value="1Ry0cLTKIQQ/ES2016" />
+    <node concept="2dRJFF" id="31HuxUvrjVe" role="1dSqon">
+      <property role="2dO0Ql" value="More on decorators, part of issue #7." />
+    </node>
+    <node concept="1dSo$T" id="31HuxUvuvQq" role="1dSqon">
+      <node concept="2dhZhe" id="31HuxUvuwb4" role="1dSoH_">
+        <node concept="1dSrUG" id="31HuxUvuwb6" role="2dhZiP" />
+        <node concept="1mvZK$" id="31HuxUvuwb8" role="3PzO81">
+          <property role="TrG5h" value="deco1" />
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="31HuxUvIfJM" role="1dSqon" />
+    <node concept="2DT8ht" id="31HuxUvrk$g" role="1dSqon">
+      <node concept="1mvZK$" id="31HuxUvrkSM" role="2DT8gC">
+        <property role="TrG5h" value="ForDecorators" />
+      </node>
+      <node concept="1d0sdi" id="31HuxUvuvcz" role="1i4OXP">
+        <node concept="29jwqa" id="4kjk8p_Hu$V" role="1d0sdn">
+          <ref role="29jwqb" node="31HuxUvuwb4" />
+        </node>
+      </node>
+      <node concept="1d0sdi" id="31HuxUvuvxz" role="1i4OXP">
+        <node concept="1i4O1$" id="31HuxUvuwbg" role="1d0sdn">
+          <node concept="29jwqa" id="31HuxUvuwcg" role="1i4O1F">
+            <ref role="29jwqb" node="31HuxUvuwb4" />
+          </node>
+        </node>
+      </node>
+      <node concept="1d0sdi" id="31HuxUvuwZ1" role="1i4OXP">
+        <node concept="1dinbZ" id="31HuxUvxioc" role="1d0sdn">
+          <node concept="29jwqa" id="31HuxUvuwZJ" role="1dinbW">
+            <ref role="29jwqb" node="31HuxUvuwb4" />
+          </node>
+          <node concept="2wijRm" id="31HuxUvxiog" role="1dinbM">
+            <property role="TrG5h" value="identifier" />
+          </node>
+        </node>
+      </node>
+      <node concept="1d0sdi" id="31HuxUvxip9" role="1i4OXP">
+        <node concept="1dinbZ" id="31HuxUvxipB" role="1d0sdn">
+          <node concept="1i4O1$" id="31HuxUvxipa" role="1dinbW">
+            <node concept="29jwqa" id="31HuxUvxipb" role="1i4O1F">
+              <ref role="29jwqb" node="31HuxUvuwb4" />
+            </node>
+          </node>
+          <node concept="2wijRm" id="31HuxUvxipH" role="1dinbM">
+            <property role="TrG5h" value="identifier" />
+          </node>
+        </node>
+      </node>
+      <node concept="1d0sdi" id="31HuxUvxiq1" role="1i4OXP">
+        <node concept="1dinbZ" id="31HuxUvxiqG" role="1d0sdn">
+          <node concept="1dinbZ" id="31HuxUvxiq2" role="1dinbW">
+            <node concept="29jwqa" id="31HuxUvxiq3" role="1dinbW">
+              <ref role="29jwqb" node="31HuxUvuwb4" />
+            </node>
+            <node concept="2wijRm" id="31HuxUvxiq4" role="1dinbM">
+              <property role="TrG5h" value="identifier" />
+            </node>
+          </node>
+          <node concept="2wijRm" id="31HuxUvxiqO" role="1dinbM">
+            <property role="TrG5h" value="id2" />
+          </node>
+        </node>
+      </node>
+      <node concept="1d0sdi" id="31HuxUvxiqQ" role="1i4OXP">
+        <node concept="1dinbZ" id="31HuxUvxirn" role="1d0sdn">
+          <node concept="1dinbZ" id="31HuxUvxire" role="1dinbW">
+            <node concept="1i4O1$" id="31HuxUvxirf" role="1dinbW">
+              <node concept="29jwqa" id="31HuxUvxirg" role="1i4O1F">
+                <ref role="29jwqb" node="31HuxUvuwb4" />
+              </node>
+            </node>
+            <node concept="2wijRm" id="31HuxUvxirh" role="1dinbM">
+              <property role="TrG5h" value="identifier" />
+            </node>
+          </node>
+          <node concept="2wijRm" id="31HuxUvxirx" role="1dinbM">
+            <property role="TrG5h" value="id2" />
+          </node>
+        </node>
+      </node>
+      <node concept="1d0sdi" id="31HuxUvJyeT" role="1i4OXP">
+        <node concept="1d9CKT" id="31HuxUvJyfs" role="1d0sdn">
+          <node concept="29jwqa" id="31HuxUvJyeU" role="1d9CKY">
+            <ref role="29jwqb" node="31HuxUvuwb4" />
+          </node>
+          <node concept="2dhBVA" id="31HuxUvJyfw" role="1d9CKO">
+            <property role="2dhB_1" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="1d0sdi" id="31HuxUvJyfy" role="1i4OXP">
+        <node concept="1d9CKT" id="31HuxUvJygc" role="1d0sdn">
+          <node concept="1dinbZ" id="31HuxUvJyfz" role="1d9CKY">
+            <node concept="29jwqa" id="31HuxUvJyf$" role="1dinbW">
+              <ref role="29jwqb" node="31HuxUvuwb4" />
+            </node>
+            <node concept="2wijRm" id="31HuxUvJyf_" role="1dinbM">
+              <property role="TrG5h" value="identifier" />
+            </node>
+          </node>
+          <node concept="2dhBVA" id="31HuxUvJygS" role="1d9CKO">
+            <property role="2dhB_1" value="3" />
+          </node>
+        </node>
+      </node>
+      <node concept="128wFQ" id="31HuxUvxirz" role="2DTaag">
+        <node concept="2wijRm" id="31HuxUvxirB" role="128LSx">
+          <property role="TrG5h" value="field1" />
+        </node>
+        <node concept="1d0sdi" id="31HuxUvF_Ry" role="1i4OXP">
+          <node concept="29jwqa" id="31HuxUvIfEA" role="1d0sdn">
+            <ref role="29jwqb" node="31HuxUvuwb4" />
+          </node>
+        </node>
+        <node concept="1d0sdi" id="31HuxUvIfEQ" role="1i4OXP">
+          <node concept="1dinbZ" id="31HuxUvIfFm" role="1d0sdn">
+            <node concept="29jwqa" id="31HuxUvIfF8" role="1dinbW">
+              <ref role="29jwqb" node="31HuxUvuwb4" />
+            </node>
+            <node concept="2wijRm" id="31HuxUvIfFq" role="1dinbM">
+              <property role="TrG5h" value="eee" />
+            </node>
+          </node>
+        </node>
+        <node concept="2dhBVA" id="31HuxUvIfEO" role="124dBN">
+          <property role="2dhB_1" value="4" />
+        </node>
+      </node>
+      <node concept="2DT8gg" id="31HuxUvGUM6" role="2DTaag" />
+      <node concept="2wiq1L" id="31HuxUvD8Ka" role="2DTaag">
+        <node concept="2wijRm" id="31HuxUvD8Kb" role="2wiapO">
+          <property role="TrG5h" value="method1" />
+        </node>
+        <node concept="2wWApn" id="31HuxUvD8Kc" role="2wWApU" />
+        <node concept="3PT0iG" id="31HuxUvD8Kd" role="2wi7L_" />
+        <node concept="1d0sdi" id="31HuxUw7Wrp" role="1i4OXP">
+          <node concept="29jwqa" id="31HuxUw7Wrt" role="1d0sdn">
+            <ref role="29jwqb" node="31HuxUvuwb4" />
+          </node>
+        </node>
+      </node>
+      <node concept="2wiq1L" id="31HuxUvJEZj" role="2DTaag">
+        <node concept="2wijRm" id="31HuxUvJEZk" role="2wiapO">
+          <property role="TrG5h" value="constructor__" />
+        </node>
+        <node concept="2wWApn" id="31HuxUvJEZl" role="2wWApU" />
+        <node concept="3PT0iG" id="31HuxUvJEZm" role="2wi7L_" />
+        <node concept="1d0sdi" id="31HuxUvKyZf" role="1i4OXP">
+          <node concept="29jwqa" id="31HuxUvKyZj" role="1d0sdn">
+            <ref role="29jwqb" node="31HuxUvuwb4" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="31HuxUvrjAI" role="1dSqon" />
+    <node concept="2dRJFF" id="31HuxUvn$Ao" role="1dSqon">
+      <property role="2dO0Ql" value="Private methods." />
+    </node>
+    <node concept="2DT8ht" id="31HuxUvn_eS" role="1dSqon">
+      <node concept="1mvZK$" id="31HuxUvn_z9" role="2DT8gC">
+        <property role="TrG5h" value="ClassPrivateMethod" />
+      </node>
+      <node concept="2wiq1L" id="31HuxUvn_zb" role="2DTaag">
+        <node concept="128y2Z" id="31HuxUvn_zj" role="2wiapO">
+          <property role="TrG5h" value="privateOrdinaryMethod" />
+        </node>
+        <node concept="2wWApn" id="31HuxUvn_zd" role="2wWApU" />
+        <node concept="3PT0iG" id="31HuxUvn_ze" role="2wi7L_" />
+      </node>
+      <node concept="2wiq1L" id="31HuxUvn_zs" role="2DTaag">
+        <node concept="2wijRm" id="31HuxUvn_zt" role="2wiapO">
+          <property role="TrG5h" value="anotherMethod" />
+        </node>
+        <node concept="2wWApn" id="31HuxUvn_zu" role="2wWApU" />
+        <node concept="3PT0iG" id="31HuxUvn_zv" role="2wi7L_">
+          <node concept="1dSo_L" id="31HuxUvn_zE" role="3PTNxU">
+            <node concept="2dhSm$" id="31HuxUvqS8S" role="1dwvF7">
+              <node concept="2dhVqD" id="31HuxUvqS8H" role="2dhSgj">
+                <node concept="2dpZbP" id="31HuxUvn_zD" role="2dhScq" />
+                <node concept="12sxuV" id="31HuxUvqS8O" role="2dhS9X">
+                  <ref role="12sxuU" node="31HuxUvn_zj" resolve="privateOrdinaryMethod" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1dSrUV" id="31HuxUvn$i9" role="1dSqon" />
     <node concept="2dRJFF" id="1oMhBtk7rqs" role="1dSqon">
       <property role="2dO0Ql" value="Private fields, member expression and call expression with private fields, issue #7." />
     </node>
