@@ -1423,5 +1423,55 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="31HuxUvNsMZ">
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="AddDecorators_ClassElement" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="rh3e:3yS6AQhn9TW" resolve="JSIClassElement" />
+    <node concept="2S6ZIM" id="31HuxUvNsN0" role="2ZfVej">
+      <node concept="3clFbS" id="31HuxUvNsN1" role="2VODD2">
+        <node concept="3clFbF" id="31HuxUvNsRT" role="3cqZAp">
+          <node concept="Xl_RD" id="31HuxUvNsRS" role="3clFbG">
+            <property role="Xl_RC" value="Add Decorators" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="31HuxUvNsN2" role="2ZfgGD">
+      <node concept="3clFbS" id="31HuxUvNsN3" role="2VODD2">
+        <node concept="3clFbF" id="31HuxUvNzqC" role="3cqZAp">
+          <node concept="2OqwBi" id="31HuxUvN_hX" role="3clFbG">
+            <node concept="2OqwBi" id="31HuxUvNzz8" role="2Oq$k0">
+              <node concept="2Sf5sV" id="31HuxUvNzqB" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="31HuxUvNzHr" role="2OqNvi">
+                <ref role="3TtcxE" to="rh3e:4ViHB8sKv$7" resolve="decorators" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="31HuxUvNCtV" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="31HuxUvNt4D" role="2ZfVeh">
+      <node concept="3clFbS" id="31HuxUvNt4E" role="2VODD2">
+        <node concept="3clFbF" id="31HuxUvNt8J" role="3cqZAp">
+          <node concept="3clFbC" id="31HuxUvNypA" role="3clFbG">
+            <node concept="3cmrfG" id="31HuxUvNyTb" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="31HuxUvNvrv" role="3uHU7B">
+              <node concept="2OqwBi" id="31HuxUvNtn9" role="2Oq$k0">
+                <node concept="2Sf5sV" id="31HuxUvNt8I" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="31HuxUvNtxb" role="2OqNvi">
+                  <ref role="3TtcxE" to="rh3e:4ViHB8sKv$7" resolve="decorators" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="31HuxUvNxed" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

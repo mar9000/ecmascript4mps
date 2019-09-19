@@ -4094,6 +4094,9 @@
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="JSClassExpression" />
     <ref role="1TJDcQ" node="7rFtnRVF22p" resolve="JSPrimaryExpression" />
+    <node concept="PrWs8" id="31HuxUvr_18" role="PzmwI">
+      <ref role="PrY4T" node="4ViHB8sKv$4" resolve="JSIDecoratorList" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3yS6AQhn9T4">
     <property role="EcuMT" value="4087045719731248708" />
@@ -4125,6 +4128,9 @@
     <property role="TrG5h" value="JSIClassElement" />
     <node concept="PrWs8" id="1HM54CYiDO5" role="PrDN$">
       <ref role="PrY4T" node="2l8t3D7B8Ew" resolve="JSBindingsProvider" />
+    </node>
+    <node concept="PrWs8" id="31HuxUvr_0e" role="PrDN$">
+      <ref role="PrY4T" node="4ViHB8sKv$4" resolve="JSIDecoratorList" />
     </node>
   </node>
   <node concept="1TIwiD" id="3yS6AQhn9TX">
@@ -4384,6 +4390,9 @@
     <node concept="PrWs8" id="4ViHB8sKvon" role="PzmwI">
       <ref role="PrY4T" node="4ViHB8sKvoh" resolve="JSIDecoratorMemberExpression" />
     </node>
+    <node concept="PrWs8" id="31HuxUvr$zI" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bw9" resolve="HasIn" />
+    </node>
     <node concept="1TJgyj" id="4ViHB8sKvop" role="1TKVEi">
       <property role="IQ2ns" value="5679802681292617241" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -4405,6 +4414,9 @@
       <property role="20kJfa" value="decorators" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5AR_2GkH_tT" resolve="JSDecorator" />
+      <node concept="t5JxF" id="31HuxUvrkSW" role="lGtFl">
+        <property role="t5JxN" value="from  DecoratorList: DecoratorList opt Decorator, we use 0 items as &quot;no decorators&quot;." />
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="5AR_2Gk$hwi">

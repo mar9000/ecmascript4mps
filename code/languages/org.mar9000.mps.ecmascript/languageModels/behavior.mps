@@ -249,6 +249,10 @@
       <concept id="6870613620391345436" name="jetbrains.mps.lang.smodel.structure.ConceptShortDescriptionOperation" flags="ng" index="3neUYN" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144195091934" name="jetbrains.mps.lang.smodel.structure.Node_IsRoleOperation" flags="nn" index="1BlSNk">
+        <reference id="1144195362400" name="conceptOfParent" index="1BmUXE" />
+        <reference id="1144195396777" name="linkInParent" index="1Bn3mz" />
+      </concept>
       <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
         <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
       </concept>
@@ -7128,6 +7132,47 @@
       <node concept="3uibUv" id="15J5kQlOyk2" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="31HuxUvr$zw">
+    <property role="3GE5qa" value="decorator" />
+    <ref role="13h7C2" to="rh3e:4ViHB8sKvom" resolve="JSParenExpressionDecorator" />
+    <node concept="13hLZK" id="31HuxUvr$zx" role="13h7CW">
+      <node concept="3clFbS" id="31HuxUvr$zy" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="31HuxUvr$zU" role="13h7CS">
+      <property role="TrG5h" value="hasIn" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="57pQC2$9bwF" resolve="hasIn" />
+      <node concept="3Tm1VV" id="31HuxUvr$zX" role="1B3o_S" />
+      <node concept="3clFbS" id="31HuxUvr$$0" role="3clF47">
+        <node concept="3SKdUt" id="31HuxUvr$Yw" role="3cqZAp">
+          <node concept="1PaTwC" id="31HuxUvr$Yx" role="3ndbpf">
+            <node concept="3oM_SD" id="31HuxUvr$Zl" role="1PaTwD">
+              <property role="3oM_SC" value="From" />
+            </node>
+            <node concept="3oM_SD" id="31HuxUvr$Zv" role="1PaTwD">
+              <property role="3oM_SC" value="( Expression[+In] )" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="31HuxUvr$Tf" role="3cqZAp">
+          <node concept="2OqwBi" id="31HuxUvr$KJ" role="3cqZAk">
+            <node concept="37vLTw" id="31HuxUvr$Cw" role="2Oq$k0">
+              <ref role="3cqZAo" node="31HuxUvr$$1" resolve="node" />
+            </node>
+            <node concept="1BlSNk" id="31HuxUvr$Sr" role="2OqNvi">
+              <ref role="1BmUXE" to="rh3e:4ViHB8sKvom" resolve="JSParenExpressionDecorator" />
+              <ref role="1Bn3mz" to="rh3e:4ViHB8sKvop" resolve="expression" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="31HuxUvr$$1" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="31HuxUvr$$2" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="31HuxUvr$$3" role="3clF45" />
     </node>
   </node>
 </model>
