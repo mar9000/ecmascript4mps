@@ -4428,5 +4428,58 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="o75RAdNOQT">
+    <property role="3GE5qa" value="decorator" />
+    <ref role="WuzLi" to="rh3e:4ViHB8sKvom" resolve="JSParenExpressionDecorator" />
+    <node concept="11bSqf" id="o75RAdNOQU" role="11c4hB">
+      <node concept="3clFbS" id="o75RAdNOQV" role="2VODD2">
+        <node concept="lc7rE" id="o75RAdNRSq" role="3cqZAp">
+          <node concept="la8eA" id="o75RAdNRSK" role="lcghm">
+            <property role="lacIc" value="(" />
+          </node>
+          <node concept="l9hG8" id="o75RAdNRTD" role="lcghm">
+            <node concept="2OqwBi" id="o75RAdNSuI" role="lb14g">
+              <node concept="117lpO" id="o75RAdNRUy" role="2Oq$k0" />
+              <node concept="3TrEf2" id="o75RAdNSGh" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:4ViHB8sKvop" resolve="expression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="o75RAdNSMI" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="o75RAdOCvU">
+    <property role="3GE5qa" value="decorator" />
+    <ref role="WuzLi" to="rh3e:5AR_2GkZIrk" resolve="JSDotMemberExpressioDecorator" />
+    <node concept="11bSqf" id="o75RAdOCvV" role="11c4hB">
+      <node concept="3clFbS" id="o75RAdOCvW" role="2VODD2">
+        <node concept="lc7rE" id="o75RAdOCwf" role="3cqZAp">
+          <node concept="l9hG8" id="o75RAdOCw_" role="lcghm">
+            <node concept="2OqwBi" id="o75RAdOCIa" role="lb14g">
+              <node concept="117lpO" id="o75RAdOCxt" role="2Oq$k0" />
+              <node concept="3TrEf2" id="o75RAdOCUi" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:5AR_2GkZIrn" resolve="memberExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="o75RAdOD0$" role="lcghm">
+            <property role="lacIc" value="." />
+          </node>
+          <node concept="l9hG8" id="o75RAdOD2y" role="lcghm">
+            <node concept="2OqwBi" id="o75RAdOD5j" role="lb14g">
+              <node concept="117lpO" id="o75RAdOD3Q" role="2Oq$k0" />
+              <node concept="3TrEf2" id="o75RAdOD6J" role="2OqNvi">
+                <ref role="3Tt5mk" to="rh3e:5AR_2GkZIrp" resolve="identifier" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
