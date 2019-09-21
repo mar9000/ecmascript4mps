@@ -6,7 +6,9 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
   </languages>
-  <imports />
+  <imports>
+    <import index="apxn" ref="r:5956af82-53d4-4b0b-aada-46792869763b(org.mar9000.mps.ecmascript.runtime.global)" />
+  </imports>
   <registry>
     <language id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript">
       <concept id="3256590409509469669" name="org.mar9000.mps.ecmascript.structure.JSExportDefault" flags="ng" index="4Wcps">
@@ -278,6 +280,7 @@
       <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf">
         <property id="2153284450052676014" name="version" index="1$8h_y" />
         <child id="201656743169477546" name="body" index="1dSqon" />
+        <child id="3681369884987509523" name="environment" index="3E_D5O" />
       </concept>
       <concept id="201656743169479441" name="org.mar9000.mps.ecmascript.structure.JSIdentifier" flags="ng" index="1dSrUG">
         <property id="201656743169479442" name="idName" index="1dSrUJ" />
@@ -319,6 +322,9 @@
       </concept>
       <concept id="5930202437660328356" name="org.mar9000.mps.ecmascript.structure.JSExport" flags="ng" index="3sEwSm">
         <child id="5930202437660328360" name="declaration" index="3sEwSq" />
+      </concept>
+      <concept id="3681369884987046932" name="org.mar9000.mps.ecmascript.structure.JSEnvironmentReference" flags="ng" index="3ErYpN">
+        <reference id="3681369884987046933" name="environment" index="3ErYpM" />
       </concept>
       <concept id="5897985433064562220" name="org.mar9000.mps.ecmascript.structure.JSStatementList" flags="ng" index="3PT0iG">
         <child id="5897985433064628986" name="items" index="3PTNxU" />
@@ -3658,6 +3664,43 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1dSrUV" id="3cmQAvpARoL" role="1dSqon" />
+    <node concept="2dRJFF" id="3cmQAvpAS3S" role="1dSqon">
+      <property role="2dO0Ql" value="Window environment support" />
+    </node>
+    <node concept="1dSo_L" id="3cmQAvpCP_X" role="1dSqon">
+      <node concept="2dhSm$" id="3cmQAvpCPVA" role="1dwvF7">
+        <node concept="2WqeGl" id="3cmQAvpCP_V" role="2dhSgj">
+          <ref role="2WqeGo" to="apxn:3cmQAvpzi4k" resolve="setTimeout" />
+        </node>
+        <node concept="2dhU8L" id="3cmQAvpCPVE" role="2dhSgd">
+          <node concept="2wWApn" id="3cmQAvpCPVF" role="zMvtD" />
+          <node concept="1dSoBd" id="3cmQAvpCPVG" role="2dhUP1">
+            <node concept="1dSo_L" id="3cmQAvpFMnI" role="1dSoGN">
+              <node concept="2dhSm$" id="3cmQAvpFMnT" role="1dwvF7">
+                <node concept="2dhVqD" id="3cmQAvpFMnZ" role="2dhSgj">
+                  <node concept="29jwqa" id="3cmQAvpFMo5" role="2dhScq">
+                    <ref role="29jwqb" to="apxn:3cmQAvpCPW8" />
+                  </node>
+                  <node concept="2wijRm" id="3cmQAvpFMoa" role="2dhS9X">
+                    <property role="TrG5h" value="log" />
+                  </node>
+                </node>
+                <node concept="2dhBij" id="3cmQAvpFMod" role="2dhSgd">
+                  <property role="2dhBvH" value="in timeout" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2dhBVA" id="3cmQAvpFMoq" role="2dhSgd">
+          <property role="2dhB_1" value="1000" />
+        </node>
+      </node>
+    </node>
+    <node concept="3ErYpN" id="3cmQAvpARoJ" role="3E_D5O">
+      <ref role="3ErYpM" to="apxn:7Prjhj4VsyT" resolve="Window" />
     </node>
   </node>
 </model>
