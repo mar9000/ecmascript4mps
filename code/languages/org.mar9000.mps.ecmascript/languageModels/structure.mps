@@ -291,7 +291,7 @@
     <property role="TrG5h" value="JSProgram" />
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="201656743169477490" />
-    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <ref role="1TJDcQ" node="7Prjhj4TwBm" resolve="JSRoot" />
     <node concept="1TJgyj" id="bcrrPfbsIE" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
@@ -306,23 +306,17 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1Ry0cLTQXQO" resolve="JSDirective" />
     </node>
+    <node concept="1TJgyj" id="3cmQAvpw4Gj" role="1TKVEi">
+      <property role="IQ2ns" value="3681369884987509523" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="environment" />
+      <ref role="20lvS9" node="3cmQAvpujKk" resolve="JSEnvironmentReference" />
+    </node>
     <node concept="PrWs8" id="bcrrPfbTG_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="2J96awlm_QU" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="PrWs8" id="5zvrJ7Kj_23" role="PzmwI">
-      <ref role="PrY4T" node="C11zTcJAMn" resolve="HasDefault" />
-    </node>
-    <node concept="PrWs8" id="57pQC2$9bQd" role="PzmwI">
-      <ref role="PrY4T" node="57pQC2$9bwa" resolve="HasReturn" />
-    </node>
-    <node concept="PrWs8" id="57pQC2$9cvC" role="PzmwI">
-      <ref role="PrY4T" node="57pQC2$9bwb" resolve="HasYield" />
-    </node>
-    <node concept="PrWs8" id="57pQC2$9d9t" role="PzmwI">
-      <ref role="PrY4T" node="57pQC2$9bw9" resolve="HasIn" />
     </node>
     <node concept="1QGGSu" id="6k$wfqsPu06" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/javascript.png" />
@@ -5516,6 +5510,67 @@
     </node>
     <node concept="PrWs8" id="1oMhBtk8E0r" role="PzmwI">
       <ref role="PrY4T" node="1oMhBtk8DYO" resolve="HasAwait" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Prjhj4TwB7">
+    <property role="EcuMT" value="9032898229219756487" />
+    <property role="TrG5h" value="JSEnvironment" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="7Prjhj4TwBm" resolve="JSRoot" />
+    <node concept="1TJgyj" id="3cmQAvpxxCt" role="1TKVEi">
+      <property role="IQ2ns" value="3681369884987890205" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parents" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3cmQAvpujKk" resolve="JSEnvironmentReference" />
+    </node>
+    <node concept="PrWs8" id="7Prjhj4TwB8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="7Prjhj4TwBg" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="7Prjhj4Txn0" role="PzmwI">
+      <ref role="PrY4T" node="2l8t3D7B8Ew" resolve="JSBindingsProvider" />
+    </node>
+    <node concept="1TJgyj" id="7Prjhj4Txn5" role="1TKVEi">
+      <property role="IQ2ns" value="9032898229219759557" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5OEuegbkJI0" resolve="JSIModuleItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Prjhj4TwBm">
+    <property role="EcuMT" value="9032898229219756502" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="JSRoot" />
+    <ref role="1TJDcQ" node="7rFtnRVF6XL" resolve="JSNode" />
+    <node concept="t5JxF" id="7Prjhj4TwBn" role="lGtFl">
+      <property role="t5JxN" value="A common ancestor for both JSProgram and JSEnvironment." />
+    </node>
+    <node concept="PrWs8" id="7Prjhj4Txmj" role="PzmwI">
+      <ref role="PrY4T" node="C11zTcJAMn" resolve="HasDefault" />
+    </node>
+    <node concept="PrWs8" id="7Prjhj4TxmK" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bwa" resolve="HasReturn" />
+    </node>
+    <node concept="PrWs8" id="7Prjhj4TxmQ" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bwb" resolve="HasYield" />
+    </node>
+    <node concept="PrWs8" id="7Prjhj4TxmE" role="PzmwI">
+      <ref role="PrY4T" node="57pQC2$9bw9" resolve="HasIn" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3cmQAvpujKk">
+    <property role="EcuMT" value="3681369884987046932" />
+    <property role="TrG5h" value="JSEnvironmentReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3cmQAvpujKl" role="1TKVEi">
+      <property role="IQ2ns" value="3681369884987046933" />
+      <property role="20kJfa" value="environment" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7Prjhj4TwB7" resolve="JSEnvironment" />
     </node>
   </node>
 </model>
