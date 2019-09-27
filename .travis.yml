@@ -18,3 +18,4 @@ script:
   - ant -Dmps_home="$MPS_HOME" generate
   - ant -Dmps_home="$MPS_HOME" assemble
   - ant -Dmps_home="$MPS_HOME" test
+  - cat TEST-*.xml
