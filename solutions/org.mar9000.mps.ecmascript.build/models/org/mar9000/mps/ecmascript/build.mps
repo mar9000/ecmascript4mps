@@ -188,6 +188,25 @@
       </node>
     </node>
     <node concept="1l3spV" id="1KcYDCsMleQ" role="1l3spN">
+      <node concept="m$_wl" id="7as9CNOlNqt" role="39821P">
+        <ref role="m_rDy" node="1KcYDCsMleH" resolve="ecmascript4mps" />
+        <node concept="L2wRC" id="7as9CNOl6PY" role="39821P">
+          <ref role="L2wRA" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
+        </node>
+        <node concept="L2wRC" id="7as9CNOl6QJ" role="39821P">
+          <ref role="L2wRA" node="1KcYDCsMleF" resolve="org.mar9000.mps.ecmascript.runtime" />
+        </node>
+        <node concept="pUk6x" id="7as9CNOlNqJ" role="pUk7w" />
+      </node>
+      <node concept="L2wRC" id="7as9CNOfdr6" role="39821P">
+        <ref role="L2wRA" node="7as9CNOezlu" resolve="org.mar9000.mps.ecmascript.sandbox" />
+      </node>
+      <node concept="L2wRC" id="7as9CNOk4$R" role="39821P">
+        <ref role="L2wRA" node="7as9CNOjJyV" resolve="org.mar9000.mps.ecmascript.tests" />
+      </node>
+      <node concept="L2wRC" id="7as9CNOk4_o" role="39821P">
+        <ref role="L2wRA" node="7as9CNOjOr$" resolve="org.mar9000.mps.ecmascript.migrationTests" />
+      </node>
       <node concept="3981dG" id="1KcYDCsMleR" role="39821P">
         <node concept="3_J27D" id="1KcYDCsMleS" role="Nbhlr">
           <node concept="3Mxwew" id="1KcYDCsMleT" role="3MwsjC">
@@ -196,17 +215,14 @@
         </node>
         <node concept="m$_wl" id="1KcYDCsMleU" role="39821P">
           <ref role="m_rDy" node="1KcYDCsMleH" resolve="ecmascript4mps" />
+          <node concept="L2wRC" id="7as9CNOk__g" role="39821P">
+            <ref role="L2wRA" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
+          </node>
+          <node concept="L2wRC" id="7as9CNOk__p" role="39821P">
+            <ref role="L2wRA" node="1KcYDCsMleF" resolve="org.mar9000.mps.ecmascript.runtime" />
+          </node>
           <node concept="pUk6x" id="67v9SKKtFca" role="pUk7w" />
         </node>
-      </node>
-      <node concept="L2wRC" id="7as9CNOf6D4" role="39821P">
-        <ref role="L2wRA" node="7as9CNOesAg" resolve="org.mar9000.mps.ecmascript.tests" />
-      </node>
-      <node concept="L2wRC" id="7as9CNOf6Dj" role="39821P">
-        <ref role="L2wRA" node="7as9CNOesEd" resolve="org.mar9000.mps.ecmascript.migrationTests" />
-      </node>
-      <node concept="L2wRC" id="7as9CNOfdr6" role="39821P">
-        <ref role="L2wRA" node="7as9CNOezlu" resolve="org.mar9000.mps.ecmascript.sandbox" />
       </node>
     </node>
     <node concept="m$_wf" id="1KcYDCsMleH" role="3989C9">
@@ -380,62 +396,8 @@
         </node>
       </node>
     </node>
-    <node concept="2G$12M" id="7as9CNOf6zz" role="3989C9">
-      <property role="TrG5h" value="ecmascript4mps-tests" />
-      <node concept="1E1JtA" id="7as9CNOesAg" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.mar9000.mps.ecmascript.tests" />
-        <property role="3LESm3" value="018fad10-9491-4ea4-b74a-a21417a3e295" />
-        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
-        <node concept="55IIr" id="7as9CNOesAj" role="3LF7KH">
-          <node concept="2Ry0Ak" id="7as9CNOesC6" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="7as9CNOesCd" role="2Ry0An">
-              <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.tests" />
-              <node concept="2Ry0Ak" id="7as9CNOesCk" role="2Ry0An">
-                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.tests.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7as9CNOesG_" role="3bR37C">
-          <node concept="3bR9La" id="7as9CNOesGA" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7as9CNOesGB" role="3bR37C">
-          <node concept="3bR9La" id="7as9CNOesGC" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7as9CNOesGD" role="3bR37C">
-          <node concept="3bR9La" id="7as9CNOesGE" role="1SiIV1">
-            <ref role="3bR37D" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtA" id="7as9CNOesEd" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.mar9000.mps.ecmascript.migrationTests" />
-        <property role="3LESm3" value="c187e925-ad72-46d3-bce5-d90fb103139d" />
-        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
-        <node concept="55IIr" id="7as9CNOesEg" role="3LF7KH">
-          <node concept="2Ry0Ak" id="7as9CNOesG6" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="7as9CNOesGd" role="2Ry0An">
-              <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.migrationTests" />
-              <node concept="2Ry0Ak" id="7as9CNOesGk" role="2Ry0An">
-                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.migrationTests.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7as9CNOesGF" role="3bR37C">
-          <node concept="3bR9La" id="7as9CNOesGG" role="1SiIV1">
-            <ref role="3bR37D" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
-          </node>
-        </node>
-      </node>
+    <node concept="2G$12M" id="7as9CNOjJw5" role="3989C9">
+      <property role="TrG5h" value="ecmacsript4mps-tests" />
       <node concept="1E1JtA" id="7as9CNOezlu" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.mar9000.mps.ecmascript.sandbox" />
@@ -457,21 +419,69 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7as9CNOezog" role="3bR37C">
-          <node concept="3bR9La" id="7as9CNOezoh" role="1SiIV1">
+        <node concept="1SiIV0" id="7as9CNOjlG9" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOjlGa" role="1SiIV1">
             <ref role="3bR37D" node="1KcYDCsMleF" resolve="org.mar9000.mps.ecmascript.runtime" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="7as9CNOjJyV" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.mar9000.mps.ecmascript.tests" />
+        <property role="3LESm3" value="018fad10-9491-4ea4-b74a-a21417a3e295" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="55IIr" id="7as9CNOjJyW" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7as9CNOjJyX" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="7as9CNOjJyY" role="2Ry0An">
+              <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.tests" />
+              <node concept="2Ry0Ak" id="7as9CNOjJyZ" role="2Ry0An">
+                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.tests.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOjJz0" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOjJz1" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOjJz2" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOjJz3" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOjJz4" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOjJz5" role="1SiIV1">
+            <ref role="3bR37D" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="7as9CNOjOr$" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.mar9000.mps.ecmascript.migrationTests" />
+        <property role="3LESm3" value="c187e925-ad72-46d3-bce5-d90fb103139d" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="55IIr" id="7as9CNOjOrB" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7as9CNOjOs6" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="7as9CNOjOsd" role="2Ry0An">
+              <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.migrationTests" />
+              <node concept="2Ry0Ak" id="7as9CNOjOsk" role="2Ry0An">
+                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.migrationTests.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOjOvH" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOjOvI" role="1SiIV1">
+            <ref role="3bR37D" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
           </node>
         </node>
       </node>
     </node>
     <node concept="22LTRH" id="7as9CNOesAd" role="1hWBAP">
       <property role="TrG5h" value="ecmascript4mps" />
-      <node concept="22LTRM" id="7as9CNOesGn" role="22LTRK">
-        <ref role="22LTRN" node="7as9CNOesAg" resolve="org.mar9000.mps.ecmascript.tests" />
-      </node>
-      <node concept="22LTRM" id="7as9CNOesGv" role="22LTRK">
-        <ref role="22LTRN" node="7as9CNOesEd" resolve="org.mar9000.mps.ecmascript.migrationTests" />
-      </node>
       <node concept="24cAiW" id="7as9CNOeEnK" role="24cAkG">
         <node concept="NbPM2" id="7as9CNOeEnU" role="24c_eh">
           <node concept="3Mxwew" id="7as9CNOeEnZ" role="3MwsjC">
@@ -479,6 +489,12 @@
           </node>
         </node>
         <node concept="NbPM2" id="7as9CNOfksE" role="1psgkv" />
+      </node>
+      <node concept="22LTRM" id="7as9CNOkPw3" role="22LTRK">
+        <ref role="22LTRN" node="7as9CNOjJyV" resolve="org.mar9000.mps.ecmascript.tests" />
+      </node>
+      <node concept="22LTRM" id="7as9CNOmlwd" role="22LTRK">
+        <ref role="22LTRN" node="7as9CNOjOr$" resolve="org.mar9000.mps.ecmascript.migrationTests" />
       </node>
     </node>
   </node>
