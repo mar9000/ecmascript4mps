@@ -11,6 +11,6 @@ env:
   - MPS_HOME=./mps
 
 script:
-  - ant -Dmps_home="$MPS_HOME"
-  - ant -Dmps_home="$MPS_HOME" test
   - ant -Dmps_home="$MPS_HOME" generate
+  - ant -Dmps_home="$MPS_HOME" test
+  - ant -Dmps_home="$MPS_HOME" assemble
