@@ -4,11 +4,26 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
+    <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="1" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
   </imports>
   <registry>
+    <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
+      <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules" flags="nn" index="22LTRH">
+        <child id="4560297596904469360" name="modules" index="22LTRK" />
+        <child id="6593674873639474544" name="options" index="24cAkG" />
+      </concept>
+      <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModule" flags="nn" index="22LTRM">
+        <reference id="4560297596904469363" name="module" index="22LTRN" />
+      </concept>
+      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules_Options" flags="ng" index="24cAiW">
+        <child id="6593674873639478221" name="haltonfailure" index="24c_eh" />
+        <child id="3609768169816292377" name="jvmArgs" index="1psgkv" />
+      </concept>
+      <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
+    </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
       <concept id="7321017245476976379" name="jetbrains.mps.build.structure.BuildRelativePath" flags="ng" index="iG8Mu">
@@ -41,6 +56,7 @@
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
+        <child id="3542413272732620719" name="aspects" index="1hWBAP" />
         <child id="5617550519002745381" name="dependencies" index="1l3spa" />
         <child id="5617550519002745378" name="macros" index="1l3spd" />
         <child id="5617550519002745372" name="layout" index="1l3spN" />
@@ -89,6 +105,9 @@
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
+      <concept id="1265949165890536423" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ModuleJars" flags="ng" index="L2wRC">
+        <reference id="1265949165890536425" name="module" index="L2wRA" />
+      </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <child id="5253498789149547825" name="sources" index="3bR31x" />
@@ -101,7 +120,9 @@
         <child id="763829979718664967" name="files" index="3rtmxm" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
-      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
+        <property id="269707337715731330" name="sourcesKind" index="aoJFB" />
+      </concept>
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -120,8 +141,9 @@
     <property role="2DA0ip" value="../../" />
     <node concept="10PD9b" id="1KcYDCsMlen" role="10PD9s" />
     <node concept="3b7kt6" id="1KcYDCsMleo" role="10PD9s" />
+    <node concept="1gjT0q" id="7as9CNOes$p" role="10PD9s" />
     <node concept="398rNT" id="1KcYDCsMlep" role="1l3spd">
-      <property role="TrG5h" value="plugin_home" />
+      <property role="TrG5h" value="mps_home" />
       <node concept="55IIr" id="1KcYDCsMlfK" role="398pKh">
         <node concept="2Ry0Ak" id="1KcYDCsMlfN" role="iGT6I">
           <property role="2Ry0Am" value=".." />
@@ -149,10 +171,20 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="7as9CNOeLnN" role="1l3spd">
+      <property role="TrG5h" value="project_home" />
+      <node concept="55IIr" id="7as9CNOeZqg" role="398pKh" />
+    </node>
+    <node concept="398rNT" id="7as9CNOfruJ" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.project_home" />
+      <node concept="398BVA" id="7as9CNOfrvb" role="398pKh">
+        <ref role="398BVh" node="7as9CNOeLnN" resolve="project_home" />
+      </node>
+    </node>
     <node concept="2sgV4H" id="1KcYDCsMleq" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="1KcYDCsMler" role="2JcizS">
-        <ref role="398BVh" node="1KcYDCsMlep" resolve="plugin_home" />
+        <ref role="398BVh" node="1KcYDCsMlep" resolve="mps_home" />
       </node>
     </node>
     <node concept="1l3spV" id="1KcYDCsMleQ" role="1l3spN">
@@ -166,6 +198,15 @@
           <ref role="m_rDy" node="1KcYDCsMleH" resolve="ecmascript4mps" />
           <node concept="pUk6x" id="67v9SKKtFca" role="pUk7w" />
         </node>
+      </node>
+      <node concept="L2wRC" id="7as9CNOf6D4" role="39821P">
+        <ref role="L2wRA" node="7as9CNOesAg" resolve="org.mar9000.mps.ecmascript.tests" />
+      </node>
+      <node concept="L2wRC" id="7as9CNOf6Dj" role="39821P">
+        <ref role="L2wRA" node="7as9CNOesEd" resolve="org.mar9000.mps.ecmascript.migrationTests" />
+      </node>
+      <node concept="L2wRC" id="7as9CNOfdr6" role="39821P">
+        <ref role="L2wRA" node="7as9CNOezlu" resolve="org.mar9000.mps.ecmascript.sandbox" />
       </node>
     </node>
     <node concept="m$_wf" id="1KcYDCsMleH" role="3989C9">
@@ -337,6 +378,107 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2G$12M" id="7as9CNOf6zz" role="3989C9">
+      <property role="TrG5h" value="ecmascript4mps-tests" />
+      <node concept="1E1JtA" id="7as9CNOesAg" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.mar9000.mps.ecmascript.tests" />
+        <property role="3LESm3" value="018fad10-9491-4ea4-b74a-a21417a3e295" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="55IIr" id="7as9CNOesAj" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7as9CNOesC6" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="7as9CNOesCd" role="2Ry0An">
+              <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.tests" />
+              <node concept="2Ry0Ak" id="7as9CNOesCk" role="2Ry0An">
+                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.tests.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOesG_" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOesGA" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOesGB" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOesGC" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOesGD" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOesGE" role="1SiIV1">
+            <ref role="3bR37D" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="7as9CNOesEd" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.mar9000.mps.ecmascript.migrationTests" />
+        <property role="3LESm3" value="c187e925-ad72-46d3-bce5-d90fb103139d" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="55IIr" id="7as9CNOesEg" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7as9CNOesG6" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="7as9CNOesGd" role="2Ry0An">
+              <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.migrationTests" />
+              <node concept="2Ry0Ak" id="7as9CNOesGk" role="2Ry0An">
+                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.migrationTests.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOesGF" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOesGG" role="1SiIV1">
+            <ref role="3bR37D" node="1KcYDCsMlez" resolve="org.mar9000.mps.ecmascript" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="7as9CNOezlu" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.mar9000.mps.ecmascript.sandbox" />
+        <property role="3LESm3" value="bbd62153-ad9d-4e73-8ece-8bd63f642a56" />
+        <node concept="55IIr" id="7as9CNOezlx" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7as9CNOeznL" role="iGT6I">
+            <property role="2Ry0Am" value="code" />
+            <node concept="2Ry0Ak" id="7as9CNOeznS" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="7as9CNOeznZ" role="2Ry0An">
+                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript" />
+                <node concept="2Ry0Ak" id="7as9CNOezo6" role="2Ry0An">
+                  <property role="2Ry0Am" value="sandbox" />
+                  <node concept="2Ry0Ak" id="7as9CNOezod" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.sandbox.msd" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7as9CNOezog" role="3bR37C">
+          <node concept="3bR9La" id="7as9CNOezoh" role="1SiIV1">
+            <ref role="3bR37D" node="1KcYDCsMleF" resolve="org.mar9000.mps.ecmascript.runtime" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="22LTRH" id="7as9CNOesAd" role="1hWBAP">
+      <property role="TrG5h" value="ecmascript4mps" />
+      <node concept="22LTRM" id="7as9CNOesGn" role="22LTRK">
+        <ref role="22LTRN" node="7as9CNOesAg" resolve="org.mar9000.mps.ecmascript.tests" />
+      </node>
+      <node concept="22LTRM" id="7as9CNOesGv" role="22LTRK">
+        <ref role="22LTRN" node="7as9CNOesEd" resolve="org.mar9000.mps.ecmascript.migrationTests" />
+      </node>
+      <node concept="24cAiW" id="7as9CNOeEnK" role="24cAkG">
+        <node concept="NbPM2" id="7as9CNOeEnU" role="24c_eh">
+          <node concept="3Mxwew" id="7as9CNOeEnZ" role="3MwsjC">
+            <property role="3MwjfP" value="true" />
+          </node>
+        </node>
+        <node concept="NbPM2" id="7as9CNOfksE" role="1psgkv" />
       </node>
     </node>
   </node>
