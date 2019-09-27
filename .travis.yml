@@ -2,6 +2,9 @@ language: java
 jdk:
   - openjdk11
 
+before_script:
+  # this is needed to install ant-junit
+  - sudo apt-get install ant-optional
 install:
   - wget https://download.jetbrains.com/mps/2019.2/MPS-2019.2.tar.gz
   - tar -xvf MPS-2019.2.tar.gz
