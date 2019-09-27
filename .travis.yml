@@ -2,10 +2,11 @@ language: java
 jdk:
   - openjdk11
 
-before_script:
-  # this is needed to install ant-junit
-  - sudo apt-get install ant-optional
 install:
+  # Install ant-junit
+  - sudo apt-get install ant-optional
+
+  # Install MPS
   - wget https://download.jetbrains.com/mps/2019.2/MPS-2019.2.tar.gz
   - tar -xvf MPS-2019.2.tar.gz
   - mv 'MPS 2019.2' mps
@@ -15,5 +16,5 @@ env:
 
 script:
   - ant -Dmps_home="$MPS_HOME" generate
-  - ant -Dmps_home="$MPS_HOME" test
   - ant -Dmps_home="$MPS_HOME" assemble
+  - ant -Dmps_home="$MPS_HOME" test
