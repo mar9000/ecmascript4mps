@@ -1,0 +1,21 @@
+language: java
+jdk:
+  - openjdk11
+
+install:
+  # Install ant-junit
+  - sudo apt-get install ant-optional
+
+  # Install MPS
+  - wget https://download.jetbrains.com/mps/2019.2/MPS-2019.2.tar.gz
+  - tar -xvf MPS-2019.2.tar.gz
+  - mv 'MPS 2019.2' mps
+
+env:
+  - MPS_HOME=./mps
+
+script:
+  - ant -Dmps_home="$MPS_HOME" generate
+  - ant -Dmps_home="$MPS_HOME" assemble
+  - xvfb-run ant -Dmps_home="$MPS_HOME" test
+  - cat TEST-*.xml
