@@ -1770,7 +1770,7 @@
             <node concept="2xdQw9" id="28XiXknD1PG" role="3cqZAp">
               <property role="2xdLsb" value="gZ5fksE/warn" />
               <node concept="Xl_RD" id="28XiXknD1PH" role="9lYJi">
-                <property role="Xl_RC" value="Received vesion is null. I'll use 5.1 to check identifiers." />
+                <property role="Xl_RC" value="Received version is null. I'll use 5.1 to check identifiers." />
               </node>
             </node>
             <node concept="3clFbF" id="28XiXknD1PI" role="3cqZAp">
@@ -2055,7 +2055,7 @@
             <node concept="2xdQw9" id="KgDwxzraoD" role="3cqZAp">
               <property role="2xdLsb" value="gZ5fksE/warn" />
               <node concept="Xl_RD" id="KgDwxzraoF" role="9lYJi">
-                <property role="Xl_RC" value="Received vesion is null. I'll use 5.1 to check identifiers." />
+                <property role="Xl_RC" value="Received version is null. I'll use 5.1 to check identifiers." />
               </node>
             </node>
             <node concept="3clFbF" id="KgDwxzr9Qg" role="3cqZAp">
@@ -2851,6 +2851,41 @@
             <node concept="10Nm6u" id="59cjVaeYpOw" role="3uHU7w" />
             <node concept="37vLTw" id="59cjVaeYpkC" role="3uHU7B">
               <ref role="3cqZAo" node="59cjVaeYjCK" resolve="s" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="68qtNmAd02C" role="3cqZAp">
+          <node concept="3clFbS" id="68qtNmAd02D" role="3clFbx">
+            <node concept="2xdQw9" id="68qtNmAd02E" role="3cqZAp">
+              <property role="2xdLsb" value="gZ5fksE/warn" />
+              <node concept="Xl_RD" id="68qtNmAd02F" role="9lYJi">
+                <property role="Xl_RC" value="Received version is null. I'll use 5.1 to check identifiers." />
+              </node>
+            </node>
+            <node concept="3clFbF" id="68qtNmAd02G" role="3cqZAp">
+              <node concept="37vLTI" id="68qtNmAd02H" role="3clFbG">
+                <node concept="2YIFZM" id="68qtNmAd02I" role="37vLTx">
+                  <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                  <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                  <node concept="2OqwBi" id="68qtNmAd02J" role="37wK5m">
+                    <node concept="1XH99k" id="68qtNmAd02K" role="2Oq$k0">
+                      <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                    </node>
+                    <node concept="2ViDtV" id="68qtNmAd02L" role="2OqNvi">
+                      <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="68qtNmAd02M" role="37vLTJ">
+                  <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="68qtNmAd02N" role="3clFbw">
+            <node concept="10Nm6u" id="68qtNmAd02O" role="3uHU7w" />
+            <node concept="37vLTw" id="68qtNmAd02P" role="3uHU7B">
+              <ref role="3cqZAo" node="59cjVaeYZ2q" resolve="version" />
             </node>
           </node>
         </node>
