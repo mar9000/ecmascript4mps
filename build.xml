@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/ecmascript4mps" />
   <property name="build.layout" location="${build.dir}/artifacts/ecmascript4mps" />
-  <property name="plugin_home" location="${basedir}/../../../../../Applications/MPS 2019.2.app/Contents" />
+  <property name="plugin_home" location="${basedir}/../../../../../Applications/MPS 2019.3 EAP.app/Contents" />
   <property name="artifacts.mps" location="${plugin_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -135,13 +135,14 @@
     </echoxml>
     <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript#201656743169476281" />
+      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/generator/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/org.mar9000.mps.ecmascript-generator.jar" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-generator-template">
-      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-languageModels">
-      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/languageModels" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-generator-template">
+      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/generator/template" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/generator/source_gen">
@@ -157,8 +158,8 @@
         <exclude name="**/*.mps" />
       </fileset>
       <zipfileset file="${basedir}/code/languages/org.mar9000.mps.ecmascript/org.mar9000.mps.ecmascript.mpl" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-languageModels" prefix="module/languageModels" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-generator-template" prefix="module/generator/template" />
     </jar>
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.runtime.jar" />
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.runtime.jar/META-INF" />
@@ -184,7 +185,7 @@
       <fileset dir="${build.tmp}/default/org.mar9000.mps.ecmascript.runtime.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-runtime-models">
-      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+      <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript.runtime-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen">
@@ -237,6 +238,7 @@
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.javadoc.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
+      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk8.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.references.runtime.jar" />
@@ -291,6 +293,7 @@
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.search.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.platform.jar" />
+      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.refactoring.platform.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.findUsages.runtime.jar" />
@@ -301,6 +304,9 @@
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.refactoring.runtime.jar" />
       <library file="${artifacts.mps}/languages/text/jetbrains.mps.lang.text.jar" />
+      <library file="${artifacts.mps}/languages/tools/jetbrains.mps.core.tool.environment.jar" />
+      <library file="${artifacts.mps}/languages/tools/jetbrains.mps.tool.common.jar" />
+      <library file="${artifacts.mps}/languages/util/jetbrains.mps.java.stub.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.kernel.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.project.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.refactoring.jar" />
@@ -335,22 +341,20 @@
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
         <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
         <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
@@ -359,8 +363,8 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
@@ -388,22 +392,20 @@
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
         <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
         <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
@@ -413,8 +415,8 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/org.mar9000.mps.ecmascript" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />

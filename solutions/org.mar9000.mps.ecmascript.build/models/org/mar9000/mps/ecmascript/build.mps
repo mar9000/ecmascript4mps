@@ -141,7 +141,7 @@
                   <node concept="2Ry0Ak" id="3TyE99SBWYP" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="3TyE99SBWYQ" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2019.2.app" />
+                      <property role="2Ry0Am" value="MPS 2019.3 EAP.app" />
                       <node concept="2Ry0Ak" id="3TyE99SBWYR" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                       </node>
@@ -182,7 +182,7 @@
       </node>
       <node concept="3_J27D" id="1KcYDCsMleK" role="m$_w8">
         <node concept="3Mxwew" id="1KcYDCsMleL" role="3MwsjC">
-          <property role="3MwjfP" value="2.6" />
+          <property role="3MwjfP" value="2.7" />
         </node>
       </node>
       <node concept="m$f5U" id="1KcYDCsMleM" role="m$_yh">
