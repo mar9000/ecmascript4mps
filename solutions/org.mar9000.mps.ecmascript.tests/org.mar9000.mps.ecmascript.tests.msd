@@ -5,6 +5,12 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+    <facet type="tests" />
+  </facets>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">a4829704-6b1b-4b3f-8122-a4a2e6ac90ff(org.mar9000.mps.ecmascript)</dependency>

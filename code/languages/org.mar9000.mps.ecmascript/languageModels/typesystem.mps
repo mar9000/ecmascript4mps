@@ -2,7 +2,7 @@
 <model ref="r:dd7e8e08-7b19-4875-93e9-cae7813b46cd(org.mar9000.mps.ecmascript.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
@@ -195,13 +195,13 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -373,7 +373,7 @@
             <node concept="Xl_RD" id="5OEuegbblye" role="a7wSD">
               <property role="Xl_RC" value="Module code is always strict mode code" />
             </node>
-            <node concept="2OqwBi" id="5OEuegbboyl" role="2OEOjV">
+            <node concept="2OqwBi" id="5OEuegbboyl" role="1urrMF">
               <node concept="2OqwBi" id="5OEuegbblHu" role="2Oq$k0">
                 <node concept="1YBJjd" id="5OEuegbblyA" role="2Oq$k0">
                   <ref role="1YBMHb" node="5OEuegbbaIp" resolve="jsProgram" />
@@ -454,7 +454,7 @@
                           <node concept="Xl_RD" id="67Mg4PZq2KH" role="2MkJ7o">
                             <property role="Xl_RC" value="Import/Export declarations are permitted only with type Module" />
                           </node>
-                          <node concept="37vLTw" id="67Mg4PZq2KI" role="2OEOjV">
+                          <node concept="37vLTw" id="67Mg4PZq2KI" role="1urrMF">
                             <ref role="3cqZAo" node="67Mg4PZpXY2" resolve="it" />
                           </node>
                         </node>
@@ -540,20 +540,20 @@
                       <node concept="AMVWg" id="2OLIV$DXKq1" role="lGtFl">
                         <property role="TrG5h" value="error_JSProgram_checkJSModuleItem" />
                       </node>
-                      <node concept="2OqwBi" id="2OLIV$DXKq2" role="2OEOjV">
-                        <node concept="37vLTw" id="2OLIV$DXKq3" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2OLIV$DXwlT" resolve="result" />
-                        </node>
-                        <node concept="2sxana" id="2OLIV$DXKq4" role="2OqNvi">
-                          <ref role="2sxfKC" node="2OLIV$DTRFu" resolve="node" />
-                        </node>
-                      </node>
                       <node concept="2OqwBi" id="2OLIV$DXKq5" role="2MkJ7o">
                         <node concept="37vLTw" id="2OLIV$DXKq6" role="2Oq$k0">
                           <ref role="3cqZAo" node="2OLIV$DXwlT" resolve="result" />
                         </node>
                         <node concept="2sxana" id="2OLIV$DXKq7" role="2OqNvi">
                           <ref role="2sxfKC" node="2OLIV$DTRFk" resolve="message" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="2OLIV$DXKq2" role="1urrMF">
+                        <node concept="37vLTw" id="2OLIV$DXKq3" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2OLIV$DXwlT" resolve="result" />
+                        </node>
+                        <node concept="2sxana" id="2OLIV$DXKq4" role="2OqNvi">
+                          <ref role="2sxfKC" node="2OLIV$DTRFu" resolve="node" />
                         </node>
                       </node>
                     </node>
@@ -677,7 +677,7 @@
             <node concept="Xl_RD" id="RYAUQfSL4d" role="2MkJ7o">
               <property role="Xl_RC" value="Identifier regex check failed." />
             </node>
-            <node concept="1YBJjd" id="RYAUQfSL4v" role="2OEOjV">
+            <node concept="1YBJjd" id="RYAUQfSL4v" role="1urrMF">
               <ref role="1YBMHb" node="RYAUQfSDMj" resolve="jsId" />
             </node>
           </node>
@@ -724,7 +724,7 @@
             <node concept="Xl_RD" id="RYAUQfSM$V" role="2MkJ7o">
               <property role="Xl_RC" value="Reserved Word" />
             </node>
-            <node concept="1YBJjd" id="RYAUQfSM_r" role="2OEOjV">
+            <node concept="1YBJjd" id="RYAUQfSM_r" role="1urrMF">
               <ref role="1YBMHb" node="RYAUQfSDMj" resolve="jsId" />
             </node>
           </node>
@@ -805,20 +805,20 @@
             <node concept="AMVWg" id="55ZGj5Gslzl" role="lGtFl">
               <property role="TrG5h" value="JSExportDefaultCheckFailed" />
             </node>
-            <node concept="2OqwBi" id="2OLIV$DX0So" role="2OEOjV">
-              <node concept="37vLTw" id="2OLIV$DX0qS" role="2Oq$k0">
-                <ref role="3cqZAo" node="2OLIV$DTRFI" resolve="result" />
-              </node>
-              <node concept="2sxana" id="2OLIV$DX5Bq" role="2OqNvi">
-                <ref role="2sxfKC" node="2OLIV$DTRFu" resolve="node" />
-              </node>
-            </node>
             <node concept="2OqwBi" id="2OLIV$DWVCm" role="2MkJ7o">
               <node concept="37vLTw" id="2OLIV$DWVa1" role="2Oq$k0">
                 <ref role="3cqZAo" node="2OLIV$DTRFI" resolve="result" />
               </node>
               <node concept="2sxana" id="2OLIV$DX0od" role="2OqNvi">
                 <ref role="2sxfKC" node="2OLIV$DTRFk" resolve="message" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2OLIV$DX0So" role="1urrMF">
+              <node concept="37vLTw" id="2OLIV$DX0qS" role="2Oq$k0">
+                <ref role="3cqZAo" node="2OLIV$DTRFI" resolve="result" />
+              </node>
+              <node concept="2sxana" id="2OLIV$DX5Bq" role="2OqNvi">
+                <ref role="2sxfKC" node="2OLIV$DTRFu" resolve="node" />
               </node>
             </node>
           </node>
@@ -2054,7 +2054,7 @@
                 <ref role="2sxfKC" node="2OLIV$DTRFk" resolve="message" />
               </node>
             </node>
-            <node concept="2OqwBi" id="2OLIV$DVdr0" role="2OEOjV">
+            <node concept="2OqwBi" id="2OLIV$DVdr0" role="1urrMF">
               <node concept="37vLTw" id="2OLIV$DVdr1" role="2Oq$k0">
                 <ref role="3cqZAo" node="2OLIV$DVdqN" resolve="result" />
               </node>
@@ -2124,11 +2124,11 @@
             <node concept="AMVWg" id="5zvrJ7Kk8kw" role="lGtFl">
               <property role="TrG5h" value="JSFunctionDeclarationWithoutIdentifierNoDefault" />
             </node>
-            <node concept="1YBJjd" id="5zvrJ7Kk8zu" role="2OEOjV">
-              <ref role="1YBMHb" node="C11zTcIu2V" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="5zvrJ7Kkaaf" role="2MkJ7o">
               <property role="Xl_RC" value="The identifier is required when the 'default' clause is missing." />
+            </node>
+            <node concept="1YBJjd" id="5zvrJ7Kk8zu" role="1urrMF">
+              <ref role="1YBMHb" node="C11zTcIu2V" resolve="node" />
             </node>
           </node>
         </node>
@@ -2243,11 +2243,11 @@
             <node concept="AMVWg" id="57pQC2$ctTU" role="lGtFl">
               <property role="TrG5h" value="JSGeneratorDeclarationWithoutIdentifierNoDefault" />
             </node>
-            <node concept="1YBJjd" id="57pQC2$ctTV" role="2OEOjV">
-              <ref role="1YBMHb" node="57pQC2$ctIc" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="57pQC2$ctTW" role="2MkJ7o">
               <property role="Xl_RC" value="The identifier is required when the 'default' clause is missing." />
+            </node>
+            <node concept="1YBJjd" id="57pQC2$ctTV" role="1urrMF">
+              <ref role="1YBMHb" node="57pQC2$ctIc" resolve="node" />
             </node>
           </node>
         </node>
@@ -2370,11 +2370,11 @@
                 <node concept="AMVWg" id="57pQC2$jWiX" role="lGtFl">
                   <property role="TrG5h" value="BindingIdentifierRuleParamYieldError" />
                 </node>
-                <node concept="1YBJjd" id="57pQC2$jWiY" role="2OEOjV">
-                  <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
-                </node>
                 <node concept="Xl_RD" id="57pQC2$dFrr" role="2MkJ7o">
                   <property role="Xl_RC" value="Identifier 'yield' can't be used in this context." />
+                </node>
+                <node concept="1YBJjd" id="57pQC2$jWiY" role="1urrMF">
+                  <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
                 </node>
               </node>
               <node concept="3cpWs6" id="57pQC2$dFrt" role="3cqZAp" />
@@ -2389,11 +2389,11 @@
                 <node concept="AMVWg" id="57pQC2$jXvl" role="lGtFl">
                   <property role="TrG5h" value="BindingIdentifierRuleParamYieldErrorStrict" />
                 </node>
-                <node concept="1YBJjd" id="57pQC2$jXvm" role="2OEOjV">
-                  <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
-                </node>
                 <node concept="Xl_RD" id="57pQC2$dQDP" role="2MkJ7o">
                   <property role="Xl_RC" value="Identifier 'yield' can't be used in strict mode." />
+                </node>
+                <node concept="1YBJjd" id="57pQC2$jXvm" role="1urrMF">
+                  <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
                 </node>
               </node>
               <node concept="3cpWs6" id="57pQC2$dQDR" role="3cqZAp" />
@@ -2442,11 +2442,11 @@
             <node concept="AMVWg" id="57pQC2$jYZm" role="lGtFl">
               <property role="TrG5h" value="BindingIdentifierSyntaxError" />
             </node>
-            <node concept="1YBJjd" id="57pQC2$jYZn" role="2OEOjV">
-              <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="57pQC2$e45h" role="2MkJ7o">
               <property role="Xl_RC" value="Syntax error: identifier is not valid or is a reserved word." />
+            </node>
+            <node concept="1YBJjd" id="57pQC2$jYZn" role="1urrMF">
+              <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
             </node>
           </node>
         </node>
@@ -2581,9 +2581,6 @@
                 <node concept="AMVWg" id="57pQC2$oFiz" role="lGtFl">
                   <property role="TrG5h" value="BindingIdentifierEvalArguments" />
                 </node>
-                <node concept="1YBJjd" id="57pQC2$oFi$" role="2OEOjV">
-                  <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
-                </node>
                 <node concept="3cpWs3" id="57pQC2$oJ_Q" role="2MkJ7o">
                   <node concept="Xl_RD" id="57pQC2$oJ_T" role="3uHU7w">
                     <property role="Xl_RC" value="' is not permitted in strict mode." />
@@ -2601,6 +2598,9 @@
                       </node>
                     </node>
                   </node>
+                </node>
+                <node concept="1YBJjd" id="57pQC2$oFi$" role="1urrMF">
+                  <ref role="1YBMHb" node="57pQC2$dEMl" resolve="node" />
                 </node>
               </node>
             </node>
@@ -2793,11 +2793,11 @@
                 <node concept="AMVWg" id="57pQC2$p4NY" role="lGtFl">
                   <property role="TrG5h" value="LabelIdentifierRuleParamYieldError" />
                 </node>
-                <node concept="1YBJjd" id="57pQC2$p4NZ" role="2OEOjV">
-                  <ref role="1YBMHb" node="57pQC2$prDU" resolve="node" />
-                </node>
                 <node concept="Xl_RD" id="57pQC2$p4O0" role="2MkJ7o">
                   <property role="Xl_RC" value="Identifier 'yield' can't be used in this context." />
+                </node>
+                <node concept="1YBJjd" id="57pQC2$p4NZ" role="1urrMF">
+                  <ref role="1YBMHb" node="57pQC2$prDU" resolve="node" />
                 </node>
               </node>
               <node concept="3cpWs6" id="57pQC2$p4O1" role="3cqZAp" />
@@ -2812,11 +2812,11 @@
                 <node concept="AMVWg" id="57pQC2$p4O8" role="lGtFl">
                   <property role="TrG5h" value="LabelIdentifierRuleParamYieldErrorStrict" />
                 </node>
-                <node concept="1YBJjd" id="57pQC2$p4O9" role="2OEOjV">
-                  <ref role="1YBMHb" node="57pQC2$prDU" resolve="node" />
-                </node>
                 <node concept="Xl_RD" id="57pQC2$p4Oa" role="2MkJ7o">
                   <property role="Xl_RC" value="Identifier 'yield' can't be used in strict mode." />
+                </node>
+                <node concept="1YBJjd" id="57pQC2$p4O9" role="1urrMF">
+                  <ref role="1YBMHb" node="57pQC2$prDU" resolve="node" />
                 </node>
               </node>
               <node concept="3cpWs6" id="57pQC2$p4Ob" role="3cqZAp" />
@@ -2865,11 +2865,11 @@
             <node concept="AMVWg" id="57pQC2$p4Os" role="lGtFl">
               <property role="TrG5h" value="LabelIdentifierSyntaxError" />
             </node>
-            <node concept="1YBJjd" id="57pQC2$p4Ot" role="2OEOjV">
-              <ref role="1YBMHb" node="57pQC2$prDU" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="57pQC2$p4Ou" role="2MkJ7o">
               <property role="Xl_RC" value="Syntax error: identifier is not valid or is a reserved word." />
+            </node>
+            <node concept="1YBJjd" id="57pQC2$p4Ot" role="1urrMF">
+              <ref role="1YBMHb" node="57pQC2$prDU" resolve="node" />
             </node>
           </node>
         </node>
@@ -2973,11 +2973,11 @@
             <node concept="AMVWg" id="7sFdxx60yWP" role="lGtFl">
               <property role="TrG5h" value="check_JSYieldExpression_Rule_Parameters" />
             </node>
-            <node concept="1YBJjd" id="7sFdxx60yWQ" role="2OEOjV">
-              <ref role="1YBMHb" node="7sFdxx60yWa" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="7sFdxx60yWR" role="2MkJ7o">
               <property role="Xl_RC" value="'yield' can't be used in this context." />
+            </node>
+            <node concept="1YBJjd" id="7sFdxx60yWQ" role="1urrMF">
+              <ref role="1YBMHb" node="7sFdxx60yWa" resolve="node" />
             </node>
           </node>
         </node>
@@ -3040,7 +3040,7 @@
             <node concept="Xl_RD" id="31HuxUvK1Ya" role="2MkJ7o">
               <property role="Xl_RC" value="Constructors can't have decorators." />
             </node>
-            <node concept="2OqwBi" id="4kjk8p_ErjC" role="2OEOjV">
+            <node concept="2OqwBi" id="4kjk8p_ErjC" role="1urrMF">
               <node concept="1YBJjd" id="31HuxUvKejw" role="2Oq$k0">
                 <ref role="1YBMHb" node="31HuxUvK1GC" resolve="methodDefinition" />
               </node>
