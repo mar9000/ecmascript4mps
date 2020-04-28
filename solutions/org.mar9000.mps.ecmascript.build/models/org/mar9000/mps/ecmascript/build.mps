@@ -126,29 +126,14 @@
     <node concept="10PD9b" id="1KcYDCsMlen" role="10PD9s" />
     <node concept="3b7kt6" id="1KcYDCsMleo" role="10PD9s" />
     <node concept="398rNT" id="1KcYDCsMlep" role="1l3spd">
-      <property role="TrG5h" value="plugin_home" />
-      <node concept="55IIr" id="1KcYDCsMlfK" role="398pKh">
-        <node concept="2Ry0Ak" id="1KcYDCsMlfN" role="iGT6I">
+      <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="4bm4Hvv4UuP" role="398pKh">
+        <node concept="2Ry0Ak" id="4bm4Hvv4UuS" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="1KcYDCsMlgo" role="2Ry0An">
+          <node concept="2Ry0Ak" id="4bm4Hvv4UuV" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="1jnjFXSHTIm" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="1jnjFXSHTIG" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="3TyE99SBWYS" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="3TyE99SBWYP" role="2Ry0An">
-                    <property role="2Ry0Am" value="Applications" />
-                    <node concept="2Ry0Ak" id="3TyE99SBWYQ" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2019.3 EAP.app" />
-                      <node concept="2Ry0Ak" id="3TyE99SBWYR" role="2Ry0An">
-                        <property role="2Ry0Am" value="Contents" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="2Ry0Ak" id="4bm4Hvv4Uv0" role="2Ry0An">
+              <property role="2Ry0Am" value="MPS 2020.1" />
             </node>
           </node>
         </node>
@@ -157,7 +142,7 @@
     <node concept="2sgV4H" id="1KcYDCsMleq" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="1KcYDCsMler" role="2JcizS">
-        <ref role="398BVh" node="1KcYDCsMlep" resolve="plugin_home" />
+        <ref role="398BVh" node="1KcYDCsMlep" resolve="mps_home" />
       </node>
     </node>
     <node concept="1l3spV" id="1KcYDCsMleQ" role="1l3spN">
@@ -182,7 +167,7 @@
       </node>
       <node concept="3_J27D" id="1KcYDCsMleK" role="m$_w8">
         <node concept="3Mxwew" id="1KcYDCsMleL" role="3MwsjC">
-          <property role="3MwjfP" value="2.7" />
+          <property role="3MwjfP" value="2.8" />
         </node>
       </node>
       <node concept="m$f5U" id="1KcYDCsMleM" role="m$_yh">
