@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/mar9000/ecmascript4mps.svg?branch=development)](https://travis-ci.com/mar9000/ecmascript4mps)
+[![Build Status](https://travis-ci.com/mar9000/ecmascript4mps.svg?branch=mps-2020.1)](https://travis-ci.com/mar9000/ecmascript4mps)
 
 # ECMAScript4MPS
 
