@@ -43,9 +43,6 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -74,8 +71,6 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
-      <concept id="3906442776579556545" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Presentation" flags="in" index="Bn3R3" />
-      <concept id="3906442776579549644" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parameterNode" flags="nn" index="Bn53e" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
@@ -92,7 +87,6 @@
       </concept>
       <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
         <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
-        <child id="3906442776579556548" name="presentation" index="Bn3R6" />
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
@@ -130,18 +124,6 @@
     <ref role="1M2myG" to="rh3e:bcrrPfieb$" resolve="JSIdentifierReference" />
     <node concept="1N5Pfh" id="7rFtnRV__gT" role="1Mr941">
       <ref role="1N5Vy1" to="rh3e:bcrrPfieb_" resolve="identifier" />
-      <node concept="Bn3R3" id="7rFtnRV__gV" role="Bn3R6">
-        <node concept="3clFbS" id="7rFtnRV__gW" role="2VODD2">
-          <node concept="3clFbF" id="7rFtnRV__ri" role="3cqZAp">
-            <node concept="2OqwBi" id="7rFtnRV__yx" role="3clFbG">
-              <node concept="Bn53e" id="7rFtnRV__rh" role="2Oq$k0" />
-              <node concept="3TrcHB" id="2rpxWh_6Qvc" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="1dDu$B" id="2J96awlpBMv" role="1N6uqs">
         <ref role="1dDu$A" to="rh3e:bcrrPfbtch" resolve="JSIdentifier" />
       </node>
