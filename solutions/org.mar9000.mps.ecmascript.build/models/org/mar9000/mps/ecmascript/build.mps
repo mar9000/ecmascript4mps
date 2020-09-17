@@ -120,6 +120,9 @@
         <child id="763829979718664967" name="files" index="3rtmxm" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
+      <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
+        <child id="8137134783396676835" name="location" index="1HemKq" />
+      </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
         <property id="269707337715731330" name="sourcesKind" index="aoJFB" />
       </concept>
@@ -231,6 +234,9 @@
       <node concept="m$_yC" id="1KcYDCsMleN" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
+      <node concept="m$_yC" id="FNyxEXk8N9" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
       <node concept="3_J27D" id="1KcYDCsMleO" role="m_cZH">
         <node concept="3Mxwew" id="1KcYDCsMleP" role="3MwsjC">
           <property role="3MwjfP" value="ecmascript4mps" />
@@ -245,9 +251,9 @@
     <node concept="2G$12M" id="1KcYDCsMleG" role="3989C9">
       <property role="TrG5h" value="ecmascript4mps" />
       <node concept="1E1JtD" id="1KcYDCsMlez" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.mar9000.mps.ecmascript" />
         <property role="3LESm3" value="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="1KcYDCsMlet" role="3LF7KH">
           <node concept="2Ry0Ak" id="1KcYDCsMleu" role="iGT6I">
             <property role="2Ry0Am" value="code" />
@@ -341,9 +347,9 @@
         </node>
       </node>
       <node concept="1E1JtA" id="1KcYDCsMleF" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.mar9000.mps.ecmascript.runtime" />
         <property role="3LESm3" value="8b4ab1de-2aad-4e60-8dee-350cb83d3086" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="1KcYDCsMle$" role="3LF7KH">
           <node concept="2Ry0Ak" id="1KcYDCsMle_" role="iGT6I">
             <property role="2Ry0Am" value="code" />
@@ -380,6 +386,45 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="FNyxEXk8Ej" role="2G$12L">
+        <property role="TrG5h" value="org.mar9000.mps.ecmascript.build" />
+        <property role="3LESm3" value="22ffb846-45b3-4ef5-a9f4-a67794b30a86" />
+        <property role="BnDLt" value="true" />
+        <node concept="1BupzO" id="FNyxEXk8Mu" role="3bR31x">
+          <node concept="3LXTmp" id="FNyxEXk8Mw" role="1HemKq">
+            <node concept="55IIr" id="FNyxEXk8My" role="3LXTmr">
+              <node concept="2Ry0Ak" id="FNyxEXk8ML" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="FNyxEXk8MQ" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.build" />
+                  <node concept="2Ry0Ak" id="FNyxEXk8MV" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="FNyxEXk8MX" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="55IIr" id="FNyxEXk8Em" role="3LF7KH">
+          <node concept="2Ry0Ak" id="FNyxEXk8Ff" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="FNyxEXk8Fk" role="2Ry0An">
+              <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.build" />
+              <node concept="2Ry0Ak" id="FNyxEXk8Fp" role="2Ry0An">
+                <property role="2Ry0Am" value="org.mar9000.mps.ecmascript.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FNyxEXk8Gn" role="3bR37C">
+          <node concept="3bR9La" id="FNyxEXk8Go" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
           </node>
         </node>
       </node>
