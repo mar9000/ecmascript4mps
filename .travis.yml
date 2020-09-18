@@ -7,9 +7,9 @@ install:
   - sudo apt-get install ant-optional
 
   # Install MPS
-  - wget https://download.jetbrains.com/mps/2020.1/MPS-2020.1.tar.gz
-  - tar -xvf MPS-2020.1.tar.gz
-  - mv 'MPS 2020.1' mps
+  - wget https://download.jetbrains.com/mps/2020.2/MPS-2020.2.tar.gz
+  - tar -xvf MPS-2020.2.tar.gz
+  - mv 'MPS 2020.2' mps
 
 env:
   - MPS_HOME=./mps
