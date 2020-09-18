@@ -195,6 +195,46 @@
       <zipfileset file="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/org.mar9000.mps.ecmascript.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-runtime-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar" />
+    <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar/META-INF/module.xml">
+      <module namespace="org.mar9000.mps.ecmascript.build" type="solution" uuid="22ffb846-45b3-4ef5-a9f4-a67794b30a86">
+        <dependencies>
+          <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:798100da-4f0a-421a-b991-71f8c50ce5d2:jetbrains.mps.build" />
+          <language id="l:0cf935df-4699-4e9c-a132-fa109541cba3:jetbrains.mps.build.mps" />
+          <language id="l:3600cb0a-44dd-4a5b-9968-22924406419e:jetbrains.mps.build.mps.tests" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="org.mar9000.mps.ecmascript.build-src.jar" descriptor="org.mar9000.mps.ecmascript.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.build" />
+      <fileset dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models">
+      <fileset dir="${basedir}/solutions/org.mar9000.mps.ecmascript.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models1">
+      <fileset dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript.build-src.jar" duplicate="preserve">
+      <fileset dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/org.mar9000.mps.ecmascript.build/org.mar9000.mps.ecmascript.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models" prefix="module/models" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models1" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.jar1" />
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.jar1/META-INF" />
     <echoxml file="${build.tmp}/default/org.mar9000.mps.ecmascript.jar1/META-INF/module.xml">
@@ -644,6 +684,46 @@
       <zipfileset file="${basedir}/code/languages/org.mar9000.mps.ecmascript/runtime/org.mar9000.mps.ecmascript.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-languages-org.mar9000.mps.ecmascript-runtime-models2" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar1" />
+    <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar1/META-INF" />
+    <echoxml file="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar1/META-INF/module.xml">
+      <module namespace="org.mar9000.mps.ecmascript.build" type="solution" uuid="22ffb846-45b3-4ef5-a9f4-a67794b30a86">
+        <dependencies>
+          <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:798100da-4f0a-421a-b991-71f8c50ce5d2:jetbrains.mps.build" />
+          <language id="l:0cf935df-4699-4e9c-a132-fa109541cba3:jetbrains.mps.build.mps" />
+          <language id="l:3600cb0a-44dd-4a5b-9968-22924406419e:jetbrains.mps.build.mps.tests" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="org.mar9000.mps.ecmascript.build-src.jar" descriptor="org.mar9000.mps.ecmascript.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.build" />
+      <fileset dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/org.mar9000.mps.ecmascript.build.jar1" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models2">
+      <fileset dir="${basedir}/solutions/org.mar9000.mps.ecmascript.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models3">
+      <fileset dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps/org.mar9000.mps.ecmascript.build-src.jar" duplicate="preserve">
+      <fileset dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/org.mar9000.mps.ecmascript.build/org.mar9000.mps.ecmascript.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models2" prefix="module/models" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.mar9000.mps.ecmascript.build-models3" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.jar3" />
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.jar3/META-INF" />
     <echoxml file="${build.tmp}/default/org.mar9000.mps.ecmascript.jar3/META-INF/module.xml">
@@ -819,7 +899,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.org.mar9000.mps.ecmascript, java.compile.org.mar9000.mps.ecmascript#201656743169476281, java.compile.org.mar9000.mps.ecmascript.runtime, java.compile.org.mar9000.mps.ecmascript.sandbox, java.compile.org.mar9000.mps.ecmascript.tests, java.compile.org.mar9000.mps.ecmascript.migrationTests" />
+  <target name="compileJava" depends="java.compile.org.mar9000.mps.ecmascript, java.compile.org.mar9000.mps.ecmascript#201656743169476281, java.compile.org.mar9000.mps.ecmascript.runtime, java.compile.org.mar9000.mps.ecmascript.build, java.compile.org.mar9000.mps.ecmascript.sandbox, java.compile.org.mar9000.mps.ecmascript.tests, java.compile.org.mar9000.mps.ecmascript.migrationTests" />
   
   <target name="processResources" />
   
@@ -832,6 +912,7 @@
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}">
+      <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
       <library file="${artifacts.mps}/languages/baseLanguage/closures.runtime.jar" />
@@ -923,16 +1004,24 @@
       <library file="${artifacts.mps}/languages/tools/jetbrains.mps.tool.common.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.java.stub.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.kernel.jar" />
+      <library file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.project.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.refactoring.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.runtime.jar" />
       <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.tests.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.preset.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
       <chunk>
         <module file="${basedir}/code/languages/org.mar9000.mps.ecmascript/org.mar9000.mps.ecmascript.mpl" />
+        <module file="${basedir}/solutions/org.mar9000.mps.ecmascript.build/org.mar9000.mps.ecmascript.build.msd" />
       </chunk>
       <chunk>
         <module file="${basedir}/solutions/org.mar9000.mps.ecmascript.migrationTests/org.mar9000.mps.ecmascript.migrationTests.msd" />
@@ -1060,6 +1149,18 @@
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${project_home}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen" />
+      </src>
+      <classpath />
+    </javac>
+  </target>
+  
+  <target name="java.compile.org.mar9000.mps.ecmascript.build">
+    <mkdir dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.build" />
+    <javac destdir="${build.tmp}/java/out/org.mar9000.mps.ecmascript.build" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${project_home}/solutions/org.mar9000.mps.ecmascript.build/source_gen" />
       </src>
       <classpath />
     </javac>
@@ -1297,6 +1398,7 @@
     </path>
     <pathconvert pathsep="${path.separator}" property="mps.libraries.path.string" refid="mps.libraries.path" />
     <path id="mps.plugins.path">
+      <pathelement location="${artifacts.mps}/plugins/mps-build" />
       <pathelement location="${artifacts.mps}/plugins/mps-core" />
       <pathelement location="${artifacts.mps}/plugins/mps-testing" />
       <pathelement location="${build.layout}/ecmascript4mps" />
@@ -1361,6 +1463,7 @@
   <target name="cleanSources">
     <delete dir="${project_home}/code/languages/org.mar9000.mps.ecmascript/source_gen" />
     <delete dir="${project_home}/code/languages/org.mar9000.mps.ecmascript/generator/source_gen" />
+    <delete dir="${project_home}/solutions/org.mar9000.mps.ecmascript.build/source_gen" />
     <delete dir="${project_home}/solutions/org.mar9000.mps.ecmascript.migrationTests/source_gen" />
     <delete dir="${project_home}/code/languages/org.mar9000.mps.ecmascript/runtime/source_gen" />
     <delete dir="${project_home}/code/languages/org.mar9000.mps.ecmascript/sandbox/source_gen" />

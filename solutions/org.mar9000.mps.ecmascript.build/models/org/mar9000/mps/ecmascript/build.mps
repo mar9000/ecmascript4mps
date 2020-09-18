@@ -121,6 +121,8 @@
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
+        <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
+        <property id="8137134783396676838" name="extracted" index="1HemKv" />
         <child id="8137134783396676835" name="location" index="1HemKq" />
       </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
@@ -394,6 +396,8 @@
         <property role="3LESm3" value="22ffb846-45b3-4ef5-a9f4-a67794b30a86" />
         <property role="BnDLt" value="true" />
         <node concept="1BupzO" id="FNyxEXk8Mu" role="3bR31x">
+          <property role="1HemKv" value="true" />
+          <property role="1Hdu6h" value="true" />
           <node concept="3LXTmp" id="FNyxEXk8Mw" role="1HemKq">
             <node concept="55IIr" id="FNyxEXk8My" role="3LXTmr">
               <node concept="2Ry0Ak" id="FNyxEXk8ML" role="iGT6I">
