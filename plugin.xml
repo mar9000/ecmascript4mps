@@ -5,7 +5,7 @@
   <description>MPS Ecma script support</description>
   <version>2.9</version>
   <vendor url="http://www.mar9000.org" logo="/MPS_16.png">Marco Lombardo</vendor>
-  <idea-version since-build="203.1" until-build="203.1"/>
+  <idea-version since-build="202.1" until-build="203.1"/>
 
   <depends>jetbrains.mps.core</depends>
 
