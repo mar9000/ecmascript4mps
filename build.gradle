@@ -64,7 +64,7 @@ task buildEcmascript4mps(type: BuildLanguages) {
     dependsOn "resolveMps"
 	script "$projectDir/build.xml"
 }
-defaultTasks 'buildEcmascript4mps'
+build.dependsOn buildEcmascript4mps
 
 // Publishing.
 task packageEcmascript4mps(type: Zip, dependsOn: buildEcmascript4mps) {
