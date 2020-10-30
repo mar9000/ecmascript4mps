@@ -11,16 +11,17 @@ buildscript {
         classpath 'de.itemis.mps:mps-gradle-plugin:1.4.+'
     }
 }
-import de.itemis.mps.gradle.*
 wrapper {
     gradleVersion '6.4'
 }
 apply plugin: 'base'
+apply plugin: 'maven-publish'
 configurations {
     mps
     junitAnt
 }
 // Configure mps-gradle-plugin.
+import de.itemis.mps.gradle.*
 def mpsDir = "$buildDir/mps"
 def jdkHome = System.getProperty('java.home')
 def buildScriptClasspath = project.configurations.junitAnt.fileCollection { true } +
@@ -31,6 +32,7 @@ def defaultScriptArgs = [
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs.collect { "-D$it.key=$it.value".toString() }
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = file("$jdkHome/bin/java")
+ext.artifactsDir = file("$buildDir/artifacts")
 
 // Build settings.
 repositories {
@@ -58,3 +60,31 @@ task buildEcmascript4mps(type: BuildLanguages) {
 	script "$projectDir/build.xml"
 }
 defaultTasks 'buildEcmascript4mps'
+
+// Publishing.
+task packageEcmascript4mps(type: Zip, dependsOn: buildEcmascript4mps) {
+    description "ECMAScript implementation for JetBrains MPS"
+    archiveBaseName = 'org.mar9000.mps.ecmascript4mps'
+    from artifactsDir
+    include 'ecmascript4mps/**'
+}
+publishing {
+    publications {
+        ecmascript4mps(MavenPublication) {
+            groupId 'org.mar9000.mps'
+            artifactId 'ecmascript4mps'
+            artifact packageEcmascript4mps
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                configurations.mps.resolvedConfiguration.firstLevelModuleDependencies.each{
+                    def dependencyNode = dependenciesNode.appendNode('dependency')
+                    dependencyNode.appendNode('groupId', it.moduleGroup)
+                    dependencyNode.appendNode('artifactId', it.moduleName)
+                    dependencyNode.appendNode('version', it.moduleVersion)
+                    dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
+                    dependencyNode.appendNode('scope', 'provided')
+                }
+            }
+        }
+    }
+}
