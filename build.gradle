@@ -66,7 +66,7 @@ task packageEcmascript4mps(type: Zip, dependsOn: buildEcmascript4mps) {
     description "ECMAScript implementation for JetBrains MPS"
     archiveBaseName = 'org.mar9000.mps.ecmascript4mps'
     from artifactsDir
-    include 'ecmascript4mps/**'
+    include 'ecmascript4mps/ecmascript4mps/**'
 }
 publishing {
     publications {
