@@ -1,14 +1,18 @@
 // Versions.
 ext.mpsVersion = '2020.2';
+version = "$mpsVersion.0"
+group = "org.mar9000.mps"
 
 // Gradle related settings.
 buildscript {
     repositories {
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
         mavenCentral()
+        jcenter()
     }
     dependencies {
         classpath 'de.itemis.mps:mps-gradle-plugin:1.4.+'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.+'
     }
 }
 wrapper {
@@ -16,6 +20,7 @@ wrapper {
 }
 apply plugin: 'base'
 apply plugin: 'maven-publish'
+apply plugin: "com.jfrog.bintray"
 configurations {
     mps
     junitAnt
@@ -71,9 +76,10 @@ task packageEcmascript4mps(type: Zip, dependsOn: buildEcmascript4mps) {
 publishing {
     publications {
         ecmascript4mps(MavenPublication) {
-            groupId 'org.mar9000.mps'
+            groupId "$group"
             artifactId 'ecmascript4mps'
-            artifact packageEcmascript4mps
+            version "$version"
+            artifact file("$buildDir/artifacts/ecmascript4mps/ecmascript4mps.zip")
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
                 configurations.mps.resolvedConfiguration.firstLevelModuleDependencies.each{
@@ -85,6 +91,22 @@ publishing {
                     dependencyNode.appendNode('scope', 'provided')
                 }
             }
+        }
+    }
+}
+// Bintray.
+bintray {
+    user = System.getenv('BINTRAY_USER')
+    key = System.getenv('BINTRAY_KEY')
+    publications = ['ecmascript4mps']
+    pkg {
+        repo = 'mar9000-public'
+        name = 'ecmascript4mps'
+        licenses = ['Apache-2.0']
+        vcsUrl = 'https://github.com/mar9000/ecmascript4mps.git'
+        version {
+            name = "$version"
+            released  = new Date()
         }
     }
 }
