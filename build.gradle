@@ -71,6 +71,7 @@ task packageEcmascript4mps(type: Zip, dependsOn: buildEcmascript4mps) {
     description "ECMAScript implementation for JetBrains MPS"
     archiveBaseName = 'org.mar9000.mps.ecmascript4mps'
     from artifactsDir
+    include 'ecmascript4mps/build.properties'
     include 'ecmascript4mps/ecmascript4mps/**'
 }
 publishing {
@@ -79,7 +80,7 @@ publishing {
             groupId "$group"
             artifactId 'ecmascript4mps'
             version "$version"
-            artifact file("$buildDir/artifacts/ecmascript4mps/ecmascript4mps.zip")
+            artifact packageEcmascript4mps
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
                 configurations.mps.resolvedConfiguration.firstLevelModuleDependencies.each{
