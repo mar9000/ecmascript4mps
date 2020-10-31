@@ -4,7 +4,7 @@ allprojects {
     // Force group and version, do not consider properties passed by jitpack (-Porg.mar9000).
     // This way artifacts created are the same locally and on jitpack,
     // nevertheless remember to commit new version on their own branch/tag.
-    group = "org.mar9000.mps"
+    group = "org.mar9000"
     version = "$mpsVersion.$versionSuffix"
 }
 
@@ -74,7 +74,7 @@ build.dependsOn buildEcmascript4mps
 // Publishing.
 task packageEcmascript4mps(type: Zip, dependsOn: build) {
     description "ECMAScript implementation for JetBrains MPS"
-    archiveBaseName = 'org.mar9000.mps.ecmascript4mps'
+    archiveBaseName = 'org.mar9000.ecmascript4mps'
     from artifactsDir
     include 'ecmascript4mps/build.properties'
     include 'ecmascript4mps/ecmascript4mps/**'
