@@ -1,5 +1,5 @@
 // Versions.
-ext.mpsVersion = '2020.2';
+ext.mpsVersion = '2020.3';
 allprojects {
     // Force group and version, do not consider properties passed by jitpack (-Porg.mar9000).
     // This way artifacts created are the same locally and on jitpack,

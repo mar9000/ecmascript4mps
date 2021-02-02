@@ -11,14 +11,14 @@
   </imports>
   <registry>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
-      <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules" flags="nn" index="22LTRH">
+      <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildAspect_MpsTestModules" flags="nn" index="22LTRH">
         <child id="4560297596904469360" name="modules" index="22LTRK" />
         <child id="6593674873639474544" name="options" index="24cAkG" />
       </concept>
-      <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModule" flags="nn" index="22LTRM">
+      <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModule" flags="nn" index="22LTRM">
         <reference id="4560297596904469363" name="module" index="22LTRN" />
       </concept>
-      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules_Options" flags="ng" index="24cAiW">
+      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModules_Options" flags="ng" index="24cAiW">
         <child id="6593674873639478221" name="haltonfailure" index="24c_eh" />
         <child id="3609768169816292377" name="jvmArgs" index="1psgkv" />
       </concept>
@@ -157,7 +157,7 @@
             <node concept="2Ry0Ak" id="4r6EV_1x6oC" role="2Ry0An">
               <property role="2Ry0Am" value="MPS" />
               <node concept="2Ry0Ak" id="4r6EV_1x6oH" role="2Ry0An">
-                <property role="2Ry0Am" value="MPS-2020.2" />
+                <property role="2Ry0Am" value="MPS-2020.3" />
               </node>
             </node>
           </node>
