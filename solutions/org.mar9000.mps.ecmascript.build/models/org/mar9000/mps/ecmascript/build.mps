@@ -30,9 +30,7 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
-        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
-      </concept>
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -127,17 +125,6 @@
     <node concept="3b7kt6" id="1KcYDCsMleo" role="10PD9s" />
     <node concept="398rNT" id="1KcYDCsMlep" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="4bm4Hvv4UuP" role="398pKh">
-        <node concept="2Ry0Ak" id="4bm4Hvv4UuS" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="4bm4Hvv4UuV" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="4bm4Hvv4Uv0" role="2Ry0An">
-              <property role="2Ry0Am" value="MPS 2020.2" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2sgV4H" id="1KcYDCsMleq" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
