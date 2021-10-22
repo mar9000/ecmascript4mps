@@ -2,7 +2,7 @@
 <model ref="r:7f340249-34d5-47ed-ae39-d6df6ddbbf55(org.mar9000.mps.ecmascript.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
   </languages>
   <imports />
   <registry>
