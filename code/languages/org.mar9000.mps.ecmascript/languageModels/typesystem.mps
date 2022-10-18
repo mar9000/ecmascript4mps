@@ -240,6 +240,7 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1761385620274348152" name="jetbrains.mps.lang.smodel.structure.SConceptTypeCastExpression" flags="nn" index="2CBFar" />
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="7504436213544206332" name="jetbrains.mps.lang.smodel.structure.Node_ContainingLinkOperation" flags="nn" index="2NL2c5" />
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
@@ -1499,8 +1500,11 @@
                           <node concept="Xl_RD" id="5zvrJ7Kjc9t" role="3uHU7B">
                             <property role="Xl_RC" value="parent is: " />
                           </node>
-                          <node concept="37vLTw" id="5zvrJ7Kjd87" role="3uHU7w">
-                            <ref role="3cqZAo" node="5zvrJ7Kioni" resolve="parent" />
+                          <node concept="2OqwBi" id="7RVbPfMM8Qa" role="3uHU7w">
+                            <node concept="37vLTw" id="5zvrJ7Kjd87" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5zvrJ7Kioni" resolve="parent" />
+                            </node>
+                            <node concept="2Iv5rx" id="7RVbPfMM8Qb" role="2OqNvi" />
                           </node>
                         </node>
                         <node concept="Xl_RD" id="5zvrJ7Kjo8Q" role="3uHU7w">
