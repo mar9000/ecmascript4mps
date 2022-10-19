@@ -29,8 +29,7 @@
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
-    <pathelement location="${artifacts.mps}/lib/jdom.jar" />
-    <pathelement location="${artifacts.mps}/lib/log4j.jar" />
+    <pathelement location="${artifacts.mps}/lib/util.jar" />
   </path>
   
   <target name="assemble" depends="classes, declare-mps-tasks">
@@ -39,6 +38,10 @@
     <copy todir="${build.layout}/ecmascript4mps/META-INF">
       <fileset file="${basedir}/plugin.xml" />
     </copy>
+    <mkdir dir="${build.layout}/ecmascript4mps/lib" />
+    <jar destfile="${build.layout}/ecmascript4mps/lib/ecmascript4mps.jar" duplicate="preserve">
+      <zipfileset file="${basedir}/plugin.xml" prefix="META-INF" />
+    </jar>
     <mkdir dir="${build.layout}/ecmascript4mps/languages" />
     <mkdir dir="${build.layout}/ecmascript4mps/languages/ecmascript4mps" />
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.jar" />
@@ -526,6 +529,10 @@
     </jar>
     <mkdir dir="${build.tmp}/default/ecmascript4mps.zip" />
     <mkdir dir="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps" />
+    <mkdir dir="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/lib" />
+    <jar destfile="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/lib/ecmascript4mps.jar" duplicate="preserve">
+      <zipfileset file="${basedir}/plugin.xml" prefix="META-INF" />
+    </jar>
     <mkdir dir="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages" />
     <mkdir dir="${build.tmp}/default/ecmascript4mps.zip/ecmascript4mps/languages/ecmascript4mps" />
     <mkdir dir="${build.tmp}/default/org.mar9000.mps.ecmascript.jar2" />
@@ -1067,9 +1074,8 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -1078,6 +1084,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
@@ -1119,9 +1126,8 @@
         <pathelement path="${build.tmp}/java/out/org.mar9000.mps.ecmascript" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
       </classpath>
@@ -1206,9 +1212,8 @@
         <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -1264,9 +1269,8 @@
         <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
