@@ -7,9 +7,9 @@ install:
   - sudo apt-get install ant-optional
 
   # Install MPS
-  - wget https://download.jetbrains.com/mps/2021.3/MPS-2021.3.2.tar.gz
-  - tar -xvf MPS-2021.3.2.tar.gz
-  - mv 'MPS 2021.3' mps
+  - wget https://download.jetbrains.com/mps/2022.2/MPS-2022.2.2.tar.gz
+  - tar -xvf MPS-2022.2.2.tar.gz
+  - mv 'MPS 2022.2' mps
 
 env:
   - MPS_HOME=./mps

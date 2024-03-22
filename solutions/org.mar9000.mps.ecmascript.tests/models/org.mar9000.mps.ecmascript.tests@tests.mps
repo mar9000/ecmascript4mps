@@ -2,7 +2,7 @@
 <model ref="r:09d04496-7cbe-4820-93e0-cfa62236306b(org.mar9000.mps.ecmascript.tests@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="14" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -70,6 +70,7 @@
         <reference id="4239542196496929559" name="action" index="1iFR8X" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
@@ -318,6 +319,7 @@
   <node concept="1lH9Xt" id="5oJk6Ar_nOO">
     <property role="TrG5h" value="ReturnAllowedInFunctionOnly" />
     <property role="3GE5qa" value="function" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="5oJk6Ar_nP7" role="1SKRRt">
       <node concept="1dSqrf" id="5oJk6Ar_nP9" role="1qenE9">
         <property role="TrG5h" value="test1" />
@@ -359,6 +361,7 @@
   <node concept="1lH9Xt" id="2OLIV$DKAb2">
     <property role="TrG5h" value="CheckDefaultInExport" />
     <property role="3GE5qa" value="importexport" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="2OLIV$DKAb3" role="1SKRRt">
       <node concept="1dSqrf" id="2OLIV$DKAb7" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -440,6 +443,7 @@
   <node concept="1lH9Xt" id="57pQC2$crYB">
     <property role="TrG5h" value="BindingIdentifier_ES51" />
     <property role="3GE5qa" value="identifier" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="57pQC2$crYC" role="1SKRRt">
       <node concept="1dSqrf" id="57pQC2$crYE" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -607,6 +611,7 @@
   <node concept="1lH9Xt" id="57pQC2$cxBB">
     <property role="TrG5h" value="test_JSGeneratorDeclaration_Rule_Parameters" />
     <property role="3GE5qa" value="function" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="57pQC2$czQJ" role="1SKRRt">
       <node concept="1dSqrf" id="57pQC2$czQL" role="1qenE9">
         <property role="TrG5h" value="defaultMissing" />
@@ -636,6 +641,7 @@
   <node concept="1lH9Xt" id="57pQC2$o8JB">
     <property role="3GE5qa" value="identifier" />
     <property role="TrG5h" value="BindingIdentifier_ES201X" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="57pQC2$o8JC" role="1SKRRt">
       <node concept="1dSqrf" id="57pQC2$o8JE" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -865,6 +871,7 @@
   <node concept="1lH9Xt" id="7sFdxx60yEA">
     <property role="TrG5h" value="test_JSYieldExpression_Rule_Parameters" />
     <property role="3GE5qa" value="expression" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="7sFdxx60yEB" role="1SKRRt">
       <node concept="1dSqrf" id="7sFdxx60yED" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -926,6 +933,7 @@
   <node concept="1lH9Xt" id="5xW5ydah1ms">
     <property role="TrG5h" value="test_JSArrayLiteral_Scope" />
     <property role="3GE5qa" value="scope.expression.literal" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="5xW5ydah1mt" role="1SKRRt">
       <node concept="1dSqrf" id="5xW5ydah1mv" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -2180,6 +2188,7 @@
   <node concept="1lH9Xt" id="USOUmN9$tx">
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="test_ClassDeclaration_Extends_Validation" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="USOUmN9$tE" role="1SKRRt">
       <node concept="1dSqrf" id="USOUmN9$tG" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -2516,6 +2525,7 @@
   <node concept="1lH9Xt" id="6UMo7IQagXJ">
     <property role="3GE5qa" value="function" />
     <property role="TrG5h" value="test_FormalParametersScope_In_Body_Validation" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="6UMo7IQah25" role="1SKRRt">
       <node concept="1dSqrf" id="6UMo7IQah27" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -2754,6 +2764,7 @@
   <node concept="1lH9Xt" id="1HM54CYh45S">
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="test_JSClassDeclaration_PrivateIdentifier_present_inside_the_declaration" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1HM54CYh45T" role="1SKRRt">
       <node concept="1dSqrf" id="1HM54CYh45U" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -2981,6 +2992,7 @@
   <node concept="1lH9Xt" id="31HuxUvqYQ1">
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="test_JSClassDeclaration_PrivateMethod_present_inside_the_declaration" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="31HuxUvqYQ2" role="1SKRRt">
       <node concept="1dSqrf" id="31HuxUvqYQ3" role="1qenE9">
         <property role="TrG5h" value="test" />
@@ -3027,6 +3039,7 @@
   <node concept="1lH9Xt" id="4kjk8p_B5q4">
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="test_MethodDefinition_constructor_cant_have_decorators" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="4kjk8p_B5q5" role="1SKRRt">
       <node concept="1dSqrf" id="4kjk8p_B5q6" role="1qenE9">
         <property role="TrG5h" value="test" />
