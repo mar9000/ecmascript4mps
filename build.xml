@@ -5,7 +5,7 @@
   <property name="build.mps.system.path" location="${build.dir}/system" />
   <property name="build.tmp" location="${build.dir}/tmp/ecmascript4mps" />
   <property name="build.layout" location="${build.dir}/artifacts/ecmascript4mps" />
-  <property name="mps_home" location="${basedir}/../../MPS/MPS-2020.3" />
+  <property name="mps_home" location="${basedir}/build/mps" />
   <property name="project_home" location="${basedir}" />
   <property name="mps.macro.project_home" location="${project_home}" />
   <property name="artifacts.mps" location="${mps_home}" />

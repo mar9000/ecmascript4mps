@@ -150,16 +150,10 @@
     <node concept="398rNT" id="1KcYDCsMlep" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
       <node concept="55IIr" id="1KcYDCsMlfK" role="398pKh">
-        <node concept="2Ry0Ak" id="1KcYDCsMlfN" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="1KcYDCsMlgo" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="4r6EV_1x6oC" role="2Ry0An">
-              <property role="2Ry0Am" value="MPS" />
-              <node concept="2Ry0Ak" id="4r6EV_1x6oH" role="2Ry0An">
-                <property role="2Ry0Am" value="MPS-2020.3" />
-              </node>
-            </node>
+        <node concept="2Ry0Ak" id="1A9KkXfHITG" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="1A9KkXfHIV5" role="2Ry0An">
+            <property role="2Ry0Am" value="mps" />
           </node>
         </node>
       </node>
