@@ -11,7 +11,12 @@ allprojects {
 // Gradle related settings.
 buildscript {
     repositories {
-        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
+        //maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
+        /* From Slack: Just a quick reminder about the Itemis Nexus server because multiple people already sent me a message and some people probably missed the message the last time we last posted it:
+If you are fetching MPS-extensions, mbeddr.core, or iets3.opensource from our Nexus server, please use the new server https://artifacts.itemis.cloud/ and not the old one: https://projects.itemis.de/. We deprecated the old server last year and it will not be supported in the future. The old server also doesn't contain the latest artifacts anymore.
+The correct URL is https://artifacts.itemis.cloud/repository/maven-mps/
+         */
+        maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
         mavenCentral()
         jcenter()
     }
@@ -48,7 +53,7 @@ ext.artifactsDir = file("$buildDir/artifacts")
 repositories {
     mavenLocal()
     maven {
-		url 'https://projects.itemis.de/nexus/content/repositories/mbeddr'
+		url 'https://artifacts.itemis.cloud/repository/maven-mps/'
 	}
     mavenCentral()
 }
