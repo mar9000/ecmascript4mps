@@ -35,7 +35,6 @@
       </concept>
       <concept id="8569071899956281838" name="org.mar9000.mps.ecmascript.structure.JSStringLiteral" flags="ng" index="2dhBij">
         <property id="8569071899956282000" name="doubleQuotedValue" index="2dhBvH" />
-        <property id="7727025628334104963" name="singleQuotedValue" index="3S2$_t" />
       </concept>
       <concept id="8569071899956270924" name="org.mar9000.mps.ecmascript.structure.JSFunctionExpression" flags="ng" index="2dhU8L">
         <child id="8569071899956271164" name="body" index="2dhUP1" />
@@ -105,7 +104,6 @@
       <concept id="201656743169484363" name="org.mar9000.mps.ecmascript.structure.JSDebuggerStatement" flags="ng" index="1dSoJQ" />
       <concept id="201656743169477490" name="org.mar9000.mps.ecmascript.structure.JSProgram" flags="ng" index="1dSqrf">
         <property id="6713311115379658967" name="type" index="1nMawN" />
-        <property id="2153284450052676014" name="version" index="1$8h_y" />
         <child id="201656743169477546" name="body" index="1dSqon" />
       </concept>
       <concept id="201656743169479441" name="org.mar9000.mps.ecmascript.structure.JSIdentifier" flags="ng" index="1dSrUG">
@@ -119,19 +117,8 @@
         <child id="201656743169479451" name="id" index="1dSrUA" />
       </concept>
       <concept id="201656743169479430" name="org.mar9000.mps.ecmascript.structure.JSStatement" flags="ng" index="1dSrUV" />
-      <concept id="6713311115387175170" name="org.mar9000.mps.ecmascript.structure.JSImport" flags="ng" index="1mvZBA">
-        <property id="7057774267634405823" name="hasEmptyBraces" index="uNT7M" />
-        <child id="7057774267634390190" name="namedImports" index="uNXjz" />
-      </concept>
-      <concept id="6713311115387176162" name="org.mar9000.mps.ecmascript.structure.JSImportSpecifier" flags="ng" index="1mvZK6">
-        <child id="7057774267634374784" name="name" index="uNLzd" />
-        <child id="6713311115387176182" name="binding" index="1mvZKi" />
-      </concept>
       <concept id="6713311115387176128" name="org.mar9000.mps.ecmascript.structure.JSBindingIdentifier" flags="ng" index="1mvZK$">
         <property id="6403959180544104751" name="identifierName" index="2CGrvu" />
-      </concept>
-      <concept id="6713311115379658961" name="org.mar9000.mps.ecmascript.structure.JSAbstractImportDeclaration" flags="ng" index="1nMawP">
-        <child id="6713311115387421386" name="moduleSpecifier" index="1msNCI" />
       </concept>
       <concept id="5897985433063598299" name="org.mar9000.mps.ecmascript.structure.JSLabelIdentifier" flags="ng" index="3PXJ9r">
         <property id="5897985433063598357" name="identifierName" index="3PXJel" />
@@ -174,54 +161,6 @@
     </node>
     <node concept="3ea_Bc" id="5OEuegbbtTW" role="3ea0P7">
       <ref role="3ea_Bf" to="84nc:5OEuegbbtwK" resolve="JSProgram_set_type" />
-    </node>
-  </node>
-  <node concept="2lJO3n" id="5zvrJ7Ky3Ff">
-    <property role="TrG5h" value="test_003_TransformJSImportSpecifier" />
-    <node concept="1qefOq" id="5zvrJ7Ky3Fq" role="2lJO3o">
-      <node concept="1dSqrf" id="5zvrJ7Ky3Fr" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1$8h_y" value="1Ry0cLTKIQQ/ES2016" />
-        <node concept="1mvZBA" id="67Mg4PZlUHg" role="1dSqon">
-          <property role="uNT7M" value="true" />
-          <node concept="1mvZK6" id="67Mg4PZlUHj" role="uNXjz">
-            <node concept="1mvZK$" id="57pQC2$7kSg" role="1mvZKi">
-              <property role="1dSrUJ" value="e1" />
-            </node>
-            <node concept="1dSrUG" id="67Mg4PZlUQO" role="uNLzd">
-              <property role="1dSrUJ" value="var1" />
-              <property role="TrG5h" value="var1" />
-            </node>
-          </node>
-          <node concept="2dhBij" id="67Mg4PZlUHl" role="1msNCI">
-            <property role="3S2$_t" value="as e1.js" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="57pQC2zZhqp" role="2lJPY$">
-      <node concept="1dSqrf" id="57pQC2zZhqj" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1$8h_y" value="1Ry0cLTKIQQ/ES2016" />
-        <node concept="1mvZBA" id="57pQC2zZhqk" role="1dSqon">
-          <property role="uNT7M" value="true" />
-          <node concept="1mvZK6" id="57pQC2$036n" role="uNXjz">
-            <node concept="1mvZK$" id="57pQC2$036o" role="1mvZKi">
-              <property role="2CGrvu" value="e1" />
-            </node>
-            <node concept="1dSrUG" id="57pQC2$036r" role="uNLzd">
-              <property role="1dSrUJ" value="var1" />
-              <property role="TrG5h" value="var1" />
-            </node>
-          </node>
-          <node concept="2dhBij" id="57pQC2zZhqo" role="1msNCI">
-            <property role="3S2$_t" value="as e1.js" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3ea_Bc" id="57pQC2$03x3" role="3ea0P7">
-      <ref role="3ea_Bf" to="84nc:57pQC2zYYpM" resolve="TransformJSImportSpecifier" />
     </node>
   </node>
   <node concept="2lJO3n" id="57pQC2$nHuk">

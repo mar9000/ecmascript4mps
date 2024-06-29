@@ -169,7 +169,6 @@
       </concept>
       <concept id="8569071899956248883" name="org.mar9000.mps.ecmascript.structure.JSSimpleVariableDeclaration" flags="ng" index="2dhZhe">
         <child id="8569071899956249032" name="id" index="2dhZiP" />
-        <child id="8569071899956249109" name="init" index="2dhZtC" />
         <child id="5897985433066182785" name="identifier" index="3PzO81" />
       </concept>
       <concept id="8569071899955716053" name="org.mar9000.mps.ecmascript.structure.JSAssignmentExpression" flags="ng" index="2djMEC">
@@ -193,7 +192,6 @@
         <child id="3761592386795452953" name="formalParameterList" index="2wWAp1" />
       </concept>
       <concept id="6403959180542903547" name="org.mar9000.mps.ecmascript.structure.JSGeneratorDeclaration" flags="ng" index="2CwYCa">
-        <child id="6403959180542903550" name="id" index="2CwYCf" />
         <child id="6403959180542903556" name="body" index="2CwYJP" />
       </concept>
       <concept id="4087045719731248708" name="org.mar9000.mps.ecmascript.structure.JSIClassDefinition" flags="ng" index="2DT8gD">
@@ -202,9 +200,6 @@
         <child id="4087045719731255549" name="body" index="2DTaag" />
       </concept>
       <concept id="4087045719731248688" name="org.mar9000.mps.ecmascript.structure.JSClassDeclaration" flags="ng" index="2DT8ht" />
-      <concept id="8587016592393416851" name="org.mar9000.mps.ecmascript.structure.JSYieldExpression" flags="ng" index="MPoqb">
-        <child id="8587016592393416854" name="expr" index="MPoqe" />
-      </concept>
       <concept id="4735316138697321566" name="org.mar9000.mps.ecmascript.structure.JSSpreadElement" flags="ng" index="VzliI">
         <child id="4735316138697321569" name="expression" index="Vzlih" />
       </concept>
@@ -246,7 +241,6 @@
         <property id="6713311115379658967" name="type" index="1nMawN" />
         <property id="2153284450052676014" name="version" index="1$8h_y" />
         <child id="201656743169477546" name="body" index="1dSqon" />
-        <child id="2153284450054299076" name="directives" index="1$etO8" />
       </concept>
       <concept id="201656743169479441" name="org.mar9000.mps.ecmascript.structure.JSIdentifier" flags="ng" index="1dSrUG">
         <property id="201656743169479442" name="idName" index="1dSrUJ" />
@@ -275,12 +269,6 @@
       </concept>
       <concept id="5930202437660328356" name="org.mar9000.mps.ecmascript.structure.JSExport" flags="ng" index="3sEwSm">
         <child id="5930202437660328360" name="declaration" index="3sEwSq" />
-      </concept>
-      <concept id="2153284450054299060" name="org.mar9000.mps.ecmascript.structure.JSDirective" flags="ng" index="1$etPS">
-        <property id="2153284450054299061" name="rawValue" index="1$etPT" />
-      </concept>
-      <concept id="5897985433064562212" name="org.mar9000.mps.ecmascript.structure.JSFunctionStatementList" flags="ng" index="3PT0i$">
-        <child id="5897985433064562218" name="list" index="3PT0iE" />
       </concept>
       <concept id="5897985433064562220" name="org.mar9000.mps.ecmascript.structure.JSStatementList" flags="ng" index="3PT0iG">
         <child id="5897985433064628986" name="items" index="3PTNxU" />
@@ -436,174 +424,6 @@
             <node concept="1dSoBd" id="5zvrJ7KkBUN" role="1dSoTS" />
             <node concept="2wWApn" id="3zPiY4rpudN" role="zOlY$" />
           </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1lH9Xt" id="57pQC2$crYB">
-    <property role="TrG5h" value="BindingIdentifier_ES51" />
-    <property role="3GE5qa" value="identifier" />
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <node concept="1qefOq" id="57pQC2$crYC" role="1SKRRt">
-      <node concept="1dSqrf" id="57pQC2$crYE" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <node concept="2CwYCa" id="57pQC2$jPN4" role="1dSqon">
-          <node concept="3PT0i$" id="57pQC2$jPNw" role="2CwYJP">
-            <node concept="3PT0iG" id="57pQC2$jPNL" role="3PT0iE">
-              <node concept="2dRJFF" id="57pQC2$jPNP" role="3PTNxU">
-                <property role="2dO0Ql" value="Yield is active, error." />
-              </node>
-              <node concept="1dSo$T" id="57pQC2$o6OR" role="3PTNxU">
-                <node concept="2dhZhe" id="57pQC2$o6OS" role="1dSoH_">
-                  <node concept="1dSrUG" id="57pQC2$o6OT" role="2dhZiP" />
-                  <node concept="1mvZK$" id="57pQC2$o6OU" role="3PzO81">
-                    <property role="2CGrvu" value="yield" />
-                    <property role="TrG5h" value="yield" />
-                    <node concept="7CXmI" id="57pQC2$o6OV" role="lGtFl">
-                      <node concept="1TM$A" id="57pQC2$o6OW" role="7EUXB">
-                        <node concept="2PYRI3" id="57pQC2$o6OX" role="3lydEf">
-                          <ref role="39XzEq" to="xidz:57pQC2$jWiW" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1mvZK$" id="57pQC2$jPNh" role="2CwYCf">
-            <property role="2CGrvu" value="gen1" />
-            <property role="TrG5h" value="gen1" />
-          </node>
-        </node>
-        <node concept="2dRJFF" id="57pQC2$dELZ" role="1dSqon">
-          <property role="2dO0Ql" value="Yield not active but strict mode (Module), error." />
-        </node>
-        <node concept="1dSo$T" id="57pQC2$o6PE" role="1dSqon">
-          <node concept="2dhZhe" id="57pQC2$o6PF" role="1dSoH_">
-            <node concept="1dSrUG" id="57pQC2$o6PG" role="2dhZiP" />
-            <node concept="1mvZK$" id="57pQC2$o6PH" role="3PzO81">
-              <property role="2CGrvu" value="yield" />
-              <property role="TrG5h" value="yield" />
-              <node concept="7CXmI" id="57pQC2$o6PI" role="lGtFl">
-                <node concept="1TM$A" id="57pQC2$o6PJ" role="7EUXB">
-                  <node concept="2PYRI3" id="57pQC2$o6Qd" role="3lydEf">
-                    <ref role="39XzEq" to="xidz:57pQC2$jXvk" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1dSrUV" id="57pQC2$o6Re" role="1dSqon" />
-      </node>
-    </node>
-    <node concept="1qefOq" id="57pQC2$jPRJ" role="1SKRRt">
-      <node concept="1dSqrf" id="57pQC2$jPSu" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1nMawN" value="5OEuegaSH3k/script" />
-        <node concept="2CwYCa" id="57pQC2$jPSw" role="1dSqon">
-          <node concept="3PT0i$" id="57pQC2$jPSx" role="2CwYJP">
-            <node concept="3PT0iG" id="57pQC2$jPSy" role="3PT0iE">
-              <node concept="2dRJFF" id="57pQC2$jPSz" role="3PTNxU">
-                <property role="2dO0Ql" value="Yield is active, error." />
-              </node>
-              <node concept="1dSo$T" id="57pQC2$o6Ns" role="3PTNxU">
-                <node concept="2dhZhe" id="57pQC2$o6Nu" role="1dSoH_">
-                  <node concept="1dSrUG" id="57pQC2$o6Nw" role="2dhZiP" />
-                  <node concept="1mvZK$" id="57pQC2$o6Ny" role="3PzO81">
-                    <property role="2CGrvu" value="yield" />
-                    <property role="TrG5h" value="yield" />
-                    <node concept="7CXmI" id="57pQC2$o6Og" role="lGtFl">
-                      <node concept="1TM$A" id="57pQC2$o6Ok" role="7EUXB">
-                        <node concept="2PYRI3" id="57pQC2$o6Om" role="3lydEf">
-                          <ref role="39XzEq" to="xidz:57pQC2$jWiW" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1mvZK$" id="57pQC2$jPSB" role="2CwYCf">
-            <property role="2CGrvu" value="gen1" />
-            <property role="TrG5h" value="gen1" />
-          </node>
-        </node>
-        <node concept="1dSrUV" id="57pQC2$jPSC" role="1dSqon" />
-        <node concept="2dRJFF" id="57pQC2$jPSD" role="1dSqon">
-          <property role="2dO0Ql" value="Yield not active no strict mode, no error." />
-        </node>
-        <node concept="1dSo$T" id="57pQC2$o6RY" role="1dSqon">
-          <node concept="2dhZhe" id="57pQC2$o6S0" role="1dSoH_">
-            <node concept="1dSrUG" id="57pQC2$o6S2" role="2dhZiP" />
-            <node concept="1mvZK$" id="57pQC2$o6S4" role="3PzO81">
-              <property role="2CGrvu" value="yield" />
-              <property role="TrG5h" value="yield" />
-              <node concept="7CXmI" id="57pQC2$o6TO" role="lGtFl">
-                <node concept="7OXhh" id="57pQC2$o6TQ" role="7EUXB" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1dSo$T" id="57pQC2$o6Tc" role="1dSqon">
-          <node concept="2dhZhe" id="57pQC2$o6Te" role="1dSoH_">
-            <node concept="1dSrUG" id="57pQC2$o6Tg" role="2dhZiP" />
-            <node concept="1mvZK$" id="57pQC2$o6Ti" role="3PzO81">
-              <property role="2CGrvu" value="implements" />
-              <property role="TrG5h" value="implements" />
-              <node concept="7CXmI" id="57pQC2$o6TS" role="lGtFl">
-                <node concept="7OXhh" id="57pQC2$o6TU" role="7EUXB" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1dSrUV" id="57pQC2$o6UP" role="1dSqon" />
-      </node>
-    </node>
-    <node concept="1qefOq" id="57pQC2$jPSW" role="1SKRRt">
-      <node concept="1dSqrf" id="57pQC2$jPTs" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <property role="1nMawN" value="5OEuegaSH3k/script" />
-        <node concept="2dRJFF" id="57pQC2$jPTw" role="1dSqon">
-          <property role="2dO0Ql" value="Yield not active but strict mode, error." />
-        </node>
-        <node concept="1dSo$T" id="57pQC2$o6Vw" role="1dSqon">
-          <node concept="2dhZhe" id="57pQC2$o6Vx" role="1dSoH_">
-            <node concept="1dSrUG" id="57pQC2$o6Vy" role="2dhZiP" />
-            <node concept="1mvZK$" id="57pQC2$o6Vz" role="3PzO81">
-              <property role="2CGrvu" value="yield" />
-              <property role="TrG5h" value="yield" />
-              <node concept="7CXmI" id="57pQC2$o6V$" role="lGtFl">
-                <node concept="1TM$A" id="57pQC2$o6V_" role="7EUXB">
-                  <node concept="2PYRI3" id="57pQC2$o6VA" role="3lydEf">
-                    <ref role="39XzEq" to="xidz:57pQC2$jXvk" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1dSo$T" id="57pQC2$o6Wb" role="1dSqon">
-          <node concept="2dhZhe" id="57pQC2$o6Wc" role="1dSoH_">
-            <node concept="1dSrUG" id="57pQC2$o6Wd" role="2dhZiP" />
-            <node concept="1mvZK$" id="57pQC2$o6We" role="3PzO81">
-              <property role="2CGrvu" value="implements" />
-              <property role="TrG5h" value="implements" />
-              <node concept="7CXmI" id="57pQC2$o6Wf" role="lGtFl">
-                <node concept="1TM$A" id="57pQC2$o6WA" role="7EUXB">
-                  <node concept="2PYRI3" id="57pQC2$o6WD" role="3lydEf">
-                    <ref role="39XzEq" to="xidz:57pQC2$jYZl" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1dSrUV" id="57pQC2$o6Vh" role="1dSqon" />
-        <node concept="1$etPS" id="57pQC2$jPTu" role="1$etO8">
-          <property role="1$etPT" value="'use strict';" />
         </node>
       </node>
     </node>
@@ -865,68 +685,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1lH9Xt" id="7sFdxx60yEA">
-    <property role="TrG5h" value="test_JSYieldExpression_Rule_Parameters" />
-    <property role="3GE5qa" value="expression" />
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <node concept="1qefOq" id="7sFdxx60yEB" role="1SKRRt">
-      <node concept="1dSqrf" id="7sFdxx60yED" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <node concept="1dSo$T" id="7sFdxx60yEF" role="1dSqon">
-          <node concept="2dhZhe" id="7sFdxx60yEG" role="1dSoH_">
-            <node concept="1dSrUG" id="7sFdxx60yEH" role="2dhZiP" />
-            <node concept="1mvZK$" id="7sFdxx60yEI" role="3PzO81">
-              <property role="2CGrvu" value="a" />
-            </node>
-            <node concept="MPoqb" id="7sFdxx60yEP" role="2dhZtC">
-              <node concept="2dhBVA" id="7sFdxx60yEV" role="MPoqe">
-                <property role="2dhB_1" value="1" />
-              </node>
-              <node concept="7CXmI" id="7sFdxx63mcW" role="lGtFl">
-                <node concept="1TM$A" id="7sFdxx63mcY" role="7EUXB">
-                  <node concept="2PYRI3" id="7sFdxx63md0" role="3lydEf">
-                    <ref role="39XzEq" to="xidz:7sFdxx60yWO" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1dSrUV" id="7sFdxx60yGM" role="1dSqon" />
-      </node>
-    </node>
-    <node concept="1qefOq" id="7sFdxx60yEX" role="1SKRRt">
-      <node concept="1dSqrf" id="7sFdxx60yG7" role="1qenE9">
-        <property role="TrG5h" value="test" />
-        <node concept="2CwYCa" id="7sFdxx60yG9" role="1dSqon">
-          <node concept="3PT0i$" id="7sFdxx60yGk" role="2CwYJP">
-            <node concept="3PT0iG" id="7sFdxx60yGn" role="3PT0iE">
-              <node concept="1dSo$T" id="7sFdxx60yGr" role="3PTNxU">
-                <node concept="2dhZhe" id="7sFdxx60yGt" role="1dSoH_">
-                  <node concept="1dSrUG" id="7sFdxx60yGv" role="2dhZiP" />
-                  <node concept="1mvZK$" id="7sFdxx60yGx" role="3PzO81">
-                    <property role="2CGrvu" value="a" />
-                  </node>
-                  <node concept="MPoqb" id="7sFdxx60yH5" role="2dhZtC">
-                    <node concept="2dhBVA" id="7sFdxx60yHb" role="MPoqe">
-                      <property role="2dhB_1" value="1" />
-                    </node>
-                    <node concept="7CXmI" id="7sFdxx63mcQ" role="lGtFl">
-                      <node concept="7OXhh" id="7sFdxx63mcS" role="7EUXB" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1mvZK$" id="7sFdxx60yGd" role="2CwYCf">
-            <property role="2CGrvu" value="myGen" />
-          </node>
-        </node>
-        <node concept="1dSrUV" id="7sFdxx60yGU" role="1dSqon" />
       </node>
     </node>
   </node>
