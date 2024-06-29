@@ -13,7 +13,6 @@
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="s1om" ref="r:c55d71bc-67eb-423a-a0b5-428cdc73d68c(org.mar9000.mps.ecmascript.enumMigration)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -2061,6 +2060,9 @@
             </node>
             <node concept="3clFbF" id="KgDwxzr9Qg" role="3cqZAp">
               <node concept="37vLTI" id="KgDwxzracP" role="3clFbG">
+                <node concept="37vLTw" id="KgDwxzr9Qf" role="37vLTJ">
+                  <ref role="3cqZAo" node="KgDwxzr68s" resolve="version" />
+                </node>
                 <node concept="2YIFZM" id="43JkLIeilbC" role="37vLTx">
                   <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
                   <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
@@ -2072,9 +2074,6 @@
                       <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
                     </node>
                   </node>
-                </node>
-                <node concept="37vLTw" id="KgDwxzr9Qf" role="37vLTJ">
-                  <ref role="3cqZAo" node="KgDwxzr68s" resolve="version" />
                 </node>
               </node>
             </node>
@@ -2721,17 +2720,16 @@
             </node>
             <node concept="liA8E" id="1A9KkXfMl5g" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="2OqwBi" id="1A9KkXfMmnS" role="37wK5m">
-                <node concept="2OqwBi" id="1A9KkXfMlAV" role="2Oq$k0">
-                  <node concept="1XH99k" id="1A9KkXfMlAW" role="2Oq$k0">
+              <node concept="2YIFZM" id="8KXksakECv" role="37wK5m">
+                <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                <node concept="2OqwBi" id="8KXksakECw" role="37wK5m">
+                  <node concept="1XH99k" id="8KXksakECx" role="2Oq$k0">
                     <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
                   </node>
-                  <node concept="2ViDtV" id="1A9KkXfMlAX" role="2OqNvi">
+                  <node concept="2ViDtV" id="8KXksakECy" role="2OqNvi">
                     <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
                   </node>
-                </node>
-                <node concept="liA8E" id="1A9KkXfMmYS" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -2766,17 +2764,16 @@
                 </node>
                 <node concept="liA8E" id="1A9KkXfMqQD" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                  <node concept="2OqwBi" id="1A9KkXfMs4h" role="37wK5m">
-                    <node concept="2OqwBi" id="1A9KkXfMrjq" role="2Oq$k0">
-                      <node concept="1XH99k" id="1A9KkXfMrjr" role="2Oq$k0">
+                  <node concept="2YIFZM" id="8KXksapnP$" role="37wK5m">
+                    <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                    <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                    <node concept="2OqwBi" id="8KXksapnP_" role="37wK5m">
+                      <node concept="1XH99k" id="8KXksapnPA" role="2Oq$k0">
                         <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
                       </node>
-                      <node concept="2ViDtV" id="1A9KkXfMrjs" role="2OqNvi">
+                      <node concept="2ViDtV" id="8KXksapquC" role="2OqNvi">
                         <ref role="2ViDtZ" node="43JkLIehKrn" resolve="ES2015" />
                       </node>
-                    </node>
-                    <node concept="liA8E" id="1A9KkXfMsFb" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
                     </node>
                   </node>
                 </node>
@@ -2787,17 +2784,16 @@
                 </node>
                 <node concept="liA8E" id="1A9KkXfMuLw" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                  <node concept="2OqwBi" id="1A9KkXfMuLx" role="37wK5m">
-                    <node concept="2OqwBi" id="1A9KkXfMuLy" role="2Oq$k0">
-                      <node concept="1XH99k" id="1A9KkXfMuLz" role="2Oq$k0">
+                  <node concept="2YIFZM" id="8KXksapt7N" role="37wK5m">
+                    <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                    <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                    <node concept="2OqwBi" id="8KXksapt7O" role="37wK5m">
+                      <node concept="1XH99k" id="8KXksapt7P" role="2Oq$k0">
                         <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
                       </node>
-                      <node concept="2ViDtV" id="1A9KkXfMuL$" role="2OqNvi">
+                      <node concept="2ViDtV" id="8KXksapvTy" role="2OqNvi">
                         <ref role="2ViDtZ" node="43JkLIehKro" resolve="ES2016" />
                       </node>
-                    </node>
-                    <node concept="liA8E" id="1A9KkXfMuL_" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
                     </node>
                   </node>
                 </node>
@@ -2963,17 +2959,16 @@
             </node>
             <node concept="liA8E" id="1A9KkXfMCOR" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="2OqwBi" id="1A9KkXfMCOS" role="37wK5m">
-                <node concept="2OqwBi" id="1A9KkXfMCOT" role="2Oq$k0">
-                  <node concept="1XH99k" id="1A9KkXfMCOU" role="2Oq$k0">
+              <node concept="2YIFZM" id="8KXksap__W" role="37wK5m">
+                <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                <node concept="2OqwBi" id="8KXksap__X" role="37wK5m">
+                  <node concept="1XH99k" id="8KXksap__Y" role="2Oq$k0">
                     <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
                   </node>
-                  <node concept="2ViDtV" id="1A9KkXfMCOV" role="2OqNvi">
+                  <node concept="2ViDtV" id="8KXksap__Z" role="2OqNvi">
                     <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
                   </node>
-                </node>
-                <node concept="liA8E" id="1A9KkXfMCOW" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -3078,17 +3073,16 @@
               </node>
               <node concept="liA8E" id="1A9KkXfMDPX" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2OqwBi" id="1A9KkXfMDPY" role="37wK5m">
-                  <node concept="2OqwBi" id="1A9KkXfMDPZ" role="2Oq$k0">
-                    <node concept="1XH99k" id="1A9KkXfMDQ0" role="2Oq$k0">
+                <node concept="2YIFZM" id="8KXksapAkb" role="37wK5m">
+                  <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                  <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                  <node concept="2OqwBi" id="8KXksapAkc" role="37wK5m">
+                    <node concept="1XH99k" id="8KXksapAkd" role="2Oq$k0">
                       <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
                     </node>
-                    <node concept="2ViDtV" id="1A9KkXfMDQ1" role="2OqNvi">
+                    <node concept="2ViDtV" id="8KXksapAke" role="2OqNvi">
                       <ref role="2ViDtZ" node="43JkLIehKrn" resolve="ES2015" />
                     </node>
-                  </node>
-                  <node concept="liA8E" id="1A9KkXfMDQ2" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
                   </node>
                 </node>
               </node>
@@ -3099,17 +3093,16 @@
               </node>
               <node concept="liA8E" id="1A9KkXfMEHh" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2OqwBi" id="1A9KkXfMEHi" role="37wK5m">
-                  <node concept="2OqwBi" id="1A9KkXfMEHj" role="2Oq$k0">
-                    <node concept="1XH99k" id="1A9KkXfMEHk" role="2Oq$k0">
+                <node concept="2YIFZM" id="8KXksapBmN" role="37wK5m">
+                  <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                  <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                  <node concept="2OqwBi" id="8KXksapBmO" role="37wK5m">
+                    <node concept="1XH99k" id="8KXksapBmP" role="2Oq$k0">
                       <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
                     </node>
-                    <node concept="2ViDtV" id="1A9KkXfMEHl" role="2OqNvi">
+                    <node concept="2ViDtV" id="8KXksapBmQ" role="2OqNvi">
                       <ref role="2ViDtZ" node="43JkLIehKro" resolve="ES2016" />
                     </node>
-                  </node>
-                  <node concept="liA8E" id="1A9KkXfMEHm" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
                   </node>
                 </node>
               </node>
