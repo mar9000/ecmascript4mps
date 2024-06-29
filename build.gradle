@@ -31,6 +31,10 @@ wrapper {
 apply plugin: 'base'
 apply plugin: 'maven-publish'
 apply plugin: "com.jfrog.bintray"
+apply plugin: 'java'
+sourceCompatibility = 1.17
+targetCompatibility = 1.17
+
 configurations {
     mps
     junitAnt
