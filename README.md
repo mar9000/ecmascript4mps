@@ -25,6 +25,7 @@ Read more on this [announcement post](http://mar9000.org/bliki/ecma-script-4-mps
   * open the project with MPS.
   * rebuild the project.
   * the *sandbox* solution contains a complete javascript example I use to test the language and the generation to text.
+  * checkout the [CalculatorJS](https://github.com/mar9000/CalculatorJS) project to see how to use this language.
 
 ## Build the plugin
 
