@@ -263,6 +263,13 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -2058,22 +2065,82 @@
                 <property role="Xl_RC" value="Received version is null. I'll use 5.1 to check identifiers." />
               </node>
             </node>
-            <node concept="3clFbF" id="KgDwxzr9Qg" role="3cqZAp">
-              <node concept="37vLTI" id="KgDwxzracP" role="3clFbG">
-                <node concept="37vLTw" id="KgDwxzr9Qf" role="37vLTJ">
-                  <ref role="3cqZAo" node="KgDwxzr68s" resolve="version" />
+            <node concept="3SKdUt" id="8KXksaEzSg" role="3cqZAp">
+              <node concept="1PaTwC" id="8KXksaEzSh" role="1aUNEU">
+                <node concept="3oM_SD" id="8KXksaE$8r" role="1PaTwD">
+                  <property role="3oM_SC" value="TODO:" />
                 </node>
-                <node concept="2YIFZM" id="43JkLIeilbC" role="37vLTx">
-                  <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
-                  <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
-                  <node concept="2OqwBi" id="43JkLIeilb_" role="37wK5m">
-                    <node concept="1XH99k" id="43JkLIeilbA" role="2Oq$k0">
-                      <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
-                    </node>
-                    <node concept="2ViDtV" id="43JkLIeilbB" role="2OqNvi">
-                      <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
+                <node concept="3oM_SD" id="8KXksaE$aD" role="1PaTwD">
+                  <property role="3oM_SC" value="this" />
+                </node>
+                <node concept="3oM_SD" id="8KXksaE$b8" role="1PaTwD">
+                  <property role="3oM_SC" value="also" />
+                </node>
+                <node concept="3oM_SD" id="8KXksaE$bC" role="1PaTwD">
+                  <property role="3oM_SC" value="does" />
+                </node>
+                <node concept="3oM_SD" id="8KXksaE$bH" role="1PaTwD">
+                  <property role="3oM_SC" value="not" />
+                </node>
+                <node concept="3oM_SD" id="8KXksaE$cf" role="1PaTwD">
+                  <property role="3oM_SC" value="work," />
+                </node>
+                <node concept="3oM_SD" id="8KXksaE$cM" role="1PaTwD">
+                  <property role="3oM_SC" value="sometimes" />
+                </node>
+                <node concept="3oM_SD" id="8KXksaE$dM" role="1PaTwD">
+                  <property role="3oM_SC" value="return" />
+                </node>
+                <node concept="3oM_SD" id="8KXksaE$en" role="1PaTwD">
+                  <property role="3oM_SC" value="null" />
+                </node>
+                <node concept="3oM_SD" id="5C_qtthIVme" role="1PaTwD">
+                  <property role="3oM_SC" value="because" />
+                </node>
+                <node concept="3oM_SD" id="5C_qtthIVmp" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="5C_qtthIVm_" role="1PaTwD">
+                  <property role="3oM_SC" value="enum" />
+                </node>
+                <node concept="3oM_SD" id="5C_qtthIVmM" role="1PaTwD">
+                  <property role="3oM_SC" value="is" />
+                </node>
+                <node concept="3oM_SD" id="5C_qtthIVn0" role="1PaTwD">
+                  <property role="3oM_SC" value="InvalidEnum." />
+                </node>
+              </node>
+            </node>
+            <node concept="1X3_iC" id="8KXksaEz__" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="KgDwxzr9Qg" role="8Wnug">
+                <node concept="37vLTI" id="KgDwxzracP" role="3clFbG">
+                  <node concept="37vLTw" id="KgDwxzr9Qf" role="37vLTJ">
+                    <ref role="3cqZAo" node="KgDwxzr68s" resolve="version" />
+                  </node>
+                  <node concept="2YIFZM" id="43JkLIeilbC" role="37vLTx">
+                    <ref role="37wK5l" to="s1om:43JkLIehKsw" resolve="value" />
+                    <ref role="1Pybhc" to="s1om:43JkLIehKrp" resolve="ECMAVersion_MigrationUtils" />
+                    <node concept="2OqwBi" id="43JkLIeilb_" role="37wK5m">
+                      <node concept="1XH99k" id="43JkLIeilbA" role="2Oq$k0">
+                        <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                      </node>
+                      <node concept="2ViDtV" id="43JkLIeilbB" role="2OqNvi">
+                        <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
+                      </node>
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="8KXksaEwPp" role="3cqZAp">
+              <node concept="37vLTI" id="8KXksaEyA0" role="3clFbG">
+                <node concept="Xl_RD" id="8KXksaEyLX" role="37vLTx">
+                  <property role="Xl_RC" value="ES5.1" />
+                </node>
+                <node concept="37vLTw" id="8KXksaEwPn" role="37vLTJ">
+                  <ref role="3cqZAo" node="KgDwxzr68s" resolve="version" />
                 </node>
               </node>
             </node>
