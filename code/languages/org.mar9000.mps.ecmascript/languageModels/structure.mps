@@ -13,6 +13,7 @@
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="s1om" ref="r:c55d71bc-67eb-423a-a0b5-428cdc73d68c(org.mar9000.mps.ecmascript.enumMigration)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -2152,6 +2153,76 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6iZYkI68ImB" role="3cqZAp" />
+        <node concept="3clFbF" id="6iZYkI68IRw" role="3cqZAp">
+          <node concept="2OqwBi" id="6iZYkI68IRx" role="3clFbG">
+            <node concept="10M0yZ" id="6iZYkI68IRy" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" />
+            </node>
+            <node concept="liA8E" id="6iZYkI68IRz" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="6iZYkI68IR$" role="37wK5m">
+                <node concept="Xl_RD" id="6iZYkI68IR_" role="3uHU7w">
+                  <property role="Xl_RC" value=" ----------------------------" />
+                </node>
+                <node concept="3cpWs3" id="6iZYkI68IRA" role="3uHU7B">
+                  <node concept="Xl_RD" id="6iZYkI68IRB" role="3uHU7B">
+                    <property role="Xl_RC" value="isValidIdentifierName(): " />
+                  </node>
+                  <node concept="2OqwBi" id="6iZYkI68IRC" role="3uHU7w">
+                    <node concept="1XH99k" id="6iZYkI68IRD" role="2Oq$k0">
+                      <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                    </node>
+                    <node concept="2ViDtV" id="6iZYkI68IRE" role="2OqNvi">
+                      <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6iZYkI68IRR" role="3cqZAp">
+          <node concept="2OqwBi" id="6iZYkI68IRS" role="3clFbG">
+            <node concept="10M0yZ" id="6iZYkI68IRT" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" />
+            </node>
+            <node concept="liA8E" id="6iZYkI68IRU" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
+              <node concept="2OqwBi" id="6iZYkI68IRV" role="37wK5m">
+                <node concept="1XH99k" id="6iZYkI68IRW" role="2Oq$k0">
+                  <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                </node>
+                <node concept="2ViDtV" id="6iZYkI68IRX" role="2OqNvi">
+                  <ref role="2ViDtZ" node="43JkLIehKrn" resolve="ES2015" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6iZYkI68ISa" role="3cqZAp">
+          <node concept="2OqwBi" id="6iZYkI68ISb" role="3clFbG">
+            <node concept="10M0yZ" id="6iZYkI68ISc" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" />
+            </node>
+            <node concept="liA8E" id="6iZYkI68ISd" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
+              <node concept="2OqwBi" id="6iZYkI68ISe" role="37wK5m">
+                <node concept="1XH99k" id="6iZYkI68ISf" role="2Oq$k0">
+                  <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                </node>
+                <node concept="2ViDtV" id="6iZYkI68ISg" role="2OqNvi">
+                  <ref role="2ViDtZ" node="43JkLIehKro" resolve="ES2016" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6iZYkI68InE" role="3cqZAp" />
+        <node concept="3clFbH" id="6iZYkI68IzO" role="3cqZAp" />
         <node concept="3clFbJ" id="KgDwxzr6xA" role="3cqZAp">
           <node concept="2OqwBi" id="KgDwxzrdrx" role="3clFbw">
             <node concept="37vLTw" id="KgDwxzr6yS" role="2Oq$k0">
@@ -2763,6 +2834,73 @@
             <node concept="10Nm6u" id="6M9dGt5nHRh" role="3uHU7w" />
             <node concept="37vLTw" id="6M9dGt5nFER" role="3uHU7B">
               <ref role="3cqZAo" node="59cjVaeYXfR" resolve="version" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6iZYkI658cy" role="3cqZAp">
+          <node concept="2OqwBi" id="6iZYkI658cv" role="3clFbG">
+            <node concept="10M0yZ" id="6iZYkI658cw" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" />
+            </node>
+            <node concept="liA8E" id="6iZYkI658cx" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="6iZYkI65cRp" role="37wK5m">
+                <node concept="Xl_RD" id="6iZYkI65dm6" role="3uHU7w">
+                  <property role="Xl_RC" value=" ----------------------------" />
+                </node>
+                <node concept="3cpWs3" id="6iZYkI65bL7" role="3uHU7B">
+                  <node concept="Xl_RD" id="6iZYkI658_9" role="3uHU7B">
+                    <property role="Xl_RC" value="isKeywork(): " />
+                  </node>
+                  <node concept="2OqwBi" id="6iZYkI65c0A" role="3uHU7w">
+                    <node concept="1XH99k" id="6iZYkI65c0B" role="2Oq$k0">
+                      <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                    </node>
+                    <node concept="2ViDtV" id="6iZYkI65c0C" role="2OqNvi">
+                      <ref role="2ViDtZ" node="43JkLIehKrm" resolve="ES5_1" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6iZYkI65fj$" role="3cqZAp">
+          <node concept="2OqwBi" id="6iZYkI65fjx" role="3clFbG">
+            <node concept="10M0yZ" id="6iZYkI65fjy" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" />
+            </node>
+            <node concept="liA8E" id="6iZYkI65fjz" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
+              <node concept="2OqwBi" id="6iZYkI65fPT" role="37wK5m">
+                <node concept="1XH99k" id="6iZYkI65fPU" role="2Oq$k0">
+                  <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                </node>
+                <node concept="2ViDtV" id="6iZYkI65fPV" role="2OqNvi">
+                  <ref role="2ViDtZ" node="43JkLIehKrn" resolve="ES2015" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6iZYkI65hmo" role="3cqZAp">
+          <node concept="2OqwBi" id="6iZYkI65hml" role="3clFbG">
+            <node concept="10M0yZ" id="6iZYkI65hmm" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" />
+            </node>
+            <node concept="liA8E" id="6iZYkI65hmn" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
+              <node concept="2OqwBi" id="6iZYkI65hRI" role="37wK5m">
+                <node concept="1XH99k" id="6iZYkI65hRJ" role="2Oq$k0">
+                  <ref role="1XH99l" node="43JkLIehKrk" resolve="ECMAVersion" />
+                </node>
+                <node concept="2ViDtV" id="6iZYkI65hRK" role="2OqNvi">
+                  <ref role="2ViDtZ" node="43JkLIehKro" resolve="ES2016" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
